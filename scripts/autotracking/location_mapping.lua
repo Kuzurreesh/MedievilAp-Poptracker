@@ -45,7 +45,7 @@ LOCATION_MAPPING = {
 	
 	--Hilltop Mausoleum
 	[99255000] = {"@Hilltop Mausoleum/Basement East[1]/Sheet Music"},
-	[99255001] = {"@Hilltop Mausoleum/Mausoleum Clear/Skull Key"},
+	[99255001] = {"@Hilltop Mausoleum/Clear/Skull Key"},
 	[99255002] = {"@Hilltop Mausoleum/Music Room/Chaos Rune"},
 	[99255003] = {"@Hilltop Mausoleum/Basement West[1]/Earth Rune"},
 	[99255004] = {"@Hilltop Mausoleum/Chapel/Moon Rune"},
@@ -69,7 +69,7 @@ LOCATION_MAPPING = {
 	--Return to the Graveyard
 	[99256000] = {"@Return to the Graveyard/Atop Mound/Star Rune"},
 	[99256001] = {"@Return to the Graveyard/Shop/Silver Shield"},
-	[99256002] = {"@Return to the Graveyard/Return to the Graveyard/Daring Dash"},
+	[99256002] = {"@Return to the Graveyard/Clear/Daring Dash"},
 	[99256003] = {"@Return to the Graveyard/Secret Area/Energy Vial 1"},
 	[99256004] = {"@Return to the Graveyard/Secret Area/Energy Vial 2"},
 	[99256005] = {"@Return to the Graveyard/Shop[2]/Energy Vial"},
@@ -217,7 +217,7 @@ LOCATION_MAPPING = {
 	[99259002] = {"@Enchanted Earth/Bird Nest/Coin Chest"},
 	[99259003] = {"@Enchanted Earth/Bird Nest/Copper Shield"},
 	[99259004] = {"@Enchanted Earth/Bird Nest/Earth Rune"},
-	[99259005] = {"@Enchanted Earth/Element Room/Energy Vial"},
+	[99259005] = {"@Enchanted Earth/Element Room[2]/Energy Vial"},
 	[99259006] = {"@Enchanted Earth/Hollow Tree Top/Energy Vial 1"},
 	[99259007] = {"@Enchanted Earth/Hollow Tree Top/Energy Vial 2"},
 	[99259008] = {"@Enchanted Earth/Hollow Tree Bottom/Coin Bag"},
@@ -249,7 +249,7 @@ LOCATION_MAPPING = {
 	[99258014] = {"@Ant Caves/Fairies/Fairy 5"},
 	[99258015] = {"@Ant Caves/Fairies/Fairy 6"},
 	[99258016] = {"@Ant Caves/Caves Entrance/Club"},
-	[99258017] = {"@Ant Caves/Ant Caves Clear/Chicken Drumsticks"},
+	[99258017] = {"@Ant Caves/Clear/Chicken Drumsticks"},
 	[99258018] = {"@Ant Caves/Energy Vials[2]/Energy Vial 3"},
 	[99258019] = {"@Ant Caves/Energy Vials/Energy Vial 1"},
 	[99258020] = {"@Ant Caves/Energy Vials[1]/Energy Vial 2"},
@@ -308,7 +308,7 @@ LOCATION_MAPPING = {
 	[99263000] = {"@The Crystal Caves/Light Beams[1]/Earth Rune"},
 	[99263001] = {"@The Crystal Caves/Dragon's Lair[3]/Star Rune"},
 	[99263002] = {"@The Crystal Caves/Cavern Ledge/Silver Shield"},
-	[99263003] = {"@The Crystal Caves/Dragon's Lair[6]Dragon Armour"},
+	[99263003] = {"@The Crystal Caves/Dragon's Lair[6]/Dragon Armour"},
 	[99263004] = {"@The Crystal Caves/Dragon's Lair/Energy Vial 1"},
 	[99263005] = {"@The Crystal Caves/Dragon's Lair[5]/Energy Vial 2"},
 	[99263006] = {"@The Crystal Caves/Fountain Climb/Coin Bag"},
@@ -319,7 +319,7 @@ LOCATION_MAPPING = {
 	[99263011] = {"@The Crystal Caves/Waterfall/Coin Chest"},
 	[99263012] = {"@The Crystal Caves/Dragon's Lair[1]/Coin Bag 1"},
 	[99263013] = {"@The Crystal Caves/Dragon's Lair[1]/Coin Bag 2"},
-	[99263014] = {"@The Crystal Caves/Dragon's Lair[1]/Coin Chest"},
+	[99263014] = {"@The Crystal Caves/Dragon's Lair[1]/Coin Chest 1"},
 	[99263015] = {"@The Crystal Caves/Dragon's Lair[4]/Coin Bag 5"},
 	[99263016] = {"@The Crystal Caves/Dragon's Lair[4]/Coin Bag 6"},
 	[99263017] = {"@The Crystal Caves/Dragon's Lair[4]/Coin Bag 7"},
@@ -405,9 +405,9 @@ LOCATION_MAPPING = {
 	[99272014] = {"cleareddevice"},
 
 	--Zarok's Lair
-	[99273000] = {"@The Time Device/Zarok's Lair/Good Lightning"},
-	[99273001] = {"@The Time Device/Zarok's Lair[1]/Silver Shield"},
-	[99273002] = {"@The Time Device/Zarok's Lair[2]/Cleared"},
+	[99273000] = {"@The Time Device/Zarok's Arena/Good Lightning"},
+	[99273001] = {"@The Time Device/Zarok's Arena[1]/Silver Shield"},
+	[99273002] = {"@The Time Device/Clear Game/Cleared The Game"},
 	
 	--Hall of Heroes
 	[99251000] = {"@The World Map/Hall of Heroes/Canny Tim 2"},
