@@ -642,8 +642,8 @@
         "name": "Amber",
         "type": "consumable",
         "img": "images/items/Amber.png",
-        "codes": "amber,amber1,amber2,amber3,amber4,amber5,amber6,amber7,amber8,amber9",
-        "max_quantity": 10
+        "codes": "amber,amber1,amber2,amber3,amber4,amber5,amber6",
+        "max_quantity": 7
     },
     {
         "name": "Soul Helmet",
