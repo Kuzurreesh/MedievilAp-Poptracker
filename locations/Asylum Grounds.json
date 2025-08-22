@@ -1,0 +1,246 @@
+[
+    {	
+        "name": "Asylum Grounds",
+        "chest_unopened_img": "images/labels/full.png",
+        "chest_opened_img": "images/labels/empty.png",
+		"access_rules": [ "clearedvillage"],
+		
+        "children": 
+        [
+            {
+                "name": "Bell at Star",
+                "map_locations": 
+                [
+                    {
+						"map": "Asylum Grounds",
+                        "x": 475,
+                        "y": 1335
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag 1"
+                    }
+                ]
+            },
+			{
+                "name": "Bell at Star",
+                "map_locations": 
+                [
+                    {
+						"map": "Asylum Grounds",
+                        "x": 240,
+                        "y": 1330
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag 2",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "To Clown",
+                "map_locations": 
+                [
+                    {
+						"map": "Asylum Grounds",
+                        "x": 610,
+                        "y": 1045
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Silver Shield"
+                    }
+                ]
+            },
+			{
+				"name": "Shooting Statue",
+				"map_locations": 
+				[
+					{
+						"map": "Asylum Grounds",
+                        "x": 888,
+                        "y": 1040
+                    }
+                ],
+                
+				
+				
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag"
+                    }
+					
+                ]
+			},
+			{
+                "name": "Chess Pieces",
+                "map_locations": 
+                [
+                    {
+						"map": "Asylum Grounds",
+                        "x": 555,
+                        "y": 500
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 1",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Chess Pieces",
+                "map_locations": 
+                [
+                    {
+						"map": "Asylum Grounds",
+                        "x": 450,
+                        "y": 615
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 2"
+                    }
+                ]
+            },
+			{
+                "name": "Mouse",
+                "map_locations": 
+                [
+                    {
+						"map": "Asylum Grounds",
+                        "x": 1040,
+                        "y": 1435
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "2nd Grave to Elephant",
+                "map_locations": 
+                [
+                    {
+						"map": "Asylum Grounds",
+                        "x": 1810,
+                        "y": 1255
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Bell Past Elephant",
+                "map_locations": 
+                [
+                    {
+						"map": "Asylum Grounds",
+                        "x": 1362,
+                        "y": 925
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Past Octopus",
+                "map_locations": 
+                [
+                    {
+						"map": "Asylum Grounds",
+                        "x": 970,
+                        "y": 820
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Chaos Rune",
+                        "visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "Elephant",
+                "map_locations": 
+                [
+                    {
+						"map": "Asylum Grounds",
+                        "x": 1890,
+                        "y": 815
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Chalice",
+						"chest_unopened_img": "images/items/chalice.png",
+						"chest_opened_img": "images/items/empty chalice.png"
+                    }
+                ]
+            },
+			{
+                "name": "Clear",
+                "map_locations": 
+                [
+                    {
+						"map": "Asylum Grounds",
+                        "x": 560,
+                        "y": 620,
+						"shape": "diamond",
+						"size": 70
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Cleared Asylum Grounds",
+						"hosted_item": "clearedgrounds",
+						"chest_unopened_img": "images/labels/Not Cleared.png",
+						"chest_opened_img": "images/labels/Cleared.png"
+                    }
+                ]
+            }
+		]
+    }
+]

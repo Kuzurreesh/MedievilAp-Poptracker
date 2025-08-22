@@ -1,0 +1,179 @@
+[
+    {
+        "name": "Dan's Crypt",
+        "chest_unopened_img": "images/labels/full.png",
+        "chest_opened_img": "images/labels/empty.png",
+		
+        "children": 
+        [
+            {
+                "name": "Right There",
+                "map_locations": 
+                [
+                    {
+						"map": "Dan's Crypt",
+                        "x": 1320,
+                        "y": 1125
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Small Sword",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+				"name": "Behind Wall",
+				"map_locations": 
+				[
+					{
+						"map": "Dan's Crypt",
+                        "x": 1530,
+                        "y": 980
+                    }
+                ],
+                
+				"access_rules": 
+				[
+					"club", "hammer", "daring5"
+				],
+				
+                "sections": 
+                [
+                    {
+                        "name": "Coin Chest Left"
+                    },
+{
+                        "name": "Coin Chest Right"
+                    },
+					{
+                        "name": "Life Bottle"
+                    }
+					
+                ]
+			},
+			{
+                "name": "Locked Gate",
+                "map_locations": 
+                [
+                    {
+						"map": "Dan's Crypt",
+                        "x": 1210,
+                        "y": 800
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Throwing Daggers",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Mound",
+                "map_locations": 
+                [
+                    {
+						"map": "Dan's Crypt",
+                        "x": 1015,
+                        "y": 790
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Life Bottle",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Corridor",
+                "map_locations": 
+                [
+                    {
+						"map": "Dan's Crypt",
+                        "x": 725,
+                        "y": 1350
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Star Rune",
+                        "visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "End of Corridor",
+                "map_locations": 
+                [
+                    {
+						"map": "Dan's Crypt",
+                        "x": 135,
+                        "y": 1435
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Copper Shield",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "End of Corridor",
+                "map_locations": 
+                [
+                    {
+						"map": "Dan's Crypt",
+                        "x": 95,
+                        "y": 1550
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Crypt Clear",
+                "map_locations": 
+                [
+                    {
+						"map": "Dan's Crypt",
+                        "x": 1425,
+                        "y": 100,
+						"shape": "diamond",
+						"size": 60
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Cleared Crypt",
+						"hosted_item": "clearedcrypt"
+						
+                    }
+                ]
+            }
+		]
+    }
+]

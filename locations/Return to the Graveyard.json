@@ -1,0 +1,383 @@
+[
+    {	
+        "name": "Return to the Graveyard",
+        "chest_unopened_img": "images/labels/full.png",
+        "chest_opened_img": "images/labels/empty.png",
+		"access_rules": [
+				"skullkey, clearedmausoleum"
+				],
+		
+        "children": 
+        [
+            {
+                "name": "Right Exit",
+                "map_locations": 
+                [
+                    {
+						"map": "Return to the Graveyard",
+                        "x": 635,
+                        "y": 2080
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Undertakers Entrance",
+                "map_locations": 
+                [
+                    {
+						"map": "Return to the Graveyard",
+                        "x": 680,
+                        "y": 1595
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Atop Mound",
+                "map_locations": 
+                [
+                    {
+						"map": "Return to the Graveyard",
+                        "x": 770,
+                        "y": 1720
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Star Rune",
+                        "visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+				"name": "Shop",
+				"parent": "Dan's Crypt",
+				"access_rules": [ "clearedmausoleum"],
+				"map_locations": 
+				[
+					{
+						"map": "Return to the Graveyard",
+                        "x": 720,
+                        "y": 445
+                    }
+                ],
+                
+				
+				
+                "sections": 
+                [
+                    {
+                        "name": "Silver Shield"
+                    }
+					
+                ]
+			},
+			{
+                "name": "Left Exit",
+                "map_locations": 
+                [
+                    {
+						"map": "Return to the Graveyard",
+                        "x": 1035,
+                        "y": 2090
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Shop",
+				"parent": "Dan's Crypt",
+				"access_rules": [ "clearedmausoleum"],
+                "map_locations": 
+                [
+                    {
+						"map": "Return to the Graveyard",
+                        "x": 870,
+                        "y": 440
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Raised Platform",
+				"parent": "Dan's Crypt",
+				"access_rules": [ "clearedmausoleum"],
+                "map_locations": 
+                [
+                    {
+						"map": "Return to the Graveyard",
+                        "x": 1470,
+                        "y": 625
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Secret Area Ledge",
+				"parent": "Dan's Crypt",
+				"access_rules": [ "clearedmausoleum"],
+                "map_locations": 
+                [
+                    {
+						"map": "Return to the Graveyard",
+                        "x": 1885,
+                        "y": 415
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Fountain",
+				"parent": "Dan's Crypt",
+				"access_rules": [ "clearedmausoleum"],
+                "map_locations": 
+                [
+                    {
+						"map": "Return to the Graveyard",
+                        "x": 370,
+                        "y": 1050
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Left Exit",
+                "map_locations": 
+                [
+                    {
+						"map": "Return to the Graveyard",
+                        "x": 1165,
+                        "y": 2005
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Undertakers Entrance",
+                "map_locations": 
+                [
+                    {
+						"map": "Return to the Graveyard",
+                        "x": 835,
+                        "y": 1590
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Shop",
+				"parent": "Dan's Crypt",
+				"access_rules": [ "clearedmausoleum"],
+                "map_locations": 
+                [
+                    {
+						"map": "Return to the Graveyard",
+                        "x": 600,
+                        "y": 465
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Island",
+                "map_locations": 
+                [
+                    {
+						"map": "Return to the Graveyard",
+                        "x": 550,
+                        "y": 1985
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Chest",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Secret Area",
+				"parent": "Dan's Crypt",
+				"access_rules": [ "clearedmausoleum"],
+                "map_locations": 
+                [
+                    {
+						"map": "Return to the Graveyard",
+                        "x": 2260,
+                        "y": 450
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 1",
+                        "clear_as_group": true
+                    },
+					{
+						"name": "Energy Vial 2",
+                        "clear_as_group": true
+					}
+                ]
+            },
+			{
+                "name": "Secret Area",
+				"parent": "Dan's Crypt",
+				"access_rules": [ "clearedmausoleum"],
+                "map_locations": 
+                [
+                    {
+						"map": "Return to the Graveyard",
+                        "x": 2160,
+                        "y": 470
+                    }
+                ],
+                
+                "sections": 
+                [
+					{
+                        "name": "Coin Chest 1",
+                        "clear_as_group": true
+                    },
+					{
+                        "name": "Coin Chest 2",
+                        "clear_as_group": true
+                    },
+					{
+                        "name": "Coin Chest 3",
+                        "clear_as_group": true
+                    },
+					{
+                        "name": "Coin Chest 4",
+                        "clear_as_group": true
+                    },
+					{
+                        "name": "Coin Chest 5",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Undertakers",
+                "map_locations": 
+                [
+                    {
+						"map": "Return to the Graveyard",
+                        "x": 1500,
+                        "y": 1380
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Chalice",
+						"chest_unopened_img": "images/items/chalice.png",
+						"chest_opened_img": "images/items/empty chalice.png"
+                    }
+                ]
+            },
+			{
+                "name": "Clear",
+                "map_locations": 
+                [
+                    {
+						"map": "Return to the Graveyard",
+                        "x": 820,
+                        "y": 2680,
+						"shape": "diamond",
+						"size": 75
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Daring Dash"
+                    },
+					{
+                        "name": "Cleared Return to the Graveyard",
+						"hosted_item": "clearedrtg"
+					}
+                ]
+            }
+		]
+    }
+]

@@ -1,0 +1,333 @@
+[
+    {	
+        "name": "Ant Caves",
+        "chest_unopened_img": "images/labels/full.png",
+        "chest_opened_img": "images/labels/empty.png",
+		"visibility_rules": 
+			["antcaves"],
+			
+		"access_rules": 
+			["club, clearedrtg", "Hammer, clearedrtg"],
+		
+        "children": 
+        [
+            {
+                "name": "Behind Barrier",
+				"map_locations": 
+                [
+                    {
+						"map": "Ant Caves",
+                        "x": 135,
+                        "y": 370
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Chest"
+                    }
+                ]
+            },
+			{
+                "name": "Caves Entrance",
+				"parent": "Dan's Crypt",
+				"access_rules": [ "clearedrtg"],
+				"visibility_rules": [
+                            "antcaves"
+							],
+							
+                "map_locations": 
+                [
+                    {
+						"map": "Ant Caves",
+                        "x": 425,
+                        "y": 280
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Club"
+                    }
+                ]
+            },
+			{
+				"name": "Ambers",
+				"map_locations": 
+				[
+					{
+						"map": "Ant Caves",
+                        "x": 280,
+                        "y": 1080
+                    },
+					{
+						"map": "Ant Caves",
+                        "x": 700,
+                        "y": 920
+					},
+					{
+						"map": "Ant Caves",
+                        "x": 710,
+                        "y": 1200
+                    },
+					{
+						"map": "Ant Caves",
+                        "x": 1035,
+                        "y": 830
+                    },
+					{
+						"map": "Ant Caves",
+                        "x": 1045,
+                        "y": 1180
+                    },
+					{
+						"map": "Ant Caves",
+                        "x": 930,
+                        "y": 1450
+                    },
+					{
+						"map": "Ant Caves",
+                        "x": 1015,
+                        "y": 1560
+                    },
+					{
+						"map": "Ant Caves",
+                        "x": 1450,
+                        "y": 1860,
+						"size": 45
+                    },
+					{
+						"map": "Ant Caves",
+                        "x": 1600,
+                        "y": 1765
+                    },
+					{
+						"map": "Ant Caves",
+                        "x": 1860,
+                        "y": 1695
+                    }
+                ],
+                
+				
+				
+                "sections": 
+                [
+                    {
+                        "name": "Amber 1"
+                    },
+					{
+                        "name": "Amber 2"
+                    },
+					{
+                        "name": "Amber 3"
+                    },
+					{
+                        "name": "Amber 4"
+                    },
+					{
+                        "name": "Amber 5"
+                    },
+					{
+                        "name": "Amber 6"
+                    },
+					{
+                        "name": "Amber 7"
+                    },
+					{
+                        "name": "Amber 8"
+                    },
+					{
+                        "name": "Amber 9"
+                    },
+					{
+                        "name": "Amber 10"
+                    }
+					
+                ]
+			},
+			{
+                "name": "Fairies",
+                "map_locations": 
+                [
+                    {
+						"map": "Ant Caves",
+                        "x": 260,
+                        "y": 925,
+						"size": 40
+                    },
+					{
+						"map": "Ant Caves",
+                        "x": 430,
+                        "y": 1215,
+						"size": 40
+                    },
+					{
+						"map": "Ant Caves",
+                        "x": 1345,
+                        "y": 1265,
+						"size": 40
+                    },
+					{
+						"map": "Ant Caves",
+                        "x": 1128,
+                        "y": 1673,
+						"size": 40
+                    },
+					{
+						"map": "Ant Caves",
+                        "x": 1445,
+                        "y": 1920,
+						"size": 40
+                    },
+					{
+						"map": "Ant Caves",
+                        "x": 1790,
+                        "y": 1620,
+						"size": 40
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Fairy 1"
+                    },
+					{
+                        "name": "Fairy 2"
+                    },
+					{
+                        "name": "Fairy 3"
+                    },
+					{
+                        "name": "Fairy 4"
+                    },
+					{
+                        "name": "Fairy 5"
+                    },
+					{
+                        "name": "Fairy 6"
+                    }
+                ]
+            },
+			{
+                "name": "Energy Vials",
+                "map_locations": 
+                [
+                    {
+						"map": "Ant Caves",
+                        "x": 550,
+                        "y": 1085
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 1"
+                    }
+                ]
+            },
+			{
+                "name": "Energy Vials",
+                "map_locations": 
+                [
+                    {
+						"map": "Ant Caves",
+                        "x": 540,
+                        "y": 1200
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 2"
+                    }
+                ]
+            },
+			{
+                "name": "Energy Vials",
+                "map_locations": 
+                [
+                    {
+						"map": "Ant Caves",
+                        "x": 180,
+                        "y": 1345
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 3"
+                    }
+                ]
+            },
+			{
+                "name": "Energy Vials",
+                "map_locations": 
+                [
+                    {
+						"map": "Ant Caves",
+                        "x": 1310,
+                        "y": 1365
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 4"
+                    }
+                ]
+            },
+			{
+                "name": "Energy Vials",
+                "map_locations": 
+                [
+                    {
+						"map": "Ant Caves",
+                        "x": 775,
+                        "y": 1520
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 5"
+                    }
+                ]
+            },
+			{
+                "name": "Clear",
+				"access_rules": "amber: 7",
+                "map_locations": 
+                [
+                    {
+						"map": "Ant Caves",
+                        "x": 2400,
+                        "y": 1770,
+						"shape": "diamond",
+						"size": 60
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Chicken Drumsticks"
+                    },
+					{
+                        "name": "Cleared Ant Caves",
+						"hosted_item": "clearedant",
+						"chest_unopened_img": "images/labels/Not Cleared.png",
+						"chest_opened_img": "images/labels/Cleared.png"
+                    }
+                ]
+            }
+		]
+    }
+]

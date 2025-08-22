@@ -1,68 +1,68 @@
 ﻿[
 	{
 		"name": "Ant Caves",
-		"location_size": 20,
-		"location_border_thickness": 2,
+		"location_size": 50,
+		"location_border_thickness": 4,
 		"img": "images/maps/Ant Caves.jpeg"
 	},
 	{
 		"name": "Asylum Grounds",
-		"location_size": 30,
-		"location_border_thickness": 2,
-		"img": "images/maps/asylum grounds.jpeg"
+		"location_size": 50,
+		"location_border_thickness": 3,
+		"img": "images/maps/Asylum Grounds.Jpeg"
 	},
 	{
 		"name": "Cemetery Hill",
-		"location_size": 40,
-		"location_border_thickness": 3,
+		"location_size": 60,
+		"location_border_thickness": 5,
 		"img": "images/maps/Cemetery Hill.jpeg"
 	},
 	{
 		"name": "Crystal Caves",
-		"location_size": 16,
-		"location_border_thickness": 1,
+		"location_size": 50,
+		"location_border_thickness": 4,
 		"img": "images/maps/crystal caves.jpeg"
 	},
 	{
 		"name": "Dan's Crypt",
-		"location_size": 16,
-		"location_border_thickness": 1,
+		"location_size": 50,
+		"location_border_thickness": 5,
 		"img": "images/maps/Dan's Crypt.jpeg"
 	},
 	{
 		"name": "Enchanted Earth",
-		"location_size": 16,
-		"location_border_thickness": 1,
+		"location_size": 50,
+		"location_border_thickness": 4,
 		"img": "images/maps/enchanted earth.jpeg"
 	},
 	{
 		"name": "Entrance Hall",
-		"location_size": 16,
-		"location_border_thickness": 1,
+		"location_size": 35,
+		"location_border_thickness": 3,
 		"img": "images/maps/Entrance Hall.jpeg"
 	},
 	{
 		"name": "Gallows Gauntlet",
-		"location_size": 16,
-		"location_border_thickness": 1,
+		"location_size": 45,
+		"location_border_thickness": 4,
 		"img": "images/maps/Gallows gauntlet.jpeg"
 	},
 	{
 		"name": "Ghost Ship",
-		"location_size": 16,
-		"location_border_thickness": 1,
+		"location_size": 40,
+		"location_border_thickness": 3,
 		"img": "images/maps/Ghost Ship.jpeg"
 	},
 	{
 		"name": "Graveyard",
-		"location_size": 16,
-		"location_border_thickness": 1,
+		"location_size": 50,
+		"location_border_thickness": 5,
 		"img": "images/maps/graveyard.jpeg"
 	},
 	{
 		"name": "Haunted Ruins",
-		"location_size": 30,
-		"location_border_thickness": 1,
+		"location_size": 45,
+		"location_border_thickness": 4,
 		"img": "images/maps/haunted ruins.jpeg"
 	},
 	{
@@ -73,56 +73,56 @@
 	},
 	{
 		"name": "Inside the Asylum",
-		"location_size": 18,
-		"location_border_thickness": 1,
+		"location_size": 40,
+		"location_border_thickness": 3,
 		"img": "images/maps/Inside the asylum.jpeg"
 	},
 	{
 		"name": "Lake",
-		"location_size": 22,
-		"location_border_thickness": 1,
+		"location_size": 50,
+		"location_border_thickness": 4,
 		"img": "images/maps/Lake.jpeg"
 	},
 	{
 		"name": "Pools of the Ancient Dead",
-		"location_size": 22,
-		"location_border_thickness": 1,
+		"location_size": 45,
+		"location_border_thickness": 4,
 		"img": "images/maps/pools of the ancient dead.jpeg"
 	},
 	{
 		"name": "Pumpkin Gorge",
-		"location_size": 22,
-		"location_border_thickness": 1,
+		"location_size": 50,
+		"location_border_thickness": 5,
 		"img": "images/maps/Pumpkin Gorge.jpeg"
 	},
 	{
 		"name": "Pumpkin Serpent",
-		"location_size": 11,
-		"location_border_thickness": 1,
+		"location_size": 22,
+		"location_border_thickness": 2,
 		"img": "images/maps/pumpkin serpent.jpeg"
 	},
 	{
 		"name": "Return to the Graveyard",
-		"location_size": 20,
-		"location_border_thickness": 1,
+		"location_size": 60,
+		"location_border_thickness": 5,
 		"img": "images/maps/return to the graveyard.jpeg"
 	},
 	{
 		"name": "Scarecrow Fields",
-		"location_size": 20,
-		"location_border_thickness": 1,
+		"location_size": 60,
+		"location_border_thickness": 5,
 		"img": "images/maps/scarecrow fields.jpeg"
 	},
 	{
 		"name": "Sleeping Village",
-		"location_size": 20,
-		"location_border_thickness": 1,
+		"location_size": 50,
+		"location_border_thickness": 4,
 		"img": "images/maps/Sleeping Village.jpeg"
 	},
 	{
 		"name": "Time Device",
-		"location_size": 20,
-		"location_border_thickness": 1,
+		"location_size": 50,
+		"location_border_thickness": 4,
 		"img": "images/maps/Time Device.jpeg"
 	},
 	{
@@ -130,5 +130,11 @@
 		"location_size": 20,
 		"location_border_thickness": 1,
 		"img": "images/maps/Time Device.jpeg"
+	},
+	{
+		"name": "World Map",
+		"location_size": 20,
+		"location_border_thickness": 2,
+		"img": "images/maps/World Map.png"
 	}
 ]

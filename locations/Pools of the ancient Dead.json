@@ -1,0 +1,397 @@
+[
+    {	
+        "name": "Pools of the Ancient Dead",
+        "chest_unopened_img": "images/labels/full.png",
+        "chest_opened_img": "images/labels/empty.png",
+		"access_rules": [ "clearedenchant"],
+				
+        "children": 
+        [
+            {
+                "name": "Start",
+                "map_locations": 
+                [
+                    {
+						"map": "Pools of the Ancient Dead",
+                        "x": 460,
+                        "y": 140
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag"
+                    }
+                ]
+            },
+			{
+                "name": "Tower",
+                "map_locations": 
+                [
+                    {
+						"map": "Pools of the Ancient Dead",
+                        "x": 775,
+                        "y": 400
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial"
+                    }
+                ]
+            },
+			{
+                "name": "West Side",
+                "map_locations": 
+                [
+                    {
+						"map": "Pools of the Ancient Dead",
+                        "x": 900,
+                        "y": 1440
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "West Side",
+                "map_locations": 
+                [
+                    {
+						"map": "Pools of the Ancient Dead",
+                        "x": 800,
+                        "y": 1525
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Soul 2",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "West Side",
+                "map_locations": 
+                [
+                    {
+						"map": "Pools of the Ancient Dead",
+                        "x": 625,
+                        "y": 920
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Soul 1",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "West Side",
+                "map_locations": 
+                [
+                    {
+						"map": "Pools of the Ancient Dead",
+                        "x": 395,
+                        "y": 1205
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Chalice",
+						"chest_unopened_img": "images/items/chalice.png",
+						"chest_opened_img": "images/items/empty chalice.png"
+                    }
+                ]
+            },
+			
+			{
+                "name": "West Side",
+                "map_locations": 
+                [
+                    {
+						"map": "Pools of the Ancient Dead",
+                        "x": 115,
+                        "y": 1195
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Soul 3"
+                    }
+                ]
+            },
+			{
+                "name": "West Side",
+                "map_locations": 
+                [
+                    {
+						"map": "Pools of the Ancient Dead",
+                        "x": 145,
+                        "y": 1140
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial"
+                    }
+                ]
+            },
+			{
+                "name": "West Side",
+                "map_locations": 
+                [
+                    {
+						"map": "Pools of the Ancient Dead",
+                        "x": 570,
+                        "y": 1480
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Chaos Rune",
+						"visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "East Side",
+                "map_locations": 
+                [
+                    {
+						"map": "Pools of the Ancient Dead",
+                        "x": 1500,
+                        "y": 1185
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Soul 4"
+                    }
+                ]
+            },
+			{
+                "name": "East Side",
+                "map_locations": 
+                [
+                    {
+						"map": "Pools of the Ancient Dead",
+                        "x": 1490,
+                        "y": 735
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Soul 5"
+                    }
+                ]
+            },
+			{
+                "name": "East Side",
+                "map_locations": 
+                [
+                    {
+						"map": "Pools of the Ancient Dead",
+                        "x": 1365,
+                        "y": 890
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Silver Shield"
+                    }
+                ]
+            },
+			{
+                "name": "East Side",
+                "map_locations": 
+                [
+                    {
+						"map": "Pools of the Ancient Dead",
+                        "x": 1785,
+                        "y": 670
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Soul 6"
+                    }
+                ]
+            },
+			{
+                "name": "East Side",
+                "map_locations": 
+                [
+                    {
+						"map": "Pools of the Ancient Dead",
+                        "x": 2475,
+                        "y": 775
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Soul 7"
+                    }
+                ]
+            },
+			{
+                "name": "East Side",
+                "map_locations": 
+                [
+                    {
+						"map": "Pools of the Ancient Dead",
+                        "x": 1920,
+                        "y": 975
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial"
+                    }
+                ]
+            },
+			{
+                "name": "East Side Life Bottle",
+                "map_locations": 
+                [
+                    {
+						"map": "Pools of the Ancient Dead",
+                        "x": 2215,
+                        "y": 1085
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Life Bottle"
+                    },
+					{
+                        "name": "Energy Vial 1"
+                    },
+					{
+                        "name": "Energy Vial 2"
+                    },
+					{
+                        "name": "Coin Chest 1"
+                    },
+					{
+                        "name": "Coin Chest 2"
+                    }
+                ]
+            },
+			{
+                "name": "East Side Downhill",
+                "map_locations": 
+                [
+                    {
+						"map": "Pools of the Ancient Dead",
+                        "x": 3635,
+                        "y": 1055
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Soul 8"
+                    }
+                ]
+            },
+			{
+                "name": "East Side Downhill",
+                "map_locations": 
+                [
+                    {
+						"map": "Pools of the Ancient Dead",
+                        "x": 3490,
+                        "y": 950
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 1"
+                    }
+                ]
+            },
+			{
+                "name": "East Side Downhill",
+                "map_locations": 
+                [
+                    {
+						"map": "Pools of the Ancient Dead",
+                        "x": 3455,
+                        "y": 1200
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 2"
+                    }
+                ]
+            },
+			{
+                "name": "Clear",
+				"access_rules": "helmet: 8",
+                "map_locations": 
+                [
+                    {
+						"map": "Pools of the Ancient Dead",
+                        "x": 1210,
+                        "y": 560,
+						"shape": "diamond",
+						"size": 60
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Cleared Pools of the Ancient Dead",
+						"hosted_item": "clearedpools"
+					}
+                ]
+            }
+		]
+    }
+]

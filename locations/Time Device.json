@@ -1,0 +1,307 @@
+[
+    {	
+        "name": "The Time Device",
+        "chest_unopened_img": "images/labels/full.png",
+        "chest_opened_img": "images/labels/empty.png",
+		"access_rules": [ "clearedhall"],
+				
+        "children": 
+        [
+            {
+                "name": "Time Spinners",
+                "map_locations": 
+                [
+                    {
+						"map": "Time Device",
+                        "x": 1000,
+                        "y": 1740
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Silver Shield"
+                    }
+                ]
+            },
+			{
+                "name": "Time Spinners",
+                "map_locations": 
+                [
+                    {
+						"map": "Time Device",
+                        "x": 920,
+                        "y": 1810
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Time Rune",
+						"visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "Time Spinners",
+                "map_locations": 
+                [
+                    {
+						"map": "Time Device",
+                        "x": 773,
+                        "y": 1450
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Chest 1"
+                    },
+					{
+                        "name": "Coin Chest 2"
+                    },
+					{
+                        "name": "Coin Chest 3"
+                    }
+                ]
+            },
+			{
+                "name": "Entrance Fountain",
+                "map_locations": 
+                [
+                    {
+						"map": "Time Device",
+                        "x": 1020,
+                        "y": 2005
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Life Bottle"
+                    }
+                ]
+            },
+			{
+                "name": "South Path",
+                "map_locations": 
+                [
+                    {
+						"map": "Time Device",
+                        "x": 1890,
+                        "y": 2020
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Chaos Rune",
+						"visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "Lasers",
+                "map_locations": 
+                [
+                    {
+						"map": "Time Device",
+                        "x": 955,
+                        "y": 765
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Chalice",
+						"chest_unopened_img": "images/items/chalice.png",
+						"chest_opened_img": "images/items/empty chalice.png"
+                    }
+                ]
+            },
+			{
+                "name": "Lasers",
+                "map_locations": 
+                [
+                    {
+						"map": "Time Device",
+                        "x": 815,
+                        "y": 1135
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Earth Rune",
+						"visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "Lasers",
+                "map_locations": 
+                [
+                    {
+						"map": "Time Device",
+                        "x": 790,
+                        "y": 990
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag 1"
+                    },
+					{
+                        "name": "Coin Bag 2"
+                    }
+                ]
+            },
+			{
+                "name": "Earth Station",
+                "map_locations": 
+                [
+                    {
+						"map": "Time Device",
+                        "x": 2580,
+                        "y": 2035
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag 1"
+                    },
+					{
+                        "name": "Coin Bag 2"
+                    },
+					{
+                        "name": "Coin Bag 3"
+                    }
+                ]
+            },
+			{
+                "name": "Earth Station",
+                "map_locations": 
+                [
+                    {
+						"map": "Time Device",
+                        "x": 2830,
+                        "y": 1925
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Moon Rune",
+						"visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "Clear",
+                "map_locations": 
+                [
+                    {
+						"map": "Time Device",
+                        "x": 2545,
+                        "y": 1285,
+						"shape": "diamond",
+						"size": 60
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Cleared The Time Device",
+						"hosted_item": "cleareddevice"
+					}
+                ]
+            },
+			{
+                "name": "Zarok's Arena",
+				"parent": "Dan's Crypt",
+				"access_rules": [ "cleareddevice"],
+				
+                "map_locations": 
+                [
+                    {
+						"map": "Time Device",
+                        "x": 3010,
+                        "y": 835
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Good Lightning"
+                    }
+                ]
+            },
+			{
+                "name": "Zarok's Arena",
+				"parent": "Dan's Crypt",
+				"access_rules": [ "cleareddevice"],
+                "map_locations": 
+                [
+                    {
+						"map": "Time Device",
+                        "x": 2895,
+                        "y": 695
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Silver Shield"
+                    }
+                ]
+            },
+			{
+                "name": "Clear Game",
+				"parent": "Dan's Crypt",
+				"access_rules": [ "cleareddevice"],
+				"access_rules": "goodlightning",
+                "map_locations": 
+                [
+                    {
+						"map": "Time Device",
+                        "x": 3230,
+                        "y": 650,
+						"shape": "trapezoid",
+						"size": 80
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Cleared The Game",
+						"chest_unopened_img": "images/labels/zarok.png",
+					}
+                ]
+            }
+		]
+    }
+]

@@ -1,0 +1,188 @@
+[
+    {	
+        "name": "The Gallows Gauntlet",
+        "chest_unopened_img": "images/labels/full.png",
+        "chest_opened_img": "images/labels/empty.png",
+		"access_rules": [ "clearedcrystal"],
+				
+        "children": 
+        [
+            {
+                "name": "Gate at Start",
+				"access_rules": "dragonarmour",
+                "map_locations": 
+                [
+                    {
+						"map": "Gallows Gauntlet",
+                        "x": 580,
+                        "y": 755
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Star Rune",
+						"visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "Dragon Skeleton 1",
+                "map_locations": 
+                [
+                    {
+						"map": "Gallows Gauntlet",
+                        "x": 920,
+                        "y": 635
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag"
+                    }
+                ]
+            },
+			{
+                "name": "Dragon Skeleton 2",
+                "map_locations": 
+                [
+                    {
+						"map": "Gallows Gauntlet",
+                        "x": 1245,
+                        "y": 730
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag"
+                    }
+                ]
+            },
+			{
+                "name": "Near End 1",
+                "map_locations": 
+                [
+                    {
+						"map": "Gallows Gauntlet",
+                        "x": 970,
+                        "y": 950
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Silver Shield"
+                    }
+                ]
+            },
+			{
+                "name": "Gate Near Star Gate",
+				"access_rules": "dragonarmour",
+                "map_locations": 
+                [
+                    {
+						"map": "Gallows Gauntlet",
+                        "x": 980,
+                        "y": 1465
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Chest"
+                    }
+                ]
+            },
+			{
+                "name": "Past Dragon Gate",
+				"access_rules": "dragonarmour",
+                "map_locations": 
+                [
+                    {
+						"map": "Gallows Gauntlet",
+                        "x": 2145,
+                        "y": 605
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Chest"
+                    }
+                ]
+            },
+			{
+                "name": "Chalice Gate",
+				"access_rules": "dragonarmour",
+                "map_locations": 
+                [
+                    {
+						"map": "Gallows Gauntlet",
+                        "x": 1510,
+                        "y": 1345
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Chalice",
+						"chest_unopened_img": "images/items/chalice.png",
+						"chest_opened_img": "images/items/empty chalice.png"
+                    }
+                ]
+            },
+			{
+                "name": "Chalice Gate",
+				"access_rules": "dragonarmour",
+                "map_locations": 
+                [
+                    {
+						"map": "Gallows Gauntlet",
+                        "x": 1420,
+                        "y": 1345
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial"
+                    }
+                ]
+            },
+			{
+                "name": "Clear",
+				"access_rules": "dragonarmour",
+                "map_locations": 
+                [
+                    {
+						"map": "Gallows Gauntlet",
+                        "x": 1445,
+                        "y": 1720,
+						"shape": "diamond",
+						"size": 60
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Cleared The Gallows Gauntlet",
+						"hosted_item": "clearedgallows"
+					}
+                ]
+            }
+		]
+    }
+]

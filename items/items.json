@@ -5,11 +5,17 @@
         "img": "images/items/Arm.png",
         "codes": "arm"
     },
+	{
+        "name": "Daring Dash",
+        "type": "toggle",
+        "img": "images/items/Daring Dash5.png",
+        "codes": "Daring5"
+    },
     {
         "name": "Small Sword",
         "type": "toggle",
         "img": "images/items/SmallSword.png",
-        "codes": "sword1"
+        "codes": "sword"
     },
     {
         "name": "Broadsword",
@@ -17,7 +23,7 @@
         "img": "images/items/Broadsword.png",
         "codes": "broadsword"
     },
-    {
+	{
         "name": "Magic Sword",
         "type": "toggle",
         "img": "images/items/MagicSword.png",
@@ -110,8 +116,176 @@
 	{
         "name": "Sheet Music",
         "type": "toggle",
-        "img": "images/items/sheetmusic.png",
+        "img": "images/items/sheet music.png",
         "codes": "sheetmusic"
+    },
+	{
+        "name": "Cleared Crypt",
+        "type": "toggle",
+        "img": "images/labels/Cleared.png",
+		"disabled_img": "images/labels/Not Cleared.png",
+		"disabled_img_mods": "@enabled",
+        "codes": "clearedcrypt"
+    },
+	{
+        "name": "Cleared Graveyard",
+        "type": "toggle",
+        "img": "images/labels/Cleared.png",
+		"disabled_img": "images/labels/Not Cleared.png",
+		"disabled_img_mods": "@enabled",
+        "codes": "clearedgraveyard"
+    },
+	{
+        "name": "Cleared Hill",
+        "type": "toggle",
+        "img": "images/labels/Cleared.png",
+		"disabled_img": "images/labels/Not Cleared.png",
+		"disabled_img_mods": "@enabled",
+        "codes": "clearedhill"
+    },
+	{
+        "name": "Cleared Mausoleum",
+        "type": "toggle",
+        "img": "images/labels/Cleared.png",
+		"disabled_img": "images/labels/Not Cleared.png",
+		"disabled_img_mods": "@enabled",
+        "codes": "clearedmausoleum"
+    },
+	{
+        "name": "Cleared RtG",
+        "type": "toggle",
+        "img": "images/labels/Cleared.png",
+		"disabled_img": "images/labels/Not Cleared.png",
+		"disabled_img_mods": "@enabled",
+        "codes": "clearedrtg"
+    },
+	{
+        "name": "Cleared Scarecrow Fields",
+        "type": "toggle",
+        "img": "images/labels/Cleared.png",
+		"disabled_img": "images/labels/Not Cleared.png",
+		"disabled_img_mods": "@enabled",
+        "codes": "clearedfields"
+    },
+	{
+        "name": "Cleared Pumpkin Gorge",
+        "type": "toggle",
+        "img": "images/labels/Cleared.png",
+		"disabled_img": "images/labels/Not Cleared.png",
+		"disabled_img_mods": "@enabled",
+        "codes": "clearedgorge"
+    },
+	{
+        "name": "Cleared Pumpkin Serpent",
+        "type": "toggle",
+        "img": "images/labels/Cleared.png",
+		"disabled_img": "images/labels/Not Cleared.png",
+		"disabled_img_mods": "@enabled",
+        "codes": "clearedserpent"
+    },
+	{
+        "name": "Cleared Sleeping Village",
+        "type": "toggle",
+        "img": "images/labels/Cleared.png",
+		"disabled_img": "images/labels/Not Cleared.png",
+		"disabled_img_mods": "@enabled",
+        "codes": "clearedvillage"
+    },
+	{
+        "name": "Cleared Asylum Grounds",
+        "type": "toggle",
+        "img": "images/labels/Cleared.png",
+		"disabled_img": "images/labels/Not Cleared.png",
+		"disabled_img_mods": "@enabled",
+        "codes": "clearedgrounds"
+    },
+	{
+        "name": "Cleared Asylum",
+        "type": "toggle",
+        "img": "images/labels/Cleared.png",
+		"disabled_img": "images/labels/Not Cleared.png",
+		"disabled_img_mods": "@enabled",
+        "codes": "clearedasylum"
+    },
+	{
+        "name": "Cleared Enchanted Earth",
+        "type": "toggle",
+        "img": "images/labels/Cleared.png",
+		"disabled_img": "images/labels/Not Cleared.png",
+		"disabled_img_mods": "@enabled",
+        "codes": "clearedenchant"
+    },
+	{
+        "name": "Cleared Ant Caves",
+        "type": "toggle",
+        "img": "images/labels/Cleared.png",
+		"disabled_img": "images/labels/Not Cleared.png",
+		"disabled_img_mods": "@enabled",
+        "codes": "clearedant"
+    },
+	{
+        "name": "Cleared PotAD",
+        "type": "toggle",
+        "img": "images/labels/Cleared.png",
+		"disabled_img": "images/labels/Not Cleared.png",
+		"disabled_img_mods": "@enabled",
+        "codes": "clearedpools"
+    },
+	{
+        "name": "Cleared Lake",
+        "type": "toggle",
+        "img": "images/labels/Cleared.png",
+		"disabled_img": "images/labels/Not Cleared.png",
+		"disabled_img_mods": "@enabled",
+        "codes": "clearedlake"
+    },
+	{
+        "name": "Cleared Crystal Caves",
+        "type": "toggle",
+        "img": "images/labels/Cleared.png",
+		"disabled_img": "images/labels/Not Cleared.png",
+		"disabled_img_mods": "@enabled",
+        "codes": "clearedcrystal"
+    },
+	{
+        "name": "Cleared Gallows Gauntlet",
+        "type": "toggle",
+        "img": "images/labels/Cleared.png",
+		"disabled_img": "images/labels/Not Cleared.png",
+		"disabled_img_mods": "@enabled",
+        "codes": "clearedgallows"
+    },
+	{
+        "name": "Cleared Haunted Ruins",
+        "type": "toggle",
+        "img": "images/labels/Cleared.png",
+		"disabled_img": "images/labels/Not Cleared.png",
+		"disabled_img_mods": "@enabled",
+        "codes": "clearedruins"
+    },
+	{
+        "name": "Cleared Ghost Ship",
+        "type": "toggle",
+        "img": "images/labels/Cleared.png",
+		"disabled_img": "images/labels/Not Cleared.png",
+		"disabled_img_mods": "@enabled",
+        "codes": "clearedship"
+    },
+	{
+        "name": "Cleared Entrance Hall",
+        "type": "toggle",
+        "img": "images/labels/Cleared.png",
+		"disabled_img": "images/labels/Not Cleared.png",
+		"disabled_img_mods": "@enabled",
+        "codes": "clearedhall"
+    },
+	{
+        "name": "Cleared Time Device",
+        "type": "toggle",
+        "img": "images/labels/Cleared.png",
+		"disabled_img": "images/labels/Not Cleared.png",
+		"disabled_img_mods": "@enabled",
+        "codes": "cleareddevice"
     },
 	{
         "name": "Skull Key",
@@ -288,6 +462,12 @@
         "codes": "moongorge"
     },
 	{
+        "name": "Moon Rune Village",
+        "type": "toggle",
+        "img": "images/items/moon rune.png",
+        "codes": "moonsleep"
+    },
+	{
         "name": "Moon Rune Ghost Ship",
         "type": "toggle",
         "img": "images/items/moon rune.png",
@@ -306,10 +486,48 @@
         "codes": "runestar"
     },
 	{
+        "name": "Star Rune Dan's Crypt",
+        "type": "toggle",
+        "img": "images/items/star rune.png",
+        "codes": "starcrypt"
+    },
+	{
         "name": "Star Rune RtG",
         "type": "toggle",
         "img": "images/items/star rune.png",
         "codes": "starreturn"
+    },
+	{
+        "name": "Star Rune Pumpkin Gorge",
+        "type": "toggle",
+        "img": "images/items/star rune.png",
+        "codes": "stargorge"
+    },
+	{
+        "name": "Runesanity",
+        "type": "progressive",
+        "img": "images/labels/runesanity.png",
+		"loop": "true",
+        "codes": "runesanity"
+    },
+	{
+        "name": "Runesanity Text",
+        "type": "static",
+        "img": "images/labels/runesanity text.png",
+        "codes": "runelabel"
+    },
+	{
+        "name": "Ant Hill",
+        "type": "progressive",
+        "img": "images/labels/ant hill.png",
+		"loop": "true",
+        "codes": "antcaves"
+    },
+	{
+        "name": "Ant Caves Text",
+        "type": "static",
+        "img": "images/labels/ant caves text.png",
+        "codes": "antlabel"
     },
 	{
         "name": "Star Rune Enchanted Earth",
@@ -397,7 +615,7 @@
         "codes": "crucifix"
     },
 	{
-        "name": "Peregrine's Crown",
+        "name": "Peregrin's Crown",
         "type": "toggle",
         "img": "images/items/PeregrinCrown.png",
         "codes": "crown"
@@ -424,14 +642,14 @@
         "name": "Amber",
         "type": "consumable",
         "img": "images/items/Amber.png",
-        "codes": "amber",
+        "codes": "amber,amber1,amber2,amber3,amber4,amber5,amber6,amber7,amber8,amber9",
         "max_quantity": 10
     },
     {
         "name": "Soul Helmet",
         "type": "consumable",
         "img": "images/items/soul helmet.png",
-        "codes": "soulhelmet",
+        "codes": "soulhelmet, helmet",
         "max_quantity": 8
     },
     {
@@ -442,10 +660,10 @@
         "max_quantity": 2
     },
 	{
-        "name": "Dragon Potion",
+        "name": "Dragon Armour",
         "type": "toggle",
         "img": "images/items/dragonpotion.png",
-        "codes": "dragonpotion"
+        "codes": "dragonarmour"
     },
 	{
         "name": "Chicken Drumstick",

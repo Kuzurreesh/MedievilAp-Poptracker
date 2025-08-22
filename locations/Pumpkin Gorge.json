@@ -1,0 +1,389 @@
+[
+    {	
+        "name": "Pumpkin Gorge",
+        "chest_unopened_img": "images/labels/full.png",
+        "chest_opened_img": "images/labels/empty.png",
+		"access_rules": [ "clearedfields"],
+				
+        "children": 
+        [
+            {
+                "name": "Chalice Path",
+				"access_rules": [
+				"hammer", "club", "daring5"
+				],
+                "map_locations": 
+                [
+                    {
+						"map": "Pumpkin Gorge",
+                        "x": 1280,
+                        "y": 1200
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Behind Wall",
+				"access_rules": [
+				"hammer", "club", "daring5"
+				],
+                "map_locations": 
+                [
+                    {
+						"map": "Pumpkin Gorge",
+                        "x": 1015,
+                        "y": 1840
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Chalice",
+						"chest_unopened_img": "images/items/chalice.png",
+						"chest_opened_img": "images/items/empty chalice.png"
+                    }
+                ]
+            },
+			{
+                "name": "Behind Wall",
+				"access_rules": [
+				"hammer", "club", "daring5"
+				],
+                "map_locations": 
+                [
+                    {
+						"map": "Pumpkin Gorge",
+                        "x": 985,
+                        "y": 1775
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Chest",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Rising Mushrooms Side Path",
+                "map_locations": 
+                [
+                    {
+						"map": "Pumpkin Gorge",
+                        "x": 2475,
+                        "y": 800
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Earth Rune",
+                        "visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "Moon Rune Hut",
+                "map_locations": 
+                [
+                    {
+						"map": "Pumpkin Gorge",
+                        "x": 1687,
+                        "y": 1305,
+						"size": 50
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Chaos Rune",
+                        "visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "Moon Rune Path",
+                "map_locations": 
+                [
+                    {
+						"map": "Pumpkin Gorge",
+                        "x": 595,
+                        "y": 1655
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Moon Rune",
+                        "visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "On Top of Roots",
+                "map_locations": 
+                [
+                    {
+						"map": "Pumpkin Gorge",
+                        "x": 2680,
+                        "y": 375
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Time Rune",
+                        "visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+				"name": "Hilltop",
+				"map_locations": 
+				[
+					{
+						"map": "Pumpkin Gorge",
+                        "x": 2000,
+                        "y": 730
+                    }
+                ],
+                
+				
+				
+                "sections": 
+                [
+                    {
+                        "name": "Star Rune",
+						"visibility_rules": [
+                            "runesanity"
+							]
+                    },
+					{
+                        "name": "Silver Shield"
+                    },
+					{
+                        "name": "Energy Vial"
+                    }
+					
+                ]
+			},
+			{
+				"name": "Moon Rune Path",
+				"map_locations": 
+				[
+					{
+						"map": "Pumpkin Gorge",
+                        "x": 710,
+                        "y": 1635
+                    }
+                ],
+                
+				
+				
+                "sections": 
+                [
+                    {
+                        "name": "Club"
+                    }
+					
+                ]
+			},
+			{
+                "name": "Coop",
+				"map_locations": 
+                [
+                    {
+						"map": "Pumpkin Gorge",
+                        "x": 1375,
+                        "y": 575
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial",
+                        "clear_as_group": true
+                    },
+					{
+                        "name": "Coin Chest 1",
+                        "clear_as_group": true
+                    },
+					{
+                        "name": "Coin Chest 2",
+                        "clear_as_group": true
+                    },
+					{
+                        "name": "Coin Chest 3",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+				"name": "Moon Rune Hut",
+				"map_locations": 
+				[
+					{
+						"map": "Pumpkin Gorge",
+                        "x": 1630,
+                        "y": 1245,
+						"size": 45
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial"
+                    }
+					
+                ]
+			},
+			{
+                "name": "Entry Road",
+                "map_locations": 
+                [
+                    {
+						"map": "Pumpkin Gorge",
+                        "x": 825,
+                        "y": 1100
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Rising Mushrooms",
+                "map_locations": 
+                [
+                    {
+						"map": "Pumpkin Gorge",
+                        "x": 2390,
+                        "y": 560
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Blocked Path Near End",
+				"access_rules": [
+				"hammer", "club", "daring5"
+				],
+                "map_locations": 
+                [
+                    {
+						"map": "Pumpkin Gorge",
+                        "x": 3045,
+                        "y": 290
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial",
+                        "clear_as_group": true
+                    },
+					{
+                        "name": "Coin Chest",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Roots Clearing",
+                "map_locations": 
+                [
+                    {
+						"map": "Pumpkin Gorge",
+                        "x": 2975,
+                        "y": 520
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 1",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Roots Clearing",
+                "map_locations": 
+                [
+                    {
+						"map": "Pumpkin Gorge",
+                        "x": 3065,
+                        "y": 590
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 2",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Clear",
+                "map_locations": 
+                [
+                    {
+						"map": "Pumpkin Gorge",
+                        "x": 3475,
+                        "y": 465,
+						"shape": "diamond",
+						"size": 70
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Cleared Pumpkin Gorge",
+						"hosted_item": "clearedgorge"
+					}
+                ]
+            }
+		]
+    }
+]

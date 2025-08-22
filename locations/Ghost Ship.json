@@ -1,0 +1,319 @@
+[
+    {	
+        "name": "The Ghost Ship",
+        "chest_unopened_img": "images/labels/full.png",
+        "chest_opened_img": "images/labels/empty.png",
+		"access_rules": [ "clearedruins"],
+				
+        "children": 
+        [
+            {
+                "name": "Below Trapdoors",
+                "map_locations": 
+                [
+                    {
+						"map": "Ghost Ship",
+                        "x": 450,
+                        "y": 670
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Silver Shield"
+                    }
+                ]
+            },
+			{
+                "name": "Below Trapdoors",
+                "map_locations": 
+                [
+                    {
+						"map": "Ghost Ship",
+                        "x": 443,
+                        "y": 716
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag"
+                    }
+                ]
+            },
+			{
+                "name": "Moon Cabin",
+                "map_locations": 
+                [
+                    {
+						"map": "Ghost Ship",
+                        "x": 278,
+                        "y": 425
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial"
+                    }
+                ]
+            },
+			{
+                "name": "Moon Cabin",
+                "map_locations": 
+                [
+                    {
+						"map": "Ghost Ship",
+                        "x": 185,
+                        "y": 405
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Star Rune",
+						"visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "Upstairs",
+                "map_locations": 
+                [
+                    {
+						"map": "Ghost Ship",
+                        "x": 465,
+                        "y": 200
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Moon Rune",
+						"visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "Fountain",
+                "map_locations": 
+                [
+                    {
+						"map": "Ghost Ship",
+                        "x": 795,
+                        "y": 565
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag"
+                    }
+                ]
+            },
+			{
+                "name": "Past Cannons",
+                "map_locations": 
+                [
+                    {
+						"map": "Ghost Ship",
+                        "x": 1185,
+                        "y": 840
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Chaos Rune",
+						"visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "Below Trampolines 1",
+                "map_locations": 
+                [
+                    {
+						"map": "Ghost Ship",
+                        "x": 1520,
+                        "y": 865
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 1"
+                    }
+                ]
+            },
+			{
+                "name": "Below Trampolines 1",
+                "map_locations": 
+                [
+                    {
+						"map": "Ghost Ship",
+                        "x": 1665,
+                        "y": 935
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 2"
+                    }
+                ]
+            },
+			{
+                "name": "Below Trampolines 1",
+                "map_locations": 
+                [
+                    {
+						"map": "Ghost Ship",
+                        "x": 1660,
+                        "y": 1180,
+						"size": 30
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag"
+                    }
+                ]
+            },
+			{
+                "name": "Cannon Room",
+                "map_locations": 
+                [
+                    {
+						"map": "Ghost Ship",
+                        "x": 710,
+                        "y": 955
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial"
+                    }
+                ]
+            },
+			{
+                "name": "Cannon Room",
+                "map_locations": 
+                [
+                    {
+						"map": "Ghost Ship",
+                        "x": 525,
+                        "y": 985
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Chest"
+                    }
+                ]
+            },
+			{
+                "name": "Up the Lift",
+                "map_locations": 
+                [
+                    {
+						"map": "Ghost Ship",
+                        "x": 1400,
+                        "y": 670
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Chalice",
+						"chest_unopened_img": "images/items/chalice.png",
+						"chest_opened_img": "images/items/empty chalice.png"
+                    },
+					{
+                        "name": "Energy Vial 1"
+                    }
+                ]
+            },
+			{
+                "name": "Up the Lift",
+                "map_locations": 
+                [
+                    {
+						"map": "Ghost Ship",
+                        "x": 1835,
+                        "y": 885
+                    }
+                ],
+                
+                "sections": 
+                [
+					{
+                        "name": "Energy Vial 2"
+                    }
+                ]
+            },
+			{
+                "name": "Captain",
+                "map_locations": 
+                [
+                    {
+						"map": "Ghost Ship",
+                        "x": 2115,
+                        "y": 1130
+                    }
+                ],
+                
+                "sections": 
+                [
+					{
+                        "name": "Club"
+                    }
+                ]
+            },
+			{
+                "name": "Clear",
+				"access_rules": "club",
+                "map_locations": 
+                [
+                    {
+						"map": "Ghost Ship",
+                        "x": 2380,
+                        "y": 1155,
+						"shape": "diamond",
+						"size": 60
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Cleared The Ghost Ship",
+						"hosted_item": "clearedship"
+					}
+                ]
+            }
+		]
+    }
+]

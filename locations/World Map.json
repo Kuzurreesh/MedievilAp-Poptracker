@@ -1,0 +1,775 @@
+[
+	{	
+        "name": "The World Map",
+        "chest_unopened_img": "images/items/chalice.png",
+		"chest_opened_img": "images/items/empty chalice.png",
+				
+        "children": 
+        [
+            {
+                "name": "Hall of Heroes",
+                "map_locations": 
+                [
+                    {
+						"map": "World Map",
+                        "x": 175,
+                        "y": 175
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Canny Tim 1"
+                    },
+					{
+                        "name": "Canny Tim 2"
+                    },
+					{
+                        "name": "Stanyer Iron Hewer 1",
+                    },
+					{
+                        "name": "Stanyer Iron Hewer 2",
+						"item_count": 2,
+						"clear_as_group": true
+                    },
+					{
+                        "name": "Woden the Mighty 1"
+                    },
+					{
+                        "name": "Woden the Mighty 2",
+						"item_count": 2,
+						"clear_as_group": true
+                    },
+					{
+                        "name": "Imanzi Shongama 1"
+                    },
+					{
+                        "name": "Ravenhooves the Archer 1"
+                    },
+					{
+                        "name": "Bloodmonath 1"
+                    },
+					{
+                        "name": "Ravenhooves the Archer 2"
+                    },
+					{
+                        "name": "Karl Sturngard 1"
+                    },
+					{
+                        "name": "Bloodmonath",
+						"item_count": 3,
+						"clear_as_group": true
+                    },
+					{
+                        "name": "Dirk Steadfast 1"
+                    },
+					{
+                        "name": "Ravenhooves the Archer 3"
+                    },
+					{
+                        "name": "Megwynne Stormbinder 1"
+                    },
+					{
+                        "name": "Ravenhooves the Archer 4"
+                    },
+					{
+                        "name": "Imanzi Shongama",
+						"item_count": 2,
+						"clear_as_group": true
+                    },
+					{
+                        "name": "Karl Sturngard 2",
+						"item_count": 4,
+						"clear_as_group": true
+                    },
+					{
+                        "name": "Dirk Steadfast 2"
+                    },
+					{
+                        "name": "Megwynne Stormbinder 2",
+						"item_count": 3,
+						"clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Dan's Crypt OW",
+                "map_locations": 
+                [
+                    {
+						"map": "World Map",
+                        "x": 430,
+                        "y": 780
+                    }
+                ],
+				"sections": 
+                [
+                    {"ref": "Dan's Crypt/Corridor/Star Rune"},
+					{"ref": "Dan's Crypt/Mound/Life Bottle"},
+					{"ref": "Dan's Crypt/Right There/Small Sword"},
+					{"ref": "Dan's Crypt/End of Corridor/Copper Shield"},
+					{"ref": "Dan's Crypt/Locked Gate/Throwing Daggers"},
+					{"ref": "Dan's Crypt/End of Corridor[1]/Coin Bag"},
+					{"ref": "Dan's Crypt/Behind Wall/Life Bottle"},
+					{"ref": "Dan's Crypt/Behind Wall/Coin Chest Left"},
+					{"ref": "Dan's Crypt/Behind Wall/Coin Chest Right"},
+						{"ref": "Dan's Crypt/Crypt Clear/Cleared Crypt"}
+
+				]
+			},
+			{
+                "name": "The Graveyard",
+                "map_locations": 
+                [
+                    {
+						"map": "World Map",
+                        "x": 320,
+                        "y": 710
+                    }
+                ],
+				"sections": 
+                [
+					{"ref": "The Graveyard/Life Bottle/Life Bottle"},
+					{"ref": "The Graveyard/First Crypt/Earth Rune"},
+					{"ref": "The Graveyard/Past Earth Gate[1]/Chaos Rune"},
+					{"ref": "The Graveyard/Island/Copper Shield"},
+					{"ref": "The Graveyard/Entrance/Coin Bag"},
+					{"ref": "The Graveyard/Past Earth Gate/Coin Bag"},
+					{"ref": "The Graveyard/Behind Fence/Coin Chest"},
+					{"ref": "The Graveyard/Life Bottle/Coin Chest Left"},
+					{"ref": "The Graveyard/Life Bottle/Coin Chest Right"},
+					{"ref": "The Graveyard/Shop/Coin Chest"},
+					{"ref": "The Graveyard/Fountain Near End/Coin Bag"},
+					{"ref": "The Graveyard/Spinning Statue/Chalice"},
+					{"ref": "The Graveyard/Graveyard Clear/Cleared Graveyard"}
+
+				]
+			},
+			{
+                "name": "Cemetery Hill",
+                "map_locations": 
+                [
+                    {
+						"map": "World Map",
+                        "x": 280,
+                        "y": 525
+                    }
+                ],
+				"sections": 
+                [
+					{"ref": "Cemetery Hill/Arena[4]/Witch Talisman"},
+					{"ref": "Cemetery Hill/Boulder Hill/Copper Shield 1"},
+					{"ref": "Cemetery Hill/Boulder Hill[3]/Copper Shield 2"},
+					{"ref": "Cemetery Hill/Boulder Hill[4]/Copper Shield 3"},
+					{"ref": "Cemetery Hill/Behind Boulders/Club"},
+					{"ref": "Cemetery Hill/Arena[3]/Copper Shield"},
+					{"ref": "Cemetery Hill/Shop/Energy Vial"},
+					{"ref": "Cemetery Hill/Arena[2]/Energy Vial"},
+					{"ref": "Cemetery Hill/Entrance Witch's Cave/Coin Bag"},
+					{"ref": "Cemetery Hill/Boulder Hill[1]/Coin Bag 1"},
+					{"ref": "Cemetery Hill/Boulder Hill[2]/Coin Bag 2"},
+					{"ref": "Cemetery Hill/Hilltop/Coin Chest"},
+					{"ref": "Cemetery Hill/Arena/Coin Chest"},
+					{"ref": "Cemetery Hill/Arena[1]/Chalice"},
+					{"ref": "Cemetery Hill/Clear/Cleared Cemetery"}
+				]
+			},
+			{
+                "name": "Hilltop Mausoleum",
+                "map_locations": 
+                [
+                    {
+						"map": "World Map",
+                        "x": 280,
+                        "y": 460
+                    }
+                ],
+				"sections": 
+                [
+					{"ref": "Hilltop Mausoleum/Basement East[1]/Sheet Music"},
+					{"ref": "Hilltop Mausoleum/Mausoleum Clear/Skull Key"},
+					{"ref": "Hilltop Mausoleum/Music Room/Chaos Rune"},
+					{"ref": "Hilltop Mausoleum/Basement West[1]/Earth Rune"},
+					{"ref": "Hilltop Mausoleum/Chapel/Moon Rune"},
+					{"ref": "Hilltop Mausoleum/Chapel Gate/Club"},
+					{"ref": "Hilltop Mausoleum/Glass Heart[1]/Throwing Daggers"},
+					{"ref": "Hilltop Mausoleum/Glass Heart/Copper Shield"},
+					{"ref": "Hilltop Mausoleum/3rd Grave Right/Energy Vial"},
+					{"ref": "Hilltop Mausoleum/Basement West/Energy Vial"},
+					{"ref": "Hilltop Mausoleum/Music Room[1]/Energy Vial 1"},
+					{"ref": "Hilltop Mausoleum/Music Room[1]/Energy Vial 2"},
+					{"ref": "Hilltop Mausoleum/Basement East/Energy Vial"},
+					{"ref": "Hilltop Mausoleum/4th Grave Left/Coin Bag"},
+					{"ref": "Hilltop Mausoleum/Below Chapel/Coin Bag"},
+					{"ref": "Hilltop Mausoleum/Basement East[2]/Coin Chest"},
+					{"ref": "Hilltop Mausoleum/Secret Alcove/Coin Chest 1"},
+					{"ref": "Hilltop Mausoleum/Secret Alcove/Coin Chest 2"},
+					{"ref": "Hilltop Mausoleum/Secret Alcove/Coin Chest 3"},
+					{"ref": "Hilltop Mausoleum/Secret Alcove/Chalice"},
+					{"ref": "Hilltop Mausoleum/Clear/Cleared Mausoleum"}
+				]
+			},
+			{
+                "name": "Return to the Graveyard",
+                "map_locations": 
+                [
+                    {
+						"map": "World Map",
+                        "x": 415,
+                        "y": 620
+                    }
+                ],
+				"sections": 
+                [
+				{"ref": "Return to the Graveyard/Atop Mound/Star Rune"},
+{"ref": "Return to the Graveyard/Shop/Silver Shield"},
+{"ref": "Return to the Graveyard/Return to the Graveyard/Daring Dash"},
+{"ref": "Return to the Graveyard/Secret Area/Energy Vial 1"},
+{"ref": "Return to the Graveyard/Secret Area/Energy Vial 2"},
+{"ref": "Return to the Graveyard/Shop[2]/Energy Vial"},
+{"ref": "Return to the Graveyard/Undertakers Entrance/Energy Vial"},
+{"ref": "Return to the Graveyard/Right Exit/Energy Vial"},
+{"ref": "Return to the Graveyard/Left Exit/Energy Vial"},
+{"ref": "Return to the Graveyard/Secret Area[1]/Coin Chest 1"},
+{"ref": "Return to the Graveyard/Secret Area[1]/Coin Chest 2"},
+{"ref": "Return to the Graveyard/Secret Area[1]/Coin Chest 3"},
+{"ref": "Return to the Graveyard/Secret Area[1]/Coin Chest 4"},
+{"ref": "Return to the Graveyard/Secret Area[1]/Coin Chest 5"},
+{"ref": "Return to the Graveyard/Secret Area Ledge/Coin Bag"},
+{"ref": "Return to the Graveyard/Raised Platform/Coin Bag"},
+{"ref": "Return to the Graveyard/Shop[1]/Coin Bag"},
+{"ref": "Return to the Graveyard/Fountain/Coin Bag"},
+{"ref": "Return to the Graveyard/Island/Coin Chest"},
+{"ref": "Return to the Graveyard/Undertakers Entrance[1]/Coin Bag"},
+{"ref": "Return to the Graveyard/Left Exit[1]/Coin Bag"},
+{"ref": "Return to the Graveyard/Undertakers/Chalice"},
+{"ref": "Return to the Graveyard/Clear/Cleared Return to the Graveyard"}
+				]
+			},
+			{
+                "name": "enchanted",
+                "map_locations": 
+                [
+                    {
+						"map": "World Map",
+                        "x": 460,
+                        "y": 450
+                    }
+                ],
+				"sections": 
+                [
+				{"ref": "Enchanted Earth/Element Room/Shadow Talisman"},
+{"ref": "Enchanted Earth/Elevator/Star Rune"},
+{"ref": "Enchanted Earth/Bird Nest/Coin Chest"},
+{"ref": "Enchanted Earth/Bird Nest/Copper Shield"},
+{"ref": "Enchanted Earth/Bird Nest/Earth Rune"},
+{"ref": "Enchanted Earth/Element Room/Energy Vial"},
+{"ref": "Enchanted Earth/Hollow Tree Top/Energy Vial 1"},
+{"ref": "Enchanted Earth/Hollow Tree Top/Energy Vial 2"},
+{"ref": "Enchanted Earth/Hollow Tree Bottom/Coin Bag"},
+{"ref": "Enchanted Earth/Behind Lift Tree/Coin Bag 1"},
+{"ref": "Enchanted Earth/Behind Lift Tree/Coin Bag 2"},
+{"ref": "Enchanted Earth/Shadow Head/Coin Bag"},
+{"ref": "Enchanted Earth/Gated Chest/Coin Chest"},
+{"ref": "Enchanted Earth/Past Elevator/Coin Chest 1"},
+{"ref": "Enchanted Earth/Past Elevator/Coin Chest 2"},
+{"ref": "Enchanted Earth/Past Elevator/Coin Chest 3"},
+{"ref": "Enchanted Earth/Element Room[1]/Chalice"},
+{"ref": "Enchanted Earth/Clear/Cleared Enchanted Earth"}
+				]
+			},
+			{
+                "name": "ant",
+                "map_locations": 
+                [
+                    {
+						"map": "World Map",
+                        "x": 490,
+                        "y": 450
+                    }
+                ],
+				"sections": 
+                [
+				{"ref": "Ant Caves/Ambers/Amber 1"},
+{"ref": "Ant Caves/Ambers/Amber 2"},
+{"ref": "Ant Caves/Ambers/Amber 3"},
+{"ref": "Ant Caves/Ambers/Amber 4"},
+{"ref": "Ant Caves/Ambers/Amber 5"},
+{"ref": "Ant Caves/Ambers/Amber 6"},
+{"ref": "Ant Caves/Ambers/Amber 7"},
+{"ref": "Ant Caves/Ambers/Amber 8"},
+{"ref": "Ant Caves/Ambers/Amber 9"},
+{"ref": "Ant Caves/Ambers/Amber 10"},
+{"ref": "Ant Caves/Fairies/Fairy 1"},
+{"ref": "Ant Caves/Fairies/Fairy 2"},
+{"ref": "Ant Caves/Fairies/Fairy 3"},
+{"ref": "Ant Caves/Fairies/Fairy 4"},
+{"ref": "Ant Caves/Fairies/Fairy 5"},
+{"ref": "Ant Caves/Fairies/Fairy 6"},
+{"ref": "Ant Caves/Caves Entrance/Club"},
+{"ref": "Ant Caves/Ant Caves Clear/Chicken Drumsticks"},
+{"ref": "Ant Caves/Energy Vials[2]/Energy Vial 3"},
+{"ref": "Ant Caves/Energy Vials/Energy Vial 1"},
+{"ref": "Ant Caves/Energy Vials[1]/Energy Vial 2"},
+{"ref": "Ant Caves/Energy Vials[3]/Energy Vial 4"},
+{"ref": "Ant Caves/Energy Vials[4]/Energy Vial 5"},
+{"ref": "Ant Caves/Behind Barrier/Coin Chest"},
+{"ref": "Ant Caves/Clear/Cleared Ant Caves"}
+				]
+			},
+			{
+                "name": "Scarecrow Fields",
+                "map_locations": 
+                [
+                    {
+						"map": "World Map",
+                        "x": 650,
+                        "y": 590
+                    }
+                ],
+				"sections": 
+                [
+				{"ref": "Scarecrow Fields/Spiker/Harvester Part"},
+{"ref": "Scarecrow Fields/Second Machine[1]/Chaos Rune"},
+{"ref": "Scarecrow Fields/Moon Shed/Earth Rune"},
+{"ref": "Scarecrow Fields/First Machine/Moon Rune"},
+{"ref": "Scarecrow Fields/Moon Shed[1]/Club"},
+{"ref": "Scarecrow Fields/Second Machine/Silver Shield"},
+{"ref": "Scarecrow Fields/Barn/Copper Shield"},
+{"ref": "Scarecrow Fields/Shop/Energy Vial"},
+{"ref": "Scarecrow Fields/Cornfield Left/Energy Vial"},
+{"ref": "Scarecrow Fields/Haystack 1/Coin Bag"},
+{"ref": "Scarecrow Fields/Haystack 2/Coin Chest"},
+{"ref": "Scarecrow Fields/Behind Shed/Coin Bag"},
+{"ref": "Scarecrow Fields/Barn[1]/Coin Bag"},
+{"ref": "Scarecrow Fields/Cornfield/Coin Bag"},
+{"ref": "Scarecrow Fields/Cornfield Right/Coin Bag"},
+{"ref": "Scarecrow Fields/Haybail 2/Coin Chest"},
+{"ref": "Scarecrow Fields/Haybail 1/Coin Bag"},
+{"ref": "Scarecrow Fields/Press/Coin Bag"},
+{"ref": "Scarecrow Fields/Spinner/Coin Bag"},
+{"ref": "Scarecrow Fields/Spiker/Coin Chest"},
+{"ref": "Scarecrow Fields/Harvested Path/Life Bottle"},
+{"ref": "Scarecrow Fields/Harvested Path[2]/Coin Chest"},
+{"ref": "Scarecrow Fields/Harvested Path[1]/Chalice"},
+{"ref": "Scarecrow Fields/Clear/Cleared Scarecrow Fields"}
+				]
+			},
+			{
+                "name": "gor",
+                "map_locations": 
+                [
+                    {
+						"map": "World Map",
+                        "x": 815,
+                        "y": 540
+                    }
+                ],
+				"sections": 
+                [
+				{"ref": "Pumpkin Gorge/On Top of Roots/Time Rune"},
+{"ref": "Pumpkin Gorge/Moon Rune Hut/Chaos Rune"},
+{"ref": "Pumpkin Gorge/Rising Mushrooms Side Path/Earth Rune"},
+{"ref": "Pumpkin Gorge/Moon Rune Path/Moon Rune"},
+{"ref": "Pumpkin Gorge/Hilltop/Star Rune"},
+{"ref": "Pumpkin Gorge/Moon Rune Path[1]/Club"},
+{"ref": "Pumpkin Gorge/Hilltop/Silver Shield"},
+{"ref": "Pumpkin Gorge/Roots Clearing/Energy Vial 1"},
+{"ref": "Pumpkin Gorge/Roots Clearing[1]/Energy Vial 2"},
+{"ref": "Pumpkin Gorge/Coop/Energy Vial"},
+{"ref": "Pumpkin Gorge/Moon Rune Hut[1]/Energy Vial"},
+{"ref": "Pumpkin Gorge/Hilltop/Energy Vial"},
+{"ref": "Pumpkin Gorge/Blocked Path Near End/Energy Vial"},
+{"ref": "Pumpkin Gorge/Chalice Path/Energy Vial"},
+{"ref": "Pumpkin Gorge/Entry Road/Coin Bag"},
+{"ref": "Pumpkin Gorge/Coop/Coin Chest 1"},
+{"ref": "Pumpkin Gorge/Coop/Coin Chest 2"},
+{"ref": "Pumpkin Gorge/Coop/Coin Chest 3"},
+{"ref": "Pumpkin Gorge/Rising Mushrooms/Coin Bag"},
+{"ref": "Pumpkin Gorge/Blocked Path Near End/Coin Chest"},
+{"ref": "Pumpkin Gorge/Behind Wall[1]/Coin Chest"},
+{"ref": "Pumpkin Gorge/Behind Wall/Chalice"},
+	{"ref": "Pumpkin Gorge/Clear/Cleared Pumpkin Gorge"}
+	
+				]
+			},
+			{
+                "name": "Pumpkin Serpent",
+                "map_locations": 
+                [
+                    {
+						"map": "World Map",
+                        "x": 910,
+                        "y": 495
+                    }
+                ],
+				"sections": 
+                [
+				{"ref": "Pumpkin Serpent/Witch's Cauldron/Dragon Gem"},
+{"ref": "Pumpkin Serpent/Dried up Pond/Silver Shield"},
+{"ref": "Pumpkin Serpent/Down the Well/Energy Vial 1"},
+{"ref": "Pumpkin Serpent/Down the Well/Energy Vial 2"},
+{"ref": "Pumpkin Serpent/Behind House/Coin Bag 1"},
+{"ref": "Pumpkin Serpent/Behind House[1]/Coin Bag 2"},
+{"ref": "Pumpkin Serpent/Pod Behind Roots/Coin Bag"},
+{"ref": "Pumpkin Serpent/Down the Well/Coin Chest"},
+{"ref": "Pumpkin Serpent/Down the Well[1]/Chalice"},
+{"ref": "Pumpkin Serpent/Clear/Cleared Pumpkin Serpent"}
+				]
+			},
+			{
+                "name": "Sleeping Village",
+                "map_locations": 
+                [
+                    {
+						"map": "World Map",
+                        "x": 750,
+                        "y": 460
+                    }
+                ],
+				"sections": 
+                [
+				{"ref": "Sleeping Village/Inn B2/Earth Rune"},
+{"ref": "Sleeping Village/Fountain/Chaos Rune"},
+{"ref": "Sleeping Village/House at Fountain/Moon Rune"},
+{"ref": "Sleeping Village/Church/Safe Key"},
+{"ref": "Sleeping Village/Mayor's House[1]/Shadow Artefact"},
+{"ref": "Sleeping Village/Blacksmith[1]/Crucifix"},
+{"ref": "Sleeping Village/Inn B2[1]/Landlord's Bust"},
+{"ref": "Sleeping Village/Library[1]/Crucifix Cast"},
+{"ref": "Sleeping Village/Blacksmith/Silver Shield"},
+{"ref": "Sleeping Village/Inn B1/Club"},
+{"ref": "Sleeping Village/Behind Pond/Energy Vial"},
+{"ref": "Sleeping Village/Inn B1[3]/Energy Vial"},
+{"ref": "Sleeping Village/Street Near End/Energy Vial"},
+{"ref": "Sleeping Village/Ledge at Mayor's House/Energy Vial"},
+{"ref": "Sleeping Village/Blacksmith/Coin Bag 1"},
+{"ref": "Sleeping Village/Blacksmith/Coin Bag 2"},
+{"ref": "Sleeping Village/Behind Pond/Coin Bag"},
+{"ref": "Sleeping Village/Inn/Coin Bag"},
+{"ref": "Sleeping Village/Inn B1[1]/Coin Bag 1"},
+{"ref": "Sleeping Village/Inn B1[1]/Coin Bag 2"},
+{"ref": "Sleeping Village/Inn B1[2]/Coin Bag 3"},
+{"ref": "Sleeping Village/Inn B1[2]/Coin Bag 4"},
+{"ref": "Sleeping Village/Library/Coin Bag"},
+{"ref": "Sleeping Village/Mayor's House/Coin Bag 1"},
+{"ref": "Sleeping Village/Mayor's House/Coin Bag 2"},
+{"ref": "Sleeping Village/Ledge at Mayor's House/Coin Chest"},
+{"ref": "Sleeping Village/Ledge at Mayor's House/Chalice"},
+{"ref": "Sleeping Village/Clear/Cleared Sleeping Village"}
+				]
+			},
+			{
+                "name": "Asylum Grounds",
+                "map_locations": 
+                [
+                    {
+						"map": "World Map",
+                        "x": 840,
+                        "y": 405
+                    }
+                ],
+				"sections": 
+                [
+				{"ref": "Asylum Grounds/Past Octopus/Chaos Rune"},
+{"ref": "Asylum Grounds/To Clown/Silver Shield"},
+{"ref": "Asylum Grounds/Chess Pieces/Energy Vial 1"},
+{"ref": "Asylum Grounds/Chess Pieces[1]/Energy Vial 2"},
+{"ref": "Asylum Grounds/Bell at Star[1]/Coin Bag 2"},
+{"ref": "Asylum Grounds/Bell at Star/Coin Bag 1"},
+{"ref": "Asylum Grounds/Shooting Statue/Coin Bag"},
+{"ref": "Asylum Grounds/2nd Grave to Elephant/Coin Bag"},
+{"ref": "Asylum Grounds/Mouse/Coin Bag"},
+{"ref": "Asylum Grounds/Bell Past Elephant/Coin Bag"},
+{"ref": "Asylum Grounds/Elephant/Chalice"},
+{"ref": "Asylum Grounds/Clear/Cleared Asylum Grounds"}
+				]
+			},
+			{
+                "name": "Inside the Asylum",
+                "map_locations": 
+                [
+                    {
+						"map": "World Map",
+                        "x": 905,
+                        "y": 355
+                    }
+                ],
+				"sections": 
+                [
+				{"ref": "Inside the Asylum/Prison/Earth Rune"},
+{"ref": "Inside the Asylum/Prison[2]/Dragon Gem"},
+{"ref": "Inside the Asylum/Room 1/Room 1 Clear"},
+{"ref": "Inside the Asylum/Room 2/Room 2 Clear"},
+{"ref": "Inside the Asylum/Room 3/Room 3 Clear"},
+{"ref": "Inside the Asylum/Room 4/Room 4 Clear"},
+{"ref": "Inside the Asylum/Room 5/Room 5 Clear"},
+{"ref": "Inside the Asylum/Prison[1]/Coin Bag 1"},
+{"ref": "Inside the Asylum/Prison/Coin Bag 2"},
+{"ref": "Inside the Asylum/Prison/Chalice"},
+{"ref": "Inside the Asylum/Clear/Cleared Inside the Asylum"}
+				]
+			},
+			{
+                "name": "Pools of the Ancient Dead",
+                "map_locations": 
+                [
+                    {
+						"map": "World Map",
+                        "x": 610,
+                        "y": 400
+                    }
+                ],
+				"sections": 
+                [
+				{"ref": "Pools of the Ancient Dead/East Side Life Bottle/Life Bottle"},
+{"ref": "Pools of the Ancient Dead/West Side[6]/Chaos Rune"},
+{"ref": "Pools of the Ancient Dead/West Side[2]/Soul 1"},
+{"ref": "Pools of the Ancient Dead/West Side[1]/Soul 2"},
+{"ref": "Pools of the Ancient Dead/West Side[4]/Soul 3"},
+{"ref": "Pools of the Ancient Dead/East Side/Soul 4"},
+{"ref": "Pools of the Ancient Dead/East Side[1]/Soul 5"},
+{"ref": "Pools of the Ancient Dead/East Side[3]/Soul 6"},
+{"ref": "Pools of the Ancient Dead/East Side[4]/Soul 7"},
+{"ref": "Pools of the Ancient Dead/East Side Downhill/Soul 8"},
+{"ref": "Pools of the Ancient Dead/East Side[2]/Silver Shield"},
+{"ref": "Pools of the Ancient Dead/Tower/Energy Vial"},
+{"ref": "Pools of the Ancient Dead/West Side[5]/Energy Vial"},
+{"ref": "Pools of the Ancient Dead/East Side[5]/Energy Vial"},
+{"ref": "Pools of the Ancient Dead/East Side Downhill[1]/Energy Vial 1"},
+{"ref": "Pools of the Ancient Dead/East Side Downhill[2]/Energy Vial 2"},
+{"ref": "Pools of the Ancient Dead/East Side Life Bottle/Energy Vial 1"},
+{"ref": "Pools of the Ancient Dead/East Side Life Bottle/Energy Vial 2"},
+{"ref": "Pools of the Ancient Dead/Start/Coin Bag"},
+{"ref": "Pools of the Ancient Dead/West Side/Coin Bag"},
+{"ref": "Pools of the Ancient Dead/East Side Life Bottle/Coin Chest 1"},
+{"ref": "Pools of the Ancient Dead/East Side Life Bottle/Coin Chest 2"},
+{"ref": "Pools of the Ancient Dead/West Side[3]/Chalice"},
+{"ref": "Pools of the Ancient Dead/Clear/Cleared Pools of the Ancient Dead"}
+				]
+			},
+			{
+                "name": "The Lake",
+                "map_locations": 
+                [
+                    {
+						"map": "World Map",
+                        "x": 440,
+                        "y": 340
+                    }
+                ],
+				"sections": 
+                [
+				{"ref": "The Lake/Left Path Back/Chaos Rune"},
+{"ref": "The Lake/Left Path/Earth Rune"},
+{"ref": "The Lake/Past Tunnel[2]/Star Rune"},
+{"ref": "The Lake/Right Path/Time Rune"},
+{"ref": "The Lake/Down Whirlpool/Silver Shield"},
+{"ref": "The Lake/Left Path[2]/Energy Vial"},
+{"ref": "The Lake/Down Whirlpool[4]/Energy Vial 1"},
+{"ref": "The Lake/Down Whirlpool[4]/Energy Vial 2"},
+{"ref": "The Lake/Left Path[1]/Coin Bag"},
+{"ref": "The Lake/Gate Path/Coin Bag"},
+{"ref": "The Lake/Down Whirlpool[1]/Coin Bag 1"},
+{"ref": "The Lake/Down Whirlpool[2]/Coin Bag 2"},
+{"ref": "The Lake/Down Whirlpool[3]/Coin Bag 3"},
+{"ref": "The Lake/Past Tunnel/Coin Bag"},
+{"ref": "The Lake/Past Tunnel[1]/Coin Chest"},
+{"ref": "The Lake/Past Tunnel[3]/Chalice"},
+{"ref": "The Lake/Clear/Cleared The Lake"}
+				]
+			},
+			{
+                "name": "The Crystal Caves",
+                "map_locations": 
+                [
+                    {
+						"map": "World Map",
+                        "x": 380,
+                        "y": 285
+                    }
+                ],
+				"sections": 
+                [
+				{"ref": "The Crystal Caves/Light Beams[1]/Earth Rune"},
+{"ref": "The Crystal Caves/Dragon's Lair[3]/Star Rune"},
+{"ref": "The Crystal Caves/Cavern Ledge/Silver Shield"},
+{"ref": "The Crystal Caves/Dragon's Lair[6]Dragon Armour"},
+{"ref": "The Crystal Caves/Dragon's Lair/Energy Vial 1"},
+{"ref": "The Crystal Caves/Dragon's Lair[5]/Energy Vial 2"},
+{"ref": "The Crystal Caves/Fountain Climb/Coin Bag"},
+{"ref": "The Crystal Caves/Crystal Pond/Coin Chest"},
+{"ref": "The Crystal Caves/Entrance Room/Coin Bag"},
+{"ref": "The Crystal Caves/Light Beams/Coin Bag"},
+{"ref": "The Crystal Caves/Cavern Ledge[1]/Coin Bag"},
+{"ref": "The Crystal Caves/Waterfall/Coin Chest"},
+{"ref": "The Crystal Caves/Dragon's Lair[1]/Coin Bag 1"},
+{"ref": "The Crystal Caves/Dragon's Lair[1]/Coin Bag 2"},
+{"ref": "The Crystal Caves/Dragon's Lair[1]/Coin Chest"},
+{"ref": "The Crystal Caves/Dragon's Lair[4]/Coin Bag 5"},
+{"ref": "The Crystal Caves/Dragon's Lair[4]/Coin Bag 6"},
+{"ref": "The Crystal Caves/Dragon's Lair[4]/Coin Bag 7"},
+{"ref": "The Crystal Caves/Dragon's Lair[4]/Coin Chest 3"},
+{"ref": "The Crystal Caves/Dragon's Lair[2]/Coin Bag 3"},
+{"ref": "The Crystal Caves/Dragon's Lair[2]/Coin Chest 2"},
+{"ref": "The Crystal Caves/Dragon's Lair[2]/Coin Bag 4"},
+{"ref": "The Crystal Caves/Water Pit[1]/Coin Bag 1"},
+{"ref": "The Crystal Caves/Water Pit/Coin Bag 2"},
+{"ref": "The Crystal Caves/Start/Chalice"},
+{"ref": "The Crystal Caves/Clear/Cleared The Crystal Caves"}
+				]
+			},
+			{
+                "name": "The Gallows Gauntlet",
+                "map_locations": 
+                [
+                    {
+						"map": "World Map",
+                        "x": 505,
+                        "y": 255
+                    }
+                ],
+				"sections": 
+                [
+				{"ref": "The Gallows Gauntlet/Gate at Start/Star Rune"},
+{"ref": "The Gallows Gauntlet/Near End 1/Silver Shield"},
+{"ref": "The Gallows Gauntlet/Chalice Gate[1]/Energy Vial"},
+{"ref": "The Gallows Gauntlet/Dragon Skeleton 1/Coin Bag"},
+{"ref": "The Gallows Gauntlet/Dragon Skeleton 2/Coin Bag"},
+{"ref": "The Gallows Gauntlet/Past Dragon Gate/Coin Chest"},
+{"ref": "The Gallows Gauntlet/Gate Near Star Gate/Coin Chest"},
+{"ref": "The Gallows Gauntlet/Chalice Gate/Chalice"},
+{"ref": "The Gallows Gauntlet/Clear/Cleared The Gallows Gauntlet"}
+				]
+			},
+			{
+                "name": "The Haunted Ruins",
+                "map_locations": 
+                [
+                    {
+						"map": "World Map",
+                        "x": 615,
+                        "y": 250
+                    }
+                ],
+				"sections": 
+                [
+				{"ref": "The Haunted Ruins/Crown Room[1]/Peregrin's Crown"},
+{"ref": "The Haunted Ruins/Front Wall/Chaos Rune"},
+{"ref": "The Haunted Ruins/Stone Golems/Earth Rune"},
+{"ref": "The Haunted Ruins/Inner Courtyard/Silver Shield"},
+{"ref": "The Haunted Ruins/Inner Wall East/Energy Vial 1"},
+{"ref": "The Haunted Ruins/Inner Wall East[1]/Energy Vial 2"},
+{"ref": "The Haunted Ruins/Inner Wall West/Energy Vial 1"},
+{"ref": "The Haunted Ruins/Inner Wall West/Energy Vial 2"},
+{"ref": "The Haunted Ruins/Outer Wall West/Energy Vial"},
+{"ref": "The Haunted Ruins/Farmers/Coin Bag"},
+{"ref": "The Haunted Ruins/Outer Wall West[1]/Coin Bag 1"},
+{"ref": "The Haunted Ruins/Outer Wall West[1]/Coin Bag 2"},
+{"ref": "The Haunted Ruins/Crown Room/Coin Bag"},
+{"ref": "The Haunted Ruins/Catapult/Coin Chest 1"},
+{"ref": "The Haunted Ruins/Catapult/Coin Chest 2"},
+{"ref": "The Haunted Ruins/Catapult/Coin Chest 3"},
+{"ref": "The Haunted Ruins/Outer Wall West[2]/Chalice"},
+{"ref": "The Haunted Ruins/Clear/Cleared The Haunted Ruins"}
+				]
+			},
+			{
+                "name": "The Ghost Ship",
+                "map_locations": 
+                [
+                    {
+						"map": "World Map",
+                        "x": 805,
+                        "y": 160
+                    }
+                ],
+				"sections": 
+                [
+				{"ref": "The Ghost Ship/Upstairs/Moon Rune"},
+{"ref": "The Ghost Ship/Past Cannons/Chaos Rune"},
+{"ref": "The Ghost Ship/Moon Cabin[1]/Star Rune"},
+{"ref": "The Ghost Ship/Below Trapdoors/Silver Shield"},
+{"ref": "The Ghost Ship/Captain/Club"},
+{"ref": "The Ghost Ship/Moon Cabin/Energy Vial"},
+{"ref": "The Ghost Ship/Cannon Room/Energy Vial"},
+{"ref": "The Ghost Ship/Below Trampolines 1/Energy Vial 1"},
+{"ref": "The Ghost Ship/Below Trampolines 1[1]/Energy Vial 2"},
+{"ref": "The Ghost Ship/Up the Lift/Energy Vial 1"},
+{"ref": "The Ghost Ship/Up the Lift[1]/Energy Vial 2"},
+{"ref": "The Ghost Ship/Below Trapdoors[1]/Coin Bag"},
+{"ref": "The Ghost Ship/Fountain/Coin Bag"},
+{"ref": "The Ghost Ship/Cannon Room[1]/Coin Chest"},
+{"ref": "The Ghost Ship/Below Trampolines 1[2]/Coin Bag"},
+{"ref": "The Ghost Ship/Up the Lift/Chalice"},
+{"ref": "The Ghost Ship/Clear/Cleared The Ghost Ship"}
+				]
+			},
+			{
+                "name": "The Entrance Hall",
+                "map_locations": 
+                [
+                    {
+						"map": "World Map",
+                        "x": 670,
+                        "y": 75
+                    }
+                ],
+				"sections": 
+                [
+					{"ref": "The Entrance Hall/Zarok's Library/Chalice"},
+					{"ref": "The Entrance Hall/Clear/Cleared The Entrance Hall"}
+
+				]
+			},
+			{
+                "name": "The Time Device",
+                "map_locations": 
+                [
+                    {
+						"map": "World Map",
+                        "x": 620,
+                        "y": 175
+                    }
+                ],
+				"sections": 
+                [
+				{"ref": "The Time Device/Entrance Fountain/Life Bottle"},
+{"ref": "The Time Device/South Path/Chaos Rune"},
+{"ref": "The Time Device/Lasers[1]/Earth Rune"},
+{"ref": "The Time Device/Earth Station[1]/Moon Rune"},
+{"ref": "The Time Device/Time Spinners[1]/Time Rune"},
+{"ref": "The Time Device/Time Spinners/Silver Shield"},
+{"ref": "The Time Device/Lasers[2]/Coin Bag 1"},
+{"ref": "The Time Device/Lasers[2]/Coin Bag 2"},
+{"ref": "The Time Device/Time Spinners[2]/Coin Chest 1"},
+{"ref": "The Time Device/Time Spinners[2]/Coin Chest 2"},
+{"ref": "The Time Device/Time Spinners[2]/Coin Chest 3"},
+{"ref": "The Time Device/Earth Station/Coin Bag 1"},
+{"ref": "The Time Device/Earth Station/Coin Bag 2"},
+{"ref": "The Time Device/Earth Station/Coin Bag 3"},
+{"ref": "The Time Device/Lasers/Chalice"},
+{"ref": "The Time Device/Clear/Cleared The Time Device"}
+				]
+			},
+			{
+                "name": "Zarok's Lair",
+                "map_locations": 
+                [
+                    {
+						"map": "World Map",
+                        "x": 695,
+                        "y": 180
+                    }
+                ],
+				"sections": 
+                [
+					{"ref": "The Time Device/Zarok's Lair/Good Lightning"},
+					{"ref": "The Time Device/Zarok's Lair[1]/Silver Shield"},
+					{"ref": "The Time Device/Clear Game/Cleared The Game"}
+				]
+			}
+		]
+    }
+]

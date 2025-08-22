@@ -1,0 +1,53 @@
+[
+    {	
+        "name": "The Entrance Hall",
+        "chest_unopened_img": "images/labels/full.png",
+        "chest_opened_img": "images/labels/empty.png",
+		"access_rules": [ "clearedship"],
+				
+        "children": 
+        [
+            {
+                "name": "Zarok's Library",
+                "map_locations": 
+                [
+                    {
+						"map": "Entrance Hall",
+                        "x": 810,
+                        "y": 975
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Chalice",
+						"chest_unopened_img": "images/items/chalice.png",
+						"chest_opened_img": "images/items/empty chalice.png"
+                    }
+                ]
+            },
+			{
+                "name": "Clear",
+                "map_locations": 
+                [
+                    {
+						"map": "Entrance Hall",
+                        "x": 100,
+                        "y": 170,
+						"shape": "diamond",
+						"size": 45
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Cleared The Entrance Hall",
+						"hosted_item": "clearedhall"
+					}
+                ]
+            }
+		]
+    }
+]

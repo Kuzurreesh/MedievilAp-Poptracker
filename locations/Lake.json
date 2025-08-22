@@ -1,0 +1,320 @@
+[
+    {	
+        "name": "The Lake",
+        "chest_unopened_img": "images/labels/full.png",
+        "chest_opened_img": "images/labels/empty.png",
+		"access_rules": [ "clearedpools"],
+				
+        "children": 
+        [
+            {
+                "name": "Left Path",
+                "map_locations": 
+                [
+                    {
+						"map": "Lake",
+                        "x": 895,
+                        "y": 1305
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Earth Rune",
+						"visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "Left Path",
+                "map_locations": 
+                [
+                    {
+						"map": "Lake",
+                        "x": 360,
+                        "y": 1595
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag"
+                    }
+                ]
+            },
+			{
+                "name": "Left Path",
+                "map_locations": 
+                [
+                    {
+						"map": "Lake",
+                        "x": 75,
+                        "y": 1645
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial"
+                    }
+                ]
+            },
+			{
+                "name": "Left Path Back",
+                "map_locations": 
+                [
+                    {
+						"map": "Lake",
+                        "x": 425,
+                        "y": 1060
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Chaos Rune",
+						"visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "Right Path",
+                "map_locations": 
+                [
+                    {
+						"map": "Lake",
+                        "x": 2300,
+                        "y": 1115
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Time Rune",
+						"visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "Down Whirlpool",
+                "map_locations": 
+                [
+                    {
+						"map": "Lake",
+                        "x": 2210,
+                        "y": 1515
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Silver Shield"
+                    }
+                ]
+            },
+			{
+                "name": "Down Whirlpool",
+                "map_locations": 
+                [
+                    {
+						"map": "Lake",
+                        "x": 1980,
+                        "y": 1410
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag 1"
+                    }
+                ]
+            },
+			{
+                "name": "Down Whirlpool",
+                "map_locations": 
+                [
+                    {
+						"map": "Lake",
+                        "x": 1780,
+                        "y": 1250
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag 2"
+                    }
+                ]
+            },
+			{
+                "name": "Down Whirlpool",
+                "map_locations": 
+                [
+                    {
+						"map": "Lake",
+                        "x": 1205,
+                        "y": 970
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag 3"
+                    }
+                ]
+            },
+			{
+                "name": "Down Whirlpool",
+                "map_locations": 
+                [
+                    {
+						"map": "Lake",
+                        "x": 1900,
+                        "y": 1355
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 1"
+                    },
+					{
+						"name": "Energy Vial 2"
+					}
+                ]
+            },
+			{
+                "name": "Gate Path",
+                "map_locations": 
+                [
+                    {
+						"map": "Lake",
+                        "x": 780,
+                        "y": 755
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag"
+                    }
+                ]
+            },
+			{
+                "name": "Past Tunnel",
+                "map_locations": 
+                [
+                    {
+						"map": "Lake",
+                        "x": 75,
+                        "y": 615
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag"
+                    }
+                ]
+            },
+			{
+                "name": "Past Tunnel",
+                "map_locations": 
+                [
+                    {
+						"map": "Lake",
+                        "x": 910,
+                        "y": 535
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Chest"
+                    }
+                ]
+            },
+			{
+                "name": "Past Tunnel",
+                "map_locations": 
+                [
+                    {
+						"map": "Lake",
+                        "x": 630,
+                        "y": 380
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Star Rune",
+						"visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "Past Tunnel",
+                "map_locations": 
+                [
+                    {
+						"map": "Lake",
+                        "x": 730,
+                        "y": 1110
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Chalice",
+						"chest_unopened_img": "images/items/chalice.png",
+						"chest_opened_img": "images/items/empty chalice.png"
+                    }
+                ]
+            },
+			{
+                "name": "Clear",
+                "map_locations": 
+                [
+                    {
+						"map": "Lake",
+                        "x": 185,
+                        "y": 1470,
+						"shape": "diamond",
+						"size": 60
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Cleared The Lake",
+						"hosted_item": "clearedlake"
+					}
+                ]
+            }
+		]
+    }
+]

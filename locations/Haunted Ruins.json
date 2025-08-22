@@ -1,0 +1,295 @@
+[
+    {	
+        "name": "The Haunted Ruins",
+        "chest_unopened_img": "images/labels/full.png",
+        "chest_opened_img": "images/labels/empty.png",
+		"access_rules": [ "clearedgallows"],
+				
+        "children": 
+        [
+            {
+                "name": "Front Wall",
+                "map_locations": 
+                [
+                    {
+						"map": "Haunted Ruins",
+                        "x": 870,
+                        "y": 1785
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Chaos Rune",
+						"visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "Farmers",
+                "map_locations": 
+                [
+                    {
+						"map": "Haunted Ruins",
+                        "x": 850,
+                        "y": 1705
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag"
+                    }
+                ]
+            },
+			{
+                "name": "Inner Wall East",
+                "map_locations": 
+                [
+                    {
+						"map": "Haunted Ruins",
+                        "x": 1300,
+                        "y": 1175
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 1"
+                    }
+                ]
+            },
+			{
+                "name": "Inner Wall East",
+                "map_locations": 
+                [
+                    {
+						"map": "Haunted Ruins",
+                        "x": 1385,
+                        "y": 1420
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 2"
+                    }
+                ]
+            },
+			{
+                "name": "Inner Wall West",
+                "map_locations": 
+                [
+                    {
+						"map": "Haunted Ruins",
+                        "x": 680,
+                        "y": 1310
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 1"
+                    },
+					{
+                        "name": "Energy Vial 2"
+                    }
+                ]
+            },
+			{
+                "name": "Inner Courtyard",
+                "map_locations": 
+                [
+                    {
+						"map": "Haunted Ruins",
+                        "x": 1275,
+                        "y": 1270
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Silver Shield"
+                    }
+                ]
+            },
+			{
+                "name": "Stone Golems",
+				"access_rules": "crown",
+                "map_locations": 
+                [
+                    {
+						"map": "Haunted Ruins",
+                        "x": 1200,
+                        "y": 1100
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Earth Rune",
+						"visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "Crown Room",
+                "map_locations": 
+                [
+                    {
+						"map": "Haunted Ruins",
+                        "x": 525,
+                        "y": 265
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag"
+                    }
+                ]
+            },
+			{
+                "name": "Crown Room",
+                "map_locations": 
+                [
+                    {
+						"map": "Haunted Ruins",
+                        "x": 480,
+                        "y": 415
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Peregrin's Crown"
+                    }
+                ]
+            },
+			{
+                "name": "Outer Wall West",
+                "map_locations": 
+                [
+                    {
+						"map": "Haunted Ruins",
+                        "x": 580,
+                        "y": 1480
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial"
+                    }
+                ]
+            },
+			{
+                "name": "Outer Wall West",
+                "map_locations": 
+                [
+                    {
+						"map": "Haunted Ruins",
+                        "x": 655,
+                        "y": 1710
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag 1"
+                    },
+					{
+                        "name": "Coin Bag 2"
+                    }
+                ]
+            },
+			{
+                "name": "Outer Wall West",
+				"access_rules": [
+				"club, crown", "hammer, crown"
+				],
+                "map_locations": 
+                [
+                    {
+						"map": "Haunted Ruins",
+                        "x": 715,
+                        "y": 1745
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Chalice",
+						"chest_unopened_img": "images/items/chalice.png",
+						"chest_opened_img": "images/items/empty chalice.png"
+                    }
+                ]
+            },
+			{
+                "name": "Catapult",
+				"access_rules": "crown",
+                "map_locations": 
+                [
+                    {
+						"map": "Haunted Ruins",
+                        "x": 540,
+                        "y": 1290
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Chest 1"
+                    },
+					{
+                        "name": "Coin Chest 2"
+                    },
+					{
+                        "name": "Coin Chest 3"
+                    }
+                ]
+            },
+			{
+                "name": "Clear",
+				"access_rules": [
+				"dragonarmour, crown","daring5, crown"
+				],
+                "map_locations": 
+                [
+                    {
+						"map": "Haunted Ruins",
+                        "x": 575,
+                        "y": 1345,
+						"shape": "diamond",
+						"size": 60
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Cleared The Haunted Ruins",
+						"hosted_item": "clearedruins"
+					}
+                ]
+            }
+		]
+    }
+]

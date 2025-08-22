@@ -1,0 +1,320 @@
+[
+    {	
+        "name": "Cemetery Hill",
+        "chest_unopened_img": "images/labels/full.png",
+        "chest_opened_img": "images/labels/empty.png",
+		"access_rules": [ "clearedgraveyard"],
+		
+        "children": 
+        [
+            {
+                "name": "Shop",
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 160,
+                        "y": 1885
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+				"name": "Behind Boulders",
+				"access_rules": [
+				"club", "hammer"
+				],
+				"map_locations": 
+				[
+					{
+						"map": "Cemetery Hill",
+                        "x": 560,
+                        "y": 1655
+                    }
+                ],
+                
+				
+				
+                "sections": 
+                [
+                    {
+                        "name": "Club"
+                    }
+					
+                ]
+			},
+			{
+                "name": "Boulder Hill",
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 680,
+                        "y": 1550
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Copper Shield 1",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Entrance Witch's Cave",
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 1145,
+                        "y": 1930
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Boulder Hill",
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 1100,
+                        "y": 1770
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag 1",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Boulder Hill",
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 800,
+                        "y": 1365
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag 2",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Arena",
+				"access_rules": [
+				"club"
+				],
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 1495,
+                        "y": 1585
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Chest",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Hilltop",
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 1050,
+                        "y": 1150
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Chest",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Arena",
+				"access_rules": [
+				"club"
+				],
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 1540,
+                        "y": 1650
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Chalice",
+						"chest_unopened_img": "images/items/chalice.png",
+						"chest_opened_img": "images/items/empty chalice.png"
+                    }
+                ]
+            },
+			{
+                "name": "Arena",
+				"access_rules": [
+				"club"
+				],
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 1650,
+                        "y": 1690
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Arena",
+				"access_rules": [
+				"club"
+				],
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 1710,
+                        "y": 1495
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Copper Shield",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Arena",
+				"access_rules": [
+				"club"
+				],
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 1610,
+                        "y": 1470
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Witch Talisman",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Boulder Hill",
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 760,
+                        "y": 1625
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Copper Shield 2",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Boulder Hill",
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 980,
+                        "y": 1625
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Copper Shield 3",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Clear",
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 1170,
+                        "y": 1200,
+						"shape": "diamond",
+						"size": 80
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Cleared Cemetery",
+						"hosted_item": "clearedhill"
+                    }
+                ]
+            }
+		]
+    }
+]

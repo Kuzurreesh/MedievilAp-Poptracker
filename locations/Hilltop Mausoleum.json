@@ -1,0 +1,353 @@
+[
+    {	
+        "name": "Hilltop Mausoleum",
+        "chest_unopened_img": "images/labels/full.png",
+        "chest_opened_img": "images/labels/empty.png",
+		"access_rules": [
+				"club, clearedhill", "hammer, clearedhill"
+				],
+		
+        "children": 
+        [
+            {
+                "name": "Basement West",
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 1325,
+                        "y": 450
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Basement West",
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 1150,
+                        "y": 485
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Earth Rune",
+                        "visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "Music Room",
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 2170,
+                        "y": 500
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Chaos Rune",
+                        "visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "Chapel",
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 1925,
+                        "y": 375
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Moon Rune",
+                        "visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+				"name": "Chapel Gate",
+				"parent": "Dan's Crypt",
+				"access_rules": [ "clearedhill"],
+				"map_locations": 
+				[
+					{
+						"map": "Cemetery Hill",
+                        "x": 1800,
+                        "y": 520
+                    }
+                ],
+                
+				
+				
+                "sections": 
+                [
+                    {
+                        "name": "Club"
+                    }
+					
+                ]
+			},
+			{
+                "name": "Glass Heart",
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 2500,
+                        "y": 211
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Copper Shield",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Basement East",
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 2715,
+                        "y": 1405
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Below Chapel",
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 2435,
+                        "y": 415
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "4th Grave Left",
+				"parent": "Dan's Crypt",
+				"access_rules": [ "clearedhill"],
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 1560,
+                        "y": 755
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "3rd Grave Right",
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 1630,
+                        "y": 875
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Basement East",
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 2740,
+                        "y": 1480
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Sheet Music",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Basement East",
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 2645,
+                        "y": 1475
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Chest",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Music Room",
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 2080,
+                        "y": 550
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 1",
+                        "clear_as_group": true
+                    },
+					{
+						"name": "Energy Vial 2",
+                        "clear_as_group": true
+					}
+                ]
+            },
+			{
+                "name": "Secret Alcove",
+				"access_rules": "sheetmusic",
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 2200,
+                        "y": 415
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Chalice",
+						"chest_unopened_img": "images/items/chalice.png",
+						"chest_opened_img": "images/items/empty chalice.png"
+                    },
+					{
+                        "name": "Coin Chest 1",
+                        "clear_as_group": true
+                    },
+					{
+                        "name": "Coin Chest 2",
+                        "clear_as_group": true
+                    },
+					{
+                        "name": "Coin Chest 3",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Glass Heart",
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 2460,
+                        "y": 290
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Throwing Daggers",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+			{
+                "name": "Clear",
+                "map_locations": 
+                [
+                    {
+						"map": "Cemetery Hill",
+                        "x": 2050,
+                        "y": 350,
+						"shape": "diamond",
+						"size": 80
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Skull Key"
+                    },
+					{
+                        "name": "Cleared Mausoleum",
+						"hosted_item": "clearedmausoleum"
+					}
+                ]
+            }
+		]
+    }
+]

@@ -19,13 +19,15 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "arm",
-                                "sword1",
+								"arm",
+								"sword",
                                 "broadsword",
-                                "magicsword",
-                                "shieldcopper",
-                                "shieldsilver",
-                                "shieldgold"
+								"magicsword",
+								"shieldcopper",
+								"shieldsilver",
+								"shieldgold"
+                                
+								
                             ],
                             [
                                 "club",
@@ -33,7 +35,7 @@
                                 "axe",
                                 "lightning",
                                 "goodlightning",
-                                "dragonpotion",
+                                "dragonarmour",
                                 "chickendrumstick"
                             ],
                             [
@@ -43,14 +45,14 @@
                                 "longbow",
                                 "flaminglongbow",
                                 "magiclongbow",
-								"chalice"
+								"daring5"
                             ]
                         ]
                     }
                 ]
             }
         ]
-		},
+	},
 		"crypt": {
         "type": "array",
         "orientation": "vertical",
@@ -66,9 +68,14 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "runechaos"
+								"starcrypt"
+							],
+							[
+                                "club",
+								"hammer",
+								"daring5"
                             ]
-                        ]
+						]
                     
                 
             }
@@ -89,9 +96,10 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "chaosgrave",
-								"earthgrave"
-                            ]
+                                "earthgrave",
+								"chaosgrave",
+								"clearedcrypt"
+							]
                         ]
                     
                 
@@ -112,8 +120,11 @@
                         "item_height": 50,
                         "item_width": 50,
                         "rows": [
-								["club"],
-								["hammer"]
+							[
+								"club",
+								"hammer",
+								"clearedgraveyard"
+							]
                         ]
                     
                 
@@ -135,12 +146,13 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "club",
-								"chaoshill",
 								"earthhill",
-								"moonhill"
+								"moonhill",
+								"chaoshill",
+								"clearedhill"
                             ],
 							[
+								"club",
 								"hammer",
 								"sheetmusic"
 							]
@@ -166,7 +178,8 @@
                         "rows": [
                             [
                                 "skullkey",
-								"starreturn"
+								"starreturn",
+								"clearedmausoleum"
                             ]
                         ]
                     
@@ -189,10 +202,11 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "chaosscare",
-								"earthscare",
 								"moonscare",
-								"harvesterpart"
+								"earthscare",
+								"chaosscare",
+								"harvesterpart",
+								"clearedrtg"
                             ]
                         ]
                     
@@ -215,14 +229,17 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "chaosgorge",
-								"earthgorge",
 								"moongorge",
-								"timegorge"
+								"chaosgorge",
+								"earthgorge",
+								"stargorge",
+								"timegorge",
+								"clearedfields"
                             ],
-							["club",
-							"hammer",
-							"dash"]
+							[	"club",
+								"hammer",
+								"daring5"
+							]
                         ]
                     
                 
@@ -244,7 +261,8 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "witchtalisman"
+                                "witchtalisman",
+								"clearedgorge"
                             ]
                         ]
                     
@@ -268,13 +286,15 @@
                         "rows": [
                             [
                                 "chaossleep",
+								"moonsleep",
 								"earthsleep",
-								"safekey"
+								"clearedfields"
                             ],
 							[
 								"landlordsbust",
 								"crucifixcast",
-								"crucifix"
+								"crucifix",
+								"safekey"
 							]
                         ]
                     
@@ -297,7 +317,8 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "chaosgrounds"
+                                "chaosgrounds",
+								"clearedvillage"
                             ]
                         ]
                     
@@ -320,7 +341,8 @@
                         "item_width": 50,
                         "rows": [
                             [
-								"earthasylum"
+								"earthasylum",
+								"clearedgrounds"
                             ]
                         ]
                     
@@ -345,13 +367,13 @@
                             [
                                 "earthenchant",
 								"starenchant",
-								"witchtalisman"
+								"witchtalisman",
+								"clearedrtg"
 							],
 							[
 								"shadowartefact",
 								"shadowtalisman"
-								
-                            ]
+							]
                         ]
                     
                 
@@ -373,7 +395,7 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "amber"
+								"club","hammer","amber","clearedrtg"
                             ]
                         ]
                     
@@ -397,7 +419,8 @@
                         "rows": [
                             [
                                 "chaospools",
-								"soulhelmet"
+								"soulhelmet",
+								"clearedenchant"
                             ]
                         ]
                     
@@ -420,10 +443,11 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "chaoslake",
 								"earthlake",
+                                "chaoslake",
+								"timelake",
 								"starlake",
-								"timelake"
+								"clearedpools"
                             ]
                         ]
                     
@@ -448,8 +472,13 @@
                             [
 								"earthcrystal",
 								"starcrystal",
-								"dragongem"
-                            ]
+								"dragongem",
+								"clearedlake"
+                            ],
+							[
+								"club",
+								"hammer"
+							]
                         ]
                     
                 
@@ -472,7 +501,8 @@
                         "rows": [
                             [
                                 "stargallow",
-								"dragonpotion"
+								"dragonarmour",
+								"clearedcrystal"
                             ]
                         ]
                     
@@ -497,8 +527,15 @@
                             [
                                 "chaosruins",
 								"earthruins",
-								"crown"
-                            ]
+								"crown",
+								"clearedgallows"
+                            ],
+							[
+								"daring5",
+								"dragonarmour",
+								"Club",
+								"Hammer"
+							]
                         ]
                     
                 
@@ -520,17 +557,21 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "chaosship",
 								"moonship",
-								"starship"
-                            ]
+								"starship",
+                                "chaosship",
+								"clearedruins"
+                            ],
+							[
+								"club"
+							]
                         ]
                     
                 
             }
         ]
 		},
-		"entrance": {
+		"hall": {
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",
@@ -545,8 +586,7 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "chaosgrave",
-								"earthgrave"
+								"clearedship"
                             ]
                         ]
                     
@@ -554,7 +594,6 @@
             }
         ]
 		},
-		
 		"device": {
         "type": "array",
         "orientation": "vertical",
@@ -570,10 +609,11 @@
                         "item_width": 50,
                         "rows": [
                             [
+								"timedevice",
                                 "chaosdevice",
 								"earthdevice",
 								"moondevice",
-								"timedevice"
+								"clearedhall"
                             ]
                         ]
                     
@@ -596,9 +636,39 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "goodlightning"
+                                "goodlightning",
+								"cleareddevice"
                             ]
                         ]
+                    
+                
+            }
+        ]
+		},
+
+		"settings": {
+		"type": "array",
+		"orientation": "vertical",
+		"margin": "0,0",
+		"content": [
+			{
+				"type": "itemgrid",
+						"item_margin": "5, 5",
+						"h_alignment": "left",
+						"item_h_alignment": "center",
+						"item_v_alignment": "center",
+						"item_height": 100,
+						"item_width": 100,
+						"rows": [
+							[
+								"runelabel",
+								"runesanity"
+							],
+							[
+								"antlabel",
+								"antcaves"
+							]
+						]
                     
                 
             }

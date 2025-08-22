@@ -1,0 +1,393 @@
+[
+    {	
+        "name": "The Crystal Caves",
+        "chest_unopened_img": "images/labels/full.png",
+        "chest_opened_img": "images/labels/empty.png",
+		"access_rules": [ "clearedlake"],
+				
+        "children": 
+        [
+            {
+                "name": "Entrance Room",
+                "map_locations": 
+                [
+                    {
+						"map": "Crystal Caves",
+                        "x": 1085,
+                        "y": 915
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag"
+                    }
+                ]
+            },
+			{
+                "name": "Light Beams",
+                "map_locations": 
+                [
+                    {
+						"map": "Crystal Caves",
+                        "x": 1450,
+                        "y": 720
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag"
+                    }
+                ]
+            },
+			{
+                "name": "Light Beams",
+                "map_locations": 
+                [
+                    {
+						"map": "Crystal Caves",
+                        "x": 1475,
+                        "y": 625
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Earth Rune",
+						"visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "Cavern Ledge",
+                "map_locations": 
+                [
+                    {
+						"map": "Crystal Caves",
+                        "x": 1980,
+                        "y": 585
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Silver Shield"
+                    }
+                ]
+            },
+			{
+                "name": "Cavern Ledge",
+                "map_locations": 
+                [
+                    {
+						"map": "Crystal Caves",
+                        "x": 2060,
+                        "y": 615
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag"
+                    }
+                ]
+            },
+			{
+                "name": "Fountain Climb",
+                "map_locations": 
+                [
+                    {
+						"map": "Crystal Caves",
+                        "x": 2445,
+                        "y": 880
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag"
+                    }
+                ]
+            },
+			{
+                "name": "Waterfall",
+                "map_locations": 
+                [
+                    {
+						"map": "Crystal Caves",
+                        "x": 2775,
+                        "y": 1140
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Chest"
+                    }
+                ]
+            },
+			{
+                "name": "Water Pit",
+                "map_locations": 
+                [
+                    {
+						"map": "Crystal Caves",
+                        "x": 1935,
+                        "y": 1290
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag 2"
+                    }
+                ]
+            },
+			{
+                "name": "Water Pit",
+                "map_locations": 
+                [
+                    {
+						"map": "Crystal Caves",
+                        "x": 2045,
+                        "y": 1480
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Bag 1"
+                    }
+                ]
+            },
+			{
+                "name": "Crystal Pond",
+                "map_locations": 
+                [
+                    {
+						"map": "Crystal Caves",
+                        "x": 1710,
+                        "y": 1240
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Chest"
+                    }
+                ]
+            },
+			{
+                "name": "Dragon's Lair",
+                "map_locations": 
+                [
+                    {
+						"map": "Crystal Caves",
+                        "x": 3160,
+                        "y": 1110,
+						"size": 45
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 1"
+                    }
+                ]
+            },
+			{
+                "name": "Dragon's Lair",
+                "map_locations": 
+                [
+                    {
+						"map": "Crystal Caves",
+                        "x": 3213,
+                        "y": 1130,
+						"size": 45
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Chest 1"
+                    },
+					{
+                        "name": "Coin Bag 1"
+                    },
+					{
+                        "name": "Coin Bag 2"
+                    }
+                ]
+            },
+			{
+                "name": "Dragon's Lair",
+                "map_locations": 
+                [
+                    {
+						"map": "Crystal Caves",
+                        "x": 3280,
+                        "y": 1055,
+						"size": 45
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Chest 2"
+                    },
+					{
+                        "name": "Coin Bag 3"
+                    },
+					{
+                        "name": "Coin Bag 4"
+                    }
+                ]
+            },
+			{
+                "name": "Dragon's Lair",
+                "map_locations": 
+                [
+                    {
+						"map": "Crystal Caves",
+                        "x": 3333,
+                        "y": 1065,
+						"size": 45
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Star Rune",
+						"visibility_rules": [
+                            "runesanity"
+							]
+                    }
+                ]
+            },
+			{
+                "name": "Dragon's Lair",
+                "map_locations": 
+                [
+                    {
+						"map": "Crystal Caves",
+                        "x": 3370,
+                        "y": 1175,
+						"size": 45
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Coin Chest 3"
+                    },
+					{
+                        "name": "Coin Bag 5"
+                    },
+					{
+                        "name": "Coin Bag 6"
+                    },
+					{
+                        "name": "Coin Bag 7"
+                    }
+                ]
+            },
+			{
+                "name": "Dragon's Lair",
+                "map_locations": 
+                [
+                    {
+						"map": "Crystal Caves",
+                        "x": 3317,
+                        "y": 1190,
+						"size": 45
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Energy Vial 2"
+                    }
+                ]
+            },
+			{
+                "name": "Dragon's Lair",
+                "map_locations": 
+                [
+                    {
+						"map": "Crystal Caves",
+                        "x": 3215,
+                        "y": 1290,
+						"shape": "trapezoid"
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Dragon Armour"
+                    }
+                ]
+            },
+			{
+                "name": "Start",
+                "map_locations": 
+                [
+                    {
+						"map": "Crystal Caves",
+                        "x": 515,
+                        "y": 895
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Chalice",
+						"chest_unopened_img": "images/items/chalice.png",
+						"chest_opened_img": "images/items/empty chalice.png"
+                    }
+                ]
+            },
+			{
+                "name": "Clear",
+                "map_locations": 
+                [
+                    {
+						"map": "Crystal Caves",
+                        "x": 985,
+                        "y": 230,
+						"shape": "diamond",
+						"size": 60
+                    }
+                ],
+                
+                "sections": 
+                [
+                    {
+                        "name": "Cleared The Crystal Caves",
+						"hosted_item": "clearedcrystal"
+					}
+                ]
+            }
+		]
+    }
+]
