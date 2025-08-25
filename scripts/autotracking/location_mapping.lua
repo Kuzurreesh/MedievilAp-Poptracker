@@ -9,7 +9,7 @@ LOCATION_MAPPING = {
 	[99274000] = {"@Dan's Crypt/Behind Wall/Life Bottle"},
 	[99274001] = {"@Dan's Crypt/Behind Wall/Coin Chest Left"},
 	[99274002] = {"@Dan's Crypt/Behind Wall/Coin Chest Right"},
-	[99252006] = {"clearedcrypt", "toggle"},
+	[99252006] = {"clearedcrypt"},
 	
 	--The Graveyard
 	[99253000] = {"@The Graveyard/Life Bottle/Life Bottle"},
@@ -89,7 +89,7 @@ LOCATION_MAPPING = {
 	[99256019] = {"@Return to the Graveyard/Undertakers Entrance[1]/Coin Bag"},
 	[99256020] = {"@Return to the Graveyard/Left Exit[1]/Coin Bag"},
 	[99256022] = {"@Return to the Graveyard/Undertakers/Chalice"},
-	[99256021] = {"clearedRtG"},
+	[99256021] = {"clearedrtg"},
 	
 	--Scarecrow Fields
 	[99257000] = {"@Scarecrow Fields/Spiker/Harvester Part"},
@@ -105,8 +105,8 @@ LOCATION_MAPPING = {
 	[99257010] = {"@Scarecrow Fields/Haystack 2/Coin Chest"},
 	[99257011] = {"@Scarecrow Fields/Behind Shed/Coin Bag"},
 	[99257012] = {"@Scarecrow Fields/Barn[1]/Coin Bag"},
-	[99257013] = {"@Scarecrow Fields/Cornfield/Coin Bag"},
-	[99257014] = {"@Scarecrow Fields/Cornfield Right/Coin Bag"},
+	[99257013] = {"@Scarecrow Fields/Cornfield Right/Coin Bag"},
+	[99257014] = {"@Scarecrow Fields/Cornfield/Coin Bag"},
 	[99257015] = {"@Scarecrow Fields/Haybail 2/Coin Chest"},
 	[99257016] = {"@Scarecrow Fields/Haybail 1/Coin Bag"},
 	[99257017] = {"@Scarecrow Fields/Press/Coin Bag"},
@@ -214,9 +214,9 @@ LOCATION_MAPPING = {
 	--Enchanted Earth
 	[99259000] = {"@Enchanted Earth/Element Room/Shadow Talisman"},
 	[99259001] = {"@Enchanted Earth/Elevator/Star Rune"},
-	[99259002] = {"@Enchanted Earth/Bird Nest/Coin Chest"},
-	[99259003] = {"@Enchanted Earth/Bird Nest/Copper Shield"},
-	[99259004] = {"@Enchanted Earth/Bird Nest/Earth Rune"},
+	[99259002] = {"@Enchanted Earth/Bird Nest/Egg 1"},
+	[99259003] = {"@Enchanted Earth/Bird Nest/Egg 2"},
+	[99259004] = {"@Enchanted Earth/Bird Nest/Egg 3"},
 	[99259005] = {"@Enchanted Earth/Element Room[2]/Energy Vial"},
 	[99259006] = {"@Enchanted Earth/Hollow Tree Top/Energy Vial 1"},
 	[99259007] = {"@Enchanted Earth/Hollow Tree Top/Energy Vial 2"},
@@ -262,10 +262,10 @@ LOCATION_MAPPING = {
 		--Pools of the Ancient Dead
 	[99261000] = {"@Pools of the Ancient Dead/East Side Life Bottle/Life Bottle"},
 	[99261001] = {"@Pools of the Ancient Dead/West Side[6]/Chaos Rune"},
-	[99261002] = {"@Pools of the Ancient Dead/West Side[2]/Soul 1"},
+	[99261002] = {"@Pools of the Ancient Dead/East Side/Soul 1"},
 	[99261003] = {"@Pools of the Ancient Dead/West Side[1]/Soul 2"},
 	[99261004] = {"@Pools of the Ancient Dead/West Side[4]/Soul 3"},
-	[99261005] = {"@Pools of the Ancient Dead/East Side/Soul 4"},
+	[99261005] = {"@Pools of the Ancient Dead/West Side[2]/Soul 4"},
 	[99261006] = {"@Pools of the Ancient Dead/East Side[1]/Soul 5"},
 	[99261007] = {"@Pools of the Ancient Dead/East Side[3]/Soul 6"},
 	[99261008] = {"@Pools of the Ancient Dead/East Side[4]/Soul 7"},
@@ -373,8 +373,8 @@ LOCATION_MAPPING = {
 	[99270006] = {"@The Ghost Ship/Cannon Room/Energy Vial"},
 	[99270007] = {"@The Ghost Ship/Below Trampolines 1/Energy Vial 1"},
 	[99270008] = {"@The Ghost Ship/Below Trampolines 1[1]/Energy Vial 2"},
-	[99270009] = {"@The Ghost Ship/Up the Lift/Energy Vial 1"},
-	[99270010] = {"@The Ghost Ship/Up the Lift[1]/Energy Vial 2"},
+	[99270009] = {"@The Ghost Ship/Up the Lift[1]/Energy Vial 1"},
+	[99270010] = {"@The Ghost Ship/Up the Lift/Energy Vial 2"},
 	[99270011] = {"@The Ghost Ship/Below Trapdoors[1]/Coin Bag"},
 	[99270012] = {"@The Ghost Ship/Fountain/Coin Bag"},
 	[99270013] = {"@The Ghost Ship/Cannon Room[1]/Coin Chest"},
@@ -435,3 +435,4 @@ LOCATION_MAPPING = {
 
 
 }
+

@@ -58,6 +58,22 @@ function onClear(slot_data)
             end
         end
     end
+	
+	if slot_data["options"] then
+	--	print("options detected: ")
+		local otable = slot_data["options"]
+		for key, value in pairs(otable) do
+		--	print("table: ", key, value)
+			if key == "include_ant_hill_in_checks" then
+			--	print("key ok: ", key, value)
+				Tracker:FindObjectForCode(key).Active = value
+			elseif key == "runesanity" then
+				Tracker:FindObjectForCode(key).Active = value
+			end
+		end
+	end
+	
+	
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
 end
