@@ -256,7 +256,7 @@ LOCATION_MAPPING = {
 	[99258021] = {"@Ant Caves/Energy Vials[3]/Energy Vial 4"},
 	[99258022] = {"@Ant Caves/Energy Vials[4]/Energy Vial 5"},
 	[99258023] = {"@Ant Caves/Behind Barrier/Coin Chest"},
-	[99258024] = {"clearedcaves"},
+	[99258024] = {"clearedant"},
 	--[99258025] = {"@Ant Caves/
 	
 		--Pools of the Ancient Dead
@@ -435,3 +435,4 @@ LOCATION_MAPPING = {
 
 
 }
+
