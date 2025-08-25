@@ -505,26 +505,39 @@
     },
 	{
         "name": "Runesanity",
-        "type": "progressive",
+        "type": "progressive_toggle",
         "img": "images/labels/runesanity.png",
 		"loop": "true",
         "codes": "runesanity"
     },
 	{
-        "name": "Runesanity Text",
+        "name": "Runesanity Label",
         "type": "static",
         "img": "images/labels/runesanity text.png",
         "codes": "runelabel"
     },
 	{
-        "name": "Ant Hill",
-        "type": "progressive",
-        "img": "images/labels/ant hill.png",
-		"loop": "true",
-        "codes": "antcaves"
+        "name": "Items",
+        "type": "static",
+        "img": "images/labels/items.png",
+        "codes": "items"
     },
 	{
-        "name": "Ant Caves Text",
+        "name": "Dan's Crypt",
+        "type": "static",
+        "img": "images/labels/dan's Crypt.png",
+        "codes": "cryptlabel"
+    },
+	{
+        "name": "Ant Caves",
+        "type": "progressive_toggle",
+		"loop": "true",
+		"img": "images/labels/ant hill.png",
+		"codes": "include_ant_hill_in_checks"
+		
+	},
+	{
+        "name": "Ant Caves Label",
         "type": "static",
         "img": "images/labels/ant caves text.png",
         "codes": "antlabel"
