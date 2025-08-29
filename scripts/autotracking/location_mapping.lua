@@ -9,7 +9,7 @@ LOCATION_MAPPING = {
 	[99274000] = {"@Dan's Crypt/Behind Wall/Life Bottle"},
 	[99274001] = {"@Dan's Crypt/Behind Wall/Coin Chest Left"},
 	[99274002] = {"@Dan's Crypt/Behind Wall/Coin Chest Right"},
-	[99252006] = {"clearedcrypt"},
+	[99252014] = {"clearedcrypt"},
 	
 	--The Graveyard
 	[99253000] = {"@The Graveyard/Life Bottle/Life Bottle"},
@@ -23,8 +23,8 @@ LOCATION_MAPPING = {
 	[99253008] = {"@The Graveyard/Life Bottle/Coin Chest Right"},
 	[99253009] = {"@The Graveyard/Shop/Coin Chest"},
 	[99253010] = {"@The Graveyard/Fountain Near End/Coin Bag"},
-	[99253012] = {"@The Graveyard/Spinning Statue/Chalice"},
-	[99253011] = {"clearedgraveyard"},
+	[99253017] = {"@The Graveyard/Spinning Statue/Chalice"},
+	[99253016] = {"clearedgraveyard"},
 
 	--Cemetery Hill
 	[99254000] = {"@Cemetery Hill/Arena[4]/Witch Talisman"},
@@ -41,7 +41,7 @@ LOCATION_MAPPING = {
 	[99254011] = {"@Cemetery Hill/Hilltop/Coin Chest"},
 	[99254012] = {"@Cemetery Hill/Arena/Coin Chest"},
 	[99275000] = {"@Cemetery Hill/Arena[1]/Chalice"},
-	[99254013] = {"clearedhill"},
+	[99254019] = {"clearedhill"},
 	
 	--Hilltop Mausoleum
 	[99255000] = {"@Hilltop Mausoleum/Basement East[1]/Sheet Music"},
@@ -64,7 +64,7 @@ LOCATION_MAPPING = {
 	[99276001] = {"@Hilltop Mausoleum/Secret Alcove/Coin Chest 2"},
 	[99276002] = {"@Hilltop Mausoleum/Secret Alcove/Coin Chest 3"},
 	[99276003] = {"@Hilltop Mausoleum/Secret Alcove/Chalice"},
-	[99255016] = {"clearedmausoleum"},
+	[99255020] = {"clearedmausoleum"},
 	
 	--Return to the Graveyard
 	[99256000] = {"@Return to the Graveyard/Atop Mound/Star Rune"},
@@ -88,8 +88,8 @@ LOCATION_MAPPING = {
 	[99256018] = {"@Return to the Graveyard/Island/Coin Chest"},
 	[99256019] = {"@Return to the Graveyard/Undertakers Entrance[1]/Coin Bag"},
 	[99256020] = {"@Return to the Graveyard/Left Exit[1]/Coin Bag"},
-	[99256022] = {"@Return to the Graveyard/Undertakers/Chalice"},
-	[99256021] = {"clearedrtg"},
+	[99256026] = {"@Return to the Graveyard/Undertakers/Chalice"},
+	[99256025] = {"clearedrtg"},
 	
 	--Scarecrow Fields
 	[99257000] = {"@Scarecrow Fields/Spiker/Harvester Part"},
@@ -115,7 +115,7 @@ LOCATION_MAPPING = {
 	[99277000] = {"@Scarecrow Fields/Harvested Path/Life Bottle"},
 	[99277001] = {"@Scarecrow Fields/Harvested Path[2]/Coin Chest"},
 	[99277002] = {"@Scarecrow Fields/Harvested Path[1]/Chalice"},
-	[99257020] = {"clearedfields"},
+	[99257026] = {"clearedfields"},
 	
 	--Pumpkin Gorge
 	[99267000] = {"@Pumpkin Gorge/On Top of Roots/Time Rune"},
@@ -139,8 +139,8 @@ LOCATION_MAPPING = {
 	[99267018] = {"@Pumpkin Gorge/Rising Mushrooms/Coin Bag"},
 	[99267019] = {"@Pumpkin Gorge/Blocked Path Near End/Coin Chest"},
 	[99267020] = {"@Pumpkin Gorge/Behind Wall[1]/Coin Chest"},
-	[99267022] = {"@Pumpkin Gorge/Behind Wall/Chalice"},
-	[99267021] = {"clearedgorge"},
+	[99267024] = {"@Pumpkin Gorge/Behind Wall/Chalice"},
+	[99267023] = {"clearedgorge"},
 	
 	--Pumpkin Serpent
 	[99268000] = {"@Pumpkin Serpent/Witch's Cauldron/Dragon Gem"},
@@ -151,8 +151,8 @@ LOCATION_MAPPING = {
 	[99268005] = {"@Pumpkin Serpent/Behind House[1]/Coin Bag 2"},
 	[99268006] = {"@Pumpkin Serpent/Pod Behind Roots/Coin Bag"},
 	[99268007] = {"@Pumpkin Serpent/Down the Well/Coin Chest"},
-	[99268009] = {"@Pumpkin Serpent/Down the Well[1]/Chalice"},
-	[99268008] = {"clearedserpent"},
+	[99268011] = {"@Pumpkin Serpent/Down the Well[1]/Chalice"},
+	[99268010] = {"clearedserpent"},
 	
 	--Sleeping Village
 	[99260000] = {"@Sleeping Village/Inn B2/Earth Rune"},
@@ -181,8 +181,8 @@ LOCATION_MAPPING = {
 	[99260023] = {"@Sleeping Village/Mayor's House/Coin Bag 1"},
 	[99260024] = {"@Sleeping Village/Mayor's House/Coin Bag 2"},
 	[99260025] = {"@Sleeping Village/Ledge at Mayor's House/Coin Chest"},
-	[99260027] = {"@Sleeping Village/Ledge at Mayor's House/Chalice"},
-	[99260026] = {"clearedvillage"},
+	[99260042] = {"@Sleeping Village/Ledge at Mayor's House/Chalice"},
+	[99260041] = {"clearedvillage"},
 
 	--Asylum Grounds
 	[99265000] = {"@Asylum Grounds/Past Octopus/Chaos Rune"},
@@ -195,8 +195,8 @@ LOCATION_MAPPING = {
 	[99265007] = {"@Asylum Grounds/2nd Grave to Elephant/Coin Bag"},
 	[99265008] = {"@Asylum Grounds/Mouse/Coin Bag"},
 	[99265009] = {"@Asylum Grounds/Bell Past Elephant/Coin Bag"},
-	[99265011] = {"@Asylum Grounds/Elephant/Chalice"},
-	[99265010] = {"clearedgrounds"},
+	[99265014] = {"@Asylum Grounds/Elephant/Chalice"},
+	[99265013] = {"clearedgrounds"},
 
 	--Inside the Asylum
 	[99266000] = {"@Inside the Asylum/Prison/Earth Rune"},
@@ -228,8 +228,8 @@ LOCATION_MAPPING = {
 	[99259013] = {"@Enchanted Earth/Past Elevator/Coin Chest 1"},
 	[99259014] = {"@Enchanted Earth/Past Elevator/Coin Chest 2"},
 	[99259015] = {"@Enchanted Earth/Past Elevator/Coin Chest 3"},
-	[99259017] = {"@Enchanted Earth/Element Room[1]/Chalice"},
-	[99259016] = {"clearedenchant"},
+	[99259023] = {"@Enchanted Earth/Element Room[1]/Chalice"},
+	[99259022] = {"clearedenchant"},
 	
 	--Ant Caves
 	[99258000] = {"@Ant Caves/Ambers/Amber 1"},
@@ -256,8 +256,8 @@ LOCATION_MAPPING = {
 	[99258021] = {"@Ant Caves/Energy Vials[3]/Energy Vial 4"},
 	[99258022] = {"@Ant Caves/Energy Vials[4]/Energy Vial 5"},
 	[99258023] = {"@Ant Caves/Behind Barrier/Coin Chest"},
-	[99258025] = {"@Ant Caves/Clear/Chalice"},
-	[99258024] = {"clearedant"},
+	[99258028] = {"@Ant Caves/Clear/Chalice"},
+	[99258027] = {"clearedant"},
 	
 	
 		--Pools of the Ancient Dead
@@ -283,8 +283,8 @@ LOCATION_MAPPING = {
 	[99261019] = {"@Pools of the Ancient Dead/West Side/Coin Bag"},
 	[99261020] = {"@Pools of the Ancient Dead/East Side Life Bottle/Coin Chest 1"},
 	[99261021] = {"@Pools of the Ancient Dead/East Side Life Bottle/Coin Chest 2"},
-	[99261023] = {"@Pools of the Ancient Dead/West Side[3]/Chalice"},
-	[99261022] = {"clearedpools"},
+	[99261025] = {"@Pools of the Ancient Dead/West Side[3]/Chalice"},
+	[99261024] = {"clearedpools"},
 	
 	--The Lake
 	[99262000] = {"@The Lake/Left Path Back/Chaos Rune"},
@@ -302,8 +302,8 @@ LOCATION_MAPPING = {
 	[99262012] = {"@The Lake/Down Whirlpool[3]/Coin Bag 3"},
 	[99262013] = {"@The Lake/Past Tunnel/Coin Bag"},
 	[99262014] = {"@The Lake/Past Tunnel[1]/Coin Chest"},
-	[99262016] = {"@The Lake/Past Tunnel[3]/Chalice"},
-	[99262015] = {"clearedlake"},
+	[99262019] = {"@The Lake/Past Tunnel[3]/Chalice"},
+	[99262018] = {"clearedlake"},
 	
 	--The Crystal Caves
 	[99263000] = {"@The Crystal Caves/Light Beams[1]/Earth Rune"},
@@ -330,8 +330,8 @@ LOCATION_MAPPING = {
 	[99263021] = {"@The Crystal Caves/Dragon's Lair[2]/Coin Bag 4"},
 	[99263022] = {"@The Crystal Caves/Water Pit[1]/Coin Bag 1"},
 	[99263023] = {"@The Crystal Caves/Water Pit/Coin Bag 2"},
-	[99263025] = {"@The Crystal Caves/Start/Chalice"},
-	[99263024] = {"clearedcrystal"},
+	[99263027] = {"@The Crystal Caves/Start/Chalice"},
+	[99263026] = {"clearedcrystal"},
 
 	--Gallows Gauntlet
 	[99264000] = {"@The Gallows Gauntlet/Gate at Start/Star Rune"},
@@ -341,8 +341,8 @@ LOCATION_MAPPING = {
 	[99264004] = {"@The Gallows Gauntlet/Dragon Skeleton 2/Coin Bag"},
 	[99264005] = {"@The Gallows Gauntlet/Past Dragon Gate/Coin Chest"},
 	[99264006] = {"@The Gallows Gauntlet/Gate Near Star Gate/Coin Chest"},
-	[99264008] = {"@The Gallows Gauntlet/Chalice Gate/Chalice"},
-	[99264007] = {"clearedgallows"},
+	[99264012] = {"@The Gallows Gauntlet/Chalice Gate/Chalice"},
+	[99264011] = {"clearedgallows"},
 
 	--The Haunted Ruins
 	[99269000] = {"@The Haunted Ruins/Crown Room[1]/Peregrin's Crown"},
@@ -361,8 +361,8 @@ LOCATION_MAPPING = {
 	[99269013] = {"@The Haunted Ruins/Catapult/Coin Chest 1"},
 	[99269014] = {"@The Haunted Ruins/Catapult/Coin Chest 2"},
 	[99269015] = {"@The Haunted Ruins/Catapult/Coin Chest 3"},
-	[99269017] = {"@The Haunted Ruins/Outer Wall West[2]/Chalice"},
-	[99269016] = {"clearedruins"},
+	[99269026] = {"@The Haunted Ruins/Outer Wall West[2]/Chalice"},
+	[99269025] = {"clearedruins"},
 
 	--The Ghost Ship
 	[99270000] = {"@The Ghost Ship/Upstairs/Moon Rune"},
@@ -380,12 +380,12 @@ LOCATION_MAPPING = {
 	[99270012] = {"@The Ghost Ship/Fountain/Coin Bag"},
 	[99270013] = {"@The Ghost Ship/Cannon Room[1]/Coin Chest"},
 	[99270014] = {"@The Ghost Ship/Below Trampolines 1[2]/Coin Bag"},
-	[99270016] = {"@The Ghost Ship/Up the Lift/Chalice"},
-	[99270015] = {"clearedship"},
+	[99270018] = {"@The Ghost Ship/Up the Lift/Chalice"},
+	[99270017] = {"clearedship"},
 
 	--The Entrance Hall
-	[99271001] = {"@The Entrance Hall/Zarok's Library/Chalice"},
-	[99271000] = {"clearedhall"},
+	[99271005] = {"@The Entrance Hall/Zarok's Library/Chalice"},
+	[99271004] = {"clearedhall"},
 
 	--The Time Device
 	[99272000] = {"@The Time Device/Entrance Fountain/Life Bottle"},
@@ -402,8 +402,8 @@ LOCATION_MAPPING = {
 	[99272011] = {"@The Time Device/Earth Station/Coin Bag 1"},
 	[99272012] = {"@The Time Device/Earth Station/Coin Bag 2"},
 	[99272013] = {"@The Time Device/Earth Station/Coin Bag 3"},
-	[99272015] = {"@The Time Device/Lasers/Chalice"},
-	[99272014] = {"cleareddevice"},
+	[99272017] = {"@The Time Device/Lasers/Chalice"},
+	[99272016] = {"cleareddevice"},
 
 	--Zarok's Lair
 	[99273000] = {"@The Time Device/Zarok's Lair/Good Lightning"},
