@@ -35,6 +35,7 @@
             },
 			{
                 "name": "Blacksmith",
+				"access_rules": [ "landlordsbust, crucifixcast"],
                 "map_locations": 
                 [
                     {
@@ -295,6 +296,7 @@
                     },
 					{
                         "name": "Chalice",
+						"visibility_rules": "include_chalices_in_checks",
 						"chest_unopened_img": "images/items/chalice.png",
 						"chest_opened_img": "images/items/empty chalice.png"
                     },

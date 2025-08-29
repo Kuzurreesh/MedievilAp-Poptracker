@@ -68,6 +68,16 @@ function onClear(slot_data)
 			--	print("key ok: ", key, value)
 				Tracker:FindObjectForCode(key).Active = value
 			elseif key == "runesanity" then
+				if value == 1 then
+					Tracker:FindObjectForCode(key).Active = value
+				else
+					Tracker:FindObjectForCode("rune").Active = true
+				end
+			elseif key == "goal" then
+					print("goal: ", key, value)
+					Tracker:FindObjectForCode("goal").CurrentStage = value
+			elseif key == "include_chalices_in_checks" then
+			--	print("key ok: ", key, value)
 				Tracker:FindObjectForCode(key).Active = value
 			end
 		end
@@ -161,7 +171,11 @@ function onLocation(location_id, location_name)
     if obj then
         if v[1]:sub(1, 1) == "@" then
             obj.AvailableChestCount = obj.AvailableChestCount - 1
-        else
+			if v[1]:sub(-7) == "Chalice" then
+				local m = Tracker:FindObjectForCode("chalice")
+				m.AcquiredCount = m.AcquiredCount + m.Increment
+			end
+		else
             obj.Active = true
         end
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then

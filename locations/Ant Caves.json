@@ -4,10 +4,10 @@
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
 		"visibility_rules": 
-			["antcaves"],
+			["include_ant_hill_in_checks"],
 			
 		"access_rules": 
-			["club, clearedrtg", "Hammer, clearedrtg"],
+			["club, clearedrtg, witchtalisman", "Hammer, clearedrtg, witchtalisman"],
 		
         "children": 
         [
@@ -34,7 +34,7 @@
 				"parent": "Dan's Crypt",
 				"access_rules": [ "clearedrtg"],
 				"visibility_rules": [
-                            "antcaves"
+                            "include_ant_hill_in_checks"
 							],
 							
                 "map_locations": 
@@ -321,10 +321,11 @@
                         "name": "Chicken Drumsticks"
                     },
 					{
+						"name": "Chalice"
+					},
+					{
                         "name": "Cleared Ant Caves",
-						"hosted_item": "clearedant",
-						"chest_unopened_img": "images/labels/Not Cleared.png",
-						"chest_opened_img": "images/labels/Cleared.png"
+						"hosted_item": "clearedant"
                     }
                 ]
             }

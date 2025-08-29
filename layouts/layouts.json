@@ -16,23 +16,36 @@
 							"dock": "top",
 							"tabs": [
 								{
-									"title": "Items",
+									"title": "Inventory",
 									"icon": "images/items/life bottle.png",
 									"content": [
 										{
-											"type": "dock",
+											"type": "array",
 											"dock": "top",
-											"v_alignment": "stretch",
+											"v_alignment": "top",
 											"content": [
 												{
-													"type": "group",
-													"header": "Items",
-													"dock": "top",
-													"content": {
+													
+														"type": "layout",
+														"key": "weapons"
+												
+												},
+												{
 														"type": "layout",
 														"key": "shared_item_grid_horizontal"
-													}
+													
+												},
+												{
+														"type": "layout",
+														"key": "keyitemslabel"
+													
+												},
+												{
+														"type": "layout",
+														"key": "keyitems"
+													
 												}
+													
 												
 												
 											]
@@ -62,16 +75,26 @@
 									"content": {
 										"type": "dock",
 										"dock": "top",
+										"margin": "5, 0",
 										"orientation": "vertical",
 										"content": [
 											{
-												"type": "group",
-												"header": "Dan's Crypt",
-												"dock": "left",
-												"content": {
+												"type": "array",
+												"dock": "top",												
+												"v_alignment": "top",
+												"content": [
+												{
+													
+														"type": "layout",
+														"key": "cryptlabel"
+												
+												},
+												{
 													"type": "layout",
-													"key": "crypt"
+														"key": "crypt"
+													
 												}
+												]
 											},									
 											{
 												"type": "map",
@@ -89,13 +112,22 @@
 										"orientation": "vertical",
 										"content": [
 											{
-												"type": "group",
-												"header": "Graveyard",
-												"dock": "left",
-												"content": {
+												"type": "array",
+												"dock": "top",												
+												"v_alignment": "top",
+												"content": [
+												{
+													
+														"type": "layout",
+														"key": "graveyardlabel"
+												
+												},
+												{
 													"type": "layout",
-													"key": "graveyard"
+														"key": "graveyard"
+													
 												}
+												]
 											},									
 											{
 												"type": "map",
@@ -112,36 +144,30 @@
 										"dock": "top",
 										"orientation": "vertical",
 										"content": [
+											
 											{
-												"type": "container",
-												"dock": "left",
-												"content": {
-													"type": "group",
-												"header": "Cemetery Hill",
-												"dock": "left",
-												"content": {
+												"type": "array",
+												"dock": "top",												
+												"v_alignment": "top",
+												"content": [
+												{
+													
+														"type": "layout",
+														"key": "cemeterylabel"
+												
+												},
+												{
 													"type": "layout",
-													"key": "cemetery"
+														"key": "cemetery"
+													
 												}
-												}
-											},
-											{
-												"type": "container",
-												"dock": "left",
-												"content": {
-													"type": "group",
-												"header": "Hilltop Mausoleum",
-												"dock": "left",
-												"content": {
-													"type": "layout",
-													"key": "hilltop"
-												}
-												}
-											},
+												]
+											},	
 											{
 												"type": "map",
 												"maps": ["Cemetery Hill"]
 											}
+											
 											]
 									}
 								},
@@ -156,14 +182,23 @@
 										"orientation": "vertical",
 										"content": [
 											{
-												"type": "group",
-												"header": "Return to the Graveyard",
-												"dock": "left",
-												"content": {
+												"type": "array",
+												"dock": "left",												
+												"v_alignment": "left",
+												"content": [
+												{
+													
+														"type": "layout",
+														"key": "returnlabel"
+												
+												},
+												{
 													"type": "layout",
-													"key": "return graveyard"
+														"key": "return graveyard"
+													
 												}
-											},									
+												]
+											},								
 											{
 												"type": "map",
 												"maps": ["Return to the Graveyard"]
@@ -180,14 +215,23 @@
 										"orientation": "vertical",
 										"content": [
 											{
-												"type": "group",
-												"header": "Scarecrow Fields",
-												"dock": "left",
-												"content": {
+												"type": "array",
+												"dock": "top",												
+												"v_alignment": "top",
+												"content": [
+												{
+													
+														"type": "layout",
+														"key": "fieldslabel"
+												
+												},
+												{
 													"type": "layout",
-													"key": "scarecrow"
+														"key": "scarecrow"
+													
 												}
-											},									
+												]
+											},							
 											{
 												"type": "map",
 												"maps": ["Scarecrow Fields"]
@@ -204,14 +248,23 @@
 										"orientation": "vertical",
 										"content": [
 											{
-												"type": "group",
-												"header": "Pumpkin Gorge",
-												"dock": "left",
-												"content": {
+												"type": "array",
+												"dock": "top",												
+												"v_alignment": "top",
+												"content": [
+												{
+													
+														"type": "layout",
+														"key": "gorgelabel"
+												
+												},
+												{
 													"type": "layout",
-													"key": "gorge"
+														"key": "gorge"
+													
 												}
-											},									
+												]
+											},										
 											{
 												"type": "map",
 												"maps": ["Pumpkin Gorge"]
@@ -228,14 +281,23 @@
 										"orientation": "vertical",
 										"content": [
 											{
-												"type": "group",
-												"header": "Pumpkin Serpent",
-												"dock": "left",
-												"content": {
+												"type": "array",
+												"dock": "top",												
+												"v_alignment": "top",
+												"content": [
+												{
+													
+														"type": "layout",
+														"key": "serpentlabel"
+												
+												},
+												{
 													"type": "layout",
-													"key": "serpent"
+														"key": "serpent"
+													
 												}
-											},									
+												]
+											},										
 											{
 												"type": "map",
 												"maps": ["Pumpkin Serpent"]
@@ -252,13 +314,22 @@
 										"orientation": "vertical",
 										"content": [
 											{
-												"type": "group",
-												"header": "Sleeping Village",
-												"dock": "left",
-												"content": {
+												"type": "array",
+												"dock": "top",												
+												"v_alignment": "top",
+												"content": [
+												{
+													
+														"type": "layout",
+														"key": "villagelabel"
+												
+												},
+												{
 													"type": "layout",
-													"key": "village"
+														"key": "village"
+													
 												}
+												]
 											},									
 											{
 												"type": "map",
@@ -277,14 +348,23 @@
 										"orientation": "vertical",
 										"content": [
 											{
-												"type": "group",
-												"header": "Asylum Grounds",
-												"dock": "left",
-												"content": {
+												"type": "array",
+												"dock": "top",												
+												"v_alignment": "top",
+												"content": [
+												{
+													
+														"type": "layout",
+														"key": "groundslabel"
+												
+												},
+												{
 													"type": "layout",
-													"key": "grounds"
+														"key": "grounds"
+													
 												}
-											},									
+												]
+											},										
 											{
 												"type": "map",
 												"maps": ["Asylum Grounds"]
@@ -301,13 +381,22 @@
 										"orientation": "vertical",
 										"content": [
 											{
-												"type": "group",
-												"header": "Inside the Asylum",
-												"dock": "left",
-												"content": {
+												"type": "array",
+												"dock": "top",												
+												"v_alignment": "top",
+												"content": [
+												{
+													
+														"type": "layout",
+														"key": "asylumlabel"
+												
+												},
+												{
 													"type": "layout",
-													"key": "asylum"
+														"key": "asylum"
+													
 												}
+												]
 											},									
 											{
 												"type": "map",
@@ -325,13 +414,22 @@
 										"orientation": "vertical",
 										"content": [
 											{
-												"type": "group",
-												"header": "Enchanted Earth",
-												"dock": "left",
-												"content": {
+												"type": "array",
+												"dock": "top",												
+												"v_alignment": "top",
+												"content": [
+												{
+													
+														"type": "layout",
+														"key": "enchantlabel"
+												
+												},
+												{
 													"type": "layout",
-													"key": "earth"
+														"key": "earth"
+													
 												}
+												]
 											},									
 											{
 												"type": "map",
@@ -348,14 +446,23 @@
 										"dock": "top",
 										"orientation": "vertical",
 										"content": [
-											{
-												"type": "group",
-												"header": "Ant Caves",
-												"dock": "left",
-												"content": {
+												{
+												"type": "array",
+												"dock": "top",												
+												"v_alignment": "top",
+												"content": [
+												{
+													
+														"type": "layout",
+														"key": "antcaveslabel"
+												
+												},
+												{
 													"type": "layout",
-													"key": "ant"
+														"key": "ant"
+													
 												}
+												]
 											},									
 											{
 												"type": "map",
@@ -374,13 +481,22 @@
 										"orientation": "vertical",
 										"content": [
 											{
-												"type": "group",
-												"header": "Pools of the Ancient Dead",
-												"dock": "left",
-												"content": {
+												"type": "array",
+												"dock": "top",												
+												"v_alignment": "top",
+												"content": [
+												{
+													
+														"type": "layout",
+														"key": "poolslabel"
+												
+												},
+												{
 													"type": "layout",
-													"key": "pools"
+														"key": "pools"
+													
 												}
+												]
 											},									
 											{
 												"type": "map",
@@ -398,14 +514,23 @@
 										"orientation": "vertical",
 										"content": [
 											{
-												"type": "group",
-												"header": "Lake",
-												"dock": "left",
-												"content": {
+												"type": "array",
+												"dock": "top",												
+												"v_alignment": "top",
+												"content": [
+												{
+													
+														"type": "layout",
+														"key": "lakelabel"
+												
+												},
+												{
 													"type": "layout",
-													"key": "lake"
+														"key": "lake"
+													
 												}
-											},									
+												]
+											},								
 											{
 												"type": "map",
 												"maps": ["Lake"]
@@ -422,13 +547,22 @@
 										"orientation": "vertical",
 										"content": [
 											{
-												"type": "group",
-												"header": "Crystal Caves",
-												"dock": "left",
-												"content": {
+												"type": "array",
+												"dock": "top",												
+												"v_alignment": "top",
+												"content": [
+												{
+													
+														"type": "layout",
+														"key": "crystallabel"
+												
+												},
+												{
 													"type": "layout",
-													"key": "crystal"
+														"key": "crystal"
+													
 												}
+												]
 											},									
 											{
 												"type": "map",
@@ -446,13 +580,22 @@
 										"orientation": "vertical",
 										"content": [
 											{
-												"type": "group",
-												"header": "Gallows Gauntlet",
-												"dock": "left",
-												"content": {
+												"type": "array",
+												"dock": "top",												
+												"v_alignment": "top",
+												"content": [
+												{
+													
+														"type": "layout",
+														"key": "Gauntletlabel"
+												
+												},
+												{
 													"type": "layout",
-													"key": "gallows"
+														"key": "gallows"
+													
 												}
+												]
 											},									
 											{
 												"type": "map",
@@ -470,13 +613,22 @@
 										"orientation": "vertical",
 										"content": [
 											{
-												"type": "group",
-												"header": "Haunted Ruins",
-												"dock": "left",
-												"content": {
+												"type": "array",
+												"dock": "left",												
+												"v_alignment": "left",
+												"content": [
+												{
+													
+														"type": "layout",
+														"key": "ruinslabel"
+												
+												},
+												{
 													"type": "layout",
-													"key": "ruins"
+														"key": "ruins"
+													
 												}
+												]
 											},									
 											{
 												"type": "map",
@@ -494,14 +646,23 @@
 										"orientation": "vertical",
 										"content": [
 											{
-												"type": "group",
-												"header": "Ghost Ship",
-												"dock": "left",
-												"content": {
+												"type": "array",
+												"dock": "top",												
+												"v_alignment": "top",
+												"content": [
+												{
+													
+														"type": "layout",
+														"key": "shiplabel"
+												
+												},
+												{
 													"type": "layout",
-													"key": "ship"
+														"key": "ship"
+													
 												}
-											},									
+												]
+											},								
 											{
 												"type": "map",
 												"maps": ["Ghost Ship"]
@@ -519,14 +680,18 @@
 										"orientation": "vertical",
 										"content": [
 											{
-												"type": "group",
-												"header": "Entrance Hall",
-												"dock": "left",
-												"content": {
-													"type": "layout",
-													"key": "hall"
+												"type": "array",
+												"dock": "top",												
+												"v_alignment": "top",
+												"content": [
+												{
+													
+														"type": "layout",
+														"key": "halllabel"
+												
 												}
-											},
+												]
+											},	
 											{
 										"type": "map",
 										"maps": ["Entrance Hall"]
@@ -540,31 +705,32 @@
 									"content": {
 										"type": "dock",
 										"dock": "top",
+										"margin": "5, 0",
 										"orientation": "vertical",
 										"content": [
 											{
-												"type": "group",
-												"header": "Time Device",
-												"dock": "left",
-												"content": {
+												"type": "array",
+												"dock": "top",												
+												"v_alignment": "top",
+												"content": [
+												{
+													
+														"type": "layout",
+														"key": "devicelabel"
+												
+												},
+												{
 													"type": "layout",
-													"key": "device"
+														"key": "device"
+													
 												}
-											},	
-											{
-												"type": "group",
-												"header": "Zarok's Lair",
-												"dock": "left",
-												"content": {
-													"type": "layout",
-													"key": "zarok"
-												}
-											},
+												]
+											},									
 											{
 												"type": "map",
 												"maps": ["Time Device"]
 											}
-										]
+											]
 									}
 								}
 								

@@ -256,8 +256,9 @@ LOCATION_MAPPING = {
 	[99258021] = {"@Ant Caves/Energy Vials[3]/Energy Vial 4"},
 	[99258022] = {"@Ant Caves/Energy Vials[4]/Energy Vial 5"},
 	[99258023] = {"@Ant Caves/Behind Barrier/Coin Chest"},
+	[99258025] = {"@Ant Caves/Clear/Chalice"},
 	[99258024] = {"clearedant"},
-	--[99258025] = {"@Ant Caves/
+	
 	
 		--Pools of the Ancient Dead
 	[99261000] = {"@Pools of the Ancient Dead/East Side Life Bottle/Life Bottle"},
@@ -405,34 +406,33 @@ LOCATION_MAPPING = {
 	[99272014] = {"cleareddevice"},
 
 	--Zarok's Lair
-	[99273000] = {"@The Time Device/Zarok's Arena/Good Lightning"},
-	[99273001] = {"@The Time Device/Zarok's Arena[1]/Silver Shield"},
-	[99273002] = {"@The Time Device/Clear Game/Cleared The Game"},
+	[99273000] = {"@The Time Device/Zarok's Lair/Good Lightning"},
+	[99273001] = {"@The Time Device/Zarok's Lair[1]/Silver Shield"},
+	[99273002] = {"@The Time Device/Clear Game/Beat Zarok"},
 	
 	--Hall of Heroes
-	[99251000] = {"@The World Map/Hall of Heroes/Canny Tim 2"},
-	[99251001] = {"@The World Map/Hall of Heroes/Ravenhooves the Archer 4"},
-	[99251002] = {"@The World Map/Hall of Heroes/Dirk Steadfast 2"},
-	[99251003] = {"@The World Map/Hall of Heroes/Woden the Mighty 1"},
-	[99251004] = {"@The World Map/Hall of Heroes/Dirk Steadfast 1"},
-	[99251005] = {"@The World Map/Hall of Heroes/Stanyer Iron Hewer 1"},
-	[99251006] = {"@The World Map/Hall of Heroes/Bloodmonath 1"},
-	[99251007] = {"@The World Map/Hall of Heroes/Canny Tim 1"},
-	[99251008] = {"@The World Map/Hall of Heroes/Ravenhooves the Archer 1"},
-	[99251009] = {"@The World Map/Hall of Heroes/Ravenhooves the Archer 2"},
-	[99251010] = {"@The World Map/Hall of Heroes/Ravenhooves the Archer 3"},
-	[99251011] = {"@The World Map/Hall of Heroes/Imanzi Shongama 1"},
-	[99251012] = {"@The World Map/Hall of Heroes/Megwynne Stormbinder 1"},
-	[99251013] = {"@The World Map/Hall of Heroes/Karl Sturngard 1"},
-	[99251014] = {"@The World Map/Hall of Heroes/Imanzi Shongama 2"},
-	[99251015] = {"@The World Map/Hall of Heroes/Megwynne Stormbinder 2"},
-	[99251016] = {"@The World Map/Hall of Heroes/Stanyer Iron Hewer 2"},
-	[99251017] = {"@The World Map/Hall of Heroes/Woden the Mighty 2"},
-	[99251018] = {"@The World Map/Hall of Heroes/Bloodmonath 2"},
-	[99251019] = {"@The World Map/Hall of Heroes/Karl Sturngard 2"}
+	[99251000] = {"@The World Map/Hall of Heroes/Chalice Reward 1"},
+	[99251001] = {"@The World Map/Hall of Heroes/Chalice Reward 2"},
+	[99251002] = {"@The World Map/Hall of Heroes/Chalice Reward 3"},
+	[99251003] = {"@The World Map/Hall of Heroes/Chalice Reward 4"},
+	[99251004] = {"@The World Map/Hall of Heroes/Chalice Reward 5"},
+	[99251005] = {"@The World Map/Hall of Heroes/Chalice Reward 6"},
+	[99251006] = {"@The World Map/Hall of Heroes/Chalice Reward 7"},
+	[99251007] = {"@The World Map/Hall of Heroes/Chalice Reward 8"},
+	[99251008] = {"@The World Map/Hall of Heroes/Chalice Reward 9"},
+	[99251009] = {"@The World Map/Hall of Heroes/Chalice Reward 10"},
+	[99251010] = {"@The World Map/Hall of Heroes/Chalice Reward 11"},
+	[99251011] = {"@The World Map/Hall of Heroes/Chalice Reward 12"},
+	[99251012] = {"@The World Map/Hall of Heroes/Chalice Reward 13"},
+	[99251013] = {"@The World Map/Hall of Heroes/Chalice Reward 14"},
+	[99251014] = {"@The World Map/Hall of Heroes/Chalice Reward 15"},
+	[99251015] = {"@The World Map/Hall of Heroes/Chalice Reward 16"},
+	[99251016] = {"@The World Map/Hall of Heroes/Chalice Reward 17"},
+	[99251017] = {"@The World Map/Hall of Heroes/Chalice Reward 18"},
+	[99251018] = {"@The World Map/Hall of Heroes/Chalice Reward 19"},
+	[99251019] = {"@The World Map/Hall of Heroes/Chalice Reward 20"}
 
 
 
 
 }
-

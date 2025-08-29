@@ -213,6 +213,7 @@
                 [
                     {
                         "name": "Chalice",
+						"visibility_rules": "include_chalices_in_checks",
 						"chest_unopened_img": "images/items/chalice.png",
 						"chest_opened_img": "images/items/empty chalice.png"
                     }
@@ -235,9 +236,7 @@
                 [
                     {
                         "name": "Cleared Asylum Grounds",
-						"hosted_item": "clearedgrounds",
-						"chest_unopened_img": "images/labels/Not Cleared.png",
-						"chest_opened_img": "images/labels/Cleared.png"
+						"hosted_item": "clearedgrounds"
                     }
                 ]
             }
