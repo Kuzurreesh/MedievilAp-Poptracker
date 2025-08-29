@@ -68,11 +68,7 @@ function onClear(slot_data)
 			--	print("key ok: ", key, value)
 				Tracker:FindObjectForCode(key).Active = value
 			elseif key == "runesanity" then
-				if value == 1 then
-					Tracker:FindObjectForCode(key).Active = value
-				else
-					Tracker:FindObjectForCode("rune").Active = true
-				end
+				Tracker:FindObjectForCode(key).Active = value
 			elseif key == "goal" then
 					print("goal: ", key, value)
 					Tracker:FindObjectForCode("goal").CurrentStage = value
@@ -194,3 +190,4 @@ if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
     Archipelago:AddLocationHandler("location handler", onLocation)
 
 end
+
