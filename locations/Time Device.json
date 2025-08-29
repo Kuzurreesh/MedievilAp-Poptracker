@@ -124,6 +124,7 @@
                 [
                     {
                         "name": "Chalice",
+						"visibility_rules": "include_chalices_in_checks",
 						"chest_unopened_img": "images/items/chalice.png",
 						"chest_opened_img": "images/items/empty chalice.png"
                     }
@@ -238,7 +239,7 @@
                 ]
             },
 			{
-                "name": "Zarok's Arena",
+                "name": "Zarok's Lair",
 				"parent": "Dan's Crypt",
 				"access_rules": [ "cleareddevice"],
 				
@@ -259,7 +260,7 @@
                 ]
             },
 			{
-                "name": "Zarok's Arena",
+                "name": "Zarok's Lair",
 				"parent": "Dan's Crypt",
 				"access_rules": [ "cleareddevice"],
                 "map_locations": 
@@ -281,8 +282,7 @@
 			{
                 "name": "Clear Game",
 				"parent": "Dan's Crypt",
-				"access_rules": [ "cleareddevice"],
-				"access_rules": "goodlightning",
+				"access_rules": [ "cleareddevice,goodlightning"],
                 "map_locations": 
                 [
                     {
@@ -297,7 +297,7 @@
                 "sections": 
                 [
                     {
-                        "name": "Cleared The Game",
+                        "name": "Beat Zarok",
 						"chest_unopened_img": "images/labels/zarok.png",
 					}
                 ]

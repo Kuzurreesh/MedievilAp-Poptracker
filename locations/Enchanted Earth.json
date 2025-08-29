@@ -86,17 +86,16 @@
                 "sections": 
                 [
                     {
-                        "name": "Copper Shield",
-                        "clear_as_group": true
+                        "name": "Egg 1"
                     },
 					{
-                        "name": "Earth Rune",
+                        "name": "Egg 3",
 						"visibility_rules": [
                             "runesanity"
 							]
                     },
 					{
-                        "name": "Coin Chest"
+                        "name": "Egg 2"
                     }
                 ]
             },
@@ -239,6 +238,7 @@
                 [
                     {
                         "name": "Chalice",
+						"visibility_rules": "include_chalices_in_checks",
 						"chest_unopened_img": "images/items/chalice.png",
 						"chest_opened_img": "images/items/empty chalice.png"
                     }
