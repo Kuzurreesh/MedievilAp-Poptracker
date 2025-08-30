@@ -1023,12 +1023,13 @@
 											[
 												"goallabel",
 												"goal",
-												"chalicelabel",
-												"include_chalices_in_checks"
+												"runelabel",
+												"runesanity"
+												
 											],
 											[
-												"runelabel",
-												"runesanity",
+												"chalicelabel",
+												"include_chalices_in_checks",
 												"booksanitylabel",
 												"booksanity"
 											],
