@@ -12,7 +12,7 @@ Due to the way the game deals with key items, it's hard to see what exactly you 
 
 # Notes
 
-
+Book and Gargoyles have been put at level clear location for now without specific logic.
 
 # Thanks
 
