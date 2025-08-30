@@ -312,6 +312,14 @@
                     {
                         "name": "Cleared The Ghost Ship",
 						"hosted_item": "clearedship"
+					},
+					{
+						"name": "Books",
+						"item_count": 2,
+						"chest_unopened_img": "images/labels/Book3.png",
+						"chest_opened_img": "images/labels/bookdisabled.png",
+						"clear_as_group": false,
+						"visibility_rules": "booksanity"
 					}
                 ]
             }

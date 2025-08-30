@@ -123,7 +123,9 @@
 					{"ref": "Dan's Crypt/Behind Wall/Life Bottle"},
 					{"ref": "Dan's Crypt/Behind Wall/Coin Chest Left"},
 					{"ref": "Dan's Crypt/Behind Wall/Coin Chest Right"},
-					{"ref": "Dan's Crypt/Crypt Clear/Cleared Dan's Crypt"}
+					{"ref": "Dan's Crypt/Clear/Books"},
+					{"ref": "Dan's Crypt/Clear/Gargoyles"},
+					{"ref": "Dan's Crypt/Clear/Cleared Dan's Crypt"}
 
 				]
 			},
@@ -150,6 +152,8 @@
 					{"ref": "The Graveyard/Life Bottle/Coin Chest Right"},
 					{"ref": "The Graveyard/Shop/Coin Chest"},
 					{"ref": "The Graveyard/Fountain Near End/Coin Bag"},
+					{"ref": "The Graveyard/Clear/Books"},
+					{"ref": "The Graveyard/Clear/Gargoyles"},
 					{"ref": "The Graveyard/Spinning Statue/Chalice"},
 					{"ref": "The Graveyard/Graveyard Clear/Cleared The Graveyard"}
 
@@ -180,6 +184,8 @@
 					{"ref": "Cemetery Hill/Boulder Hill[2]/Coin Bag 2"},
 					{"ref": "Cemetery Hill/Hilltop/Coin Chest"},
 					{"ref": "Cemetery Hill/Arena/Coin Chest"},
+					{"ref": "Cemetery Hill/Clear/Books"},
+					{"ref": "Cemetery Hill/Clear/Gargoyles"},
 					{"ref": "Cemetery Hill/Arena[1]/Chalice"},
 					{"ref": "Cemetery Hill/Clear/Cleared Cemetery Hill"}
 				]
@@ -215,6 +221,7 @@
 					{"ref": "Hilltop Mausoleum/Secret Alcove/Coin Chest 1"},
 					{"ref": "Hilltop Mausoleum/Secret Alcove/Coin Chest 2"},
 					{"ref": "Hilltop Mausoleum/Secret Alcove/Coin Chest 3"},
+					{"ref": "Hilltop Mausoleum/Clear/Books"},
 					{"ref": "Hilltop Mausoleum/Secret Alcove/Chalice"},
 					{"ref": "Hilltop Mausoleum/Clear/Cleared Hilltop Mausoleum"}
 				]
@@ -252,6 +259,8 @@
 					{"ref": "Return to the Graveyard/Island/Coin Chest"},
 					{"ref": "Return to the Graveyard/Undertakers Entrance[1]/Coin Bag"},
 					{"ref": "Return to the Graveyard/Left Exit[1]/Coin Bag"},
+					{"ref": "Return to the Graveyard/Clear/Books"},
+					{"ref": "Return to the Graveyard/Clear/Gargoyles"},
 					{"ref": "Return to the Graveyard/Undertakers/Chalice"},
 					{"ref": "Return to the Graveyard/Clear/Cleared Return to the Graveyard"}
 				]
@@ -290,6 +299,8 @@
 					{"ref": "Scarecrow Fields/Spiker/Coin Chest"},
 					{"ref": "Scarecrow Fields/Harvested Path/Life Bottle"},
 					{"ref": "Scarecrow Fields/Harvested Path[2]/Coin Chest"},
+					{"ref": "Scarecrow Fields/Clear/Books"},
+					{"ref": "Scarecrow Fields/Clear/Gargoyles"},
 					{"ref": "Scarecrow Fields/Harvested Path[1]/Chalice"},
 					{"ref": "Scarecrow Fields/Clear/Cleared Scarecrow Fields"}
 				]
@@ -327,6 +338,8 @@
 					{"ref": "Pumpkin Gorge/Rising Mushrooms/Coin Bag"},
 					{"ref": "Pumpkin Gorge/Blocked Path Near End/Coin Chest"},
 					{"ref": "Pumpkin Gorge/Behind Wall[1]/Coin Chest"},
+					{"ref": "Pumpkin Gorge/Clear/Books"},
+					{"ref": "Pumpkin Gorge/Clear/Gargoyles"},
 					{"ref": "Pumpkin Gorge/Behind Wall/Chalice"},
 					{"ref": "Pumpkin Gorge/Clear/Cleared Pumpkin Gorge"}
 		
@@ -394,6 +407,8 @@
 					{"ref": "Sleeping Village/Mayor's House/Coin Bag 1"},
 					{"ref": "Sleeping Village/Mayor's House/Coin Bag 2"},
 					{"ref": "Sleeping Village/Ledge at Mayor's House/Coin Chest"},
+					{"ref": "Sleeping Village/Clear/Books"},
+					{"ref": "Sleeping Village/Clear/Gargoyles"},
 					{"ref": "Sleeping Village/Ledge at Mayor's House/Chalice"},
 					{"ref": "Sleeping Village/Clear/Cleared Sleeping Village"}
 				]
@@ -420,6 +435,8 @@
 					{"ref": "Asylum Grounds/2nd Grave to Elephant/Coin Bag"},
 					{"ref": "Asylum Grounds/Mouse/Coin Bag"},
 					{"ref": "Asylum Grounds/Bell Past Elephant/Coin Bag"},
+					{"ref": "Asylum Grounds/Clear/Books"},
+					{"ref": "Asylum Grounds/Clear/Gargoyles"},
 					{"ref": "Asylum Grounds/Elephant/Chalice"},
 					{"ref": "Asylum Grounds/Clear/Cleared Asylum Grounds"}
 				]
@@ -477,6 +494,8 @@
 					{"ref": "Enchanted Earth/Past Elevator/Coin Chest 1"},
 					{"ref": "Enchanted Earth/Past Elevator/Coin Chest 2"},
 					{"ref": "Enchanted Earth/Past Elevator/Coin Chest 3"},
+					{"ref": "Enchanted Earth/Clear/Books"},
+					{"ref": "Enchanted Earth/Clear/Gargoyles"},
 					{"ref": "Enchanted Earth/Element Room[1]/Chalice"},
 					{"ref": "Enchanted Earth/Clear/Cleared Enchanted Earth"}
 				]
@@ -517,6 +536,10 @@
 					{"ref": "Ant Caves/Energy Vials[3]/Energy Vial 4"},
 					{"ref": "Ant Caves/Energy Vials[4]/Energy Vial 5"},
 					{"ref": "Ant Caves/Behind Barrier/Coin Chest"},
+					{"ref": "Ant Caves/Clear/Chicken Drumsticks"},
+					{"ref": "Ant Caves/Clear/Books"},
+					{"ref": "Ant Caves/Clear/Gargoyles"},
+					{"ref": "Ant Caves/Clear/Chalice"},
 					{"ref": "Ant Caves/Clear/Cleared Ant Caves"}
 				]
 			},
@@ -554,6 +577,8 @@
 					{"ref": "Pools of the Ancient Dead/West Side/Coin Bag"},
 					{"ref": "Pools of the Ancient Dead/East Side Life Bottle/Coin Chest 1"},
 					{"ref": "Pools of the Ancient Dead/East Side Life Bottle/Coin Chest 2"},
+					{"ref": "Pools of the Ancient Dead/Clear/Books"},
+					{"ref": "Pools of the Ancient Dead/Clear/Gargoyles"},
 					{"ref": "Pools of the Ancient Dead/West Side[3]/Chalice"},
 					{"ref": "Pools of the Ancient Dead/Clear/Cleared Pools of the Ancient Dead"}
 				]
@@ -585,6 +610,8 @@
 					{"ref": "The Lake/Down Whirlpool[3]/Coin Bag 3"},
 					{"ref": "The Lake/Past Tunnel/Coin Bag"},
 					{"ref": "The Lake/Past Tunnel[1]/Coin Chest"},
+					{"ref": "The Lake/Clear/Books"},
+					{"ref": "The Lake/Clear/Gargoyles"},
 					{"ref": "The Lake/Past Tunnel[3]/Chalice"},
 					{"ref": "The Lake/Clear/Cleared The Lake"}
 				]
@@ -625,6 +652,8 @@
 					{"ref": "The Crystal Caves/Dragon's Lair[2]/Coin Bag 4"},
 					{"ref": "The Crystal Caves/Water Pit[1]/Coin Bag 1"},
 					{"ref": "The Crystal Caves/Water Pit/Coin Bag 2"},
+					{"ref": "The Crystal Caves/Clear/Books"},
+					{"ref": "The Crystal Caves/Clear/Gargoyles"},
 					{"ref": "The Crystal Caves/Start/Chalice"},
 					{"ref": "The Crystal Caves/Clear/Cleared The Crystal Caves"}
 				]
@@ -648,6 +677,7 @@
 					{"ref": "The Gallows Gauntlet/Dragon Skeleton 2/Coin Bag"},
 					{"ref": "The Gallows Gauntlet/Past Dragon Gate/Coin Chest"},
 					{"ref": "The Gallows Gauntlet/Gate Near Star Gate/Coin Chest"},
+					{"ref": "Gallows Gauntlet/Clear/Books"},
 					{"ref": "The Gallows Gauntlet/Chalice Gate/Chalice"},
 					{"ref": "The Gallows Gauntlet/Clear/Cleared The Gallows Gauntlet"}
 				]
@@ -680,6 +710,8 @@
 					{"ref": "The Haunted Ruins/Catapult/Coin Chest 1"},
 					{"ref": "The Haunted Ruins/Catapult/Coin Chest 2"},
 					{"ref": "The Haunted Ruins/Catapult/Coin Chest 3"},
+					{"ref": "The Haunted Ruins/Clear/Books"},
+					{"ref": "The Haunted Ruins/Clear/Gargoyles"},
 					{"ref": "The Haunted Ruins/Outer Wall West[2]/Chalice"},
 					{"ref": "The Haunted Ruins/Clear/Cleared The Haunted Ruins"}
 				]
@@ -711,6 +743,7 @@
 					{"ref": "The Ghost Ship/Fountain/Coin Bag"},
 					{"ref": "The Ghost Ship/Cannon Room[1]/Coin Chest"},
 					{"ref": "The Ghost Ship/Below Trampolines 1[2]/Coin Bag"},
+					{"ref": "The Ghost Ship/Clear/Books"},
 					{"ref": "The Ghost Ship/Up the Lift/Chalice"},
 					{"ref": "The Ghost Ship/Clear/Cleared The Ghost Ship"}
 				]
@@ -727,6 +760,8 @@
                 ],
 				"sections": 
                 [
+					{"ref": "The Entrance Hall/Clear/Books"},
+					{"ref": "The Entrance Hall/Clear/Gargoyles"},
 					{"ref": "The Entrance Hall/Zarok's Library/Chalice"},
 					{"ref": "The Entrance Hall/Clear/Cleared The Entrance Hall"}
 
@@ -758,6 +793,8 @@
 					{"ref": "The Time Device/Earth Station/Coin Bag 1"},
 					{"ref": "The Time Device/Earth Station/Coin Bag 2"},
 					{"ref": "The Time Device/Earth Station/Coin Bag 3"},
+					{"ref": "The Time Device/Clear/Books"},
+					{"ref": "The Time Device/Clear/Gargoyles"},
 					{"ref": "The Time Device/Lasers/Chalice"},
 					{"ref": "The Time Device/Clear/Cleared The Time Device"}
 				]

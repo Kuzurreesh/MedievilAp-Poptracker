@@ -237,7 +237,22 @@
                     {
                         "name": "Cleared Asylum Grounds",
 						"hosted_item": "clearedgrounds"
-                    }
+                    },
+					{
+						"name": "Books",
+						"item_count": 2,
+						"chest_unopened_img": "images/labels/Book3.png",
+						"chest_opened_img": "images/labels/bookdisabled.png",
+						"clear_as_group": false,
+						"visibility_rules": "booksanity"
+					},
+					{
+						"name": "Gargoyles",
+						"chest_unopened_img": "images/labels/gargoyle2.png",
+						"chest_opened_img": "images/labels/gargoyledisabled.png",
+						"clear_as_group": false,
+						"visibility_rules": "gargoylesanity"
+					}
                 ]
             }
 		]
