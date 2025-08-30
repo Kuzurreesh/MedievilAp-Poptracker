@@ -59,6 +59,7 @@ function onClear(slot_data)
         end
     end
 	
+	-- Autotracking options
 	if slot_data["options"] then
 	--	print("options detected: ")
 		local otable = slot_data["options"]
@@ -70,10 +71,14 @@ function onClear(slot_data)
 			elseif key == "runesanity" then
 				Tracker:FindObjectForCode(key).Active = value
 			elseif key == "goal" then
-					print("goal: ", key, value)
-					Tracker:FindObjectForCode("goal").CurrentStage = value
+				--print("goal: ", key, value)
+				Tracker:FindObjectForCode("goal").CurrentStage = value
 			elseif key == "include_chalices_in_checks" then
 			--	print("key ok: ", key, value)
+				Tracker:FindObjectForCode(key).Active = value
+			elseif key == "booksanity" then
+				Tracker:FindObjectForCode(key).Active = value
+			elseif key == "gargoylesanity" then
 				Tracker:FindObjectForCode(key).Active = value
 			end
 		end
@@ -190,4 +195,3 @@ if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
     Archipelago:AddLocationHandler("location handler", onLocation)
 
 end
-

@@ -346,6 +346,14 @@
 					{
                         "name": "Cleared Hilltop Mausoleum",
 						"hosted_item": "clearedmausoleum"
+					},
+					{
+						"name": "Books",
+						"item_count": 4,
+						"chest_unopened_img": "images/labels/Book3.png",
+						"chest_opened_img": "images/labels/bookdisabled.png",
+						"clear_as_group": false,
+						"visibility_rules": "booksanity"
 					}
                 ]
             }

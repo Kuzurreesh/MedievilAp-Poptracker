@@ -7,7 +7,7 @@
 			["include_ant_hill_in_checks"],
 			
 		"access_rules": 
-			["club, clearedrtg, witchtalisman", "Hammer, clearedrtg, witchtalisman"],
+			["bash, clearedrtg, witchtalisman"],
 		
         "children": 
         [
@@ -326,7 +326,22 @@
 					{
                         "name": "Cleared Ant Caves",
 						"hosted_item": "clearedant"
-                    }
+                    },
+					{
+						"name": "Books",
+						"item_count": 2,
+						"chest_unopened_img": "images/labels/Book3.png",
+						"chest_opened_img": "images/labels/bookdisabled.png",
+						"clear_as_group": false,
+						"visibility_rules": "booksanity"
+					},
+					{
+						"name": "Gargoyles",
+						"chest_unopened_img": "images/labels/gargoyle2.png",
+						"chest_opened_img": "images/labels/gargoyledisabled.png",
+						"clear_as_group": false,
+						"visibility_rules": "gargoylesanity"
+					}
                 ]
             }
 		]

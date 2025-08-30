@@ -46,6 +46,21 @@
                     {
                         "name": "Cleared The Entrance Hall",
 						"hosted_item": "clearedhall"
+					},
+					{
+						"name": "Books",
+						"item_count": 3,
+						"chest_unopened_img": "images/labels/Book3.png",
+						"chest_opened_img": "images/labels/bookdisabled.png",
+						"clear_as_group": false,
+						"visibility_rules": "booksanity"
+					},
+					{
+						"name": "Gargoyles",
+						"chest_unopened_img": "images/labels/gargoyle2.png",
+						"chest_opened_img": "images/labels/gargoyledisabled.png",
+						"clear_as_group": false,
+						"visibility_rules": "gargoylesanity"
 					}
                 ]
             }

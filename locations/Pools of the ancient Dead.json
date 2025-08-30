@@ -390,6 +390,20 @@
                     {
                         "name": "Cleared Pools of the Ancient Dead",
 						"hosted_item": "clearedpools"
+					},
+					{
+						"name": "Books",
+						"chest_unopened_img": "images/labels/Book3.png",
+						"chest_opened_img": "images/labels/bookdisabled.png",
+						"clear_as_group": false,
+						"visibility_rules": "booksanity"
+					},
+					{
+						"name": "Gargoyles",
+						"chest_unopened_img": "images/labels/gargoyle2.png",
+						"chest_opened_img": "images/labels/gargoyledisabled.png",
+						"clear_as_group": false,
+						"visibility_rules": "gargoylesanity"
 					}
                 ]
             }
