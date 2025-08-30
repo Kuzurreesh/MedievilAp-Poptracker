@@ -876,6 +876,33 @@
         "type": "static",
         "img": "images/labels/key items.png",
         "codes": "keyitemslabel"
+    },
+	{
+        "name": "Booksanity Label",
+        "type": "static",
+        "img": "images/labels/booksanity.png",
+        "codes": "booksanitylabel"
+    },
+	{
+        "name": "Book",
+        "type": "progressive_toggle",
+        "img": "images/labels/book.png",
+		"initial_active_state": "true",
+		"loop": "true",
+        "codes": "booksanity"
+    },
+	{
+        "name": "Gargoylesanity Label",
+        "type": "static",
+        "img": "images/labels/gargoylesanity.png",
+        "codes": "gargoylesanitylabel"
+    },
+	{
+        "name": "Gargoyle",
+        "type": "progressive_toggle",
+        "img": "images/labels/gargoyle.png",
+		"initial_active_state": "true",
+		"loop": "true",
+        "codes": "gargoylesanity"
     }
-	
 ]
