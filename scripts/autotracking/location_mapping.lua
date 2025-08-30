@@ -499,7 +499,8 @@ LOCATION_MAPPING = {
 	--Zarok's Lair
 	[99273000] = {"@The Time Device/Zarok's Lair/Good Lightning"},
 	[99273001] = {"@The Time Device/Zarok's Lair[1]/Silver Shield"},
-	[99273002] = {"@The Time Device/Clear Game/Beat Zarok"},
+	[99273002] = {"@The Time Device/Clear Game/Gargoyles"},
+	[99273003] = {"@The Time Device/Clear Game/Beat Zarok"},
 	
 	--Hall of Heroes
 	[99251000] = {"@The World Map/Hall of Heroes/Chalice Reward 1"},
@@ -521,8 +522,9 @@ LOCATION_MAPPING = {
 	[99251016] = {"@The World Map/Hall of Heroes/Chalice Reward 17"},
 	[99251017] = {"@The World Map/Hall of Heroes/Chalice Reward 18"},
 	[99251018] = {"@The World Map/Hall of Heroes/Chalice Reward 19"},
-	[99251019] = {"@The World Map/Hall of Heroes/Chalice Reward 20"}
-
+	[99251019] = {"@The World Map/Hall of Heroes/Chalice Reward 20"},
+	[99251020] = {"@The World Map/Hall of Heroes/Books"},
+	[99251021] = {"@The World Map/Hall of Heroes/Gargoyles"}
 
 
 
