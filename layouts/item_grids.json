@@ -1022,19 +1022,21 @@
 										"rows": [
 											[
 												"goallabel",
-												"goal"
+												"goal",
+												"chalicelabel",
+												"include_chalices_in_checks"
 											],
 											[
 												"runelabel",
-												"runesanity"
+												"runesanity",
+												"booksanitylabel",
+												"booksanity"
 											],
 											[
 												"antlabel",
-												"include_ant_hill_in_checks"
-											],
-											[
-												"chalicelabel",
-												"include_chalices_in_checks"
+												"include_ant_hill_in_checks",
+												"gargoylesanitylabel",
+												"gargoylesanity"
 											]
 										]
 									
