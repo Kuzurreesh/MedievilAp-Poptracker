@@ -21,6 +21,22 @@
                 "sections": 
                 [
                     {
+						"name": "Books",
+						"chest_unopened_img": "images/labels/Book3.png",
+						"chest_opened_img": "images/labels/bookdisabled.png",
+						"clear_as_group": false,
+						"access_rules": ["chalice: 1"],
+						"visibility_rules": "booksanity"
+					},
+					{
+						"name": "Gargoyles",
+						"chest_unopened_img": "images/labels/gargoyle2.png",
+						"chest_opened_img": "images/labels/gargoyledisabled.png",
+						"clear_as_group": false,
+						"access_rules": ["chalice: 1"],
+						"visibility_rules": "gargoylesanity"
+					},
+					{
 						"access_rules": ["chalice: 1"],
                         "name": "Chalice Reward 1"
                     },
@@ -813,6 +829,7 @@
                 [
 					{"ref": "The Time Device/Zarok's Lair/Good Lightning"},
 					{"ref": "The Time Device/Zarok's Lair[1]/Silver Shield"},
+					{"ref": "The Time Device/Clear Game/Gargoyles"},
 					{"ref": "The Time Device/Clear Game/Beat Zarok"}
 				]
 			}
