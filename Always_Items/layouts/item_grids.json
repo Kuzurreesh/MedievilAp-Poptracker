@@ -4,12 +4,12 @@
                
                         "type": "itemgrid",
 						"margin": "5, 0",
-                        "item_margin": "3, 2",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 30,
-                        "item_width": 30,
+                        "item_height": 25,
+                        "item_width": 25,
                         "rows": [
                             [
 								"arm",
@@ -46,18 +46,112 @@
 		"crypt": {
         
                 "type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 50,
-                        "item_width": 50,
+                        "item_height": 25,
+                        "item_width": 25,
                         "rows": [
                             [
 								"starcrypt",
                                 "club",
 								"hammer",
 								"daring5"
+                            ],
+							[
+                                "earthgrave",
+								"chaosgrave"
+							],
+							[
+								"earthhill",
+								"moonhill",
+								"chaoshill",
+								"sheetmusic"
+							],
+							[
+                                "starreturn",
+								"skullkey"
+                            ],
+							[
+								"moonscare",
+								"earthscare",
+								"chaosscare",
+								"harvesterpart"
+                            ],
+							[
+								"moongorge",
+								"chaosgorge",
+								"earthgorge",
+								"stargorge",
+								"timegorge"
+							],
+							[
+                                "witchtalisman"
+                            ],
+							[
+                                "chaossleep",
+								"moonsleep",
+								"earthsleep",
+								"landlordsbust",
+								"crucifixcast",
+								"crucifix",
+								"safekey"
+							],
+							[
+                                "chaosgrounds"
+                            ],
+							[
+								"earthasylum"
+                            ],
+							[
+                                "earthenchant",
+								"starenchant",
+								"witchtalisman",
+								"shadowartefact",
+								"shadowtalisman"
+							],
+							 [
+								"amber","witchtalisman"
+                            ],
+							[
+                                "chaospools",
+								"soulhelmet"
+                            ],
+							[
+								"earthlake",
+                                "chaoslake",
+								"timelake",
+								"starlake"
+                            ],
+							[
+								"earthcrystal",
+								"starcrystal",
+								"dragongem"
+							],
+							[
+                                "stargallow",
+								"dragonarmour"
+                            ],
+							[
+                                "chaosruins",
+								"earthruins",
+								"crown"
+							],
+							[
+								"moonship",
+								"starship",
+                                "chaosship",
+								"club"
+							],
+							[
+								"timedevice",
+                                "chaosdevice",
+								"earthdevice",
+								"moondevice",
+							],
+							[
+								"goodlightning"
                             ]
 						]
                     
@@ -72,17 +166,107 @@
         "content": [
             {
                 "type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 50,
-                        "item_width": 50,
+                        "item_height": 22,
+                        "item_width": 22,
                         "rows": [
                             [
                                 "earthgrave",
 								"chaosgrave"
-							]
+							],
+							[
+								"earthhill",
+								"moonhill",
+								"chaoshill",
+								"sheetmusic"
+							],
+							[
+                                "skullkey",
+								"starreturn"
+                            ],
+							[
+								"moonscare",
+								"earthscare",
+								"chaosscare",
+								"harvesterpart"
+                            ],
+							[
+								"moongorge",
+								"chaosgorge",
+								"earthgorge",
+								"stargorge",
+								"timegorge"
+							],
+							[
+                                "witchtalisman"
+                            ],
+							[
+                                "chaossleep",
+								"moonsleep",
+								"earthsleep",
+								"landlordsbust",
+								"crucifixcast",
+								"crucifix",
+								"safekey"
+							],
+							[
+                                "chaosgrounds"
+                            ],
+							[
+								"earthasylum"
+                            ],
+							[
+                                "earthenchant",
+								"starenchant",
+								"witchtalisman",
+								"shadowartefact",
+								"shadowtalisman"
+							],
+							 [
+								"amber","witchtalisman"
+                            ],
+							[
+                                "chaospools",
+								"soulhelmet"
+                            ],
+							[
+								"earthlake",
+                                "chaoslake",
+								"timelake",
+								"starlake"
+                            ],
+							[
+								"earthcrystal",
+								"starcrystal",
+								"dragongem"
+							],
+							[
+                                "stargallow",
+								"dragonarmour"
+                            ],
+							[
+                                "chaosruins",
+								"earthruins",
+								"crown"
+							],
+							[
+								"moonship",
+								"starship",
+                                "chaosship",
+								"club"
+							],
+							[
+								"timedevice",
+                                "chaosdevice",
+								"earthdevice",
+								"moondevice",
+							],
+							[
+								"goodlightning"
+                            ]
                         ]
                     
                 
@@ -96,26 +280,103 @@
         "content": [
             {
                 "type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 50,
-                        "item_width": 50,
+                        "item_height": 22,
+                        "item_width": 22,
                         "rows": [
 							[
-								"club",
-								"hammer",
-								"",
-								"",
-								"",
 								"earthhill",
 								"moonhill",
 								"chaoshill",
-								"club",
-								"hammer",
 								"sheetmusic"
-							]
+							],
+							[
+                                "skullkey",
+								"starreturn"
+                            ],
+							[
+								"moonscare",
+								"earthscare",
+								"chaosscare",
+								"harvesterpart"
+                            ],
+							[
+								"moongorge",
+								"chaosgorge",
+								"earthgorge",
+								"stargorge",
+								"timegorge"
+							],
+							[
+                                "witchtalisman"
+                            ],
+							[
+                                "chaossleep",
+								"moonsleep",
+								"earthsleep",
+								"landlordsbust",
+								"crucifixcast",
+								"crucifix",
+								"safekey"
+							],
+							[
+                                "chaosgrounds"
+                            ],
+							[
+								"earthasylum"
+                            ],
+							[
+                                "earthenchant",
+								"starenchant",
+								"witchtalisman",
+								"shadowartefact",
+								"shadowtalisman"
+							],
+							 [
+								"amber","witchtalisman"
+                            ],
+							[
+                                "chaospools",
+								"soulhelmet"
+                            ],
+							[
+								"earthlake",
+                                "chaoslake",
+								"timelake",
+								"starlake"
+                            ],
+							[
+								"earthcrystal",
+								"starcrystal",
+								"dragongem"
+							],
+							[
+                                "stargallow",
+								"dragonarmour"
+                            ],
+							[
+                                "chaosruins",
+								"earthruins",
+								"crown"
+							],
+							[
+								"moonship",
+								"starship",
+                                "chaosship",
+								"club"
+							],
+							[
+								"timedevice",
+                                "chaosdevice",
+								"earthdevice",
+								"moondevice",
+							],
+							[
+								"goodlightning"
+                            ]
                         ]
                     
                 
@@ -129,19 +390,17 @@
         "content": [
             {
                 "type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 50,
-                        "item_width": 50,
+                        "item_height": 22,
+                        "item_width": 22,
                         "rows": [
                             [
 								"earthhill",
 								"moonhill",
-								"chaoshill"
-                            ],
-							[
+								"chaoshill",
 								"club",
 								"hammer",
 								"sheetmusic"
@@ -159,16 +418,96 @@
         "content": [
             {
                 "type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 50,
-                        "item_width": 50,
+                        "item_height": 22,
+                        "item_width": 22,
                         "rows": [
                             [
                                 "skullkey",
 								"starreturn"
+                            ],
+							[
+								"moonscare",
+								"earthscare",
+								"chaosscare",
+								"harvesterpart"
+                            ],
+							[
+								"moongorge",
+								"chaosgorge",
+								"earthgorge",
+								"stargorge",
+								"timegorge"
+							],
+							[
+                                "witchtalisman"
+                            ],
+							[
+                                "chaossleep",
+								"moonsleep",
+								"earthsleep",
+								"landlordsbust",
+								"crucifixcast",
+								"crucifix",
+								"safekey"
+							],
+							[
+                                "chaosgrounds"
+                            ],
+							[
+								"earthasylum"
+                            ],
+							[
+                                "earthenchant",
+								"starenchant",
+								"witchtalisman",
+								"shadowartefact",
+								"shadowtalisman"
+							],
+							 [
+								"amber","witchtalisman"
+                            ],
+							[
+                                "chaospools",
+								"soulhelmet"
+                            ],
+							[
+								"earthlake",
+                                "chaoslake",
+								"timelake",
+								"starlake"
+                            ],
+							[
+								"earthcrystal",
+								"starcrystal",
+								"dragongem"
+							],
+							[
+                                "stargallow",
+								"dragonarmour"
+                            ],
+							[
+                                "chaosruins",
+								"earthruins",
+								"crown"
+							],
+							[
+								"moonship",
+								"starship",
+                                "chaosship",
+								"club"
+							],
+							[
+								"timedevice",
+                                "chaosdevice",
+								"earthdevice",
+								"moondevice",
+							],
+							[
+								"goodlightning"
                             ]
                         ]
                     
@@ -183,18 +522,92 @@
         "content": [
             {
                 "type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 50,
-                        "item_width": 50,
+                        "item_height": 22,
+                        "item_width": 22,
                         "rows": [
                             [
 								"moonscare",
 								"earthscare",
 								"chaosscare",
 								"harvesterpart"
+                            ],
+							[
+								"moongorge",
+								"chaosgorge",
+								"earthgorge",
+								"stargorge",
+								"timegorge"
+							],
+							[
+                                "witchtalisman"
+                            ],
+							[
+                                "chaossleep",
+								"moonsleep",
+								"earthsleep",
+								"landlordsbust",
+								"crucifixcast",
+								"crucifix",
+								"safekey"
+							],
+							[
+                                "chaosgrounds"
+                            ],
+							[
+								"earthasylum"
+                            ],
+							[
+                                "earthenchant",
+								"starenchant",
+								"witchtalisman",
+								"shadowartefact",
+								"shadowtalisman"
+							],
+							 [
+								"amber","witchtalisman"
+                            ],
+							[
+                                "chaospools",
+								"soulhelmet"
+                            ],
+							[
+								"earthlake",
+                                "chaoslake",
+								"timelake",
+								"starlake"
+                            ],
+							[
+								"earthcrystal",
+								"starcrystal",
+								"dragongem"
+							],
+							[
+                                "stargallow",
+								"dragonarmour"
+                            ],
+							[
+                                "chaosruins",
+								"earthruins",
+								"crown"
+							],
+							[
+								"moonship",
+								"starship",
+                                "chaosship",
+								"club"
+							],
+							[
+								"timedevice",
+                                "chaosdevice",
+								"earthdevice",
+								"moondevice",
+							],
+							[
+								"goodlightning"
                             ]
                         ]
                     
@@ -209,23 +622,87 @@
         "content": [
             {
                 "type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 50,
-                        "item_width": 50,
+                        "item_height": 22,
+                        "item_width": 22,
                         "rows": [
                             [
 								"moongorge",
 								"chaosgorge",
 								"earthgorge",
 								"stargorge",
-								"timegorge",
-								"club",
-								"hammer",
-								"daring5"
-							]
+								"timegorge"
+							],
+							[
+                                "witchtalisman"
+                            ],
+							[
+                                "chaossleep",
+								"moonsleep",
+								"earthsleep",
+								"landlordsbust",
+								"crucifixcast",
+								"crucifix",
+								"safekey"
+							],
+							[
+                                "chaosgrounds"
+                            ],
+							[
+								"earthasylum"
+                            ],
+							[
+                                "earthenchant",
+								"starenchant",
+								"witchtalisman",
+								"shadowartefact",
+								"shadowtalisman"
+							],
+							 [
+								"amber","witchtalisman"
+                            ],
+							[
+                                "chaospools",
+								"soulhelmet"
+                            ],
+							[
+								"earthlake",
+                                "chaoslake",
+								"timelake",
+								"starlake"
+                            ],
+							[
+								"earthcrystal",
+								"starcrystal",
+								"dragongem"
+							],
+							[
+                                "stargallow",
+								"dragonarmour"
+                            ],
+							[
+                                "chaosruins",
+								"earthruins",
+								"crown"
+							],
+							[
+								"moonship",
+								"starship",
+                                "chaosship",
+								"club"
+							],
+							[
+								"timedevice",
+                                "chaosdevice",
+								"earthdevice",
+								"moondevice",
+							],
+							[
+								"goodlightning"
+                            ]
                         ]
                     
                 
@@ -239,15 +716,79 @@
         "content": [
             {
                 "type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 50,
-                        "item_width": 50,
+                        "item_height": 22,
+                        "item_width": 22,
                         "rows": [
                             [
                                 "witchtalisman"
+                            ],
+							[
+                                "chaossleep",
+								"moonsleep",
+								"earthsleep",
+								"landlordsbust",
+								"crucifixcast",
+								"crucifix",
+								"safekey"
+							],
+							[
+                                "chaosgrounds"
+                            ],
+							[
+								"earthasylum"
+                            ],
+							[
+                                "earthenchant",
+								"starenchant",
+								"witchtalisman",
+								"shadowartefact",
+								"shadowtalisman"
+							],
+							 [
+								"amber","witchtalisman"
+                            ],
+							[
+                                "chaospools",
+								"soulhelmet"
+                            ],
+							[
+								"earthlake",
+                                "chaoslake",
+								"timelake",
+								"starlake"
+                            ],
+							[
+								"earthcrystal",
+								"starcrystal",
+								"dragongem"
+							],
+							[
+                                "stargallow",
+								"dragonarmour"
+                            ],
+							[
+                                "chaosruins",
+								"earthruins",
+								"crown"
+							],
+							[
+								"moonship",
+								"starship",
+                                "chaosship",
+								"club"
+							],
+							[
+								"timedevice",
+                                "chaosdevice",
+								"earthdevice",
+								"moondevice",
+							],
+							[
+								"goodlightning"
                             ]
                         ]
                     
@@ -262,12 +803,12 @@
         "content": [
             {
                 "type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 50,
-                        "item_width": 50,
+                        "item_height": 22,
+                        "item_width": 22,
                         "rows": [
                             [
                                 "chaossleep",
@@ -277,7 +818,62 @@
 								"crucifixcast",
 								"crucifix",
 								"safekey"
-							]
+							],
+							[
+                                "chaosgrounds"
+                            ],
+							[
+								"earthasylum"
+                            ],
+							[
+                                "earthenchant",
+								"starenchant",
+								"witchtalisman",
+								"shadowartefact",
+								"shadowtalisman"
+							],
+							 [
+								"amber","witchtalisman"
+                            ],
+							[
+                                "chaospools",
+								"soulhelmet"
+                            ],
+							[
+								"earthlake",
+                                "chaoslake",
+								"timelake",
+								"starlake"
+                            ],
+							[
+								"earthcrystal",
+								"starcrystal",
+								"dragongem"
+							],
+							[
+                                "stargallow",
+								"dragonarmour"
+                            ],
+							[
+                                "chaosruins",
+								"earthruins",
+								"crown"
+							],
+							[
+								"moonship",
+								"starship",
+                                "chaosship",
+								"club"
+							],
+							[
+								"timedevice",
+                                "chaosdevice",
+								"earthdevice",
+								"moondevice",
+							],
+							[
+								"goodlightning"
+                            ]
                         ]
                     
                 
@@ -291,15 +887,67 @@
         "content": [
             {
                 "type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 50,
-                        "item_width": 50,
+                        "item_height": 22,
+                        "item_width": 22,
                         "rows": [
                             [
                                 "chaosgrounds"
+                            ],
+							[
+								"earthasylum"
+                            ],
+							[
+                                "earthenchant",
+								"starenchant",
+								"witchtalisman",
+								"shadowartefact",
+								"shadowtalisman"
+							],
+							 [
+								"amber","witchtalisman"
+                            ],
+							[
+                                "chaospools",
+								"soulhelmet"
+                            ],
+							[
+								"earthlake",
+                                "chaoslake",
+								"timelake",
+								"starlake"
+                            ],
+							[
+								"earthcrystal",
+								"starcrystal",
+								"dragongem"
+							],
+							[
+                                "stargallow",
+								"dragonarmour"
+                            ],
+							[
+                                "chaosruins",
+								"earthruins",
+								"crown"
+							],
+							[
+								"moonship",
+								"starship",
+                                "chaosship",
+								"club"
+							],
+							[
+								"timedevice",
+                                "chaosdevice",
+								"earthdevice",
+								"moondevice",
+							],
+							[
+								"goodlightning"
                             ]
                         ]
                     
@@ -314,15 +962,64 @@
         "content": [
             {
                 "type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 50,
-                        "item_width": 50,
+                        "item_height": 22,
+                        "item_width": 22,
                         "rows": [
                             [
 								"earthasylum"
+                            ],
+							[
+                                "earthenchant",
+								"starenchant",
+								"witchtalisman",
+								"shadowartefact",
+								"shadowtalisman"
+							],
+							 [
+								"amber","witchtalisman"
+                            ],
+							[
+                                "chaospools",
+								"soulhelmet"
+                            ],
+							[
+								"earthlake",
+                                "chaoslake",
+								"timelake",
+								"starlake"
+                            ],
+							[
+								"earthcrystal",
+								"starcrystal",
+								"dragongem"
+							],
+							[
+                                "stargallow",
+								"dragonarmour"
+                            ],
+							[
+                                "chaosruins",
+								"earthruins",
+								"crown"
+							],
+							[
+								"moonship",
+								"starship",
+                                "chaosship",
+								"club"
+							],
+							[
+								"timedevice",
+                                "chaosdevice",
+								"earthdevice",
+								"moondevice",
+							],
+							[
+								"goodlightning"
                             ]
                         ]
                     
@@ -337,12 +1034,12 @@
         "content": [
             {
                 "type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 50,
-                        "item_width": 50,
+                        "item_height": 22,
+                        "item_width": 22,
                         "rows": [
                             [
                                 "earthenchant",
@@ -350,7 +1047,49 @@
 								"witchtalisman",
 								"shadowartefact",
 								"shadowtalisman"
-							]
+							],
+							 [
+								"amber","witchtalisman"
+                            ],
+							[
+                                "chaospools",
+								"soulhelmet"
+                            ],
+							[
+								"earthlake",
+                                "chaoslake",
+								"timelake",
+								"starlake"
+                            ],
+							[
+								"earthcrystal",
+								"starcrystal",
+								"dragongem"
+							],
+							[
+                                "stargallow",
+								"dragonarmour"
+                            ],
+							[
+                                "chaosruins",
+								"earthruins",
+								"crown"
+							],
+							[
+								"moonship",
+								"starship",
+                                "chaosship",
+								"club"
+							],
+							[
+								"timedevice",
+                                "chaosdevice",
+								"earthdevice",
+								"moondevice",
+							],
+							[
+								"goodlightning"
+                            ]
                         ]
                     
                 
@@ -364,15 +1103,54 @@
         "content": [
             {
                 "type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 50,
-                        "item_width": 50,
+                        "item_height": 22,
+                        "item_width": 22,
                         "rows": [
                             [
-								"club","hammer","daring5","amber","witchtalisman"
+								"amber","witchtalisman"
+                            ],
+							[
+                                "chaospools",
+								"soulhelmet"
+                            ],
+							[
+								"earthlake",
+                                "chaoslake",
+								"timelake",
+								"starlake"
+                            ],
+							[
+								"earthcrystal",
+								"starcrystal",
+								"dragongem"
+							],
+							[
+                                "stargallow",
+								"dragonarmour"
+                            ],
+							[
+                                "chaosruins",
+								"earthruins",
+								"crown"
+							],
+							[
+								"moonship",
+								"starship",
+                                "chaosship",
+								"club"
+							],
+							[
+								"timedevice",
+                                "chaosdevice",
+								"earthdevice",
+								"moondevice",
+							],
+							[
+								"goodlightning"
                             ]
                         ]
                     
@@ -387,16 +1165,51 @@
         "content": [
             {
                 "type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 50,
-                        "item_width": 50,
+                        "item_height": 22,
+                        "item_width": 22,
                         "rows": [
                             [
                                 "chaospools",
 								"soulhelmet"
+                            ],
+							[
+								"earthlake",
+                                "chaoslake",
+								"timelake",
+								"starlake"
+                            ],
+							[
+								"earthcrystal",
+								"starcrystal",
+								"dragongem"
+							],
+							[
+                                "stargallow",
+								"dragonarmour"
+                            ],
+							[
+                                "chaosruins",
+								"earthruins",
+								"crown"
+							],
+							[
+								"moonship",
+								"starship",
+                                "chaosship",
+								"club"
+							],
+							[
+								"timedevice",
+                                "chaosdevice",
+								"earthdevice",
+								"moondevice",
+							],
+							[
+								"goodlightning"
                             ]
                         ]
                     
@@ -411,18 +1224,47 @@
         "content": [
             {
                 "type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 50,
-                        "item_width": 50,
+                        "item_height": 22,
+                        "item_width": 22,
                         "rows": [
                             [
 								"earthlake",
                                 "chaoslake",
 								"timelake",
 								"starlake"
+                            ],
+							[
+								"earthcrystal",
+								"starcrystal",
+								"dragongem"
+							],
+							[
+                                "stargallow",
+								"dragonarmour"
+                            ],
+							[
+                                "chaosruins",
+								"earthruins",
+								"crown"
+							],
+							[
+								"moonship",
+								"starship",
+                                "chaosship",
+								"club"
+							],
+							[
+								"timedevice",
+                                "chaosdevice",
+								"earthdevice",
+								"moondevice",
+							],
+							[
+								"goodlightning"
                             ]
                         ]
                     
@@ -437,20 +1279,42 @@
         "content": [
             {
                 "type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 50,
-                        "item_width": 50,
+                        "item_height": 22,
+                        "item_width": 22,
                         "rows": [
                             [
 								"earthcrystal",
 								"starcrystal",
-								"dragongem",
-								"club",
-								"hammer"
-							]
+								"dragongem"
+							],
+							[
+                                "stargallow",
+								"dragonarmour"
+                            ],
+							[
+                                "chaosruins",
+								"earthruins",
+								"crown"
+							],
+							[
+								"moonship",
+								"starship",
+                                "chaosship",
+								"club"
+							],
+							[
+								"timedevice",
+                                "chaosdevice",
+								"earthdevice",
+								"moondevice",
+							],
+							[
+								"goodlightning"
+                            ]
                         ]
                     
                 
@@ -464,17 +1328,28 @@
         "content": [
             {
                 "type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 50,
-                        "item_width": 50,
+                        "item_height": 22,
+                        "item_width": 22,
                         "rows": [
                             [
                                 "stargallow",
 								"dragonarmour"
-                            ]
+                            ],
+							[
+                                "chaosruins",
+								"earthruins",
+								"crown"
+							],
+							[
+								"moonship",
+								"starship",
+                                "chaosship",
+								"club"
+							]
                         ]
                     
                 
@@ -488,23 +1363,23 @@
         "content": [
             {
                 "type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 50,
-                        "item_width": 50,
+                        "item_height": 22,
+                        "item_width": 22,
                         "rows": [
                             [
                                 "chaosruins",
 								"earthruins",
 								"crown"
-                            ],
+							],
 							[
-								"daring5",
-								"dragonarmour",
-								"Club",
-								"Hammer"
+								"moonship",
+								"starship",
+                                "chaosship",
+								"club"
 							]
                         ]
                     
@@ -519,12 +1394,12 @@
         "content": [
             {
                 "type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 50,
-                        "item_width": 50,
+                        "item_height": 22,
+                        "item_width": 22,
                         "rows": [
                             [
 								"moonship",
@@ -545,12 +1420,12 @@
         "content": [
             {
                 "type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 50,
-                        "item_width": 50,
+                        "item_height": 22,
+                        "item_width": 22,
                         "rows": [
                             [
 								""
@@ -564,23 +1439,24 @@
 		"device": {
         "type": "array",
         "orientation": "vertical",
-        "margin": "20,0",
+        "margin": "0,0",
         "content": [
             {
                 "type": "itemgrid",
-                        "item_margin": "6, 5",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 50,
-                        "item_width": 50,
+                        "item_height": 22,
+                        "item_width": 22,
                         "rows": [
                             [
 								"timedevice",
                                 "chaosdevice",
 								"earthdevice",
 								"moondevice",
-								"",
+							],
+							[
 								"goodlightning"
                             ]
                         ]
@@ -596,7 +1472,7 @@
         "content": [
             {
                 "type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
@@ -614,7 +1490,7 @@
 		},
 			"items": {
 						"type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
 						"margin": "5, 0",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
@@ -629,13 +1505,13 @@
 			},
 			"weapons": {
 						"type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
 						"margin": "5, 0",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 25,
-                        "item_width": 100,
+                        "item_height": 15,
+                        "item_width": 60,
                         "rows": [
                             [
                                 "weapons"
@@ -659,7 +1535,7 @@
 			},
 			"graveyardlabel": {
 						"type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
 						"margin": "0, 0",
                         "h_alignment": "left",
                         "item_h_alignment": "left",
@@ -675,7 +1551,7 @@
 			"cemeterylabel": {
 						"type": "itemgrid",
                         "item_margin": "30, 0",
-						"margin": "0, 5",
+						"margin": "0, 2",
                         "h_alignment": "left",
                         "item_h_alignment": "left",
                         "item_v_alignment": "center",
@@ -690,7 +1566,7 @@
 			},
 			"returnlabel": {
 						"type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
 						"margin": "0, 0",
                         "h_alignment": "left",
                         "item_h_alignment": "left",
@@ -705,7 +1581,7 @@
 			},
 			"fieldslabel": {
 						"type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
 						"margin": "0, 0",
                         "h_alignment": "left",
                         "item_h_alignment": "left",
@@ -720,7 +1596,7 @@
 			},
 			"gorgelabel": {
 						"type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
 						"margin": "0, 0",
                         "h_alignment": "left",
                         "item_h_alignment": "left",
@@ -735,7 +1611,7 @@
 			},
 			"serpentlabel": {
 						"type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
 						"margin": "0, 0",
                         "h_alignment": "left",
                         "item_h_alignment": "left",
@@ -750,7 +1626,7 @@
 			},
 			"villagelabel": {
 						"type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
 						"margin": "0, 0",
                         "h_alignment": "left",
                         "item_h_alignment": "left",
@@ -765,7 +1641,7 @@
 			},
 			"groundslabel": {
 						"type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
 						"margin": "0, 0",
                         "h_alignment": "left",
                         "item_h_alignment": "left",
@@ -780,7 +1656,7 @@
 			},
 			"asylumlabel": {
 						"type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
 						"margin": "0, 0",
                         "h_alignment": "left",
                         "item_h_alignment": "left",
@@ -795,7 +1671,7 @@
 			},
 			"enchantlabel": {
 						"type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
 						"margin": "0, 0",
                         "h_alignment": "left",
                         "item_h_alignment": "left",
@@ -810,7 +1686,7 @@
 			},
 			"antcaveslabel": {
 						"type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
 						"margin": "0, 0",
                         "h_alignment": "left",
                         "item_h_alignment": "left",
@@ -825,7 +1701,7 @@
 			},
 			"poolslabel": {
 						"type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
 						"margin": "0, 0",
                         "h_alignment": "left",
                         "item_h_alignment": "left",
@@ -840,7 +1716,7 @@
 			},
 			"lakelabel": {
 						"type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
 						"margin": "0, 0",
                         "h_alignment": "left",
                         "item_h_alignment": "left",
@@ -855,7 +1731,7 @@
 			},
 			"crystallabel": {
 						"type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
 						"margin": "0, 0",
                         "h_alignment": "left",
                         "item_h_alignment": "left",
@@ -870,7 +1746,7 @@
 			},
 			"Gauntletlabel": {
 						"type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
 						"margin": "0, 0",
                         "h_alignment": "left",
                         "item_h_alignment": "left",
@@ -885,7 +1761,7 @@
 			},
 			"ruinslabel": {
 						"type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
 						"margin": "0, 0",
                         "h_alignment": "left",
                         "item_h_alignment": "left",
@@ -900,7 +1776,7 @@
 			},
 			"shiplabel": {
 						"type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
 						"margin": "0, 0",
                         "h_alignment": "left",
                         "item_h_alignment": "left",
@@ -915,7 +1791,7 @@
 			},
 			"halllabel": {
 						"type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
 						"margin": "0, 0",
                         "h_alignment": "left",
                         "item_h_alignment": "left",
@@ -947,13 +1823,13 @@
 			},
 			"keyitemslabel": {
 						"type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "2, 2",
 						"margin": "0, 0",
                         "h_alignment": "left",
                         "item_h_alignment": "left",
                         "item_v_alignment": "top",
-                        "item_height": 27,
-                        "item_width": 210,
+                        "item_height": 18,
+                        "item_width": 140,
                         "rows": [
                             [
                                 "keyitemslabel"
@@ -967,12 +1843,12 @@
 				"content": [
 					{
 						"type": "itemgrid",
-						"item_margin": "3, 2",
+						"item_margin": "2, 2",
 						"h_alignment": "left",
 						"item_h_alignment": "center",
 						"item_v_alignment": "center",
-						"item_height": 30,
-						"item_width": 30,
+						"item_height": 22,
+						"item_width": 22,
 						"rows": [
 								[
 									"sheetmusic",
@@ -1013,7 +1889,7 @@
 						"content": [
 							{
 								"type": "itemgrid",
-										"item_margin": "5, 5",
+										"item_margin": "2, 2",
 										"h_alignment": "left",
 										"item_h_alignment": "center",
 										"item_v_alignment": "center",
