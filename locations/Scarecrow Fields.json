@@ -466,7 +466,7 @@
 					},
 					{
 						"name": "Books",
-						"item_count": 5,
+						"item_count": 6,
 						"chest_unopened_img": "images/labels/Book3.png",
 						"chest_opened_img": "images/labels/bookdisabled.png",
 						"clear_as_group": false,
