@@ -13,7 +13,7 @@ GLOBAL_ITEMS = {}
 
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
+        print(string.format("called onClear, slot_data:\n%s", dump(slot_data)))
     end
     SLOT_DATA = slot_data
     CUR_INDEX = -1
@@ -148,15 +148,15 @@ function onItem(index, item_id, item_name, player_number)
         end
     end
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
-        print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
+        print(string.format("local items: %s", dump(LOCAL_ITEMS)))
+        print(string.format("global items: %s", dump(GLOBAL_ITEMS)))
     end
 end
 
 -- called when a location gets cleared
 function onLocation(location_id, location_name)
    
-       -- print(string.format("called onLocation: %s, %s", location_id, location_name))
+     --  print(string.format("called onLocation: %s, %s", location_id, location_name))
    
     if not AUTOTRACKER_ENABLE_LOCATION_TRACKING then
         return
