@@ -49,10 +49,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Earth Rune",
-                        "visibility_rules": [
-                            "runesanity"
-                        ]
+                        "name": "Earth Rune"
                     }
                 ]
             },
@@ -257,10 +254,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Star Rune",
-                        "visibility_rules": [
-                            "runesanity"
-                        ]
+                        "name": "Star Rune"
                     }
                 ]
             },

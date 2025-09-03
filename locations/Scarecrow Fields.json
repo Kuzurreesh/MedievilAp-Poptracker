@@ -76,10 +76,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Earth Rune",
-                        "visibility_rules": [
-                            "runesanity"
-                        ]
+                        "name": "Earth Rune"
                     }
                 ]
             },
@@ -94,10 +91,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Moon Rune",
-                        "visibility_rules": [
-                            "runesanity"
-                        ]
+                        "name": "Moon Rune"
                     }
                 ]
             },
@@ -115,10 +109,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chaos Rune",
-                        "visibility_rules": [
-                            "runesanity"
-                        ]
+                        "name": "Chaos Rune"
                     }
                 ]
             },
