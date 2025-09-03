@@ -3,7 +3,7 @@
         "name": "Cemetery Hill",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
-		"access_rules": [ "clearedgraveyard"],
+		"access_rules": [ "@The Graveyard/Clear/Cleared The Graveyard", "progression_option"],
 		
         "children": 
         [
@@ -21,8 +21,7 @@
                 "sections": 
                 [
                     {
-                        "name": "Energy Vial",
-                        "clear_as_group": true
+                        "name": "Energy Vial"
                     }
                 ]
             },
@@ -64,8 +63,7 @@
                 "sections": 
                 [
                     {
-                        "name": "Copper Shield 1",
-                        "clear_as_group": true
+                        "name": "Copper Shield 1"
                     }
                 ]
             },
@@ -83,8 +81,7 @@
                 "sections": 
                 [
                     {
-                        "name": "Coin Bag",
-                        "clear_as_group": true
+                        "name": "Coin Bag"
                     }
                 ]
             },
@@ -102,8 +99,7 @@
                 "sections": 
                 [
                     {
-                        "name": "Coin Bag 1",
-                        "clear_as_group": true
+                        "name": "Coin Bag 1"
                     }
                 ]
             },
@@ -121,8 +117,7 @@
                 "sections": 
                 [
                     {
-                        "name": "Coin Bag 2",
-                        "clear_as_group": true
+                        "name": "Coin Bag 2"
                     }
                 ]
             },
@@ -143,8 +138,7 @@
                 "sections": 
                 [
                     {
-                        "name": "Coin Chest",
-                        "clear_as_group": true
+                        "name": "Coin Chest"
                     }
                 ]
             },
@@ -162,8 +156,7 @@
                 "sections": 
                 [
                     {
-                        "name": "Coin Chest",
-                        "clear_as_group": true
+                        "name": "Coin Chest"
                     }
                 ]
             },
@@ -208,8 +201,7 @@
                 "sections": 
                 [
                     {
-                        "name": "Energy Vial",
-                        "clear_as_group": true
+                        "name": "Energy Vial"
                     }
                 ]
             },
@@ -230,8 +222,7 @@
                 "sections": 
                 [
                     {
-                        "name": "Copper Shield",
-                        "clear_as_group": true
+                        "name": "Copper Shield"
                     }
                 ]
             },
@@ -252,8 +243,7 @@
                 "sections": 
                 [
                     {
-                        "name": "Witch Talisman",
-                        "clear_as_group": true
+                        "name": "Witch Talisman"
                     }
                 ]
             },
@@ -271,8 +261,7 @@
                 "sections": 
                 [
                     {
-                        "name": "Copper Shield 2",
-                        "clear_as_group": true
+                        "name": "Copper Shield 2"
                     }
                 ]
             },
@@ -290,8 +279,7 @@
                 "sections": 
                 [
                     {
-                        "name": "Copper Shield 3",
-                        "clear_as_group": true
+                        "name": "Copper Shield 3"
                     }
                 ]
             },
@@ -312,7 +300,8 @@
                 [
                     {
                         "name": "Cleared Cemetery Hill",
-						"hosted_item": "clearedhill"
+                        "chest_unopened_img": "images/labels/Not Cleared.png",
+                        "chest_opened_img": "images/labels/Cleared.png"
                     },
 										{
 						"name": "Books",

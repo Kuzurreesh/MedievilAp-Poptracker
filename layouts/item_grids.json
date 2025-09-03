@@ -347,7 +347,6 @@
                             [
                                 "earthenchant",
 								"starenchant",
-								"witchtalisman",
 								"shadowartefact",
 								"shadowtalisman"
 							]
@@ -1038,7 +1037,11 @@
 												"include_ant_hill_in_checks",
 												"gargoylesanitylabel",
 												"gargoylesanity"
-											]
+											],
+                                            [
+                                                "openlabel",
+                                                "progression_option"
+                                            ]
 										]
 									
 								

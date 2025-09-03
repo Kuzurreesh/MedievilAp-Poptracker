@@ -20,8 +20,7 @@
                 "sections": 
                 [
                     {
-                        "name": "Small Sword",
-                        "clear_as_group": true
+                        "name": "Small Sword"
                     }
                 ]
             },
@@ -38,7 +37,7 @@
                 
 				"access_rules": 
 				[
-					"club", "hammer", "daring5"
+					"bash"
 				],
 				
                 "sections": 
@@ -69,8 +68,7 @@
                 "sections": 
                 [
                     {
-                        "name": "Throwing Daggers",
-                        "clear_as_group": true
+                        "name": "Throwing Daggers"
                     }
                 ]
             },
@@ -88,8 +86,7 @@
                 "sections": 
                 [
                     {
-                        "name": "Life Bottle",
-                        "clear_as_group": true
+                        "name": "Life Bottle"
                     }
                 ]
             },
@@ -128,8 +125,7 @@
                 "sections": 
                 [
                     {
-                        "name": "Copper Shield",
-                        "clear_as_group": true
+                        "name": "Copper Shield"
                     }
                 ]
             },
@@ -147,8 +143,7 @@
                 "sections": 
                 [
                     {
-                        "name": "Coin Bag",
-                        "clear_as_group": true
+                        "name": "Coin Bag"
                     }
                 ]
             },
@@ -169,7 +164,8 @@
                 [
                     {
                         "name": "Cleared Dan's Crypt",
-						"hosted_item": "clearedcrypt"
+                        "chest_unopened_img": "images/labels/Not Cleared.png",
+                        "chest_opened_img": "images/labels/Cleared.png"
 					},
 					{
 						"name": "Books",

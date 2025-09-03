@@ -1,6 +1,7 @@
 
 ScriptHost:LoadScript("scripts/autotracking.lua")
 ScriptHost:LoadScript("scripts/locations.lua")
+ScriptHost:LoadScript("scripts/logic/logic.lua")
 
 Tracker:AddItems("items/items.json")
 

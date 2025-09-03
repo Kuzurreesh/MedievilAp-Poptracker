@@ -1,410 +1,393 @@
 [
-    {	
+    {
         "name": "The Crystal Caves",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
-		"access_rules": [ "clearedlake"],
-				
-        "children": 
-        [
+        "access_rules": [
+            "@The Lake/Clear/Cleared The Lake",
+            "progression_option"
+        ],
+        "children": [
             {
                 "name": "Entrance Room",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Crystal Caves",
+                        "map": "Crystal Caves",
                         "x": 1085,
                         "y": 915
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Bag"
                     }
                 ]
             },
-			{
+            {
                 "name": "Light Beams",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Crystal Caves",
+                        "map": "Crystal Caves",
                         "x": 1450,
                         "y": 720
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Bag"
                     }
                 ]
             },
-			{
+            {
                 "name": "Light Beams",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Crystal Caves",
+                        "map": "Crystal Caves",
                         "x": 1475,
                         "y": 625
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Earth Rune",
-						"visibility_rules": [
+                        "visibility_rules": [
                             "runesanity"
-							]
+                        ]
                     }
                 ]
             },
-			{
+            {
                 "name": "Cavern Ledge",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Crystal Caves",
+                        "map": "Crystal Caves",
                         "x": 1980,
                         "y": 585
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Silver Shield"
                     }
                 ]
             },
-			{
+            {
                 "name": "Cavern Ledge",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Crystal Caves",
+                        "map": "Crystal Caves",
                         "x": 2060,
                         "y": 615
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Bag"
                     }
                 ]
             },
-			{
+            {
                 "name": "Fountain Climb",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Crystal Caves",
+                        "map": "Crystal Caves",
                         "x": 2445,
                         "y": 880
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Bag"
                     }
                 ]
             },
-			{
+            {
                 "name": "Waterfall",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$CrystalEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Crystal Caves",
+                        "map": "Crystal Caves",
                         "x": 2775,
                         "y": 1140
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Chest"
                     }
                 ]
             },
-			{
+            {
                 "name": "Water Pit",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$CrystalEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Crystal Caves",
+                        "map": "Crystal Caves",
                         "x": 1935,
                         "y": 1290
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Bag 2"
                     }
                 ]
             },
-			{
+            {
                 "name": "Water Pit",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$CrystalEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Crystal Caves",
+                        "map": "Crystal Caves",
                         "x": 2045,
                         "y": 1480
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Bag 1"
                     }
                 ]
             },
-			{
+            {
                 "name": "Crystal Pond",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$CrystalEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Crystal Caves",
+                        "map": "Crystal Caves",
                         "x": 1710,
                         "y": 1240
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Chest"
                     }
                 ]
             },
-			{
+            {
                 "name": "Dragon's Lair",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$CrystalEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Crystal Caves",
+                        "map": "Crystal Caves",
                         "x": 3160,
                         "y": 1110,
-						"size": 45
+                        "size": 45
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Energy Vial 1"
                     }
                 ]
             },
-			{
+            {
                 "name": "Dragon's Lair",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$CrystalEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Crystal Caves",
+                        "map": "Crystal Caves",
                         "x": 3213,
                         "y": 1130,
-						"size": 45
+                        "size": 45
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Chest 1"
                     },
-					{
+                    {
                         "name": "Coin Bag 1"
                     },
-					{
+                    {
                         "name": "Coin Bag 2"
                     }
                 ]
             },
-			{
+            {
                 "name": "Dragon's Lair",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$CrystalEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Crystal Caves",
+                        "map": "Crystal Caves",
                         "x": 3280,
                         "y": 1055,
-						"size": 45
+                        "size": 45
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Chest 2"
                     },
-					{
+                    {
                         "name": "Coin Bag 3"
                     },
-					{
+                    {
                         "name": "Coin Bag 4"
                     }
                 ]
             },
-			{
+            {
                 "name": "Dragon's Lair",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$CrystalEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Crystal Caves",
+                        "map": "Crystal Caves",
                         "x": 3333,
                         "y": 1065,
-						"size": 45
+                        "size": 45
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Star Rune",
-						"visibility_rules": [
+                        "visibility_rules": [
                             "runesanity"
-							]
+                        ]
                     }
                 ]
             },
-			{
+            {
                 "name": "Dragon's Lair",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$CrystalEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Crystal Caves",
+                        "map": "Crystal Caves",
                         "x": 3370,
                         "y": 1175,
-						"size": 45
+                        "size": 45
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Chest 3"
                     },
-					{
+                    {
                         "name": "Coin Bag 5"
                     },
-					{
+                    {
                         "name": "Coin Bag 6"
                     },
-					{
+                    {
                         "name": "Coin Bag 7"
                     }
                 ]
             },
-			{
+            {
                 "name": "Dragon's Lair",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$CrystalEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Crystal Caves",
+                        "map": "Crystal Caves",
                         "x": 3317,
                         "y": 1190,
-						"size": 45
+                        "size": 45
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Energy Vial 2"
                     }
                 ]
             },
-			{
+            {
                 "name": "Dragon's Lair",
-				"access_rules": "dragongem: 2",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "dragongem: 2, $CrystalEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Crystal Caves",
+                        "map": "Crystal Caves",
                         "x": 3215,
                         "y": 1290,
-						"shape": "trapezoid"
+                        "shape": "trapezoid"
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Dragon Armour"
                     }
                 ]
             },
-			{
+            {
                 "name": "Start",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$CrystalEarth, $CrystalStar"
+                ],
+                "map_locations": [
                     {
-						"map": "Crystal Caves",
+                        "map": "Crystal Caves",
                         "x": 515,
                         "y": 895
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Chalice",
-						"visibility_rules": "include_chalices_in_checks",
-						"chest_unopened_img": "images/items/chalice.png",
-						"chest_opened_img": "images/items/empty chalice.png"
+                        "visibility_rules": "include_chalices_in_checks",
+                        "chest_unopened_img": "images/items/chalice.png",
+                        "chest_opened_img": "images/items/empty chalice.png"
                     }
                 ]
             },
-			{
+            {
                 "name": "Clear",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Crystal Caves",
+                        "map": "Crystal Caves",
                         "x": 985,
                         "y": 230,
-						"shape": "diamond",
-						"size": 60
+                        "shape": "diamond",
+                        "size": 60
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Cleared The Crystal Caves",
-						"hosted_item": "clearedcrystal"
-					},
-					{
-						"name": "Books",
-						"item_count": 2,
-						"chest_unopened_img": "images/labels/Book3.png",
-						"chest_opened_img": "images/labels/bookdisabled.png",
-						"clear_as_group": false,
-						"visibility_rules": "booksanity"
-					},
-					{
-						"name": "Gargoyles",
-						"chest_unopened_img": "images/labels/gargoyle2.png",
-						"chest_opened_img": "images/labels/gargoyledisabled.png",
-						"clear_as_group": false,
-						"visibility_rules": "gargoylesanity"
-					}
+                        "access_rules": [
+                            "$CrystalStar"
+                        ],
+                        "chest_unopened_img": "images/labels/Not Cleared.png",
+                        "chest_opened_img": "images/labels/Cleared.png"
+                    },
+                    {
+                        "name": "Books",
+                        "item_count": 2,
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "clear_as_group": false,
+                        "visibility_rules": "booksanity"
+                    },
+                    {
+                        "name": "Gargoyles",
+                        "chest_unopened_img": "images/labels/gargoyle2.png",
+                        "chest_opened_img": "images/labels/gargoyledisabled.png",
+                        "clear_as_group": false,
+                        "visibility_rules": "gargoylesanity"
+                    }
                 ]
             }
-		]
+        ]
     }
 ]

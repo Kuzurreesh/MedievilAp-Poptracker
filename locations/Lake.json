@@ -1,336 +1,320 @@
 [
-    {	
+    {
         "name": "The Lake",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
-		"access_rules": [ "clearedpools"],
-				
-        "children": 
-        [
+        "access_rules": [
+            "@Pools of the Ancient Dead/Clear/Cleared Pools of the Ancient Dead",
+            "progression_option"
+        ],
+        "children": [
             {
                 "name": "Left Path",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Lake",
+                        "map": "Lake",
                         "x": 895,
                         "y": 1305
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Earth Rune",
-						"visibility_rules": [
+                        "visibility_rules": [
                             "runesanity"
-							]
+                        ]
                     }
                 ]
             },
-			{
+            {
                 "name": "Left Path",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Lake",
+                        "map": "Lake",
                         "x": 360,
                         "y": 1595
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Bag"
                     }
                 ]
             },
-			{
+            {
                 "name": "Left Path",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Lake",
+                        "map": "Lake",
                         "x": 75,
                         "y": 1645
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Energy Vial"
                     }
                 ]
             },
-			{
+            {
                 "name": "Left Path Back",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Lake",
+                        "map": "Lake",
                         "x": 425,
                         "y": 1060
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Chaos Rune",
-						"visibility_rules": [
+                        "visibility_rules": [
                             "runesanity"
-							]
+                        ]
                     }
                 ]
             },
-			{
+            {
                 "name": "Right Path",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Lake",
+                        "map": "Lake",
                         "x": 2300,
                         "y": 1115
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Time Rune",
-						"visibility_rules": [
+                        "visibility_rules": [
                             "runesanity"
-							]
+                        ]
                     }
                 ]
             },
-			{
+            {
                 "name": "Down Whirlpool",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$LakeChaos, $LakeTime, $LakeEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Lake",
+                        "map": "Lake",
                         "x": 2210,
                         "y": 1515
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Silver Shield"
                     }
                 ]
             },
-			{
+            {
                 "name": "Down Whirlpool",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$LakeChaos, $LakeTime, $LakeEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Lake",
+                        "map": "Lake",
                         "x": 1980,
                         "y": 1410
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Bag 1"
                     }
                 ]
             },
-			{
+            {
                 "name": "Down Whirlpool",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$LakeChaos, $LakeTime, $LakeEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Lake",
+                        "map": "Lake",
                         "x": 1780,
                         "y": 1250
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Bag 2"
                     }
                 ]
             },
-			{
+            {
                 "name": "Down Whirlpool",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$LakeChaos, $LakeTime, $LakeEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Lake",
+                        "map": "Lake",
                         "x": 1205,
                         "y": 970
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Bag 3"
                     }
                 ]
             },
-			{
+            {
                 "name": "Down Whirlpool",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$LakeChaos, $LakeTime, $LakeEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Lake",
+                        "map": "Lake",
                         "x": 1900,
                         "y": 1355
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Energy Vial 1"
                     },
-					{
-						"name": "Energy Vial 2"
-					}
+                    {
+                        "name": "Energy Vial 2"
+                    }
                 ]
             },
-			{
+            {
                 "name": "Gate Path",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Lake",
+                        "map": "Lake",
                         "x": 780,
                         "y": 755
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Bag"
                     }
                 ]
             },
-			{
+            {
                 "name": "Past Tunnel",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$LakeChaos, $LakeTime, $LakeEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Lake",
+                        "map": "Lake",
                         "x": 75,
                         "y": 615
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Bag"
                     }
                 ]
             },
-			{
+            {
                 "name": "Past Tunnel",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$LakeChaos, $LakeTime, $LakeEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Lake",
+                        "map": "Lake",
                         "x": 910,
                         "y": 535
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Chest"
                     }
                 ]
             },
-			{
+            {
                 "name": "Past Tunnel",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$LakeChaos, $LakeTime, $LakeEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Lake",
+                        "map": "Lake",
                         "x": 630,
                         "y": 380
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Star Rune",
-						"visibility_rules": [
+                        "visibility_rules": [
                             "runesanity"
-							]
+                        ]
                     }
                 ]
             },
-			{
+            {
                 "name": "Past Tunnel",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$LakeChaos, $LakeTime, $LakeEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Lake",
+                        "map": "Lake",
                         "x": 730,
                         "y": 1110
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Chalice",
-						"visibility_rules": "include_chalices_in_checks",
-						"chest_unopened_img": "images/items/chalice.png",
-						"chest_opened_img": "images/items/empty chalice.png"
+                        "visibility_rules": "include_chalices_in_checks",
+                        "chest_unopened_img": "images/items/chalice.png",
+                        "chest_opened_img": "images/items/empty chalice.png"
                     }
                 ]
             },
-			{
+            {
                 "name": "Clear",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Lake",
+                        "map": "Lake",
                         "x": 185,
                         "y": 1470,
-						"shape": "diamond",
-						"size": 60
+                        "shape": "diamond",
+                        "size": 60
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Cleared The Lake",
-						"hosted_item": "clearedlake"
-					},
-					{
-						"name": "Books",
-						"item_count": 2,
-						"chest_unopened_img": "images/labels/Book3.png",
-						"chest_opened_img": "images/labels/bookdisabled.png",
-						"clear_as_group": false,
-						"visibility_rules": "booksanity"
-					},
-					{
-						"name": "Gargoyles",
-						"chest_unopened_img": "images/labels/gargoyle2.png",
-						"chest_opened_img": "images/labels/gargoyledisabled.png",
-						"clear_as_group": false,
-						"visibility_rules": "gargoylesanity"
-					}
+                        "access_rules": [
+                            "$LakeStar"
+                        ],
+                        "chest_unopened_img": "images/labels/Not Cleared.png",
+                        "chest_opened_img": "images/labels/Cleared.png"
+                    },
+                    {
+                        "name": "Books",
+                        "item_count": 2,
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "clear_as_group": false,
+                        "visibility_rules": "booksanity"
+                    },
+                    {
+                        "name": "Gargoyles",
+                        "chest_unopened_img": "images/labels/gargoyle2.png",
+                        "chest_opened_img": "images/labels/gargoyledisabled.png",
+                        "clear_as_group": false,
+                        "visibility_rules": "gargoylesanity"
+                    }
                 ]
             }
-		]
+        ]
     }
 ]

@@ -3,8 +3,10 @@
         "name": "The Entrance Hall",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
-		"access_rules": [ "clearedship"],
-				
+		"access_rules": [
+            "@The Ghost Ship/Clear/Cleared The Ghost Ship",
+            "progression_option"
+        ],	
         "children": 
         [
             {
@@ -45,7 +47,8 @@
                 [
                     {
                         "name": "Cleared The Entrance Hall",
-						"hosted_item": "clearedhall"
+                        "chest_unopened_img": "images/labels/Not Cleared.png",
+                        "chest_opened_img": "images/labels/Cleared.png"
 					},
 					{
 						"name": "Books",

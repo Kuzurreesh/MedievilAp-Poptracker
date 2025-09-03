@@ -4,7 +4,8 @@
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
         "access_rules": [
-            "clearedhall"
+            "@The Entrance Hall/Clear/Cleared The Entrance Hall",
+            "progression_option"
         ],
         "children": [
             {
@@ -42,6 +43,9 @@
             },
             {
                 "name": "Time Spinners",
+                "access_rules": [
+                    "dash, $DeviceTime"
+                ],
                 "map_locations": [
                     {
                         "map": "Time Device",
@@ -63,6 +67,9 @@
             },
             {
                 "name": "Entrance Fountain",
+                "access_rules": [
+                    "$DeviceTime"
+                ],
                 "map_locations": [
                     {
                         "map": "Time Device",
@@ -78,6 +85,9 @@
             },
             {
                 "name": "South Path",
+                "access_rules": [
+                    "$DeviceTime"
+                ],
                 "map_locations": [
                     {
                         "map": "Time Device",
@@ -96,6 +106,9 @@
             },
             {
                 "name": "Lasers",
+                "access_rules": [
+                    "$DeviceTime, $DeviceChaos, $DeviceEarth, $DeviceMoon"
+                ],
                 "map_locations": [
                     {
                         "map": "Time Device",
@@ -114,6 +127,9 @@
             },
             {
                 "name": "Lasers",
+                "access_rules": [
+                    "$DeviceTime"
+                ],
                 "map_locations": [
                     {
                         "map": "Time Device",
@@ -132,6 +148,9 @@
             },
             {
                 "name": "Lasers",
+                "access_rules": [
+                    "$DeviceTime"
+                ],
                 "map_locations": [
                     {
                         "map": "Time Device",
@@ -150,6 +169,9 @@
             },
             {
                 "name": "Earth Station",
+                "access_rules": [
+                    "$DeviceTime, $DeviceChaos, $DeviceEarth"
+                ],
                 "map_locations": [
                     {
                         "map": "Time Device",
@@ -171,6 +193,9 @@
             },
             {
                 "name": "Earth Station",
+                "access_rules": [
+                    "$DeviceTime, $DeviceChaos, $DeviceEarth"
+                ],
                 "map_locations": [
                     {
                         "map": "Time Device",
@@ -201,7 +226,11 @@
                 "sections": [
                     {
                         "name": "Cleared The Time Device",
-                        "hosted_item": "cleareddevice"
+                        "access_rules": [
+                            "$DeviceTime, $DeviceChaos, $DeviceMoon"
+                        ],
+                        "chest_unopened_img": "images/labels/Not Cleared.png",
+                        "chest_opened_img": "images/labels/Cleared.png"
                     },
                     {
                         "name": "Books",
@@ -223,7 +252,8 @@
                 "name": "Zarok's Lair",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "cleareddevice"
+                    "@The Time Device/Clear/Cleared The Time Device",
+                    "progression_option"
                 ],
                 "map_locations": [
                     {
@@ -242,7 +272,8 @@
                 "name": "Zarok's Lair",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "cleareddevice"
+                    "@The Time Device/Clear/Cleared The Time Device",
+                    "progression_option"
                 ],
                 "map_locations": [
                     {
@@ -261,7 +292,8 @@
                 "name": "Clear Game",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "cleareddevice,goodlightning"
+                    "@The Time Device/Clear/Cleared The Time Device",
+                    "progression_option"
                 ],
                 "map_locations": [
                     {
@@ -282,6 +314,9 @@
                     },
                     {
                         "name": "Beat Zarok",
+                        "access_rules": [
+                            "goodlightning"
+                        ],
                         "chest_unopened_img": "images/labels/zarok.png",
                         "chest_opened_img": "images/labels/zarok2disabled.png"
                     }

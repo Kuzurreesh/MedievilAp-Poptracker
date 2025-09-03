@@ -1,199 +1,167 @@
 [
-    {	
+    {
         "name": "Inside the Asylum",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
-		"access_rules": [ "clearedgrounds"],
-				
-        "children": 
-        [
+        "access_rules": [
+            "@Asylum Grounds/Clear/Cleared Asylum Grounds",
+            "progression_option"
+        ],
+        "children": [
             {
                 "name": "Room 1",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Inside the Asylum",
+                        "map": "Inside the Asylum",
                         "x": 1080,
                         "y": 390
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Room 1 Clear",
-                        "clear_as_group": true
+                        "name": "Room 1 Clear"
                     }
                 ]
             },
-			{
+            {
                 "name": "Room 2",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Inside the Asylum",
+                        "map": "Inside the Asylum",
                         "x": 1070,
                         "y": 575
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Room 2 Clear",
-                        "clear_as_group": true
+                        "name": "Room 2 Clear"
                     }
                 ]
             },
-			{
+            {
                 "name": "Room 3",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Inside the Asylum",
+                        "map": "Inside the Asylum",
                         "x": 700,
                         "y": 435
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Room 3 Clear",
-                        "clear_as_group": true
+                        "name": "Room 3 Clear"
                     }
                 ]
             },
-			{
+            {
                 "name": "Room 4",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Inside the Asylum",
+                        "map": "Inside the Asylum",
                         "x": 380,
                         "y": 945
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Room 4 Clear",
-                        "clear_as_group": true
+                        "name": "Room 4 Clear"
                     }
                 ]
             },
-			{
+            {
                 "name": "Room 5",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Inside the Asylum",
+                        "map": "Inside the Asylum",
                         "x": 360,
                         "y": 1110
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Room 5 Clear",
-                        "clear_as_group": true
+                        "name": "Room 5 Clear"
                     }
                 ]
             },
-			{
-				"name": "Prison",
-				"map_locations": 
-				[
-					{
-						"map": "Inside the Asylum",
+            {
+                "name": "Prison",
+                "map_locations": [
+                    {
+                        "map": "Inside the Asylum",
                         "x": 510,
                         "y": 1250
                     }
                 ],
-                
-				
-				
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Earth Rune",
-						"visibility_rules": [
+                        "visibility_rules": [
                             "runesanity"
-							]
+                        ]
                     },
-					{
-						"visibility_rules": "include_chalices_in_checks",
+                    {
+                        "visibility_rules": "include_chalices_in_checks",
                         "chest_unopened_img": "images/items/chalice.png",
-						"chest_opened_img": "images/items/empty chalice.png",
-						"name": "Chalice"
+                        "chest_opened_img": "images/items/empty chalice.png",
+                        "name": "Chalice"
                     },
-					{
+                    {
                         "name": "Coin Bag 2"
                     }
-					
                 ]
-			},
-			{
-				"name": "Prison",
-				"map_locations": 
-				[
-					{
-						"map": "Inside the Asylum",
+            },
+            {
+                "name": "Prison",
+                "access_rules": [
+                    "$AsylumEarth"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Inside the Asylum",
                         "x": 700,
                         "y": 1200
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Bag 1"
                     }
-					
                 ]
-			},
-			{
-				"name": "Prison",
-				"map_locations": 
-				[
-					{
-						"map": "Inside the Asylum",
+            },
+            {
+                "name": "Prison",
+                "map_locations": [
+                    {
+                        "map": "Inside the Asylum",
                         "x": 770,
                         "y": 1370
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Dragon Gem"
                     }
-					
                 ]
-			},
-			{
+            },
+            {
                 "name": "Clear",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Inside the Asylum",
+                        "map": "Inside the Asylum",
                         "x": 545,
                         "y": 1440,
-						"shape": "diamond",
-						"size": 60
+                        "shape": "diamond",
+                        "size": 60
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Cleared Inside the Asylum",
-						"hosted_item": "clearedasylum"
-					}
+                        "chest_unopened_img": "images/labels/Not Cleared.png",
+                        "chest_opened_img": "images/labels/Cleared.png"
+                    }
                 ]
             }
-		]
+        ]
     }
 ]

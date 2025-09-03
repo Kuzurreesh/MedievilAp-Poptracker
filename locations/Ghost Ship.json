@@ -1,328 +1,320 @@
 [
-    {	
+    {
         "name": "The Ghost Ship",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
-		"access_rules": [ "clearedruins"],
-				
-        "children": 
-        [
+        "access_rules": [
+            "@The Haunted Ruins/Clear/Cleared The Haunted Ruins",
+            "progression_option"
+        ],
+        "children": [
             {
                 "name": "Below Trapdoors",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Ghost Ship",
+                        "map": "Ghost Ship",
                         "x": 450,
                         "y": 670
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Silver Shield"
                     }
                 ]
             },
-			{
+            {
                 "name": "Below Trapdoors",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Ghost Ship",
+                        "map": "Ghost Ship",
                         "x": 443,
                         "y": 716
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Bag"
                     }
                 ]
             },
-			{
+            {
                 "name": "Moon Cabin",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$ShipMoon"
+                ],
+                "map_locations": [
                     {
-						"map": "Ghost Ship",
+                        "map": "Ghost Ship",
                         "x": 278,
                         "y": 425
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Energy Vial"
                     }
                 ]
             },
-			{
+            {
                 "name": "Moon Cabin",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$ShipMoon"
+                ],
+                "map_locations": [
                     {
-						"map": "Ghost Ship",
+                        "map": "Ghost Ship",
                         "x": 185,
                         "y": 405
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Star Rune",
-						"visibility_rules": [
+                        "visibility_rules": [
                             "runesanity"
-							]
+                        ]
                     }
                 ]
             },
-			{
+            {
                 "name": "Upstairs",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Ghost Ship",
+                        "map": "Ghost Ship",
                         "x": 465,
                         "y": 200
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Moon Rune",
-						"visibility_rules": [
+                        "visibility_rules": [
                             "runesanity"
-							]
+                        ]
                     }
                 ]
             },
-			{
+            {
                 "name": "Fountain",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Ghost Ship",
+                        "map": "Ghost Ship",
                         "x": 795,
                         "y": 565
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Bag"
                     }
                 ]
             },
-			{
+            {
                 "name": "Past Cannons",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$ShipStar"
+                ],
+                "map_locations": [
                     {
-						"map": "Ghost Ship",
+                        "map": "Ghost Ship",
                         "x": 1185,
                         "y": 840
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Chaos Rune",
-						"visibility_rules": [
+                        "visibility_rules": [
                             "runesanity"
-							]
+                        ]
                     }
                 ]
             },
-			{
-                "name": "Below Trampolines 1",
-                "map_locations": 
-                [
+            {
+                "name": "Below Trampolines",
+                "access_rules": [
+                    "$ShipChaos, $ShipStar"
+                ],
+                "map_locations": [
                     {
-						"map": "Ghost Ship",
+                        "map": "Ghost Ship",
                         "x": 1520,
                         "y": 865
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Energy Vial 1"
                     }
                 ]
             },
-			{
-                "name": "Below Trampolines 1",
-                "map_locations": 
-                [
+            {
+                "name": "Below Trampolines",
+                "access_rules": [
+                    "$ShipChaos, $ShipStar"
+                ],
+                "map_locations": [
                     {
-						"map": "Ghost Ship",
+                        "map": "Ghost Ship",
                         "x": 1665,
                         "y": 935
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Energy Vial 2"
                     }
                 ]
             },
-			{
-                "name": "Below Trampolines 1",
-                "map_locations": 
-                [
+            {
+                "name": "Below Trampolines",
+                "access_rules": [
+                    "$ShipChaos, $ShipStar"
+                ],
+                "map_locations": [
                     {
-						"map": "Ghost Ship",
+                        "map": "Ghost Ship",
                         "x": 1660,
                         "y": 1180,
-						"size": 30
+                        "size": 30
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Bag"
                     }
                 ]
             },
-			{
+            {
                 "name": "Cannon Room",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$ShipChaos, $ShipStar"
+                ],
+                "map_locations": [
                     {
-						"map": "Ghost Ship",
+                        "map": "Ghost Ship",
                         "x": 710,
                         "y": 955
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Energy Vial"
                     }
                 ]
             },
-			{
+            {
                 "name": "Cannon Room",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$ShipChaos, $ShipStar"
+                ],
+                "map_locations": [
                     {
-						"map": "Ghost Ship",
+                        "map": "Ghost Ship",
                         "x": 525,
                         "y": 985
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Chest"
                     }
                 ]
             },
-			{
+            {
                 "name": "Up the Lift",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Ghost Ship",
+                        "map": "Ghost Ship",
                         "x": 1400,
                         "y": 670
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Chalice",
-						"visibility_rules": "include_chalices_in_checks",
-						"chest_unopened_img": "images/items/chalice.png",
-						"chest_opened_img": "images/items/empty chalice.png"
+                        "access_rules": [
+                            "club, $ShipChaos, $ShipStar"
+                        ],
+                        "visibility_rules": "include_chalices_in_checks",
+                        "chest_unopened_img": "images/items/chalice.png",
+                        "chest_opened_img": "images/items/empty chalice.png"
                     },
-					{
-                        "name": "Energy Vial 2"
+                    {
+                        "name": "Energy Vial 2",
+                        "access_rules": [
+                            "$ShipChaos, $ShipStar"
+                        ]
                     }
                 ]
             },
-			{
+            {
                 "name": "Up the Lift",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$ShipChaos, $ShipStar"
+                ],
+                "map_locations": [
                     {
-						"map": "Ghost Ship",
+                        "map": "Ghost Ship",
                         "x": 1835,
                         "y": 885
                     }
                 ],
-                
-                "sections": 
-                [
-					{
+                "sections": [
+                    {
                         "name": "Energy Vial 1"
                     }
                 ]
             },
-			{
+            {
                 "name": "Captain",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$ShipChaos, $ShipStar"
+                ],
+                "map_locations": [
                     {
-						"map": "Ghost Ship",
+                        "map": "Ghost Ship",
                         "x": 2115,
                         "y": 1130
                     }
                 ],
-                
-                "sections": 
-                [
-					{
+                "sections": [
+                    {
                         "name": "Club"
                     }
                 ]
             },
-			{
+            {
                 "name": "Clear",
-				"access_rules": "club",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Ghost Ship",
+                        "map": "Ghost Ship",
                         "x": 2380,
                         "y": 1155,
-						"shape": "diamond",
-						"size": 60
+                        "shape": "diamond",
+                        "size": 60
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Cleared The Ghost Ship",
-						"hosted_item": "clearedship"
-					},
-					{
-						"name": "Books",
-						"item_count": 2,
-						"chest_unopened_img": "images/labels/Book3.png",
-						"chest_opened_img": "images/labels/bookdisabled.png",
-						"clear_as_group": false,
-						"visibility_rules": "booksanity"
-					}
+                        "access_rules": [
+                            "club, $ShipChaos, $ShipStar"
+                        ],
+                        "chest_unopened_img": "images/labels/Not Cleared.png",
+                        "chest_opened_img": "images/labels/Cleared.png"
+                    },
+                    {
+                        "name": "Books",
+                        "item_count": 2,
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "clear_as_group": false,
+                        "visibility_rules": "booksanity"
+                    }
                 ]
             }
-		]
+        ]
     }
 ]

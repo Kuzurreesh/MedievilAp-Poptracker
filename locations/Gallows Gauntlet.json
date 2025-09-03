@@ -1,197 +1,184 @@
 [
-    {	
+    {
         "name": "The Gallows Gauntlet",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
-		"access_rules": [ "clearedcrystal"],
-				
-        "children": 
-        [
+        "access_rules": [
+            "@The Crystal Caves/Clear/Cleared The Crystal Caves",
+            "progression_option"
+        ],
+        "children": [
             {
                 "name": "Gate at Start",
-				"access_rules": "dragonarmour",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "dragonarmour"
+                ],
+                "map_locations": [
                     {
-						"map": "Gallows Gauntlet",
+                        "map": "Gallows Gauntlet",
                         "x": 580,
                         "y": 755
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Star Rune",
-						"visibility_rules": [
+                        "visibility_rules": [
                             "runesanity"
-							]
+                        ]
                     }
                 ]
             },
-			{
+            {
                 "name": "Dragon Skeleton 1",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Gallows Gauntlet",
+                        "map": "Gallows Gauntlet",
                         "x": 920,
                         "y": 635
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Bag"
                     }
                 ]
             },
-			{
+            {
                 "name": "Dragon Skeleton 2",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Gallows Gauntlet",
+                        "map": "Gallows Gauntlet",
                         "x": 1245,
                         "y": 730
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Bag"
                     }
                 ]
             },
-			{
+            {
                 "name": "Near End 1",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Gallows Gauntlet",
+                        "map": "Gallows Gauntlet",
                         "x": 970,
                         "y": 950
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Silver Shield"
                     }
                 ]
             },
-			{
+            {
                 "name": "Gate Near Star Gate",
-				"access_rules": "dragonarmour",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "dragonarmour"
+                ],
+                "map_locations": [
                     {
-						"map": "Gallows Gauntlet",
+                        "map": "Gallows Gauntlet",
                         "x": 980,
                         "y": 1465
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Chest"
                     }
                 ]
             },
-			{
+            {
                 "name": "Past Dragon Gate",
-				"access_rules": "dragonarmour",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "dragonarmour"
+                ],
+                "map_locations": [
                     {
-						"map": "Gallows Gauntlet",
+                        "map": "Gallows Gauntlet",
                         "x": 2145,
                         "y": 605
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Chest"
                     }
                 ]
             },
-			{
+            {
                 "name": "Chalice Gate",
-				"access_rules": "dragonarmour",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "dragonarmour, $GallowStar"
+                ],
+                "map_locations": [
                     {
-						"map": "Gallows Gauntlet",
+                        "map": "Gallows Gauntlet",
                         "x": 1510,
                         "y": 1345
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Chalice",
-						"visibility_rules": "include_chalices_in_checks",
-						"chest_unopened_img": "images/items/chalice.png",
-						"chest_opened_img": "images/items/empty chalice.png"
+                        "visibility_rules": "include_chalices_in_checks",
+                        "chest_unopened_img": "images/items/chalice.png",
+                        "chest_opened_img": "images/items/empty chalice.png"
                     }
                 ]
             },
-			{
+            {
                 "name": "Chalice Gate",
-				"access_rules": "dragonarmour",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "dragonarmour"
+                ],
+                "map_locations": [
                     {
-						"map": "Gallows Gauntlet",
+                        "map": "Gallows Gauntlet",
                         "x": 1420,
                         "y": 1345
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Energy Vial"
                     }
                 ]
             },
-			{
+            {
                 "name": "Clear",
-				"access_rules": "dragonarmour",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Gallows Gauntlet",
+                        "map": "Gallows Gauntlet",
                         "x": 1445,
                         "y": 1720,
-						"shape": "diamond",
-						"size": 60
+                        "shape": "diamond",
+                        "size": 60
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Cleared The Gallows Gauntlet",
-						"hosted_item": "clearedgallows"
-					},
-					{
-						"name": "Books",
-						"item_count": 4,
-						"chest_unopened_img": "images/labels/Book3.png",
-						"chest_opened_img": "images/labels/bookdisabled.png",
-						"clear_as_group": false,
-						"visibility_rules": "booksanity"
-					}
+                        "access_rules": [
+                            "$GallowStar"
+                        ],
+                        "chest_unopened_img": "images/labels/Not Cleared.png",
+                        "chest_opened_img": "images/labels/Cleared.png"
+                    },
+                    {
+                        "name": "Books",
+                        "item_count": 4,
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "clear_as_group": false,
+                        "visibility_rules": "booksanity"
+                    }
                 ]
             }
-		]
+        ]
     }
 ]

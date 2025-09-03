@@ -1,311 +1,267 @@
 [
-    {	
+    {
         "name": "Enchanted Earth",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
-		"access_rules": [ "clearedrtg"],
-		
-        "children": 
-        [
+        "access_rules": [
+            "@Return to the Graveyard/Clear/Cleared Return to the Graveyard",
+            "progression_option"
+        ],
+        "children": [
             {
                 "name": "Gated Chest",
-				"access_rules": [
-				"shadowtalisman, shadowartefact"
-				],
-                "map_locations": 
-                [
+                "access_rules": [
+                    "shadowtalisman, shadowartefact, $EnchantEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Enchanted Earth",
+                        "map": "Enchanted Earth",
                         "x": 425,
                         "y": 1180
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Coin Chest",
-                        "clear_as_group": true
+                        "name": "Coin Chest"
                     }
                 ]
             },
-			{
+            {
                 "name": "Shadow Head",
-                "map_locations": 
-                [
+                "access_rules": [
+                    "$EnchantEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Enchanted Earth",
+                        "map": "Enchanted Earth",
                         "x": 1310,
                         "y": 1360
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Coin Bag",
-                        "clear_as_group": true
+                        "name": "Coin Bag"
                     }
                 ]
             },
-			{
-				"name": "Behind Lift Tree",
-				"map_locations": 
-				[
-					{
-						"map": "Enchanted Earth",
+            {
+                "name": "Behind Lift Tree",
+                "map_locations": [
+                    {
+                        "map": "Enchanted Earth",
                         "x": 1495,
                         "y": 1140
                     }
                 ],
-                
-				
-				
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Coin Bag 1"
                     },
-					{
+                    {
                         "name": "Coin Bag 2"
                     }
-					
                 ]
-			},
-			{
+            },
+            {
                 "name": "Bird Nest",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Enchanted Earth",
+                        "map": "Enchanted Earth",
                         "x": 2010,
                         "y": 945
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Egg 1"
                     },
-					{
+                    {
                         "name": "Egg 3",
-						"visibility_rules": [
+                        "visibility_rules": [
                             "runesanity"
-							]
+                        ]
                     },
-					{
+                    {
                         "name": "Egg 2"
                     }
                 ]
             },
-			{
+            {
                 "name": "Hollow Tree Bottom",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Enchanted Earth",
+                        "map": "Enchanted Earth",
                         "x": 960,
                         "y": 725
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Coin Bag",
-                        "clear_as_group": true
+                        "name": "Coin Bag"
                     }
                 ]
             },
-			{
+            {
                 "name": "Hollow Tree Top",
-				"access_rules": [
-				"shadowtalisman, shadowartefact"
-				],
-                "map_locations": 
-                [
+                "access_rules": [
+                    "shadowtalisman, shadowartefact"
+                ],
+                "map_locations": [
                     {
-						"map": "Enchanted Earth",
+                        "map": "Enchanted Earth",
                         "x": 950,
                         "y": 515
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Energy Vial 1",
-                        "clear_as_group": true
+                        "name": "Energy Vial 1"
                     },
-					{
-                        "name": "Energy Vial 2",
-                        "clear_as_group": true
+                    {
+                        "name": "Energy Vial 2"
                     }
                 ]
             },
-			{
+            {
                 "name": "Elevator",
-				"access_rules": [
-				"shadowtalisman, shadowartefact"
-				],
-                "map_locations": 
-                [
+                "access_rules": [
+                    "shadowtalisman, shadowartefact"
+                ],
+                "map_locations": [
                     {
-						"map": "Enchanted Earth",
+                        "map": "Enchanted Earth",
                         "x": 423,
                         "y": 805
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Star Rune",
                         "visibility_rules": [
                             "runesanity"
-							]
+                        ]
                     }
                 ]
             },
-			{
+            {
                 "name": "Past Elevator",
-				"access_rules": [
-				"shadowtalisman, shadowartefact"
-				],
-                "map_locations": 
-                [
+                "access_rules": [
+                    "shadowtalisman, shadowartefact"
+                ],
+                "map_locations": [
                     {
-						"map": "Enchanted Earth",
+                        "map": "Enchanted Earth",
                         "x": 645,
                         "y": 280
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Coin Chest 1",
-                        "clear_as_group": true
+                        "name": "Coin Chest 1"
                     },
-					{
-                        "name": "Coin Chest 2",
-                        "clear_as_group": true
+                    {
+                        "name": "Coin Chest 2"
                     },
-					{
-                        "name": "Coin Chest 3",
-                        "clear_as_group": true
+                    {
+                        "name": "Coin Chest 3"
                     }
                 ]
             },
-			{
+            {
                 "name": "Element Room",
-				"access_rules": [
-				"shadowtalisman, shadowartefact"
-				],
-                "map_locations": 
-                [
+                "access_rules": [
+                    "shadowtalisman, shadowartefact, $EnchantEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Enchanted Earth",
+                        "map": "Enchanted Earth",
                         "x": 1910,
                         "y": 1790
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Shadow Talisman",
-                        "clear_as_group": true
+                        "name": "Shadow Talisman"
                     }
                 ]
             },
-			{
+            {
                 "name": "Element Room",
-				"access_rules": [
-				"shadowtalisman, shadowartefact"
-				],
-                "map_locations": 
-                [
+                "access_rules": [
+                    "shadowtalisman, shadowartefact, $EnchantEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Enchanted Earth",
+                        "map": "Enchanted Earth",
                         "x": 2185,
                         "y": 1800
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Chalice",
-						"visibility_rules": "include_chalices_in_checks",
-						"chest_unopened_img": "images/items/chalice.png",
-						"chest_opened_img": "images/items/empty chalice.png"
+                        "visibility_rules": "include_chalices_in_checks",
+                        "chest_unopened_img": "images/items/chalice.png",
+                        "chest_opened_img": "images/items/empty chalice.png"
                     }
                 ]
             },
-			{
+            {
                 "name": "Element Room",
-				"access_rules": [
-				"shadowtalisman, shadowartefact"
-				],
-                "map_locations": 
-                [
+                "access_rules": [
+                    "shadowtalisman, shadowartefact, $EnchantEarth"
+                ],
+                "map_locations": [
                     {
-						"map": "Enchanted Earth",
+                        "map": "Enchanted Earth",
                         "x": 2030,
                         "y": 2015
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Energy Vial",
-                        "clear_as_group": true
+                        "name": "Energy Vial"
                     }
                 ]
             },
-			{
+            {
                 "name": "Clear",
-				"access_rules": [
-				"shadowtalisman, shadowartefact"
-				],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Enchanted Earth",
+                        "map": "Enchanted Earth",
                         "x": 1600,
                         "y": 1610,
-						"shape": "diamond",
-						"size": 65
+                        "shape": "diamond",
+                        "size": 65
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Cleared Enchanted Earth",
-						"hosted_item": "clearedenchant"
+                        "access_rules": [
+                            "shadowtalisman, shadowartefact, $EnchantEarth, $EnchantStar"
+                        ],
+                        "chest_unopened_img": "images/labels/Not Cleared.png",
+                        "chest_opened_img": "images/labels/Cleared.png"
                     },
-					{
-						"name": "Books",
-						"item_count": 4,
-						"chest_unopened_img": "images/labels/Book3.png",
-						"chest_opened_img": "images/labels/bookdisabled.png",
-						"clear_as_group": false,
-						"visibility_rules": "booksanity"
-					},
-					{
-						"name": "Gargoyles",
-						"item_count": 2,
-						"chest_unopened_img": "images/labels/gargoyle2.png",
-						"chest_opened_img": "images/labels/gargoyledisabled.png",
-						"clear_as_group": false,
-						"visibility_rules": "gargoylesanity"
-					}
+                    {
+                        "name": "Books",
+                        "item_count": 4,
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "clear_as_group": false,
+                        "visibility_rules": "booksanity"
+                    },
+                    {
+                        "name": "Gargoyles",
+                        "item_count": 2,
+                        "chest_unopened_img": "images/labels/gargoyle2.png",
+                        "chest_opened_img": "images/labels/gargoyledisabled.png",
+                        "clear_as_group": false,
+                        "visibility_rules": "gargoylesanity"
+                    }
                 ]
             }
-		]
+        ]
     }
 ]

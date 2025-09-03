@@ -21,7 +21,7 @@
 						"chest_opened_img": "images/labels/bookdisabled.png",
 						"clear_as_group": false,
 						"access_rules": [
-							"chalice: 1"
+							"$Chalices|1"
 						],
 						"visibility_rules": "booksanity"
 					},
@@ -31,134 +31,134 @@
 						"chest_opened_img": "images/labels/gargoyledisabled.png",
 						"clear_as_group": false,
 						"access_rules": [
-							"chalice: 1"
+							"$Chalices|1"
 						],
 						"visibility_rules": "gargoylesanity"
 					},
 					{
 						"access_rules": [
-							"chalice: 1"
+							"$Chalices|1"
 						],
 						"name": "Chalice Reward 1"
 					},
 					{
 						"access_rules": [
-							"chalice: 2"
+							"$Chalices|2"
 						],
 						"name": "Chalice Reward 2"
 					},
 					{
 						"access_rules": [
-							"chalice: 3"
+							"$Chalices|3"
 						],
 						"name": "Chalice Reward 3"
 					},
 					{
 						"access_rules": [
-							"chalice: 4"
+							"$Chalices|4"
 						],
 						"name": "Chalice Reward 4"
 					},
 					{
 						"access_rules": [
-							"chalice: 5"
+							"$Chalices|5"
 						],
 						"name": "Chalice Reward 5"
 					},
 					{
 						"access_rules": [
-							"chalice: 6"
+							"$Chalices|6"
 						],
 						"name": "Chalice Reward 6"
 					},
 					{
 						"access_rules": [
-							"chalice: 7"
+							"$Chalices|7"
 						],
 						"name": "Chalice Reward 7"
 					},
 					{
 						"access_rules": [
-							"chalice: 8"
+							"$Chalices|8"
 						],
 						"name": "Chalice Reward 8"
 					},
 					{
 						"access_rules": [
-							"chalice: 9"
+							"$Chalices|9"
 						],
 						"name": "Chalice Reward 9"
 					},
 					{
 						"access_rules": [
-							"chalice: 10"
+							"$Chalices|10"
 						],
 						"name": "Chalice Reward 10"
 					},
 					{
 						"access_rules": [
-							"chalice: 11"
+							"$Chalices|11"
 						],
 						"name": "Chalice Reward 11"
 					},
 					{
 						"access_rules": [
-							"chalice: 12"
+							"$Chalices|12"
 						],
 						"name": "Chalice Reward 12"
 					},
 					{
 						"access_rules": [
-							"chalice: 13"
+							"$Chalices|13"
 						],
 						"name": "Chalice Reward 13"
 					},
 					{
 						"access_rules": [
-							"chalice: 14"
+							"$Chalices|14"
 						],
 						"name": "Chalice Reward 14"
 					},
 					{
 						"access_rules": [
-							"chalice: 15"
+							"$Chalices|15"
 						],
 						"name": "Chalice Reward 15"
 					},
 					{
 						"access_rules": [
-							"chalice: 16"
+							"$Chalices|16"
 						],
 						"name": "Chalice Reward 16"
 					},
 					{
 						"access_rules": [
-							"chalice: 17"
+							"$Chalices|17"
 						],
 						"name": "Chalice Reward 17"
 					},
 					{
 						"access_rules": [
-							"chalice: 18"
+							"$Chalices|18"
 						],
 						"name": "Chalice Reward 18"
 					},
 					{
 						"access_rules": [
-							"chalice: 19"
+							"$Chalices|19"
 						],
 						"name": "Chalice Reward 19"
 					},
 					{
 						"access_rules": [
-							"chalice: 20"
+							"$Chalices|20"
 						],
 						"name": "Chalice Reward 20"
 					}
 				]
 			},
 			{
-				"name": "Dan's Crypt OW",
+				"name": "Dan's Crypt",
 				"map_locations": [
 					{
 						"map": "World Map",
@@ -258,7 +258,7 @@
 						"ref": "The Graveyard/Spinning Statue/Chalice"
 					},
 					{
-						"ref": "The Graveyard/Graveyard Clear/Cleared The Graveyard"
+						"ref": "The Graveyard/Clear/Cleared The Graveyard"
 					}
 				]
 			},
@@ -1482,10 +1482,10 @@
 						"ref": "The Ghost Ship/Cannon Room/Energy Vial"
 					},
 					{
-						"ref": "The Ghost Ship/Below Trampolines 1/Energy Vial 1"
+						"ref": "The Ghost Ship/Below Trampolines/Energy Vial 1"
 					},
 					{
-						"ref": "The Ghost Ship/Below Trampolines 1[1]/Energy Vial 2"
+						"ref": "The Ghost Ship/Below Trampolines[1]/Energy Vial 2"
 					},
 					{
 						"ref": "The Ghost Ship/Up the Lift/Energy Vial 1"
@@ -1503,7 +1503,7 @@
 						"ref": "The Ghost Ship/Cannon Room[1]/Coin Chest"
 					},
 					{
-						"ref": "The Ghost Ship/Below Trampolines 1[2]/Coin Bag"
+						"ref": "The Ghost Ship/Below Trampolines[2]/Coin Bag"
 					},
 					{
 						"ref": "The Ghost Ship/Clear/Books"

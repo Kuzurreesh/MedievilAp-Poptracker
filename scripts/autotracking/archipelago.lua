@@ -80,6 +80,8 @@ function onClear(slot_data)
 				Tracker:FindObjectForCode(key).Active = value
 			elseif key == "gargoylesanity" then
 				Tracker:FindObjectForCode(key).Active = value
+			elseif key == "progression_option" then
+				Tracker:FindObjectForCode(key).Active = value
 			end
 		end
 	end

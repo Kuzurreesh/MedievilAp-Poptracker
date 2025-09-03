@@ -9,7 +9,7 @@
         "name": "Daring Dash",
         "type": "toggle",
         "img": "images/items/Daring Dash5.png",
-        "codes": "Daring5, bash"
+        "codes": "Daring5, bash, dash, golem"
     },
     {
         "name": "Small Sword",
@@ -51,13 +51,13 @@
         "name": "Club",
         "type": "toggle",
         "img": "images/items/Club.png",
-        "codes": "club, bash"
+        "codes": "club, bash, boulder"
     },
     {
         "name": "Hammer",
         "type": "toggle",
         "img": "images/items/Hammer.png",
-        "codes": "hammer, bash"
+        "codes": "hammer, bash, boulder"
     },
     {
         "name": "Axe",
@@ -639,7 +639,7 @@
         "name": "Dragon Armour",
         "type": "toggle",
         "img": "images/items/dragonpotion.png",
-        "codes": "dragonarmour"
+        "codes": "dragonarmour, golem"
     },
     {
         "name": "Chicken Drumstick",
@@ -903,5 +903,18 @@
         "initial_active_state": true,
         "loop": true,
         "codes": "gargoylesanity"
+    },
+    {
+        "name": "Open Label",
+        "type": "static",
+        "img": "images/labels/open.png",
+        "codes": "openlabel"
+    },
+    {
+        "name": "Open",
+        "type": "progressive_toggle",
+        "img": "images/maps/world map.png",
+        "loop": true,
+        "codes": "progression_option"
     }
 ]
