@@ -702,6 +702,9 @@
 						"ref": "Pumpkin Serpent/Down the Well/Coin Chest"
 					},
 					{
+						"ref": "Pumpkin Serpent/Clear/Books"
+					},
+					{
 						"ref": "Pumpkin Serpent/Down the Well[1]/Chalice"
 					},
 					{
@@ -911,7 +914,7 @@
 				]
 			},
 			{
-				"name": "enchanted",
+				"name": "Enchanted Earth",
 				"map_locations": [
 					{
 						"map": "World Map",
@@ -983,7 +986,7 @@
 				]
 			},
 			{
-				"name": "ant",
+				"name": "Ant Caves",
 				"map_locations": [
 					{
 						"map": "World Map",
