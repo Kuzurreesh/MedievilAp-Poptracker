@@ -145,10 +145,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chaos Rune",
-                        "visibility_rules": [
-                            "runesanity"
-                        ]
+                        "name": "Chaos Rune"
                     }
                 ]
             },

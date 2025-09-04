@@ -72,10 +72,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Earth Rune",
-                        "visibility_rules": [
-                            "runesanity"
-                        ]
+                        "name": "Earth Rune"
                     }
                 ]
             },
@@ -94,10 +91,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chaos Rune",
-                        "visibility_rules": [
-                            "runesanity"
-                        ]
+                        "name": "Chaos Rune"
                     }
                 ]
             },
@@ -136,10 +130,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Moon Rune",
-                        "visibility_rules": [
-                            "runesanity"
-                        ]
+                        "name": "Moon Rune"
                     }
                 ]
             },
@@ -177,10 +168,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Time Rune",
-                        "visibility_rules": [
-                            "runesanity"
-                        ]
+                        "name": "Time Rune"
                     }
                 ]
             },
@@ -198,10 +186,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Star Rune",
-                        "visibility_rules": [
-                            "runesanity"
-                        ]
+                        "name": "Star Rune"
                     },
                     {
                         "name": "Silver Shield"

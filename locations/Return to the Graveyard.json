@@ -55,10 +55,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Star Rune",
-                        "visibility_rules": [
-                            "runesanity"
-                        ]
+                        "name": "Star Rune"
                     }
                 ]
             },

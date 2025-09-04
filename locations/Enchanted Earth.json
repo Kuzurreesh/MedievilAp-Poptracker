@@ -76,10 +76,7 @@
                         "name": "Egg 1"
                     },
                     {
-                        "name": "Egg 3",
-                        "visibility_rules": [
-                            "runesanity"
-                        ]
+                        "name": "Egg 3"
                     },
                     {
                         "name": "Egg 2"
@@ -136,10 +133,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Star Rune",
-                        "visibility_rules": [
-                            "runesanity"
-                        ]
+                        "name": "Star Rune"
                     }
                 ]
             },

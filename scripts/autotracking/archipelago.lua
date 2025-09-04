@@ -58,35 +58,38 @@ function onClear(slot_data)
             end
         end
     end
-	
-	-- Autotracking options
-	if slot_data["options"] then
-	--	print("options detected: ")
-		local otable = slot_data["options"]
-		for key, value in pairs(otable) do
-		--	print("table: ", key, value)
-			if key == "include_ant_hill_in_checks" then
-			--	print("key ok: ", key, value)
-				Tracker:FindObjectForCode(key).Active = value
-			elseif key == "runesanity" then
-				Tracker:FindObjectForCode(key).Active = value
-			elseif key == "goal" then
-				--print("goal: ", key, value)
-				Tracker:FindObjectForCode("goal").CurrentStage = value
-			elseif key == "include_chalices_in_checks" then
-			--	print("key ok: ", key, value)
-				Tracker:FindObjectForCode(key).Active = value
-			elseif key == "booksanity" then
-				Tracker:FindObjectForCode(key).Active = value
-			elseif key == "gargoylesanity" then
-				Tracker:FindObjectForCode(key).Active = value
-			elseif key == "progression_option" then
-				Tracker:FindObjectForCode(key).Active = value
-			end
-		end
-	end
-	
-	
+
+    -- reset local item(s)
+    Tracker:FindObjectForCode("Chalice").AcquiredCount = 0
+
+    -- Autotracking options
+    if slot_data["options"] then
+        --	print("options detected: ")
+        local otable = slot_data["options"]
+        for key, value in pairs(otable) do
+            --	print("table: ", key, value)
+            if key == "include_ant_hill_in_checks" then
+                --	print("key ok: ", key, value)
+                Tracker:FindObjectForCode(key).Active = value
+            elseif key == "runesanity" then
+                Tracker:FindObjectForCode(key).Active = value
+            elseif key == "goal" then
+                --print("goal: ", key, value)
+                Tracker:FindObjectForCode("goal").CurrentStage = value
+            elseif key == "include_chalices_in_checks" then
+                --	print("key ok: ", key, value)
+                Tracker:FindObjectForCode(key).Active = value
+            elseif key == "booksanity" then
+                Tracker:FindObjectForCode(key).Active = value
+            elseif key == "gargoylesanity" then
+                Tracker:FindObjectForCode(key).Active = value
+            elseif key == "progression_option" then
+                Tracker:FindObjectForCode(key).Active = value
+            end
+        end
+    end
+
+
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
 end
@@ -157,9 +160,8 @@ end
 
 -- called when a location gets cleared
 function onLocation(location_id, location_name)
-   
-     --  print(string.format("called onLocation: %s, %s", location_id, location_name))
-   
+    --  print(string.format("called onLocation: %s, %s", location_id, location_name))
+
     if not AUTOTRACKER_ENABLE_LOCATION_TRACKING then
         return
     end
@@ -174,16 +176,24 @@ function onLocation(location_id, location_name)
     if obj then
         if v[1]:sub(1, 1) == "@" then
             obj.AvailableChestCount = obj.AvailableChestCount - 1
-			if v[1]:sub(-7) == "Chalice" then
-				local m = Tracker:FindObjectForCode("chalice")
-				m.AcquiredCount = m.AcquiredCount + m.Increment
-			end
-		else
+        else
             obj.Active = true
         end
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find object for code %s", v[1]))
     end
+end
+
+-- called when a bounce message is received
+function onBounce(json)
+    print(string.format("called onBounce: %s", dump(json)))
+
+    -- your code goes here
+end
+
+function onDataStorageUpdate(key, value, oldValue)
+    --if you plan to only use the hints key, you can remove this if
+    print("datastrorage: ", key, value, oldValue)
 end
 
 -- add AP callbacks
@@ -195,5 +205,7 @@ end
 
 if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
     Archipelago:AddLocationHandler("location handler", onLocation)
-
 end
+Archipelago:AddBouncedHandler("bounce handler", onBounce)
+Archipelago:AddRetrievedHandler("retrieved handler", onDataStorageUpdate)
+Archipelago:AddSetReplyHandler("set reply handler", onDataStorageUpdate)

@@ -94,10 +94,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Earth Rune",
-                        "visibility_rules": [
-                            "runesanity"
-                        ]
+                        "name": "Earth Rune"
                     },
                     {
                         "visibility_rules": "include_chalices_in_checks",
