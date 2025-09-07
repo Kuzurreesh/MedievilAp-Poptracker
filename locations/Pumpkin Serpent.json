@@ -4,10 +4,28 @@
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
         "access_rules": [
-            "@Pumpkin Gorge/Clear/Cleared Pumpkin Gorge",
+            "@Pumpkin Gorge/Clear/Cleared: Pumpkin Gorge",
             "progression_option"
         ],
         "children": [
+            {
+                "name": "Entrance",
+                "map_locations": [
+                    {
+                        "map": "Pumpkin Serpent",
+                        "x": 215,
+                        "y": 400
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Pumpkin King - PS",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
             {
                 "name": "Behind House",
                 "map_locations": [
@@ -19,7 +37,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag 1"
+                        "name": "Gold Coins: Bag Behind House 1 - PS"
                     }
                 ]
             },
@@ -34,7 +52,25 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag 2"
+                        "name": "Gold Coins: Bag Behind House 2 - PS"
+                    }
+                ]
+            },
+            {
+                "name": "Witch's Cauldron Entrance",
+                "map_locations": [
+                    {
+                        "map": "Pumpkin Serpent",
+                        "x": 315,
+                        "y": 305
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Pumpkin Witch - PS",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -52,7 +88,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Dragon Gem"
+                        "name": "Key Item: Dragon Gem - PS"
                     }
                 ]
             },
@@ -67,7 +103,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag Behind Vines and Pod - PS"
                     }
                 ]
             },
@@ -82,13 +118,28 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 1"
+                        "name": "Energy Vial: Left at Merchant Gargoyle - PS"
                     },
                     {
-                        "name": "Coin Chest"
+                        "name": "Gold Coins: Chest at Merchant Gargoyle - PS"
                     },
                     {
-                        "name": "Energy Vial 2"
+                        "name": "Energy Vial: Right at Merchant Gargoyle - PS"
+                    }
+                ]
+            },
+            {
+                "name": "Dried up Pond",
+                "map_locations": [
+                    {
+                        "map": "Pumpkin Serpent",
+                        "x": 555,
+                        "y": 575
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Equipment: Silver Shield in Chest near Leeches - PS"
                     }
                 ]
             },
@@ -111,21 +162,6 @@
                 ]
             },
             {
-                "name": "Dried up Pond",
-                "map_locations": [
-                    {
-                        "map": "Pumpkin Serpent",
-                        "x": 555,
-                        "y": 575
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Silver Shield"
-                    }
-                ]
-            },
-            {
                 "name": "Clear",
                 "map_locations": [
                     {
@@ -138,17 +174,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cleared Pumpkin Serpent",
+                        "name": "Cleared: Pumpkin Serpent",
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
-                    },
-                    {
-                        "name": "Books",
-                        "item_count": 2,
-                        "chest_unopened_img": "images/labels/Book3.png",
-                        "chest_opened_img": "images/labels/bookdisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "booksanity"
                     }
                 ]
             }

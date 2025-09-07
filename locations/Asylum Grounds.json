@@ -4,7 +4,7 @@
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
         "access_rules": [
-            "@Sleeping Village/Clear/Cleared Sleeping Village",
+            "@Sleeping Village/Clear/Cleared: Sleeping Village",
             "progression_option"
         ],
         "children": [
@@ -19,7 +19,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag 1"
+                        "name": "Gold Coins: Bag in Bell Grave Near Entrance - AG"
                     }
                 ]
             },
@@ -34,7 +34,43 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag 2"
+                        "name": "Gold Coins: Bag in Bell Grave Near Bell - AG"
+                    }
+                ]
+            },
+            {
+                "name": "Past Entry Tree Lane",
+                "map_locations": [
+                    {
+                        "map": "Asylum Grounds",
+                        "x": 820,
+                        "y": 1495
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Seek Jack - AG",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
+            {
+                "name": "Jack",
+                "map_locations": [
+                    {
+                        "map": "Asylum Grounds",
+                        "x": 1480,
+                        "y": 1775
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gargoyle: Jack of the Green - AG",
+                        "chest_unopened_img": "images/labels/gargoyle2.png",
+                        "chest_opened_img": "images/labels/gargoyledisabled.png",
+                        "visibility_rules": "gargoylesanity"
                     }
                 ]
             },
@@ -49,7 +85,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Silver Shield"
+                        "name": "Equipment: Silver Shield in Chest Behind Door - AG"
                     }
                 ]
             },
@@ -64,7 +100,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag Near Shooting Statue - AG"
                     }
                 ]
             },
@@ -82,7 +118,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 1"
+                        "name": "Energy Vial: Near Bishop - AG"
                     }
                 ]
             },
@@ -100,7 +136,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 2"
+                        "name": "Energy Vial: Near King - AG"
                     }
                 ]
             },
@@ -118,7 +154,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Behind Chaos Gate - AG"
                     }
                 ]
             },
@@ -133,7 +169,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag in Rat Grave - AG"
                     }
                 ]
             },
@@ -151,7 +187,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Behind Elephant in Grave - AG"
                     }
                 ]
             },
@@ -166,7 +202,28 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chaos Rune"
+                        "name": "Chaos Rune: Asylum Grounds"
+                    }
+                ]
+            },
+            {
+                "name": "Chess Board",
+                "access_rules": [
+                    "$GroundsChaos"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Asylum Grounds",
+                        "x": 435,
+                        "y": 540
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Secret Exit - AG",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -204,27 +261,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cleared Asylum Grounds",
+                        "name": "Cleared: Asylum Grounds",
                         "access_rules": [
                             "$GroundsChaos"
                         ],
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
-                    },
-                    {
-                        "name": "Books",
-                        "item_count": 2,
-                        "chest_unopened_img": "images/labels/Book3.png",
-                        "chest_opened_img": "images/labels/bookdisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "booksanity"
-                    },
-                    {
-                        "name": "Gargoyles",
-                        "chest_unopened_img": "images/labels/gargoyle2.png",
-                        "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "gargoylesanity"
                     }
                 ]
             }

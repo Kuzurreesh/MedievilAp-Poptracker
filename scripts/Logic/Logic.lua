@@ -338,63 +338,123 @@ function Chalices(number)
 	end
 	if Can("@The Graveyard/Spinning Statue/Chalice") then
 		count = count + 1
+		if count >= number then
+			return true
+		end
 	end
 	if Can("@Cemetery Hill/Arena[1]/Chalice") then
 		count = count + 1
+		if count >= number then
+			return true
+		end
 	end
-	if Can("@Hilltop Mausoleum/Secret Alcove/Chalice") and Can("@Hilltop Mausoleum/Clear/Cleared Hilltop Mausoleum") then
+	if Can("@Hilltop Mausoleum/Secret Alcove/Chalice") and Can("@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum") then
 		count = count + 1
+		if count >= number then
+			return true
+		end
 	end
 	if Can("@Return to the Graveyard/Undertakers/Chalice") then
 		count = count + 1
+		if count >= number then
+			return true
+		end
 	end
 	if Can("@Scarecrow Fields/Harvested Path[1]/Chalice") then
 		count = count + 1
+		if count >= number then
+			return true
+		end
 	end
 	if Can("@Pumpkin Gorge/Behind Wall/Chalice") then
 		count = count + 1
+		if count >= number then
+			return true
+		end
 	end
 	if Can("@Pumpkin Serpent/Down the Well[1]/Chalice") then
 		count = count + 1
+		if count >= number then
+			return true
+		end
 	end
 	if Can("@Sleeping Village/Ledge at Mayor's House/Chalice") then
 		count = count + 1
+		if count >= number then
+			return true
+		end
 	end
 	if Can("@Asylum Grounds/Elephant/Chalice") then
 		count = count + 1
+		if count >= number then
+			return true
+		end
 	end
 	if Can("@Inside the Asylum/Prison/Chalice") then
 		count = count + 1
+		if count >= number then
+			return true
+		end
 	end
-	if Can("@Enchanted Earth/Element Room[1]/Chalice") and Can("@Enchanted Earth/Clear/Cleared Enchanted Earth") then
+	if Can("@Enchanted Earth/Shadow Cave[1]/Chalice") and Can("@Enchanted Earth/Clear/Cleared: Enchanted Earth") then
 		count = count + 1
+		if count >= number then
+			return true
+		end
 	end
 	if Can("@Ant Caves/Clear/Chalice") and Has("include_ant_hill_in_checks") then
 		count = count + 1
+		if count >= number then
+			return true
+		end
 	end
-	if Can("@Pools of the Ancient Dead/West Side[3]/Chalice") and Can("@Pools of the Ancient Dead/Clear/Cleared Pools of the Ancient Dead") then
+	if Can("@Pools of the Ancient Dead/West Side[3]/Chalice") and Can("@Pools of the Ancient Dead/Clear/Cleared: Pools of the Ancient Dead") then
 		count = count + 1
+		if count >= number then
+			return true
+		end
 	end
-	if Can("@The Lake/Past Tunnel[3]/Chalice") and Can("@The Lake/Clear/Cleared The Lake") then
+	if Can("@The Lake/Past Tunnel[3]/Chalice") and Can("@The Lake/Clear/Cleared: The Lake") then
 		count = count + 1
+		if count >= number then
+			return true
+		end
 	end
 	if Can("@The Crystal Caves/Start/Chalice") then
 		count = count + 1
+		if count >= number then
+			return true
+		end
 	end
 	if Can("@The Gallows Gauntlet/Chalice Gate/Chalice") then
 		count = count + 1
+		if count >= number then
+			return true
+		end
 	end
-	if Can("@The Haunted Ruins/Outer Wall West[2]/Chalice") and Can("@The Haunted Ruins/Clear/Cleared The Haunted Ruins") then
+	if Can("@The Haunted Ruins/Outer Wall West[2]/Chalice") and Can("@The Haunted Ruins/Clear/Cleared: The Haunted Ruins") then
 		count = count + 1
+		if count >= number then
+			return true
+		end
 	end
 	if Can("@The Ghost Ship/Up the Lift/Chalice") then
 		count = count + 1
+		if count >= number then
+			return true
+		end
 	end
-	if Can("@The Entrance Hall/Zarok's Library/Chalice") then
+	if Can("@The Entrance Hall/Zarok's Library[2]/Chalice") then
 		count = count + 1
+		if count >= number then
+			return true
+		end
 	end
 	if Can("@The Time Device/Lasers/Chalice") then
 		count = count + 1
+		if count >= number then
+			return true
+		end
 	end
 	return count >= number
 end

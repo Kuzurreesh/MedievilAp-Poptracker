@@ -4,10 +4,28 @@
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
         "access_rules": [
-            "@The Entrance Hall/Clear/Cleared The Entrance Hall",
+            "@The Entrance Hall/Clear/Cleared: The Entrance Hall",
             "progression_option"
         ],
         "children": [
+            {
+                "name": "Adjustable Clock",
+                "map_locations": [
+                    {
+                        "map": "Time Device",
+                        "x": 1000,
+                        "y": 1740
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gargoyle: Entrance - TD",
+                        "chest_unopened_img": "images/labels/gargoyle2.png",
+                        "chest_opened_img": "images/labels/gargoyledisabled.png",
+                        "visibility_rules": "gargoylesanity"
+                    }
+                ]
+            },
             {
                 "name": "Time Spinners",
                 "map_locations": [
@@ -19,7 +37,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Silver Shield"
+                        "name": "Equipment: Silver Shield on Clock - TD"
                     }
                 ]
             },
@@ -34,7 +52,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Time Rune"
+                        "name": "Time Rune: The Time Device"
                     }
                 ]
             },
@@ -52,13 +70,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest 1"
+                        "name": "CGold Coins: Lone Pillar 1 - TD"
                     },
                     {
-                        "name": "Coin Chest 2"
+                        "name": "Gold Coins: Lone Pillar 2 - TD"
                     },
                     {
-                        "name": "Coin Chest 3"
+                        "name": "Gold Coins: Lone Pillar 3 - TD"
                     }
                 ]
             },
@@ -76,7 +94,28 @@
                 ],
                 "sections": [
                     {
-                        "name": "Life Bottle"
+                        "name": "Life Bottle: The Time Device"
+                    }
+                ]
+            },
+            {
+                "name": "Station",
+                "access_rules": [
+                    "$DeviceTime"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Time Device",
+                        "x": 1845,
+                        "y": 1530
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: The Train - TD",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -94,7 +133,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chaos Rune"
+                        "name": "Chaos Rune: The Time Device"
                     }
                 ]
             },
@@ -133,7 +172,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Earth Rune"
+                        "name": "Earth Rune: The Time Device"
                     }
                 ]
             },
@@ -151,10 +190,10 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag 1"
+                        "name": "Gold Coins: Laser Platform Right - TD"
                     },
                     {
-                        "name": "Coin Bag 2"
+                        "name": "Gold Coins: Laser Platform Left - TD"
                     }
                 ]
             },
@@ -172,13 +211,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag 1"
+                        "name": "Gold Coins: Bag at Earth Station 1 - TD"
                     },
                     {
-                        "name": "Coin Bag 2"
+                        "name": "Gold Coins: Bag at Earth Station 2 - TD"
                     },
                     {
-                        "name": "Coin Bag 3"
+                        "name": "Gold Coins: Bag at Earth Station 3 - TD"
                     }
                 ]
             },
@@ -196,7 +235,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Moon Rune"
+                        "name": "Moon Rune: The Time Device"
                     }
                 ]
             },
@@ -213,34 +252,20 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cleared The Time Device",
+                        "name": "Cleared: The Time Device",
                         "access_rules": [
                             "$DeviceTime, $DeviceChaos, $DeviceMoon"
                         ],
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
-                    },
-                    {
-                        "name": "Books",
-                        "chest_unopened_img": "images/labels/Book3.png",
-                        "chest_opened_img": "images/labels/bookdisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "booksanity"
-                    },
-                    {
-                        "name": "Gargoyles",
-                        "chest_unopened_img": "images/labels/gargoyle2.png",
-                        "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "gargoylesanity"
-                    }
+                    }                    
                 ]
             },
             {
-                "name": "Zarok's Lair",
+                "name": "Zarok's Arena",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@The Time Device/Clear/Cleared The Time Device",
+                    "@The Time Device/Clear/Cleared: The Time Device",
                     "progression_option"
                 ],
                 "map_locations": [
@@ -252,15 +277,15 @@
                 ],
                 "sections": [
                     {
-                        "name": "Good Lightning"
+                        "name": "Equipment: Good Lightning - ZL"
                     }
                 ]
             },
             {
-                "name": "Zarok's Lair",
+                "name": "Zarok's Arena",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@The Time Device/Clear/Cleared The Time Device",
+                    "@The Time Device/Clear/Cleared: The Time Device",
                     "progression_option"
                 ],
                 "map_locations": [
@@ -272,7 +297,30 @@
                 ],
                 "sections": [
                     {
-                        "name": "Silver Shield"
+                        "name": "Equipment: Silver Shield - ZL Arena"
+                    }
+                ]
+            },
+            {
+                "name": "Entrance",
+                "parent": "Dan's Crypt",
+                "access_rules": [
+                    "@The Time Device/Clear/Cleared: The Time Device",
+                    "progression_option"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Time Device",
+                        "x": 2690,
+                        "y": 910
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gargoyle: Entrance - ZL",
+                        "chest_unopened_img": "images/labels/gargoyle2.png",
+                        "chest_opened_img": "images/labels/gargoyledisabled.png",
+                        "visibility_rules": "gargoylesanity"
                     }
                 ]
             },
@@ -280,7 +328,7 @@
                 "name": "Clear Game",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@The Time Device/Clear/Cleared The Time Device",
+                    "@The Time Device/Clear/Cleared: The Time Device",
                     "progression_option"
                 ],
                 "map_locations": [
@@ -293,13 +341,6 @@
                     }
                 ],
                 "sections": [
-                    {
-                        "name": "Gargoyles",
-                        "chest_unopened_img": "images/labels/gargoyle2.png",
-                        "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "gargoylesanity"
-                    },
                     {
                         "name": "Beat Zarok",
                         "access_rules": [

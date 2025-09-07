@@ -7,7 +7,7 @@
             "include_ant_hill_in_checks"
         ],
         "access_rules": [
-            "bash, witchtalisman, @Return to the Graveyard/Clear/Cleared Return to the Graveyard",
+            "bash, witchtalisman, @Return to the Graveyard/Clear/Cleared: Return to the Graveyard",
             "bash, witchtalisman, progression_option"
         ],
         "children": [
@@ -22,7 +22,35 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest"
+                        "name": "Gold Coins: Chest at Barrier Fairy - TA"
+                    }
+                ]
+            },
+            {
+                "name": "Entrance",
+                "parent": "Dan's Crypt",
+                "access_rules": [
+                    "witchtalisman, @Return to the Graveyard/Clear/Cleared: Return to the Graveyard",
+                    "witchtalisman, progression_option"
+                ],
+                "visibility_rules": [
+                    "include_ant_hill_in_checks"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ant Caves",
+                        "x": 140,
+                        "y": 120
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gargoyle: Entrance - AH",
+                        "chest_unopened_img": "images/labels/gargoyle2.png",
+                        "chest_opened_img": "images/labels/gargoyledisabled.png",
+                        "visibility_rules": [
+                            "gargoylesanity"
+                        ]
                     }
                 ]
             },
@@ -30,7 +58,7 @@
                 "name": "Caves Entrance",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "witchtalisman, @Return to the Graveyard/Clear/Cleared Return to the Graveyard",
+                    "witchtalisman, @Return to the Graveyard/Clear/Cleared: Return to the Graveyard",
                     "witchtalisman, progression_option"
                 ],
                 "visibility_rules": [
@@ -40,12 +68,20 @@
                     {
                         "map": "Ant Caves",
                         "x": 425,
-                        "y": 280
+                        "y": 320
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Club"
+                        "name": "Equipment: Club in Chest at Barrier - TA"
+                    },
+                    {
+                        "name": "Book: Fairy Portal - AH",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -106,34 +142,34 @@
                 ],
                 "sections": [
                     {
-                        "name": "Amber 1"
+                        "name": "Key Item: Amber Piece 1 - TA"
                     },
                     {
-                        "name": "Amber 2"
+                        "name": "Key Item: Amber Piece 2 - TA"
                     },
                     {
-                        "name": "Amber 3"
+                        "name": "Key Item: Amber Piece 3 - TA"
                     },
                     {
-                        "name": "Amber 4"
+                        "name": "Key Item: Amber Piece 4 - TA"
                     },
                     {
-                        "name": "Amber 5"
+                        "name": "Key Item: Amber Piece 5 - TA"
                     },
                     {
-                        "name": "Amber 6"
+                        "name": "Key Item: Amber Piece 6 - TA"
                     },
                     {
-                        "name": "Amber 7"
+                        "name": "Key Item: Amber Piece 7 - TA"
                     },
                     {
-                        "name": "Amber 8"
+                        "name": "Key Item: Amber Piece 8 - TA"
                     },
                     {
-                        "name": "Amber 9"
+                        "name": "Key Item: Amber Piece 9 - TA"
                     },
                     {
-                        "name": "Amber 10"
+                        "name": "Key Item: Amber Piece 10 - TA"
                     }
                 ]
             },
@@ -179,22 +215,22 @@
                 ],
                 "sections": [
                     {
-                        "name": "Fairy 1"
+                        "name": "Fairy 1 - TA"
                     },
                     {
-                        "name": "Fairy 2"
+                        "name": "Fairy 2 - TA"
                     },
                     {
-                        "name": "Fairy 3"
+                        "name": "Fairy 3 - TA"
                     },
                     {
-                        "name": "Fairy 4"
+                        "name": "Fairy 4 - TA"
                     },
                     {
-                        "name": "Fairy 5"
+                        "name": "Fairy 5 - TA"
                     },
                     {
-                        "name": "Fairy 6"
+                        "name": "Fairy 6 - TA"
                     }
                 ]
             },
@@ -209,7 +245,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 1"
+                        "name": "Energy Vial: After Amber 2 - TA"
                     }
                 ]
             },
@@ -224,7 +260,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 2"
+                        "name": "Energy Vial: Fairy 2 Room Center - TA"
                     }
                 ]
             },
@@ -239,7 +275,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 3"
+                        "name": "Energy Vial: Before Fairy 1 - TA"
                     }
                 ]
             },
@@ -254,7 +290,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 4"
+                        "name": "Energy Vial: Fairy 3 - TA"
                     }
                 ]
             },
@@ -269,7 +305,25 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 5"
+                        "name": "Energy Vial: Birthing room exit - TA"
+                    }
+                ]
+            },
+            {
+                "name": "Queen Entrance",
+                "map_locations": [
+                    {
+                        "map": "Ant Caves",
+                        "x": 1980,
+                        "y": 1750
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Queen Ant - AH",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -286,7 +340,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chicken Drumsticks",
+                        "name": "Equipment: Chicken Drumsticks - TA",
                         "access_rules": [
                             "amber: 7"
                         ]
@@ -294,31 +348,16 @@
                     {
                         "name": "Chalice",
                         "visibility_rules": "include_chalices_in_checks",
-						"chest_unopened_img": "images/items/chalice.png",
-						"chest_opened_img": "images/items/empty chalice.png"
+                        "chest_unopened_img": "images/items/chalice.png",
+                        "chest_opened_img": "images/items/empty chalice.png"
                     },
                     {
-                        "name": "Cleared Ant Caves",
+                        "name": "Cleared: Ant Caves",
                         "access_rules": [
                             "amber: 7"
                         ],
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
-                    },
-                    {
-                        "name": "Books",
-                        "item_count": 2,
-                        "chest_unopened_img": "images/labels/Book3.png",
-                        "chest_opened_img": "images/labels/bookdisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "booksanity"
-                    },
-                    {
-                        "name": "Gargoyles",
-                        "chest_unopened_img": "images/labels/gargoyle2.png",
-                        "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "gargoylesanity"
                     }
                 ]
             }

@@ -1,323 +1,347 @@
 [
-    {	
+    {
         "name": "Cemetery Hill",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
-		"access_rules": [ "@The Graveyard/Clear/Cleared The Graveyard", "progression_option"],
-		
-        "children": 
-        [
+        "access_rules": [
+            "@The Graveyard/Clear/Cleared: The Graveyard",
+            "progression_option"
+        ],
+        "children": [
+            {
+                "name": "Start",
+                "map_locations": [
+                    {
+                        "map": "Cemetery Hill",
+                        "x": 540,
+                        "y": 2315
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Breakables - CH",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png"
+                    }
+                ]
+            },
             {
                 "name": "Shop",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Cemetery Hill",
+                        "map": "Cemetery Hill",
                         "x": 160,
                         "y": 1885
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Near Shop - CH"
                     }
                 ]
             },
-			{
-				"name": "Behind Boulders",
-				"access_rules": [
-				"club", "hammer"
-				],
-				"map_locations": 
-				[
-					{
-						"map": "Cemetery Hill",
+            {
+                "name": "Behind Boulders",
+                "access_rules": [
+                    "boulder"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Cemetery Hill",
                         "x": 560,
                         "y": 1655
                     }
                 ],
-                
-				
-				
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Club"
+                        "name": "Equipment: Club - CH"
+                    },
+                    {
+                        "name": "Book: Club - CH",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png"
                     }
-					
                 ]
-			},
-			{
+            },
+            {
                 "name": "Boulder Hill",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Cemetery Hill",
+                        "map": "Cemetery Hill",
                         "x": 680,
                         "y": 1550
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Copper Shield 1"
+                        "name": "Equipment: Copper Shield 1 - CH"
                     }
                 ]
             },
-			{
+            {
                 "name": "Entrance Witch's Cave",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Cemetery Hill",
+                        "map": "Cemetery Hill",
                         "x": 1145,
                         "y": 1930
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Near Boulder Entrance - CH"
                     }
                 ]
             },
-			{
-                "name": "Boulder Hill",
-                "map_locations": 
-                [
+            {
+                "name": "Entrance Witch's Cave",
+                "map_locations": [
                     {
-						"map": "Cemetery Hill",
+                        "map": "Cemetery Hill",
+                        "x": 1210,
+                        "y": 1820
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Destroy Boulder - CH",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png"
+                    }
+                ]
+            },
+            {
+                "name": "Witch Cave",
+                "access_rules": [
+                    "boulder"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Cemetery Hill",
+                        "x": 1900,
+                        "y": 1880
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gargoyle: Witch Cave - CH",
+                        "chest_unopened_img": "images/labels/gargoyle2.png",
+                        "chest_opened_img": "images/labels/gargoyledisabled.png"
+                    }
+                ]
+            },
+            {
+                "name": "Witch Library",
+                "access_rules": [
+                    "boulder"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Cemetery Hill",
+                        "x": 2060,
+                        "y": 1745
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: A Guide to Covens",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png"
+                    }
+                ]
+            },
+            {
+                "name": "Boulder Hill",
+                "map_locations": [
+                    {
+                        "map": "Cemetery Hill",
                         "x": 1100,
                         "y": 1770
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Coin Bag 1"
+                        "name": "Gold Coins: Up Hill 1 - CH"
                     }
                 ]
             },
-			{
+            {
                 "name": "Boulder Hill",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Cemetery Hill",
+                        "map": "Cemetery Hill",
                         "x": 800,
                         "y": 1365
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Coin Bag 2"
+                        "name": "Gold Coins: Up Hill 2 - CH"
                     }
                 ]
             },
-			{
+            {
                 "name": "Arena",
-				"access_rules": [
-				"club"
-				],
-                "map_locations": 
-                [
+                "access_rules": [
+                    "club"
+                ],
+                "map_locations": [
                     {
-						"map": "Cemetery Hill",
+                        "map": "Cemetery Hill",
                         "x": 1495,
                         "y": 1585
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Coin Chest"
+                        "name": "Gold Coins: Chest in Arena - CH"
                     }
                 ]
             },
-			{
+            {
                 "name": "Hilltop",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Cemetery Hill",
+                        "map": "Cemetery Hill",
                         "x": 1050,
                         "y": 1150
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Coin Chest"
+                        "name": "Gold Coins: Chest at Exit - CH"
+                    },
+                    {
+                        "name": "Book: Hidden Locations - CH",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png"
                     }
                 ]
             },
-			{
+            {
                 "name": "Arena",
-				"access_rules": [
-				"club"
-				],
-                "map_locations": 
-                [
+                "access_rules": [
+                    "club"
+                ],
+                "map_locations": [
                     {
-						"map": "Cemetery Hill",
+                        "map": "Cemetery Hill",
                         "x": 1540,
                         "y": 1650
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Chalice",
-						"visibility_rules": "include_chalices_in_checks",
-						"chest_unopened_img": "images/items/chalice.png",
-						"chest_opened_img": "images/items/empty chalice.png"
+                        "visibility_rules": "include_chalices_in_checks",
+                        "chest_unopened_img": "images/items/chalice.png",
+                        "chest_opened_img": "images/items/empty chalice.png"
                     }
                 ]
             },
-			{
+            {
                 "name": "Arena",
-				"access_rules": [
-				"club"
-				],
-                "map_locations": 
-                [
+                "access_rules": [
+                    "club"
+                ],
+                "map_locations": [
                     {
-						"map": "Cemetery Hill",
+                        "map": "Cemetery Hill",
                         "x": 1650,
                         "y": 1690
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Arena - CH"
                     }
                 ]
             },
-			{
+            {
                 "name": "Arena",
-				"access_rules": [
-				"club"
-				],
-                "map_locations": 
-                [
+                "access_rules": [
+                    "club"
+                ],
+                "map_locations": [
                     {
-						"map": "Cemetery Hill",
+                        "map": "Cemetery Hill",
                         "x": 1710,
                         "y": 1495
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Copper Shield"
+                        "name": "Equipment: Copper Shield in Arena - CH"
                     }
                 ]
             },
-			{
+            {
                 "name": "Arena",
-				"access_rules": [
-				"club"
-				],
-                "map_locations": 
-                [
+                "access_rules": [
+                    "club"
+                ],
+                "map_locations": [
                     {
-						"map": "Cemetery Hill",
+                        "map": "Cemetery Hill",
                         "x": 1610,
                         "y": 1470
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Witch Talisman"
+                        "name": "Key Item: Witches Talisman - CH"
                     }
                 ]
             },
-			{
+            {
                 "name": "Boulder Hill",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Cemetery Hill",
+                        "map": "Cemetery Hill",
                         "x": 760,
                         "y": 1625
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Copper Shield 2"
+                        "name": "Equipment: Copper Shield 2 - CH"
                     }
                 ]
             },
-			{
+            {
                 "name": "Boulder Hill",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Cemetery Hill",
+                        "map": "Cemetery Hill",
                         "x": 980,
                         "y": 1625
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Copper Shield 3"
+                        "name": "Equipment: Copper Shield 3 - CH"
                     }
                 ]
             },
-			{
+            {
                 "name": "Clear",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Cemetery Hill",
+                        "map": "Cemetery Hill",
                         "x": 1170,
                         "y": 1200,
-						"shape": "diamond",
-						"size": 80
+                        "shape": "diamond",
+                        "size": 80
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Cleared Cemetery Hill",
+                        "name": "Cleared: Cemetery Hill",
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
-                    },
-										{
-						"name": "Books",
-						"item_count": 5,
-						"chest_unopened_img": "images/labels/Book3.png",
-						"chest_opened_img": "images/labels/bookdisabled.png",
-						"clear_as_group": false
-					},
-					{
-						"name": "Gargoyles",
-						"chest_unopened_img": "images/labels/gargoyle2.png",
-						"chest_opened_img": "images/labels/gargoyledisabled.png",
-						"clear_as_group": false
-					}
+                    }
                 ]
             }
-		]
+        ]
     }
 ]

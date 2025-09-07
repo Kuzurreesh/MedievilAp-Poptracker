@@ -4,10 +4,29 @@
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
         "access_rules": [
-            "@Scarecrow Fields/Clear/Cleared Scarecrow Fields",
+            "@Scarecrow Fields/Clear/Cleared: Scarecrow Fields",
             "progression_option"
         ],
         "children": [
+            {
+                "name": "Entrance",
+                "map_locations": [
+                    {
+                        "map": "Sleeping Village",
+                        "x": 790,
+                        "y": 1295
+                    }
+                ],
+                "sections": [
+                    
+                    {
+                        "name": "Gargoyle: Entrance - SV",
+                        "chest_unopened_img": "images/labels/gargoyle2.png",
+                        "chest_opened_img": "images/labels/gargoyledisabled.png",
+                        "visibility_rules": "gargoylesanity"
+                    }
+                ]
+            },
             {
                 "name": "Blacksmith",
                 "map_locations": [
@@ -19,19 +38,25 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag 1",
+                        "name": "Gold Coins: Bag in Left Barrel at Blacksmith - SV",
                         "access_rules": [
                             "boulder"
                         ]
                     },
                     {
-                        "name": "Coin Bag 2",
+                        "name": "Gold Coins: Bag in Right Barrel at Blacksmith - SV",
                         "access_rules": [
                             "boulder"
                         ]
                     },
                     {
-                        "name": "Silver Shield"
+                        "name": "Equipment: Silver Shield in Blacksmiths - SV"
+                    },
+                    {
+                        "name": "Book: Blacksmiths Monthly - SV",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -49,15 +74,31 @@
                 ],
                 "sections": [
                     {
-                        "name": "Crucifix"
+                        "name": "Key Item: Crucifix - SV"
+                    }
+                ]
+            },
+            {
+                "name": "Plaza",
+                "map_locations": [
+                    {
+                        "map": "Sleeping Village",
+                        "x": 1315,
+                        "y": 900,
+                        "size": 45
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Fountain Rune - SV",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
             {
                 "name": "Church",
-                "access_rules": [
-                    "Crucifix"
-                ],
                 "map_locations": [
                     {
                         "map": "Sleeping Village",
@@ -67,7 +108,25 @@
                 ],
                 "sections": [
                     {
-                        "name": "Safe Key"
+                        "name": "Key Item: Safe Key - SV",
+                        "access_rules": [
+                            "Crucifix"
+                        ]
+                    },
+                    {
+                        "name": "Book: Mayors Regrets - SV",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "access_rules": [
+                            "Crucifix"
+                        ],
+                        "visibility_rules": "booksanity"
+                    },
+                    {
+                        "name": "Book: Missing Crucifix - SV",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -82,7 +141,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Moon Rune"
+                        "name": "Moon Rune: Sleeping Village"
                     }
                 ]
             },
@@ -97,7 +156,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chaos Rune"
+                        "name": "Chaos Rune: Sleeping Village"
                     }
                 ]
             },
@@ -115,7 +174,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag in Barrel at Inn - SV"
                     }
                 ]
             },
@@ -133,7 +192,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Club"
+                        "name": "Equipment: Club Chest under Inn Stairs - SV"
                     }
                 ]
             },
@@ -151,10 +210,10 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag 1"
+                        "name": "Gold Coins: Bag in Barrel at bottom of Inn Stairs - SV"
                     },
                     {
-                        "name": "Coin Bag 2"
+                        "name": "Gold Coins: Bag in Barrel Behind Inn Stairs - SV"
                     }
                 ]
             },
@@ -172,10 +231,10 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag 3"
+                        "name": "Gold Coins: Bag In Top Bust Barrel - SV"
                     },
                     {
-                        "name": "Coin Bag 4"
+                        "name": "Gold Coins: Bag In Switch Bust Barrel - SV"
                     }
                 ]
             },
@@ -193,7 +252,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Bust Switch - SV"
                     }
                 ]
             },
@@ -211,7 +270,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Earth Rune"
+                        "name": "Earth Rune: Sleeping Village"
                     }
                 ]
             },
@@ -229,12 +288,18 @@
                 ],
                 "sections": [
                     {
-                        "name": "Landlord's Bust"
+                        "name": "Key Item: Landlords Bust - SV"
+                    },
+                    {
+                        "name": "Book: Mayors Bust - SV",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
             {
-                "name": "Behind Pond",
+                "name": "Pond",
                 "map_locations": [
                     {
                         "map": "Sleeping Village",
@@ -244,10 +309,10 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: At Pond - SV"
                     },
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag at Pond - SV"
                     }
                 ]
             },
@@ -265,19 +330,19 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Near Chalice - SV"
                     },
                     {
                         "name": "Chalice",
                         "access_rules": [
-                            "@Sleeping Village/Inn B2[1]/Landlord's Bust"
+                            "@Sleeping Village/Inn B2[1]/Key Item: Landlords Bust - SV"
                         ],
                         "visibility_rules": "include_chalices_in_checks",
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
                     },
                     {
-                        "name": "Coin Chest"
+                        "name": "Gold Coins: Chest next to Chalice - SV"
                     }
                 ]
             },
@@ -295,10 +360,10 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag 1"
+                        "name": "Gold Coins: Bag at Top of table - SV"
                     },
                     {
-                        "name": "Coin Bag 2"
+                        "name": "Gold Coins: Bag at Bottom of table - SV"
                     }
                 ]
             },
@@ -316,15 +381,15 @@
                 ],
                 "sections": [
                     {
-                        "name": "Shadow Artefact"
+                        "name": "Key Item: Shadow Artefact - SV"
                     }
                 ]
             },
             {
                 "name": "Library",
                 "access_rules": [
-                            "bash, $SleepChaos"
-                        ],
+                    "bash, $SleepChaos"
+                ],
                 "map_locations": [
                     {
                         "map": "Sleeping Village",
@@ -334,15 +399,21 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag in Library - SV"
+                    },
+                    {
+                        "name": "Book: Mayor Memoire - SV",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
             {
                 "name": "Library",
                 "access_rules": [
-                            "bash, $SleepChaos"
-                        ],
+                    "bash, $SleepChaos"
+                ],
                 "map_locations": [
                     {
                         "map": "Sleeping Village",
@@ -352,12 +423,100 @@
                 ],
                 "sections": [
                     {
-                        "name": "Crucifix Cast"
+                        "name": "Key Item: Crucifix Cast - SV"
                     }
                 ]
             },
             {
-                "name": "Street Near End",
+                "name": "Library",
+                "access_rules": [
+                    "$SleepChaos"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Sleeping Village",
+                        "x": 2085,
+                        "y": 1095
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: History of Gallowmere 1 - SV",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    },
+                    {
+                        "name": "Book: History of Gallowmere 2 - SV",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    },
+                    {
+                        "name": "Book: History of Gallowmere 3 - SV",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    },
+                    {
+                        "name": "Book: History of Gallowmere 4 - SV",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
+            {
+                "name": "Library",
+                "access_rules": [
+                    "$SleepChaos"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Sleeping Village",
+                        "x": 2010,
+                        "y": 1135
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Tourist Guide 1 - SV",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    },
+                    {
+                        "name": "Book: Tourist Guide 2 - SV",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
+            {
+                "name": "Library",
+                "access_rules": [
+                    "$SleepChaos"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Sleeping Village",
+                        "x": 2060,
+                        "y": 1220,
+                        "size": 40
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Heroes From History- SV",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
+            {
+                "name": "Street Near Exit",
                 "map_locations": [
                     {
                         "map": "Sleeping Village",
@@ -367,12 +526,15 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Near Exit - SV"
                     }
                 ]
             },
             {
                 "name": "Clear",
+                "access_rules": [
+                    "@Sleeping Village/Inn B2[1]/Key Item: Landlords Bust - SV, Crucifix"
+                ],
                 "map_locations": [
                     {
                         "map": "Sleeping Village",
@@ -384,27 +546,15 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cleared Sleeping Village",
-                        "access_rules": [
-                            "@Sleeping Village/Inn B2[1]/Landlord's Bust, Crucifix"
-                        ],
+                        "name": "Cleared: Sleeping Village",
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
                     },
                     {
-                        "name": "Books",
-                        "item_count": 14,
+                        "name": "Book: Zaroks Note - SV",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "clear_as_group": false,
                         "visibility_rules": "booksanity"
-                    },
-                    {
-                        "name": "Gargoyles",
-                        "chest_unopened_img": "images/labels/gargoyle2.png",
-                        "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "gargoylesanity"
                     }
                 ]
             }

@@ -4,12 +4,12 @@
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
         "access_rules": [
-            "@Enchanted Earth/Clear/Cleared Enchanted Earth",
+            "@Enchanted Earth/Clear/Cleared: Enchanted Earth",
             "progression_option"
         ],
         "children": [
             {
-                "name": "Start",
+                "name": "Entrance",
                 "map_locations": [
                     {
                         "map": "Pools of the Ancient Dead",
@@ -19,7 +19,43 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag at Entrance - PAD"
+                    }
+                ]
+            },
+            {
+                "name": "Entrance",
+                "map_locations": [
+                    {
+                        "map": "Pools of the Ancient Dead",
+                        "x": 755,
+                        "y": 335
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Enemy Warning - PAD",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
+            {
+                "name": "Entrance",
+                "map_locations": [
+                    {
+                        "map": "Pools of the Ancient Dead",
+                        "x": 785,
+                        "y": 210
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gargoyle: Entrance - PAD",
+                        "chest_unopened_img": "images/labels/gargoyle2.png",
+                        "chest_opened_img": "images/labels/gargoyledisabled.png",
+                        "visibility_rules": "gargoylesanity"
                     }
                 ]
             },
@@ -34,7 +70,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Broken Structure near Entrance - PAD"
                     }
                 ]
             },
@@ -49,7 +85,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag on Island Near Soul 2 - PAD"
                     }
                 ]
             },
@@ -64,7 +100,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Soul 2"
+                        "name": "Key Item: Soul Helmet 2 - PAD"
                     }
                 ]
             },
@@ -79,7 +115,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Soul 4"
+                        "name": "Key Item: Soul Helmet 4 - PAD"
                     }
                 ]
             },
@@ -115,7 +151,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Soul 3"
+                        "name": "Key Item: Soul Helmet 3 - PAD"
                     }
                 ]
             },
@@ -130,7 +166,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Next to Lost Soul 3 - PAD"
                     }
                 ]
             },
@@ -145,7 +181,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chaos Rune"
+                        "name": "Chaos Rune: Pools of the Ancient Dead"
                     }
                 ]
             },
@@ -160,7 +196,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Soul 1"
+                        "name": "Key Item: Soul Helmet 1 - PAD"
                     }
                 ]
             },
@@ -175,7 +211,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Soul 5"
+                        "name": "Key Item: Soul Helmet 5 - PAD"
                     }
                 ]
             },
@@ -190,7 +226,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Silver Shield"
+                        "name": "Equipment: Silver Shield in Chest Near Soul 5 - PAD"
                     }
                 ]
             },
@@ -205,7 +241,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Soul 6"
+                        "name": "Key Item: Soul Helmet 6 - PAD"
                     }
                 ]
             },
@@ -223,7 +259,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Soul 7"
+                        "name": "Key Item: Soul Helmet 7 - PAD"
                     }
                 ]
             },
@@ -238,7 +274,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Near Gate - PAD"
                     }
                 ]
             },
@@ -256,19 +292,19 @@
                 ],
                 "sections": [
                     {
-                        "name": "Life Bottle"
+                        "name": "Life Bottle: Pools of the Ancient Dead"
                     },
                     {
-                        "name": "Energy Vial 1"
+                        "name": "Energy Vial: Jump Spot 1 - PAD"
                     },
                     {
-                        "name": "Energy Vial 2"
+                        "name": "Energy Vial: Jump Spot 2 - PAD"
                     },
                     {
-                        "name": "Coin Chest 1"
+                        "name": "Gold Coins: Jump Spot 1 - PAD"
                     },
                     {
-                        "name": "Coin Chest 2"
+                        "name": "Gold Coins: Jump Spot 2 - PAD"
                     }
                 ]
             },
@@ -286,7 +322,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Soul 8"
+                        "name": "Key Item: Soul Helmet 8 - PAD"
                     }
                 ]
             },
@@ -304,7 +340,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 1"
+                        "name": "Energy Vial: Chariot Right - PAD"
                     }
                 ]
             },
@@ -322,7 +358,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 2"
+                        "name": "Energy Vial: Chariot Left - PAD"
                     }
                 ]
             },
@@ -339,24 +375,10 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cleared Pools of the Ancient Dead",
+                        "name": "Cleared: Pools of the Ancient Dead",
                         "access_rules": "helmet: 8",
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
-                    },
-                    {
-                        "name": "Books",
-                        "chest_unopened_img": "images/labels/Book3.png",
-                        "chest_opened_img": "images/labels/bookdisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "booksanity"
-                    },
-                    {
-                        "name": "Gargoyles",
-                        "chest_unopened_img": "images/labels/gargoyle2.png",
-                        "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "gargoylesanity"
                     }
                 ]
             }

@@ -4,10 +4,28 @@
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
         "access_rules": [
-            "@The Lake/Clear/Cleared The Lake",
+            "@The Lake/Clear/Cleared: The Lake",
             "progression_option"
         ],
         "children": [
+            {
+                "name": "Past Columns",
+                "map_locations": [
+                    {
+                        "map": "Crystal Caves",
+                        "x": 880,
+                        "y": 950
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gargoyle: Cave Entrance - CC",
+                        "chest_unopened_img": "images/labels/gargoyle2.png",
+                        "chest_opened_img": "images/labels/gargoyledisabled.png",
+                        "visibility_rules": "gargoylesanity"
+                    }
+                ]
+            },
             {
                 "name": "Entrance Room",
                 "map_locations": [
@@ -19,7 +37,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag in Crystal at Start - CC"
                     }
                 ]
             },
@@ -34,7 +52,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag in Spinner - CC"
                     }
                 ]
             },
@@ -49,7 +67,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Earth Rune"
+                        "name": "Earth Rune: The Crystal Caves"
                     }
                 ]
             },
@@ -64,7 +82,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Silver Shield"
+                        "name": "Equipment: Silver Shield in Crystal - CC"
                     }
                 ]
             },
@@ -79,7 +97,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag near Silver Shield - CC"
                     }
                 ]
             },
@@ -94,7 +112,25 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag at bottom of winding staircase - CC"
+                    }
+                ]
+            },
+            {
+                "name": "Before Earth Door",
+                "map_locations": [
+                    {
+                        "map": "Crystal Caves",
+                        "x": 2525,
+                        "y": 1090
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Dragon Book - CC",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -112,7 +148,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest"
+                        "name": "Gold Coins: Chest in Crystal After Earth Door - CC"
                     }
                 ]
             },
@@ -130,7 +166,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag 2"
+                        "name": "Gold Coins: Bag on Right of Pool - CC"
                     }
                 ]
             },
@@ -148,7 +184,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag 1"
+                        "name": "Gold Coins: Bag on Left of Pool - CC"
                     }
                 ]
             },
@@ -166,7 +202,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest"
+                        "name": "Gold Coins: Chest in Crystal after Pool - CC"
                     }
                 ]
             },
@@ -185,7 +221,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 1"
+                        "name": "Energy Vial: Dragon Room 1st Platform - CC"
                     }
                 ]
             },
@@ -204,13 +240,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest 1"
+                        "name": "Gold Coins: Chest in Dragon Room 1st Platform - CC"
                     },
                     {
-                        "name": "Coin Bag 1"
+                        "name": "Gold Coins: Bag in Dragon Room 1 1st Platform - CC"
                     },
                     {
-                        "name": "Coin Bag 2"
+                        "name": "Gold Coins: Bag in Dragon Room 2 1st Platform - CC"
                     }
                 ]
             },
@@ -229,13 +265,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest 2"
+                        "name": "Gold Coins: Chest in Dragon Room 4th Platform - CC"
                     },
                     {
-                        "name": "Coin Bag 3"
+                        "name": "Gold Coins: Bag in Dragon Room 4th Platform 1 - CC"
                     },
                     {
-                        "name": "Coin Bag 4"
+                        "name": "Gold Coins: Bag in Dragon Room 4th Platform 2 - CC"
                     }
                 ]
             },
@@ -254,7 +290,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Star Rune"
+                        "name": "Star Rune: The Crystal Caves"
                     }
                 ]
             },
@@ -273,16 +309,16 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest 3"
+                        "name": "Gold Coins: Chest in Dragon Room 3rd Platform - CC"
                     },
                     {
-                        "name": "Coin Bag 5"
+                        "name": "Gold Coins: Bag in Dragon Room 2nd Platform - CC"
                     },
                     {
-                        "name": "Coin Bag 6"
+                        "name": "Gold Coins: Bag in Dragon Room 1 3rd Platform - CC"
                     },
                     {
-                        "name": "Coin Bag 7"
+                        "name": "Gold Coins: Bag in Dragon Room 2 3rd Platform - CC"
                     }
                 ]
             },
@@ -301,14 +337,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 2"
+                        "name": "Energy Vial: Dragon Room 3rd Platform - CC"
                     }
                 ]
             },
             {
                 "name": "Dragon's Lair",
                 "access_rules": [
-                    "dragongem: 2, $CrystalEarth"
+                    "boulder, dragongem: 2, $CrystalEarth"
                 ],
                 "map_locations": [
                     {
@@ -320,7 +356,25 @@
                 ],
                 "sections": [
                     {
-                        "name": "Dragon Armour"
+                        "name": "Equipment: Dragon Armour - CC"
+                    }
+                ]
+            },
+            {
+                "name": "Dragon's Lair",
+                "map_locations": [
+                    {
+                        "map": "Crystal Caves",
+                        "x": 3110,
+                        "y": 1175
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book - Summon Dragon - CC",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -358,27 +412,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cleared The Crystal Caves",
+                        "name": "Cleared: The Crystal Caves",
                         "access_rules": [
                             "$CrystalStar"
                         ],
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
-                    },
-                    {
-                        "name": "Books",
-                        "item_count": 2,
-                        "chest_unopened_img": "images/labels/Book3.png",
-                        "chest_opened_img": "images/labels/bookdisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "booksanity"
-                    },
-                    {
-                        "name": "Gargoyles",
-                        "chest_unopened_img": "images/labels/gargoyle2.png",
-                        "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "gargoylesanity"
                     }
                 ]
             }

@@ -4,10 +4,49 @@
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
         "access_rules": [
-            "boulder, @Cemetery Hill/Clear/Cleared Cemetery Hill",
+            "boulder, @Cemetery Hill/Clear/Cleared: Cemetery Hill",
             "boulder, progression_option"
         ],
         "children": [
+            {
+                "name": "Start",
+                "parent": "Dan's Crypt",
+                "access_rules": [
+                    "@Cemetery Hill/Clear/Cleared: Cemetery Hill",
+                    "progression_option"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Cemetery Hill",
+                        "x": 1355,
+                        "y": 980
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Glass Demon - HM",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png"
+                    }
+                ]
+            },
+            {
+                "name": "Basement",
+                "map_locations": [
+                    {
+                        "map": "Cemetery Hill",
+                        "x": 1845,
+                        "y": 1050
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Thieving Imps - HM",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png"
+                    }
+                ]
+            },
             {
                 "name": "Basement West",
                 "map_locations": [
@@ -19,7 +58,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Near Rune on Left Ramp - HM"
                     }
                 ]
             },
@@ -34,7 +73,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Earth Rune"
+                        "name": "Earth Rune: The Hilltop Mausoleum"
                     }
                 ]
             },
@@ -50,7 +89,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chaos Rune"
+                        "name": "Chaos Rune: The Hilltop Mausoleum"
                     }
                 ]
             },
@@ -66,7 +105,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Moon Rune"
+                        "name": "Moon Rune: The Hilltop Mausoleum"
                     }
                 ]
             },
@@ -74,7 +113,7 @@
                 "name": "Chapel Gate",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Cemetery Hill/Clear/Cleared Cemetery Hill",
+                    "@Cemetery Hill/Clear/Cleared: Cemetery Hill",
                     "progression_option"
                 ],
                 "map_locations": [
@@ -86,13 +125,15 @@
                 ],
                 "sections": [
                     {
-                        "name": "Club"
+                        "name": "Equipment: Club near Broken Benches - HM"
                     }
                 ]
             },
             {
                 "name": "Glass Heart",
-                "access_rules": ["$HillChaos, $HillEarth"],
+                "access_rules": [
+                    "$HillChaos, $HillEarth"
+                ],
                 "map_locations": [
                     {
                         "map": "Cemetery Hill",
@@ -102,7 +143,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Copper Shield"
+                        "name": "Equipment: Copper Shield near Block Puzzle - HM"
                     }
                 ]
             },
@@ -118,7 +159,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Moon Room - HM"
                     }
                 ]
             },
@@ -134,7 +175,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: After Earth Rune Door - HM"
+                    }
+                ]
+            },
+            {
+                "name": "Below Chapel",
+                "access_rules": "$HillEarth",
+                "map_locations": [
+                    {
+                        "map": "Cemetery Hill",
+                        "x": 2215,
+                        "y": 345,
+                        "size": 45
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Demon Heart - HM",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png"
+                    
                     }
                 ]
             },
@@ -142,7 +203,7 @@
                 "name": "4th Grave Left",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Cemetery Hill/Clear/Cleared Cemetery Hill",
+                    "@Cemetery Hill/Clear/Cleared: Cemetery Hill",
                     "progression_option"
                 ],
                 "map_locations": [
@@ -154,7 +215,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Left Coffin - HM"
                     }
                 ]
             },
@@ -169,7 +230,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Right Coffin - HM"
                     }
                 ]
             },
@@ -185,7 +246,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Sheet Music"
+                        "name": "Key Item: Sheet Music - HM"
                     }
                 ]
             },
@@ -201,7 +262,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest"
+                        "name": "Gold Coins: Chest in Moon Room - HM"
                     }
                 ]
             },
@@ -217,16 +278,37 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 1"
+                        "name": "Energy Vial: Phantom of the Opera on Left - HM"
                     },
                     {
-                        "name": "Energy Vial 2"
+                        "name": "Energy Vial: Phantom of the Opera on Right - HM"
+                    }
+                ]
+            },
+            {
+                "name": "Music Room",
+                "access_rules": "$HillEarth",
+                "map_locations": [
+                    {
+                        "map": "Cemetery Hill",
+                        "x": 2100,
+                        "y": 450
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Phantom of the Opera - HM",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png"
+                    
                     }
                 ]
             },
             {
                 "name": "Secret Alcove",
-                "access_rules": ["sheetmusic, $HillEarth"],
+                "access_rules": [
+                    "sheetmusic, $HillEarth"
+                ],
                 "map_locations": [
                     {
                         "map": "Cemetery Hill",
@@ -237,25 +319,29 @@
                 "sections": [
                     {
                         "name": "Chalice",
-                        "access_rules": ["$HillMoon"],
+                        "access_rules": [
+                            "$HillMoon"
+                        ],
                         "visibility_rules": "include_chalices_in_checks",
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
                     },
                     {
-                        "name": "Coin Chest 1"
+                        "name": "Gold Coins: Gold Chest at Phantom of the Opera 1 - HM"
                     },
                     {
-                        "name": "Coin Chest 2"
+                        "name": "Gold Coins: Gold Chest at Phantom of the Opera 2 - HM"
                     },
                     {
-                        "name": "Coin Chest 3"
+                        "name": "Gold Coins: Gold Chest at Phantom of the Opera 3 - HM"
                     }
                 ]
             },
             {
                 "name": "Glass Heart",
-                "access_rules": ["$HillChaos, $HillEarth"],
+                "access_rules": [
+                    "$HillChaos, $HillEarth"
+                ],
                 "map_locations": [
                     {
                         "map": "Cemetery Hill",
@@ -265,38 +351,32 @@
                 ],
                 "sections": [
                     {
-                        "name": "Throwing Daggers"
+                        "name": "Equipment: Daggers near Block Puzzle - HM"
                     }
                 ]
             },
             {
                 "name": "Clear",
-                "access_rules": ["$HillChaos, $HillEarth"],
+                "access_rules": [
+                    "$HillChaos, $HillEarth"
+                ],
                 "map_locations": [
                     {
                         "map": "Cemetery Hill",
                         "x": 2050,
-                        "y": 350,
+                        "y": 320,
                         "shape": "diamond",
                         "size": 80
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Skull Key"
+                        "name": "Key Item: Skull Key - HM"
                     },
                     {
-                        "name": "Cleared Hilltop Mausoleum",
+                        "name": "Cleared: Hilltop Mausoleum",
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
-                    },
-                    {
-                        "name": "Books",
-                        "item_count": 4,
-                        "chest_unopened_img": "images/labels/Book3.png",
-                        "chest_opened_img": "images/labels/bookdisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "booksanity"
                     }
                 ]
             }

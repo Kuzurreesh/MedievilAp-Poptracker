@@ -4,12 +4,30 @@
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
         "access_rules": [
-            "@Return to the Graveyard/Clear/Cleared Return to the Graveyard",
+            "@Return to the Graveyard/Clear/Cleared: Return to the Graveyard",
             "progression_option"
         ],
         "children": [
             {
-                "name": "Cornfield Left",
+                "name": "Entrance",
+                "map_locations": [
+                    {
+                        "map": "Scarecrow Fields",
+                        "x": 380,
+                        "y": 2255
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Scarecrows - SF",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
+            {
+                "name": "Cornfield Path",
                 "access_rules": [
                     "$ScareEarth, $ScareChaos"
                 ],
@@ -22,7 +40,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Cornfield Path - SF"
                     }
                 ]
             },
@@ -40,7 +58,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Copper Shield"
+                        "name": "Equipment: Copper Shield in Chest In the Barn - SF"
                     }
                 ]
             },
@@ -58,12 +76,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Silver Shield"
+                        "name": "Equipment: Silver Shield Behind Windmill - SF"
                     }
                 ]
             },
             {
-                "name": "Moon Shed",
+                "name": "Moon Hut",
                 "access_rules": [
                     "$ScareMoon"
                 ],
@@ -76,7 +94,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Earth Rune"
+                        "name": "Earth Rune: Scarecrow Fields"
                     }
                 ]
             },
@@ -91,7 +109,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Moon Rune"
+                        "name": "Moon Rune: Scarecrow Fields"
                     }
                 ]
             },
@@ -109,12 +127,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chaos Rune"
+                        "name": "Chaos Rune: Scarecrow Fields"
                     }
                 ]
             },
             {
-                "name": "Moon Shed",
+                "name": "Moon Hut",
                 "access_rules": [
                     "$ScareMoon"
                 ],
@@ -127,7 +145,67 @@
                 ],
                 "sections": [
                     {
-                        "name": "Club"
+                        "name": "Equipment: Club Inside Hut - SF"
+                    }
+                ]
+            },
+            {
+                "name": "Moon Hut",
+                "map_locations": [
+                    {
+                        "map": "Scarecrow Fields",
+                        "x": 670,
+                        "y": 2030
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book - Mischief Makers - SF",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
+            {
+                "name": "Barn Front",
+                "access_rules": [
+                    "$ScareEarth, $ScareChaos"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Scarecrow Fields",
+                        "x": 2110,
+                        "y": 1325
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Kul Katura - SF",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
+            {
+                "name": "Barn Back",
+                "access_rules": [
+                    "$ScareEarth, $ScareChaos"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Scarecrow Fields",
+                        "x": 2370,
+                        "y": 1310
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Mad Machines - SF",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -146,7 +224,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Life Bottle"
+                        "name": "Life Bottle: Scarecrow Fields"
                     }
                 ]
             },
@@ -187,12 +265,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest"
+                        "name": "Gold Coins: Chest Next to Chalice - SF"
                     }
                 ]
             },
             {
-                "name": "Behind Shed",
+                "name": "Behind Hut",
                 "map_locations": [
                     {
                         "map": "Scarecrow Fields",
@@ -202,7 +280,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Left of fire near Moon Door - SF"
                     }
                 ]
             },
@@ -220,7 +298,28 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag in the Barn - SF"
+                    }
+                ]
+            },
+            {
+                "name": "Barn",
+                "access_rules": [
+                    "$ScareEarth, $ScareChaos"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Scarecrow Fields",
+                        "x": 2800,
+                        "y": 1780
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Corn Cutter - SF",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -238,7 +337,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag in the Press - SF"
                     }
                 ]
             },
@@ -256,12 +355,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag in the Spinner - SF"
                     }
                 ]
             },
             {
-                "name": "Cornfield",
+                "name": "Cornfield Path",
                 "access_rules": [
                     "$ScareEarth, $ScareChaos"
                 ],
@@ -274,12 +373,33 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Cornfield Path 1 - SF"
                     }
                 ]
             },
             {
-                "name": "Cornfield Right",
+                "name": "Cornfield Path",
+                "access_rules": [
+                    "$ScareEarth, $ScareChaos"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Scarecrow Fields",
+                        "x": 2065,
+                        "y": 975
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Cornfields - SF",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
+            {
+                "name": "Cornfield Square",
                 "access_rules": [
                     "$ScareEarth, $ScareChaos"
                 ],
@@ -292,7 +412,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Cornfield Square near Barn - SF"
                     }
                 ]
             },
@@ -307,12 +427,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Hay Stack at Beginning - SF"
                     }
                 ]
             },
             {
-                "name": "Haybail 1",
+                "name": "Haystack 3",
                 "access_rules": [
                     "$ScareEarth, $ScareChaos"
                 ],
@@ -325,7 +445,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag under Barn Hay Stack - SF"
                     }
                 ]
             },
@@ -340,12 +460,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest"
+                        "name": "Gold Coins: Chest in Hay Stack near Moon Door - SF"
                     }
                 ]
             },
             {
-                "name": "Haybail 2",
+                "name": "Haystack 4",
                 "access_rules": [
                     "$ScareEarth, $ScareChaos"
                 ],
@@ -358,7 +478,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest"
+                        "name": "Gold Coins: Chest Under Hay Stack - SF"
                     }
                 ]
             },
@@ -373,7 +493,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Right of fire near Moon Door - SF"
                     }
                 ]
             },
@@ -391,10 +511,10 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest"
+                        "name": "Gold Coins: Chest next to Harvester Part - SF"
                     },
                     {
-                        "name": "Harvester Part"
+                        "name": "Key Item: Harvester Parts - SF"
                     }
                 ]
             },
@@ -414,23 +534,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cleared Scarecrow Fields",
+                        "name": "Cleared: Scarecrow Fields",
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
                     },
                     {
-                        "name": "Books",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/labels/Book3.png",
-                        "chest_opened_img": "images/labels/bookdisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "booksanity"
-                    },
-                    {
-                        "name": "Gargoyles",
+                        "name": "Gargoyle: Exit - SF",
                         "chest_unopened_img": "images/labels/gargoyle2.png",
                         "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "clear_as_group": false,
                         "visibility_rules": "gargoylesanity"
                     }
                 ]

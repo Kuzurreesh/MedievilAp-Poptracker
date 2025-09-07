@@ -4,7 +4,7 @@
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
         "access_rules": [
-            "@Dan's Crypt/Clear/Cleared Dan's Crypt",
+            "@Dan's Crypt/Clear/Cleared: Dan's Crypt",
             "progression_option"
         ],
         "children": [
@@ -19,7 +19,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag at Start - TG"
+                    }
+                ]
+            },
+            {
+                "name": "Entry Path",
+                "map_locations": [
+                    {
+                        "map": "Graveyard",
+                        "x": 520,
+                        "y": 1270
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Welcome Back - TG",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -37,13 +57,33 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest Left"
+                        "name": "Gold Coins: Life Bottle Left Chest - TG"
                     },
                     {
-                        "name": "Coin Chest Right"
+                        "name": "Gold Coins: Life Bottle Right Chest - TG"
                     },
                     {
-                        "name": "Life Bottle"
+                        "name": "Life Bottle: The Graveyard"
+                    }
+                ]
+            },
+            {
+                "name": "Fountain",
+                "map_locations": [
+                    {
+                        "map": "Graveyard",
+                        "x": 1335,
+                        "y": 1055
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Healing Fountain - TG",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -61,7 +101,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Near Chaos Rune - TG"
                     }
                 ]
             },
@@ -79,7 +119,28 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chaos Rune"
+                        "name": "Chaos Rune: The Graveyard"
+                    }
+                ]
+            },
+            {
+                "name": "Past Chaos Gate",
+                "access_rules":["$GraveChaos"],
+                "map_locations": [
+                    {
+                        "map": "Graveyard",
+                        "x": 1735,
+                        "y": 990
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Gaze of an Angel - TG",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -94,7 +155,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Earth Rune"
+                        "name": "Earth Rune: The Graveyard"
                     }
                 ]
             },
@@ -133,7 +194,28 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest"
+                        "name": "Gold Coins: Behind Fence at Statue - TG"
+                    }
+                ]
+            },
+            {
+                "name": "Skeleton Key Gate",
+                "access_rules":["$GraveChaos"],
+                "map_locations": [
+                    {
+                        "map": "Graveyard",
+                        "x": 2665,
+                        "y": 1075
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Skull Key - TG",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -151,7 +233,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest"
+                        "name": "Gold Coins: Shop Chest - TG"
                     }
                 ]
             },
@@ -169,7 +251,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag Near Hill Fountain - TG"
                     }
                 ]
             },
@@ -187,7 +269,28 @@
                 ],
                 "sections": [
                     {
-                        "name": "Copper Shield"
+                        "name": "Equipment: Copper Shield - TG"
+                    }
+                ]
+            },
+            {
+                "name": "End",
+                "access_rules": [
+                    "$GraveChaos"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Graveyard",
+                        "x": 3935,
+                        "y": 145
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gargoyle: End of Level - TG",
+                        "chest_unopened_img": "images/labels/gargoyle2.png",
+                        "chest_opened_img": "images/labels/gargoyledisabled.png",
+                        "clear_as_group": false
                     }
                 ]
             },
@@ -207,23 +310,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cleared The Graveyard",
+                        "name": "Cleared: The Graveyard",
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
-                        
-                    },
-                    {
-                        "name": "Books",
-                        "item_count": 4,
-                        "chest_unopened_img": "images/labels/Book3.png",
-                        "chest_opened_img": "images/labels/bookdisabled.png",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Gargoyles",
-                        "chest_unopened_img": "images/labels/gargoyle2.png",
-                        "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "clear_as_group": false
                     }
                 ]
             }

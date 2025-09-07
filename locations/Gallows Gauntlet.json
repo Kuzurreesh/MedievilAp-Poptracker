@@ -4,10 +4,28 @@
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
         "access_rules": [
-            "@The Crystal Caves/Clear/Cleared The Crystal Caves",
+            "@The Crystal Caves/Clear/Cleared: The Crystal Caves",
             "progression_option"
         ],
         "children": [
+            {
+                "name": "Entrance",
+                "map_locations": [
+                    {
+                        "map": "Gallows Gauntlet",
+                        "x": 300,
+                        "y": 290
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Serpent of Gallowmere - GG",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
             {
                 "name": "Gate at Start",
                 "access_rules": [
@@ -22,12 +40,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Star Rune"
+                        "name": "Star Rune: The Gallows Gauntlet"
                     }
                 ]
             },
             {
-                "name": "Dragon Skeleton 1",
+                "name": "Stone Dragon 1",
                 "map_locations": [
                     {
                         "map": "Gallows Gauntlet",
@@ -37,12 +55,30 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag Behind Stone Dragon 1 - GG"
                     }
                 ]
             },
             {
-                "name": "Dragon Skeleton 2",
+                "name": "Stone Dragon 1",
+                "map_locations": [
+                    {
+                        "map": "Gallows Gauntlet",
+                        "x": 865,
+                        "y": 735
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Dragon Armour - GG",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
+            {
+                "name": "Stone Dragon 2",
                 "map_locations": [
                     {
                         "map": "Gallows Gauntlet",
@@ -52,12 +88,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag Behind Stone Dragon 2 - GG"
                     }
                 ]
             },
             {
-                "name": "Near End 1",
+                "name": "Near Early Exit",
                 "map_locations": [
                     {
                         "map": "Gallows Gauntlet",
@@ -67,7 +103,25 @@
                 ],
                 "sections": [
                     {
-                        "name": "Silver Shield"
+                        "name": "Equipment: Silver Shield in Chest Near Exit - GG"
+                    }
+                ]
+            },
+            {
+                "name": "Near Early Exit",
+                "map_locations": [
+                    {
+                        "map": "Gallows Gauntlet",
+                        "x": 1325,
+                        "y": 780
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Early Exit - GG",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -85,7 +139,25 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest"
+                        "name": "Gold Coins: Chest Near Star Entrance - GG"
+                    }
+                ]
+            },
+            {
+                "name": "Dragon Gate",
+                "map_locations": [
+                    {
+                        "map": "Gallows Gauntlet",
+                        "x": 1605,
+                        "y": 1080
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Magical Barrier - GG",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -103,7 +175,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest"
+                        "name": "Gold Coins: Chest at Serpent - GG"
                     }
                 ]
             },
@@ -142,7 +214,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Near Chalice - GG"
                     }
                 ]
             },
@@ -159,20 +231,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cleared The Gallows Gauntlet",
+                        "name": "Cleared: The Gallows Gauntlet",
                         "access_rules": [
                             "$GallowStar"
                         ],
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
-                    },
-                    {
-                        "name": "Books",
-                        "item_count": 4,
-                        "chest_unopened_img": "images/labels/Book3.png",
-                        "chest_opened_img": "images/labels/bookdisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "booksanity"
                     }
                 ]
             }

@@ -4,12 +4,12 @@
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
         "access_rules": [
-            "skullkey, @Hilltop Mausoleum/Clear/Cleared Hilltop Mausoleum",
+            "skullkey, @Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
             "skullkey, progression_option"
         ],
         "children": [
             {
-                "name": "Right Exit",
+                "name": "Cliffs Right",
                 "access_rules": [
                     "$ReturnStar"
                 ],
@@ -22,7 +22,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Cliffs Right - RTG"
                     }
                 ]
             },
@@ -40,7 +40,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Undertakers Entrance - RTG"
                     }
                 ]
             },
@@ -55,7 +55,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Star Rune"
+                        "name": "Star Rune: Return to the Graveyard"
                     }
                 ]
             },
@@ -63,7 +63,7 @@
                 "name": "Shop",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Hilltop Mausoleum/Clear/Cleared Hilltop Mausoleum",
+                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
                     "progression_option"
                 ],
                 "map_locations": [
@@ -75,12 +75,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Silver Shield"
+                        "name": "Equipment: Silver Shield in Chest at Shop - RTG"
                     }
                 ]
             },
             {
-                "name": "Left Exit",
+                "name": "Cliffs Left",
                 "access_rules": [
                     "$ReturnStar"
                 ],
@@ -93,7 +93,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Cliffs Left - RTG"
                     }
                 ]
             },
@@ -101,7 +101,7 @@
                 "name": "Shop",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Hilltop Mausoleum/Clear/Cleared Hilltop Mausoleum",
+                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
                     "progression_option"
                 ],
                 "map_locations": [
@@ -113,15 +113,15 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag at Shop - RTG"
                     }
                 ]
             },
             {
-                "name": "Raised Platform",
+                "name": "After Bridge",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Hilltop Mausoleum/Clear/Cleared Hilltop Mausoleum",
+                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
                     "progression_option"
                 ],
                 "map_locations": [
@@ -133,7 +133,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag after Bridge - RTG"
                     }
                 ]
             },
@@ -141,7 +141,7 @@
                 "name": "Secret Area Ledge",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Hilltop Mausoleum/Clear/Cleared Hilltop Mausoleum",
+                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
                     "progression_option"
                 ],
                 "map_locations": [
@@ -153,7 +153,30 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag above Coffin Area - RTG"
+                    }
+                ]
+            },
+            {
+                "name": "Skull Key Gate",
+                "parent": "Dan's Crypt",
+                "access_rules": [
+                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
+                    "progression_option"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Return to the Graveyard",
+                        "x": 745,
+                        "y": 1090
+                    }
+                ],
+                "sections": [
+                            {
+                        "name": "Book: Skull Key - RTG",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -161,7 +184,7 @@
                 "name": "Fountain",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Hilltop Mausoleum/Clear/Cleared Hilltop Mausoleum",
+                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
                     "progression_option"
                 ],
                 "map_locations": [
@@ -173,12 +196,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag at Closed Gate - RTG"
                     }
                 ]
             },
             {
-                "name": "Left Exit",
+                "name": "Cliffs Left",
                 "access_rules": [
                     "$ReturnStar"
                 ],
@@ -191,7 +214,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Cliffs Left - RTG"
                     }
                 ]
             },
@@ -209,7 +232,26 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Undertakers Entrance - RTG"
+                    }
+                ]
+            },
+            {
+                "name": "Undertakers Entrance",
+                "map_locations": [
+                    {
+                        "map": "Return to the Graveyard",
+                        "x": 620,
+                        "y": 1580,
+                        "size": 45
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Daring Dash - RTG",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -217,7 +259,7 @@
                 "name": "Shop",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Hilltop Mausoleum/Clear/Cleared Hilltop Mausoleum",
+                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
                     "progression_option"
                 ],
                 "map_locations": [
@@ -229,7 +271,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Below Shop - RTG"
                     }
                 ]
             },
@@ -247,7 +289,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest"
+                        "name": "Gold Coins: Chest on Island - RTG"
                     }
                 ]
             },
@@ -255,7 +297,7 @@
                 "name": "Secret Area",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Hilltop Mausoleum/Clear/Cleared Hilltop Mausoleum",
+                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
                     "progression_option"
                 ],
                 "map_locations": [
@@ -267,10 +309,16 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 1"
+                        "name": "Energy Vial: Coffin Area West - RTG"
                     },
                     {
-                        "name": "Energy Vial 2"
+                        "name": "Energy Vial: Coffin Area East - RTG"
+                    },
+                    {
+                        "name": "Book: Secret Areas - RTG",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -278,7 +326,7 @@
                 "name": "Secret Area",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Hilltop Mausoleum/Clear/Cleared Hilltop Mausoleum",
+                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
                     "progression_option"
                 ],
                 "map_locations": [
@@ -290,19 +338,19 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest 1"
+                        "name": "Gold Coins: Chest in Coffin Area 1 - RTG"
                     },
                     {
-                        "name": "Coin Chest 2"
+                        "name": "Gold Coins: Chest in Coffin Area 2 - RTG"
                     },
                     {
-                        "name": "Coin Chest 3"
+                        "name": "Gold Coins: Chest in Coffin Area 3 - RTG"
                     },
                     {
-                        "name": "Coin Chest 4"
+                        "name": "Gold Coins: Chest in Coffin Area 4 - RTG"
                     },
                     {
-                        "name": "Coin Chest 5"
+                        "name": "Gold Coins: Chest in Coffin Area 5 - RTG"
                     }
                 ]
             },
@@ -343,26 +391,18 @@
                 ],
                 "sections": [
                     {
-                        "name": "Daring Dash"
+                        "name": "Skill: Daring Dash"
                     },
                     {
-                        "name": "Cleared Return to the Graveyard",
+                        "name": "Cleared: Return to the Graveyard",
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
                     },
+                    
                     {
-                        "name": "Books",
-                        "item_count": 3,
-                        "chest_unopened_img": "images/labels/Book3.png",
-                        "chest_opened_img": "images/labels/bookdisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "booksanity"
-                    },
-                    {
-                        "name": "Gargoyles",
+                        "name": "Gargoyle: Exit - RTG",
                         "chest_unopened_img": "images/labels/gargoyle2.png",
                         "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "clear_as_group": false,
                         "visibility_rules": "gargoylesanity"
                     }
                 ]

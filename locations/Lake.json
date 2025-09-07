@@ -4,10 +4,28 @@
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
         "access_rules": [
-            "@Pools of the Ancient Dead/Clear/Cleared Pools of the Ancient Dead",
+            "@Pools of the Ancient Dead/Clear/Cleared: Pools of the Ancient Dead",
             "progression_option"
         ],
         "children": [
+            {
+                "name": "Start",
+                "map_locations": [
+                    {
+                        "map": "Lake",
+                        "x": 1490,
+                        "y": 1730
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Learn to Stealth - TL",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
             {
                 "name": "Left Path",
                 "map_locations": [
@@ -19,7 +37,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Earth Rune"
+                        "name": "Earth Rune: The Lake"
                     }
                 ]
             },
@@ -34,7 +52,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag Outside Flooded House - TL"
                     }
                 ]
             },
@@ -49,7 +67,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Flooded House - TL"
                     }
                 ]
             },
@@ -64,7 +82,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chaos Rune"
+                        "name": "Chaos Rune: The Lake"
                     }
                 ]
             },
@@ -79,7 +97,25 @@
                 ],
                 "sections": [
                     {
-                        "name": "Time Rune"
+                        "name": "Time Rune: The Lake"
+                    }
+                ]
+            },
+            {
+                "name": "Right Path",
+                "map_locations": [
+                    {
+                        "map": "Lake",
+                        "x": 2385,
+                        "y": 1085
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Whirlpool Manual - TL",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -97,7 +133,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Silver Shield"
+                        "name": "Equipment: Silver Shield In Whirlpool - TL"
                     }
                 ]
             },
@@ -115,7 +151,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag 1"
+                        "name": "Gold Coins: Bag at the Whirlpool Entrance - TL"
                     }
                 ]
             },
@@ -133,7 +169,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag 2"
+                        "name": "Gold Coins: Whirlpool Wind 1 - TL"
                     }
                 ]
             },
@@ -151,7 +187,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag 3"
+                        "name": "Gold Coins: Whirlpool Wind 2 - TL"
                     }
                 ]
             },
@@ -169,10 +205,10 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 1"
+                        "name": "Energy Vial: Whirpool Wind 1 - TL"
                     },
                     {
-                        "name": "Energy Vial 2"
+                        "name": "Energy Vial: Whirpool Wind 2 - TL"
                     }
                 ]
             },
@@ -187,7 +223,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag Near Closed Gate - TL"
                     }
                 ]
             },
@@ -205,7 +241,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Outside Whirlpool Exit - TL"
                     }
                 ]
             },
@@ -223,7 +259,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest"
+                        "name": "Gold Coins: Chest in Whirlpool Switch Area - TL"
                     }
                 ]
             },
@@ -241,7 +277,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Star Rune"
+                        "name": "Star Rune: The Lake"
                     }
                 ]
             },
@@ -267,6 +303,24 @@
                 ]
             },
             {
+                "name": "End",
+                "map_locations": [
+                    {
+                        "map": "Lake",
+                        "x": 270,
+                        "y": 1475
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gargoyle: Exit - TL",
+                        "chest_unopened_img": "images/labels/gargoyle2.png",
+                        "chest_opened_img": "images/labels/gargoyledisabled.png",
+                        "visibility_rules": "gargoylesanity"
+                    }
+                ]
+            },
+            {
                 "name": "Clear",
                 "map_locations": [
                     {
@@ -279,27 +333,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cleared The Lake",
+                        "name": "Cleared: The Lake",
                         "access_rules": [
                             "$LakeStar"
                         ],
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
-                    },
-                    {
-                        "name": "Books",
-                        "item_count": 2,
-                        "chest_unopened_img": "images/labels/Book3.png",
-                        "chest_opened_img": "images/labels/bookdisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "booksanity"
-                    },
-                    {
-                        "name": "Gargoyles",
-                        "chest_unopened_img": "images/labels/gargoyle2.png",
-                        "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "gargoylesanity"
                     }
                 ]
             }

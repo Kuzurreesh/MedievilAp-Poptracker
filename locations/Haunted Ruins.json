@@ -4,10 +4,64 @@
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
         "access_rules": [
-            "@The Gallows Gauntlet/Clear/Cleared The Gallows Gauntlet",
+            "@The Gallows Gauntlet/Clear/Cleared: The Gallows Gauntlet",
             "progression_option"
         ],
         "children": [
+            {
+                "name": "Chickens",
+                "map_locations": [
+                    {
+                        "map": "Haunted Ruins",
+                        "x": 1325,
+                        "y": 2235
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Chickens - HR",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
+            {
+                "name": "Drawbridge",
+                "map_locations": [
+                    {
+                        "map": "Haunted Ruins",
+                        "x": 1170,
+                        "y": 1820
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gargoyle: Drawbridge - HR",
+                        "chest_unopened_img": "images/labels/gargoyle2.png",
+                        "chest_opened_img": "images/labels/gargoyledisabled.png",
+                        "visibility_rules": "gargoylesanity"
+                    }
+                ]
+            },
+            {
+                "name": "Steel Gates",
+                "map_locations": [
+                    {
+                        "map": "Haunted Ruins",
+                        "x": 755,
+                        "y": 1310
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gargoyle: Steel Gates - HR",
+                        "chest_unopened_img": "images/labels/gargoyle2.png",
+                        "chest_opened_img": "images/labels/gargoyledisabled.png",
+                        "visibility_rules": "gargoylesanity"
+                    }
+                ]
+            },
             {
                 "name": "Front Wall",
                 "map_locations": [
@@ -19,7 +73,25 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chaos Rune"
+                        "name": "Chaos Rune: The Haunted Ruins"
+                    }
+                ]
+            },
+            {
+                "name": "Front Wall",
+                "map_locations": [
+                    {
+                        "map": "Haunted Ruins",
+                        "x": 1135,
+                        "y": 1750
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Farmers - HR",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -34,7 +106,46 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Near First Set of farmers - HR"
+                    }
+                ]
+            },
+            {
+                "name": "Before Oil",
+                "map_locations": [
+                    {
+                        "map": "Haunted Ruins",
+                        "x": 735,
+                        "y": 1675
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Oil - HR",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
+            {
+                "name": "After Oil",
+                "access_rules": [
+                    "$RuinsEarth"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Haunted Ruins",
+                        "x": 670,
+                        "y": 1460
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Escape - HR",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -49,7 +160,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 1"
+                        "name": "Energy Vial: Above Rune - HR"
                     }
                 ]
             },
@@ -64,7 +175,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 2"
+                        "name": "Energy Vial: Corner of Walls 1 - HR"
                     }
                 ]
             },
@@ -79,10 +190,10 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 1"
+                        "name": "Energy Vial: Corner of Walls 2 - HR"
                     },
                     {
-                        "name": "Energy Vial 2"
+                        "name": "Energy Vial: Corner of Walls 3 - HR"
                     }
                 ]
             },
@@ -97,7 +208,49 @@
                 ],
                 "sections": [
                     {
-                        "name": "Silver Shield"
+                        "name": "Equipment: Silver Shield in Chest Near Rune Door - HR"
+                    }
+                ]
+            },
+            {
+                "name": "Outside Throne Room",
+                "access_rules": [
+                    "$RuinsChaos"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Haunted Ruins",
+                        "x": 940,
+                        "y": 1180
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Sad King - HR",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
+            {
+                "name": "Throne Room",
+                "access_rules": [
+                    "$RuinsChaos"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Haunted Ruins",
+                        "x": 880,
+                        "y": 955
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Ghost King - HR",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -115,7 +268,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Earth Rune"
+                        "name": "Earth Rune: The Haunted Ruins"
                     }
                 ]
             },
@@ -133,7 +286,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag in Crown Room - HR"
                     }
                 ]
             },
@@ -151,7 +304,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Peregrin's Crown"
+                        "name": "Key Item: King Peregrine's Crown - HR"
+                    },
+                    {
+                        "name": "Book: The Volcano - HR",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -166,7 +325,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Up from Oil - HR"
                     }
                 ]
             },
@@ -181,10 +340,10 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag 1"
+                        "name": "Gold Coins: Bag Near Chalice North - HR"
                     },
                     {
-                        "name": "Coin Bag 2"
+                        "name": "Gold Coins: Bag Near Chalice South - HR"
                     }
                 ]
             },
@@ -223,13 +382,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest 1"
+                        "name": "Gold Coins: Chest at Catapult 1 - HR"
                     },
                     {
-                        "name": "Coin Chest 2"
+                        "name": "Gold Coins: Chest at Catapult 2 - HR"
                     },
                     {
-                        "name": "Coin Chest 3"
+                        "name": "Gold Coins: Chest at Catapult 3 - HR"
                     }
                 ]
             },
@@ -246,28 +405,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cleared The Haunted Ruins",
+                        "name": "Cleared: The Haunted Ruins",
                         "access_rules": [
-                            "$RuinsEarth"
+                            "crown, golem, $RuinsEarth, $RuinsChaos"
                         ],
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
-                    },
-                    {
-                        "name": "Books",
-                        "item_count": 7,
-                        "chest_unopened_img": "images/labels/Book3.png",
-                        "chest_opened_img": "images/labels/bookdisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "booksanity"
-                    },
-                    {
-                        "name": "Gargoyles",
-                        "item_count": 2,
-                        "chest_unopened_img": "images/labels/gargoyle2.png",
-                        "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "gargoylesanity"
                     }
                 ]
             }

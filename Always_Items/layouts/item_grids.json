@@ -51,32 +51,33 @@
 				"chalice"
 			],
 			[
+				"crypticon",
 				"starcrypt",
-				"club",
-				"hammer",
-				"daring5"
-			],
-			[
+				"","graveicon",
 				"earthgrave",
 				"chaosgrave"
 			],
 			[
+				"mausoleumicon",
 				"earthhill",
 				"moonhill",
 				"chaoshill",
 				"sheetmusic"
 			],
 			[
+				"rtgicon",
 				"starreturn",
 				"skullkey"
 			],
 			[
+				"scareicon",
 				"moonscare",
 				"earthscare",
 				"chaosscare",
 				"harvesterpart"
 			],
 			[
+				"gorgeicon",
 				"moongorge",
 				"chaosgorge",
 				"earthgorge",
@@ -84,53 +85,62 @@
 				"timegorge"
 			],
 			[
-				"witchtalisman"
-			],
-			[
+				"sleepicon",
 				"chaossleep",
 				"moonsleep",
-				"earthsleep",
-				"landlordsbust",
+				"earthsleep"
+			],
+			[
+				"","landlordsbust",
 				"crucifixcast",
 				"crucifix",
 				"safekey"
 			],
 			[
+				"serpenticon",
+				"witchtalisman",
+				"","groundsicon",
 				"chaosgrounds"
 			],
 			[
-				"earthasylum"
+				"asylumicon",
+				"earthasylum",
+				"","anticon",
+				"amber",
+				"witchtalisman"
 			],
 			[
+				"enchanticon",
 				"earthenchant",
 				"starenchant",
 				"shadowartefact",
 				"shadowtalisman"
 			],
 			[
-				"amber",
-				"witchtalisman"
-			],
-			[
+				"padicon",
 				"chaospools",
 				"soulhelmet"
 			],
 			[
+				"lakeicon",
 				"earthlake",
 				"chaoslake",
 				"timelake",
 				"starlake"
 			],
 			[
+				"crystalicon",
 				"earthcrystal",
 				"starcrystal",
 				"dragongem"
 			],
 			[
+				"gallowsicon",
 				"stargallow",
 				"dragonarmour"
 			],
 			[
+				"ruinsicon",
 				"chaosruins",
 				"earthruins",
 				"crown",
@@ -138,18 +148,21 @@
 				"dragonarmour"
 			],
 			[
+				"shipicon",
 				"moonship",
 				"starship",
 				"chaosship",
 				"club"
 			],
 			[
+				"deviceicon",
 				"timedevice",
 				"chaosdevice",
 				"earthdevice",
 				"moondevice"
 			],
 			[
+				"zarokicon",
 				"goodlightning"
 			]
 		]

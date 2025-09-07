@@ -4,12 +4,30 @@
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
         "access_rules": [
-            "@The Haunted Ruins/Clear/Cleared The Haunted Ruins",
+            "@The Haunted Ruins/Clear/Cleared: The Haunted Ruins",
             "progression_option"
         ],
         "children": [
             {
-                "name": "Below Trapdoors",
+                "name": "Start",
+                "map_locations": [
+                    {
+                        "map": "Ghost Ship",
+                        "x": 275,
+                        "y": 220
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Skeleton Warriors - GS",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
+            {
+                "name": "Barrel Room",
                 "map_locations": [
                     {
                         "map": "Ghost Ship",
@@ -19,12 +37,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Silver Shield"
+                        "name": "Equipment: Silver Shield in Chest in Barrel Room - GS"
                     }
                 ]
             },
             {
-                "name": "Below Trapdoors",
+                "name": "Barrel Room",
                 "map_locations": [
                     {
                         "map": "Ghost Ship",
@@ -34,7 +52,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag in Rolling Barrels Room - GS"
                     }
                 ]
             },
@@ -52,7 +70,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: In Cabin - GS"
                     }
                 ]
             },
@@ -70,7 +88,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Star Rune"
+                        "name": "Star Rune: Ghost Ship"
                     }
                 ]
             },
@@ -85,12 +103,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Moon Rune"
+                        "name": "Moon Rune: Ghost Ship"
                     }
                 ]
             },
             {
-                "name": "Fountain",
+                "name": "Barrels",
                 "map_locations": [
                     {
                         "map": "Ghost Ship",
@@ -100,7 +118,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag on Deck At Barrels - GS"
                     }
                 ]
             },
@@ -118,7 +136,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chaos Rune"
+                        "name": "Chaos Rune: Ghost Ship"
                     }
                 ]
             },
@@ -136,7 +154,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 1"
+                        "name": "Energy Vial: Rope Bridge 1 - GS"
                     }
                 ]
             },
@@ -154,7 +172,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 2"
+                        "name": "Energy Vial: Rope Bridge 2 - GS"
                     }
                 ]
             },
@@ -173,7 +191,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Rope Bridge - GS"
                     }
                 ]
             },
@@ -191,7 +209,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: In Cannon Room - GS"
                     }
                 ]
             },
@@ -209,7 +227,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest"
+                        "name": "Gold Coins: Chest in Cannon Room - GS"
                     }
                 ]
             },
@@ -233,7 +251,7 @@
                         "chest_opened_img": "images/items/empty chalice.png"
                     },
                     {
-                        "name": "Energy Vial 2",
+                        "name": "Energy Vial: Cage Lift 2 - GS",
                         "access_rules": [
                             "$ShipChaos, $ShipStar"
                         ]
@@ -254,7 +272,28 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 1"
+                        "name": "Energy Vial: Cage Lift 1 - GS"
+                    }
+                ]
+            },
+            {
+                "name": "Before Captain",
+                "access_rules": [
+                    "$ShipChaos, $ShipStar"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ghost Ship",
+                        "x": 2005,
+                        "y": 1060
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Boss Strategy - GS",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -272,7 +311,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Club"
+                        "name": "Equipment: Club in Chest at Captain - GS"
                     }
                 ]
             },
@@ -289,20 +328,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cleared The Ghost Ship",
+                        "name": "Cleared: The Ghost Ship",
                         "access_rules": [
                             "club, $ShipChaos, $ShipStar"
                         ],
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
-                    },
-                    {
-                        "name": "Books",
-                        "item_count": 2,
-                        "chest_unopened_img": "images/labels/Book3.png",
-                        "chest_opened_img": "images/labels/bookdisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "booksanity"
                     }
                 ]
             }

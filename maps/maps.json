@@ -56,7 +56,7 @@
 	{
 		"name": "Graveyard",
 		"location_size": 50,
-		"location_border_thickness": 5,
+		"location_border_thickness": 3,
 		"img": "images/maps/graveyard.jpeg"
 	},
 	{

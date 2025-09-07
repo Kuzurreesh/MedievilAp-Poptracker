@@ -3,185 +3,266 @@
         "name": "Dan's Crypt",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
-		
-        "children": 
-        [
+        "children": [
+            {
+                "name": "Spawn",
+                "map_locations": [
+                    {
+                        "map": "Dan's Crypt",
+                        "x": 1330,
+                        "y": 1315
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gargoyle: Left - DC",
+                        "chest_unopened_img": "images/labels/gargoyle2.png",
+                        "chest_opened_img": "images/labels/gargoyledisabled.png",
+                        "visibility_rules": "gargoylesanity"
+                    },
+                    {
+                        "name": "Gargoyle: Right - DC",
+                        "chest_unopened_img": "images/labels/gargoyle2.png",
+                        "chest_opened_img": "images/labels/gargoyledisabled.png",
+                        "visibility_rules": "gargoylesanity"
+                    }
+                ]
+            },
+            {
+                "name": "Left",
+                "map_locations": [
+                    {
+                        "map": "Dan's Crypt",
+                        "x": 1420,
+                        "y": 1225
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Unlocking Runes - DC",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
+            {
+                "name": "Right",
+                "map_locations": [
+                    {
+                        "map": "Dan's Crypt",
+                        "x": 1200,
+                        "y": 1280
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Using Crypt - DC",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
             {
                 "name": "Right There",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Dan's Crypt",
+                        "map": "Dan's Crypt",
                         "x": 1320,
                         "y": 1125
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Small Sword"
+                        "name": "Equipment: Small Sword - DC"
                     }
                 ]
             },
-			{
-				"name": "Behind Wall",
-				"map_locations": 
-				[
-					{
-						"map": "Dan's Crypt",
+            {
+                "name": "Right of Corridor Entry",
+                "map_locations": [
+                    {
+                        "map": "Dan's Crypt",
+                        "x": 1035,
+                        "y": 1060
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Pressing Select - DC",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
+            {
+                "name": "Corridor Right 1",
+                "map_locations": [
+                    {
+                        "map": "Dan's Crypt",
+                        "x": 785,
+                        "y": 1220
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Power Attack - DC",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
+            {
+                "name": "Corridor Right 2",
+                "map_locations": [
+                    {
+                        "map": "Dan's Crypt",
+                        "x": 570,
+                        "y": 1280
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Swimming - DC",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
+            {
+                "name": "Behind Wall",
+                "map_locations": [
+                    {
+                        "map": "Dan's Crypt",
                         "x": 1530,
                         "y": 980
                     }
                 ],
-                
-				"access_rules": 
-				[
-					"bash"
-				],
-				
-                "sections": 
-                [
+                "access_rules": [
+                    "bash"
+                ],
+                "sections": [
                     {
-                        "name": "Coin Chest Left"
+                        "name": "Gold Coins: Behind Wall in Crypt - Left - DC"
                     },
-{
-                        "name": "Coin Chest Right"
+                    {
+                        "name": "Gold Coins: Behind Wall in Crypt - Right - DC"
                     },
-					{
-                        "name": "Life Bottle"
+                    {
+                        "name": "Life Bottle: Dan's Crypt - Behind Wall"
                     }
-					
                 ]
-			},
-			{
+            },
+            {
                 "name": "Locked Gate",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Dan's Crypt",
+                        "map": "Dan's Crypt",
                         "x": 1210,
                         "y": 800
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Throwing Daggers"
+                        "name": "Equipment: Daggers - DC"
                     }
                 ]
             },
-			{
+            {
                 "name": "Mound",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Dan's Crypt",
+                        "map": "Dan's Crypt",
                         "x": 1015,
                         "y": 790
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Life Bottle"
+                        "name": "Life Bottle: Dan's Crypt"
                     }
                 ]
             },
-			{
+            {
                 "name": "Corridor",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Dan's Crypt",
+                        "map": "Dan's Crypt",
                         "x": 725,
                         "y": 1350
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Star Rune"
+                        "name": "Star Rune: Dan's Crypt"
                     }
                 ]
             },
-			{
+            {
                 "name": "End of Corridor",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Dan's Crypt",
+                        "map": "Dan's Crypt",
                         "x": 135,
                         "y": 1435
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Copper Shield"
+                        "name": "Equipment: Copper Shield in Chest - DC"
                     }
                 ]
             },
-			{
+            {
                 "name": "End of Corridor",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Dan's Crypt",
-                        "x": 95,
+                        "map": "Dan's Crypt",
+                        "x": 75,
                         "y": 1550
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Over the water - DC"
+                    },
+                    {
+                        "name": "Book: Coins - DC",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
-			{
+            {
                 "name": "Clear",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Dan's Crypt",
+                        "map": "Dan's Crypt",
                         "x": 1425,
                         "y": 100,
-						"shape": "diamond",
-						"size": 60
+                        "shape": "diamond",
+                        "size": 60
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Cleared Dan's Crypt",
+                        "name": "Cleared: Dan's Crypt",
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
-					},
-					{
-						"name": "Books",
-						"item_count": 7,
-						"chest_unopened_img": "images/labels/Book3.png",
-						"chest_opened_img": "images/labels/bookdisabled.png",
-						"clear_as_group": false,
-						"visibility_rules": "booksanity"
-					},
-					{
-						"name": "Gargoyles",
-						"item_count": 2,
-						"chest_unopened_img": "images/labels/gargoyle2.png",
-						"chest_opened_img": "images/labels/gargoyledisabled.png",
-						"clear_as_group": false,
-						"visibility_rules": "gargoylesanity"
-					}
+                    },
+                    {
+                        "name": "Book: Track Down Zarok - DC",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
                 ]
             }
-		]
+        ]
     }
 ]

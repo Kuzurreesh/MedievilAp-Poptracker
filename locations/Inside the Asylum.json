@@ -4,7 +4,7 @@
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
         "access_rules": [
-            "@Asylum Grounds/Clear/Cleared Asylum Grounds",
+            "@Asylum Grounds/Clear/Cleared: Asylum Grounds",
             "progression_option"
         ],
         "children": [
@@ -19,7 +19,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Room 1 Clear"
+                        "name": "Gauntlet Cleared: Room 1 - IA"
                     }
                 ]
             },
@@ -34,7 +34,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Room 2 Clear"
+                        "name": "Gauntlet Cleared: Room 2 - IA"
                     }
                 ]
             },
@@ -49,7 +49,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Room 3 Clear"
+                        "name": "Gauntlet Cleared: Room 3 - IA"
                     }
                 ]
             },
@@ -64,7 +64,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Room 4 Clear"
+                        "name": "Gauntlet Cleared: Room 4 - IA"
                     }
                 ]
             },
@@ -79,7 +79,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Room 5 Clear"
+                        "name": "Gauntlet Cleared: Room 5 - IA"
                     }
                 ]
             },
@@ -94,7 +94,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Earth Rune"
+                        "name": "Earth Rune: Inside the Asylum"
                     },
                     {
                         "visibility_rules": "include_chalices_in_checks",
@@ -103,7 +103,7 @@
                         "name": "Chalice"
                     },
                     {
-                        "name": "Coin Bag 2"
+                        "name": "Gold Coins: Bag on Sewer Prison Bench - IA"
                     }
                 ]
             },
@@ -121,7 +121,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag 1"
+                        "name": "Gold Coins: Bag in Sewer Prison Entrance - IA"
                     }
                 ]
             },
@@ -136,7 +136,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Dragon Gem"
+                        "name": "Key Item: Dragon Gem - IA"
                     }
                 ]
             },
@@ -153,7 +153,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cleared Inside the Asylum",
+                        "name": "Cleared: Inside the Asylum",
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
                     }

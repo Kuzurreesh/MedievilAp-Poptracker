@@ -4,9 +4,9 @@
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
         "access_rules": [
-            "@Scarecrow Fields/Clear/Cleared Scarecrow Fields, dash",
+            "@Scarecrow Fields/Clear/Cleared: Scarecrow Fields, dash",
             "progression_option, dash",
-            "@Scarecrow Fields/Clear/Cleared Scarecrow Fields, boulder",
+            "@Scarecrow Fields/Clear/Cleared: Scarecrow Fields, boulder",
             "progression_option, boulder"
         ],
         "children": [
@@ -21,12 +21,15 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Chalice Path - PG"
                     }
                 ]
             },
             {
                 "name": "Behind Wall",
+                "access_rules": [
+                    "$GorgeChaos, $GorgeStar, $GorgeTime"
+                ],
                 "map_locations": [
                     {
                         "map": "Pumpkin Gorge",
@@ -54,7 +57,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest"
+                        "name": "Gold Coins: Chest Near Chalice - PG"
                     }
                 ]
             },
@@ -72,7 +75,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Earth Rune"
+                        "name": "Earth Rune: Pumpkin Gorge"
                     }
                 ]
             },
@@ -91,7 +94,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chaos Rune"
+                        "name": "Chaos Rune: Pumpkin Gorge"
                     }
                 ]
             },
@@ -110,7 +113,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: In Moon Hut - PG"
                     }
                 ]
             },
@@ -118,7 +121,7 @@
                 "name": "Moon Rune Path",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Scarecrow Fields/Clear/Cleared Scarecrow Fields",
+                    "@Scarecrow Fields/Clear/Cleared: Scarecrow Fields",
                     "progression_option"
                 ],
                 "map_locations": [
@@ -130,7 +133,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Moon Rune"
+                        "name": "Moon Rune: Pumpkin Gorge"
                     }
                 ]
             },
@@ -138,7 +141,7 @@
                 "name": "Moon Rune Path",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Scarecrow Fields/Clear/Cleared Scarecrow Fields",
+                    "@Scarecrow Fields/Clear/Cleared: Scarecrow Fields",
                     "progression_option"
                 ],
                 "map_locations": [
@@ -150,7 +153,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Club"
+                        "name": "Equipment: Club in Chest in Tunnel - PG"
                     }
                 ]
             },
@@ -168,7 +171,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Time Rune"
+                        "name": "Time Rune: Pumpkin Gorge"
                     }
                 ]
             },
@@ -186,13 +189,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Star Rune"
+                        "name": "Star Rune: Pumpkin Gorge"
                     },
                     {
-                        "name": "Silver Shield"
+                        "name": "Equipment: Silver Shield in Chest at Top of Hill - PG"
                     },
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Top of Hill - PG"
                     }
                 ]
             },
@@ -207,16 +210,16 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: In Coop - PG"
                     },
                     {
-                        "name": "Coin Chest 1"
+                        "name": "Gold Coins: Chest in Coop 1 - PG"
                     },
                     {
-                        "name": "Coin Chest 2"
+                        "name": "Gold Coins: Chest in Coop 2 - PG"
                     },
                     {
-                        "name": "Coin Chest 3"
+                        "name": "Gold Coins: Chest in Coop 3 - PG"
                     }
                 ]
             },
@@ -234,7 +237,28 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag Behind Rocks At Start - PG"
+                    }
+                ]
+            },
+            {
+                "name": "Rising Mushrooms",
+                "access_rules": [
+                    "$GorgeChaos"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pumpkin Gorge",
+                        "x": 2245,
+                        "y": 640
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Mushrooms - PG",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -252,7 +276,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag in Mushroom Area - PG"
                     }
                 ]
             },
@@ -270,10 +294,10 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Boulders After Time Rune - PG"
                     },
                     {
-                        "name": "Coin Chest"
+                        "name": "Gold Coins: Chest at Boulders after Time Rune - PG"
                     }
                 ]
             },
@@ -291,7 +315,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 1"
+                        "name": "Energy Vial: Vine Patch Left - PG"
                     }
                 ]
             },
@@ -309,7 +333,28 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 2"
+                        "name": "Energy Vial: Vine Patch Right - PG"
+                    }
+                ]
+            },
+            {
+                "name": "End",
+                "access_rules": [
+                    "$GorgeChaos, $GorgeStar, $GorgeTime"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pumpkin Gorge",
+                        "x": 3520,
+                        "y": 385
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gargoyle: Exit - PG",
+                        "chest_unopened_img": "images/labels/gargoyle2.png",
+                        "chest_opened_img": "images/labels/gargoyledisabled.png",
+                        "visibility_rules": "gargoylesanity"
                     }
                 ]
             },
@@ -329,24 +374,10 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cleared Pumpkin Gorge",
+                        "name": "Cleared: Pumpkin Gorge",
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
-                    },
-                    {
-                        "name": "Books",
-                        "chest_unopened_img": "images/labels/Book3.png",
-                        "chest_opened_img": "images/labels/bookdisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "booksanity"
-                    },
-                    {
-                        "name": "Gargoyles",
-                        "chest_unopened_img": "images/labels/gargoyle2.png",
-                        "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "gargoylesanity"
-                    }
+                    }                    
                 ]
             }
         ]

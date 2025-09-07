@@ -1,4 +1,7 @@
 
+if (PopVersion >= "0.30.4") then
+	Tracker.AllowDeferredLogicUpdate = true
+end
 ScriptHost:LoadScript("scripts/autotracking.lua")
 ScriptHost:LoadScript("scripts/locations.lua")
 ScriptHost:LoadScript("scripts/logic/logic.lua")

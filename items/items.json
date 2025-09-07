@@ -653,6 +653,7 @@
         "overlay_font_size": "15",
         "img": "images/items/Chalice.png",
         "codes": "chalice",
+        "initial_quantity": 0,
         "max_quantity": 20
     },
     {
@@ -916,5 +917,137 @@
         "img": "images/maps/world map.png",
         "loop": true,
         "codes": "progression_option"
+    },
+    {
+        "name": "Dan's Crypt Icon",
+        "type": "static",
+        "img": "images/labels/dc.png",
+        "codes": "crypticon"
+    },
+    {
+        "name": "The Graveyard Icon",
+        "type": "static",
+        "img": "images/labels/tg.png",
+        "codes": "graveicon"
+    },
+    {
+        "name": "Cemetery Hill Icon",
+        "type": "static",
+        "img": "images/labels/ch.png",
+        "codes": "hillicon"
+    },
+    {
+        "name": "Hilltop Mausoleum Icon",
+        "type": "static",
+        "img": "images/labels/hm.png",
+        "codes": "mausoleumicon"
+    },
+    {
+        "name": "Return to the Graveyard Icon",
+        "type": "static",
+        "img": "images/labels/rtg.png",
+        "codes": "rtgicon"
+    },
+    {
+        "name": "Scarecrow Fields Icon",
+        "type": "static",
+        "img": "images/labels/sf.png",
+        "codes": "scareicon"
+    },
+    {
+        "name": "Pumpkin Gorge Icon",
+        "type": "static",
+        "img": "images/labels/pg.png",
+        "codes": "gorgeicon"
+    },
+    {
+        "name": "Pumpkin Serpent Icon",
+        "type": "static",
+        "img": "images/labels/ps.png",
+        "codes": "serpenticon"
+    },
+    {
+        "name": "Sleeping Village Icon",
+        "type": "static",
+        "img": "images/labels/sv.png",
+        "codes": "sleepicon"
+    },
+    {
+        "name": "Asylum Grounds Icon",
+        "type": "static",
+        "img": "images/labels/ag.png",
+        "codes": "groundsicon"
+    },
+    {
+        "name": "Inside the Asylum Icon",
+        "type": "static",
+        "img": "images/labels/ia.png",
+        "codes": "asylumicon"
+    },
+    {
+        "name": "Enchanted Earth Icon",
+        "type": "static",
+        "img": "images/labels/ee.png",
+        "codes": "enchanticon"
+    },
+    {
+        "name": "Ant Caves Icon",
+        "type": "static",
+        "img": "images/labels/ac.png",
+        "codes": "anticon"
+    },
+    {
+        "name": "Pools of the Ancient Dead Icon",
+        "type": "static",
+        "img": "images/labels/pad.png",
+        "codes": "padicon"
+    },
+    {
+        "name": "Lake Icon",
+        "type": "static",
+        "img": "images/labels/tl.png",
+        "codes": "lakeicon"
+    },
+    {
+        "name": "Crystal Caves Icon",
+        "type": "static",
+        "img": "images/labels/cc.png",
+        "codes": "crystalicon"
+    },
+    {
+        "name": "Gallows Gauntlet Icon",
+        "type": "static",
+        "img": "images/labels/gg.png",
+        "codes": "gallowsicon"
+    },
+    {
+        "name": "Haunted Ruins Icon",
+        "type": "static",
+        "img": "images/labels/hr.png",
+        "codes": "ruinsicon"
+    },
+    {
+        "name": "The Ghost Ship Icon",
+        "type": "static",
+        "img": "images/labels/gs.png",
+        "codes": "shipicon"
+    },
+    {
+        "name": "Entrance Hall Icon",
+        "type": "static",
+        "img": "images/labels/eh.png",
+        "codes": "hallicon"
+    },
+    {
+        "name": "The Time Device Icon",
+        "type": "static",
+        "img": "images/labels/td.png",
+        "codes": "deviceicon"
+    },
+    {
+        "name": "Zarok's Lair Icon",
+        "type": "static",
+        "img": "images/labels/zl.png",
+        "codes": "zarokicon"
     }
 ]

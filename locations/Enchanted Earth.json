@@ -4,10 +4,28 @@
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
         "access_rules": [
-            "@Return to the Graveyard/Clear/Cleared Return to the Graveyard",
+            "@Return to the Graveyard/Clear/Cleared: Return to the Graveyard",
             "progression_option"
         ],
         "children": [
+            {
+                "name": "Witch's Alcove",
+                "map_locations": [
+                    {
+                        "map": "Enchanted Earth",
+                        "x": 265,
+                        "y": 1290
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Coven of Witches - EE",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
             {
                 "name": "Gated Chest",
                 "access_rules": [
@@ -22,7 +40,25 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest"
+                        "name": "Gold Coins: Chest Near Barrier - EE"
+                    }
+                ]
+            },
+            {
+                "name": "Earth Gate",
+                "map_locations": [
+                    {
+                        "map": "Enchanted Earth",
+                        "x": 695,
+                        "y": 1290
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Keep Out - EE",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -40,12 +76,72 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag at Cave Entrance - EE"
                     }
                 ]
             },
             {
-                "name": "Behind Lift Tree",
+                "name": "Shadow Head",
+                "access_rules": [
+                    "$EnchantEarth"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Enchanted Earth",
+                        "x": 1115,
+                        "y": 1345
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gargoyle: Outside Demon Entrance - EE",
+                        "chest_unopened_img": "images/labels/gargoyle2.png",
+                        "chest_opened_img": "images/labels/gargoyledisabled.png",
+                        "visibility_rules": "gargoylesanity"
+                    }
+                ]
+            },
+            {
+                "name": "Star Gate",
+                "access_rules": [
+                    "shadowtalisman, shadowartefact, $EnchantEarth"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Enchanted Earth",
+                        "x": 1460,
+                        "y": 1760
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gargoyle: Outside Demon Exit- EE",
+                        "chest_unopened_img": "images/labels/gargoyle2.png",
+                        "chest_opened_img": "images/labels/gargoyledisabled.png",
+                        "visibility_rules": "gargoylesanity"
+                    }
+                ]
+            },
+            {
+                "name": "To Big Tree",
+                "map_locations": [
+                    {
+                        "map": "Enchanted Earth",
+                        "x": 875,
+                        "y": 1055
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Dragon Bird - EE",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
+                    }
+                ]
+            },
+            {
+                "name": "Behind Big Tree",
                 "map_locations": [
                     {
                         "map": "Enchanted Earth",
@@ -55,10 +151,10 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag 1"
+                        "name": "Gold Coins: Bag Behind Big Tree 1 - EE"
                     },
                     {
-                        "name": "Coin Bag 2"
+                        "name": "Gold Coins: Bag Behind Big Tree 2 - EE"
                     }
                 ]
             },
@@ -73,13 +169,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Egg 1"
+                        "name": "Egg Drop 1 - EE"
                     },
                     {
-                        "name": "Egg 3"
+                        "name": "Egg Drop 2 - EE"
                     },
                     {
-                        "name": "Egg 2"
+                        "name": "Egg Drop 3 - EE"
                     }
                 ]
             },
@@ -94,7 +190,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Bag"
+                        "name": "Gold Coins: Bag Near Tree Hollow - EE"
                     }
                 ]
             },
@@ -112,10 +208,10 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial 1"
+                        "name": "Energy Vial: Left of Tree Drop - EE"
                     },
                     {
-                        "name": "Energy Vial 2"
+                        "name": "Energy Vial: Right of Tree Drop - EE"
                     }
                 ]
             },
@@ -133,7 +229,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Star Rune"
+                        "name": "Star Rune: Enchanted Earth"
                     }
                 ]
             },
@@ -145,24 +241,24 @@
                 "map_locations": [
                     {
                         "map": "Enchanted Earth",
-                        "x": 645,
+                        "x": 640,
                         "y": 280
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Coin Chest 1"
+                        "name": "Gold Coins: Chest Left of Fountain - EE"
                     },
                     {
-                        "name": "Coin Chest 2"
+                        "name": "Gold Coins: Chest Top of Fountain - EE"
                     },
                     {
-                        "name": "Coin Chest 3"
+                        "name": "Gold Coins: Chest Right of Fountain - EE"
                     }
                 ]
             },
             {
-                "name": "Element Room",
+                "name": "Shadow Cave",
                 "access_rules": [
                     "shadowtalisman, shadowartefact, $EnchantEarth"
                 ],
@@ -175,12 +271,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Shadow Talisman"
+                        "name": "Key Item: Shadow Talisman - EE"
                     }
                 ]
             },
             {
-                "name": "Element Room",
+                "name": "Shadow Cave",
                 "access_rules": [
                     "shadowtalisman, shadowartefact, $EnchantEarth"
                 ],
@@ -201,7 +297,7 @@
                 ]
             },
             {
-                "name": "Element Room",
+                "name": "Shadow Cave",
                 "access_rules": [
                     "shadowtalisman, shadowartefact, $EnchantEarth"
                 ],
@@ -214,7 +310,28 @@
                 ],
                 "sections": [
                     {
-                        "name": "Energy Vial"
+                        "name": "Energy Vial: Shadow Talisman Cave - EE"
+                    }
+                ]
+            },
+            {
+                "name": "Shadow Cave",
+                "access_rules": [
+                    "shadowtalisman, shadowartefact, $EnchantEarth"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Enchanted Earth",
+                        "x": 2005,
+                        "y": 1685
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: Take the Talisman - EE",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "visibility_rules": "booksanity"
                     }
                 ]
             },
@@ -231,28 +348,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cleared Enchanted Earth",
+                        "name": "Cleared: Enchanted Earth",
                         "access_rules": [
                             "shadowtalisman, shadowartefact, $EnchantEarth, $EnchantStar"
                         ],
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
-                    },
-                    {
-                        "name": "Books",
-                        "item_count": 4,
-                        "chest_unopened_img": "images/labels/Book3.png",
-                        "chest_opened_img": "images/labels/bookdisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "booksanity"
-                    },
-                    {
-                        "name": "Gargoyles",
-                        "item_count": 2,
-                        "chest_unopened_img": "images/labels/gargoyle2.png",
-                        "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "clear_as_group": false,
-                        "visibility_rules": "gargoylesanity"
                     }
                 ]
             }

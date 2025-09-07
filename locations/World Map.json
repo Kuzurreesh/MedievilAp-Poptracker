@@ -168,40 +168,80 @@
 				],
 				"sections": [
 					{
-						"ref": "Dan's Crypt/Corridor/Star Rune"
+						"ref": "Dan's Crypt/Behind Wall/Life Bottle: Dan's Crypt - Behind Wall",
+						"name": "Life Bottle: Dan's Crypt - Behind Wall"
 					},
 					{
-						"ref": "Dan's Crypt/Mound/Life Bottle"
+						"ref": "Dan's Crypt/Corridor/Star Rune: Dan's Crypt",
+						"name": "Star Rune: Dan's Crypt"
 					},
 					{
-						"ref": "Dan's Crypt/Right There/Small Sword"
+						"ref": "Dan's Crypt/Mound/Life Bottle: Dan's Crypt",
+						"name": "Life Bottle: Dan's Crypt"
 					},
 					{
-						"ref": "Dan's Crypt/End of Corridor/Copper Shield"
+						"ref": "Dan's Crypt/Right There/Equipment: Small Sword - DC",
+						"name": "Equipment: Small Sword - DC"
 					},
 					{
-						"ref": "Dan's Crypt/Locked Gate/Throwing Daggers"
+						"ref": "Dan's Crypt/End of Corridor/Equipment: Copper Shield in Chest - DC",
+						"name": "Equipment: Copper Shield in Chest - DC"
 					},
 					{
-						"ref": "Dan's Crypt/End of Corridor[1]/Coin Bag"
+						"ref": "Dan's Crypt/Locked Gate/Equipment: Daggers - DC",
+						"name": "Equipment: Daggers - DC"
 					},
 					{
-						"ref": "Dan's Crypt/Behind Wall/Life Bottle"
+						"ref": "Dan's Crypt/End of Corridor[1]/Gold Coins: Over the water - DC",
+						"name": "Gold Coins: Over the water - DC"
 					},
 					{
-						"ref": "Dan's Crypt/Behind Wall/Coin Chest Left"
+						"ref": "Dan's Crypt/Behind Wall/Gold Coins: Behind Wall in Crypt - Left - DC",
+						"name": "Gold Coins: Behind Wall in Crypt - Left - DC"
 					},
 					{
-						"ref": "Dan's Crypt/Behind Wall/Coin Chest Right"
+						"ref": "Dan's Crypt/Behind Wall/Gold Coins: Behind Wall in Crypt - Right - DC",
+						"name": "Gold Coins: Behind Wall in Crypt - Right - DC"
 					},
 					{
-						"ref": "Dan's Crypt/Clear/Books"
+						"ref": "Dan's Crypt/Left/Book: Unlocking Runes - DC",
+						"name": "Book: Unlocking Runes - DC"
 					},
 					{
-						"ref": "Dan's Crypt/Clear/Gargoyles"
+						"ref": "Dan's Crypt/Right/Book: Using Crypt - DC",
+						"name": "Book: Using Crypt - DC"
 					},
 					{
-						"ref": "Dan's Crypt/Clear/Cleared Dan's Crypt"
+						"ref": "Dan's Crypt/Right of Corridor Entry/Book: Pressing Select - DC",
+						"name": "Book: Pressing Select - DC"
+					},
+					{
+						"ref": "Dan's Crypt/Corridor Right 1/Book: Power Attack - DC",
+						"name": "Book: Power Attack - DC"
+					},
+					{
+						"ref": "Dan's Crypt/Corridor Right 2/Book: Swimming - DC",
+						"name": "Book: Swimming - DC"
+					},
+					{
+						"ref": "Dan's Crypt/End of Corridor[1]/Book: Coins - DC",
+						"name": "Book: Coins - DC"
+					},
+					{
+						"ref": "Dan's Crypt/Clear/Book: Track Down Zarok - DC",
+						"name": "Book: Track Down Zarok - DC"
+					},
+					{
+						"ref": "Dan's Crypt/Spawn/Gargoyle: Left - DC",
+						"name": "Gargoyle: Left - DC"
+					},
+					{
+						"ref": "Dan's Crypt/Spawn/Gargoyle: Right - DC",
+						"name": "Gargoyle: Right - DC"
+					},
+					{
+						"ref": "Dan's Crypt/Clear/Cleared: Dan's Crypt",
+						"name": "Cleared: Dan's Crypt"
 					}
 				]
 			},
@@ -216,49 +256,76 @@
 				],
 				"sections": [
 					{
-						"ref": "The Graveyard/Life Bottle/Life Bottle"
+						"ref": "The Graveyard/Life Bottle/Life Bottle: The Graveyard",
+						"name": "Life Bottle: The Graveyard"
 					},
 					{
-						"ref": "The Graveyard/First Crypt/Earth Rune"
+						"ref": "The Graveyard/First Crypt/Earth Rune: The Graveyard",
+						"name": "Earth Rune: The Graveyard"
 					},
 					{
-						"ref": "The Graveyard/Past Earth Gate[1]/Chaos Rune"
+						"ref": "The Graveyard/Past Earth Gate[1]/Chaos Rune: The Graveyard",
+						"name": "Chaos Rune: The Graveyard"
 					},
 					{
-						"ref": "The Graveyard/Island/Copper Shield"
+						"ref": "The Graveyard/Island/Equipment: Copper Shield - TG",
+						"name": "Equipment: Copper Shield - TG"
 					},
 					{
-						"ref": "The Graveyard/Entrance/Coin Bag"
+						"ref": "The Graveyard/Entrance/Gold Coins: Bag at Start - TG",
+						"name": "Gold Coins: Bag at Start - TG"
 					},
 					{
-						"ref": "The Graveyard/Past Earth Gate/Coin Bag"
+						"ref": "The Graveyard/Past Earth Gate/Gold Coins: Near Chaos Rune - TG",
+						"name": "Gold Coins: Near Chaos Rune - TG"
 					},
 					{
-						"ref": "The Graveyard/Behind Fence/Coin Chest"
+						"ref": "The Graveyard/Behind Fence/Gold Coins: Behind Fence at Statue - TG",
+						"name": "Gold Coins: Behind Fence at Statue - TG"
 					},
 					{
-						"ref": "The Graveyard/Life Bottle/Coin Chest Left"
+						"ref": "The Graveyard/Life Bottle/Gold Coins: Life Bottle Left Chest - TG",
+						"name": "Gold Coins: Life Bottle Left Chest - TG"
 					},
 					{
-						"ref": "The Graveyard/Life Bottle/Coin Chest Right"
+						"ref": "The Graveyard/Life Bottle/Gold Coins: Life Bottle Right Chest - TG",
+						"name": "Gold Coins: Life Bottle Right Chest - TG"
 					},
 					{
-						"ref": "The Graveyard/Shop/Coin Chest"
+						"ref": "The Graveyard/Shop/Gold Coins: Shop Chest - TG",
+						"name": "Gold Coins: Shop Chest - TG"
 					},
 					{
-						"ref": "The Graveyard/Fountain Near End/Coin Bag"
+						"ref": "The Graveyard/Fountain Near End/Gold Coins: Bag Near Hill Fountain - TG",
+						"name": "Gold Coins: Bag Near Hill Fountain - TG"
 					},
 					{
-						"ref": "The Graveyard/Clear/Books"
+						"ref": "The Graveyard/Entry Path/Book: Welcome Back - TG",
+						"name": "Book: Welcome Back - TG"
 					},
 					{
-						"ref": "The Graveyard/Clear/Gargoyles"
+						"ref": "The Graveyard/Fountain/Book: Healing Fountain - TG",
+						"name": "Book: Healing Fountain - TG"
 					},
 					{
-						"ref": "The Graveyard/Spinning Statue/Chalice"
+						"ref": "The Graveyard/Past Chaos Gate/Book: Gaze of an Angel - TG",
+						"name": "Book: Gaze of an Angel - TG"
 					},
 					{
-						"ref": "The Graveyard/Clear/Cleared The Graveyard"
+						"ref": "The Graveyard/Skeleton Key Gate/Book: Skull Key - TG",
+						"name": "Book: Skull Key - TG"
+					},
+					{
+						"ref": "The Graveyard/End/Gargoyle: End of Level - TG",
+						"name": "Gargoyle: End of Level - TG"
+					},
+					{
+						"ref": "The Graveyard/Spinning Statue/Chalice",
+						"name": "Chalice"
+					},
+					{
+						"ref": "The Graveyard/Clear/Cleared: The Graveyard",
+						"name": "Cleared: The Graveyard"
 					}
 				]
 			},
@@ -273,55 +340,88 @@
 				],
 				"sections": [
 					{
-						"ref": "Cemetery Hill/Arena[4]/Witch Talisman"
+						"ref": "Cemetery Hill/Arena[4]/Key Item: Witches Talisman - CH",
+						"name": "Key Item: Witches Talisman - CH"
 					},
 					{
-						"ref": "Cemetery Hill/Boulder Hill/Copper Shield 1"
+						"ref": "Cemetery Hill/Boulder Hill/Equipment: Copper Shield 1 - CH",
+						"name": "Equipment: Copper Shield 1 - CH"
 					},
 					{
-						"ref": "Cemetery Hill/Boulder Hill[3]/Copper Shield 2"
+						"ref": "Cemetery Hill/Boulder Hill[3]/Equipment: Copper Shield 2 - CH",
+						"name": "Equipment: Copper Shield 2 - CH"
 					},
 					{
-						"ref": "Cemetery Hill/Boulder Hill[4]/Copper Shield 3"
+						"ref": "Cemetery Hill/Boulder Hill[4]/Equipment: Copper Shield 3 - CH",
+						"name": "Equipment: Copper Shield 3 - CH"
 					},
 					{
-						"ref": "Cemetery Hill/Behind Boulders/Club"
+						"ref": "Cemetery Hill/Behind Boulders/Equipment: Club - CH",
+						"name": "Equipment: Club - CH"
 					},
 					{
-						"ref": "Cemetery Hill/Arena[3]/Copper Shield"
+						"ref": "Cemetery Hill/Arena[3]/Equipment: Copper Shield in Arena - CH",
+						"name": "Equipment: Copper Shield in Arena - CH"
 					},
 					{
-						"ref": "Cemetery Hill/Shop/Energy Vial"
+						"ref": "Cemetery Hill/Shop/Energy Vial: Near Shop - CH",
+						"name": "Energy Vial: Near Shop - CH"
 					},
 					{
-						"ref": "Cemetery Hill/Arena[2]/Energy Vial"
+						"ref": "Cemetery Hill/Arena[2]/Energy Vial: Arena - CH",
+						"name": "Energy Vial: Arena - CH"
 					},
 					{
-						"ref": "Cemetery Hill/Entrance Witch's Cave/Coin Bag"
+						"ref": "Cemetery Hill/Entrance Witch's Cave/Gold Coins: Near Boulder Entrance - CH",
+						"name": "Gold Coins: Near Boulder Entrance - CH"
 					},
 					{
-						"ref": "Cemetery Hill/Boulder Hill[1]/Coin Bag 1"
+						"ref": "Cemetery Hill/Boulder Hill[1]/Gold Coins: Up Hill 1 - CH",
+						"name": "Gold Coins: Up Hill 1 - CH"
 					},
 					{
-						"ref": "Cemetery Hill/Boulder Hill[2]/Coin Bag 2"
+						"ref": "Cemetery Hill/Boulder Hill[2]/Gold Coins: Up Hill 2 - CH",
+						"name": "Gold Coins: Up Hill 2 - CH"
 					},
 					{
-						"ref": "Cemetery Hill/Hilltop/Coin Chest"
+						"ref": "Cemetery Hill/Hilltop/Gold Coins: Chest at Exit - CH",
+						"name": "Gold Coins: Chest at Exit - CH"
 					},
 					{
-						"ref": "Cemetery Hill/Arena/Coin Chest"
+						"ref": "Cemetery Hill/Arena/Gold Coins: Chest in Arena - CH",
+						"name": "Gold Coins: Chest in Arena - CH"
 					},
 					{
-						"ref": "Cemetery Hill/Clear/Books"
+						"ref": "Cemetery Hill/Start/Book: Breakables - CH",
+						"name": "Book: Breakables - CH"
 					},
 					{
-						"ref": "Cemetery Hill/Clear/Gargoyles"
+						"ref": "Cemetery Hill/Behind Boulders/Book: Club - CH",
+						"name": "Book: Club - CH"
 					},
 					{
-						"ref": "Cemetery Hill/Arena[1]/Chalice"
+						"ref": "Cemetery Hill/Entrance Witch's Cave[1]/Book: Destroy Boulder - CH",
+						"name": "Book: Destroy Boulder - CH"
 					},
 					{
-						"ref": "Cemetery Hill/Clear/Cleared Cemetery Hill"
+						"ref": "Cemetery Hill/Hilltop/Book: Hidden Locations - CH",
+						"name": "Book: Hidden Locations - CH"
+					},
+					{
+						"ref": "Cemetery Hill/Witch Library/Book: A Guide to Covens",
+						"name": "Book: A Guide to Covens"
+					},
+					{
+						"ref": "Cemetery Hill/Witch Cave/Gargoyle: Witch Cave - CH",
+						"name": "Gargoyle: Witch Cave - CH"
+					},
+					{
+						"ref": "Cemetery Hill/Arena[1]/Chalice",
+						"name": "Chalice"
+					},
+					{
+						"ref": "Cemetery Hill/Clear/Cleared: Cemetery Hill",
+						"name": "Cleared: Cemetery Hill"
 					}
 				]
 			},
@@ -336,70 +436,104 @@
 				],
 				"sections": [
 					{
-						"ref": "Hilltop Mausoleum/Basement East[1]/Sheet Music"
+						"ref": "Hilltop Mausoleum/Basement East[1]/Key Item: Sheet Music - HM",
+						"name": "Key Item: Sheet Music - HM"
 					},
 					{
-						"ref": "Hilltop Mausoleum/Mausoleum Clear/Skull Key"
+						"ref": "Hilltop Mausoleum/Clear/Key Item: Skull Key - HM",
+						"name": "Key Item: Skull Key - HM"
 					},
 					{
-						"ref": "Hilltop Mausoleum/Music Room/Chaos Rune"
+						"ref": "Hilltop Mausoleum/Music Room/Chaos Rune: The Hilltop Mausoleum",
+						"name": "Chaos Rune: The Hilltop Mausoleum"
 					},
 					{
-						"ref": "Hilltop Mausoleum/Basement West[1]/Earth Rune"
+						"ref": "Hilltop Mausoleum/Basement West[1]/Earth Rune: The Hilltop Mausoleum",
+						"name": "Earth Rune: The Hilltop Mausoleum"
 					},
 					{
-						"ref": "Hilltop Mausoleum/Chapel/Moon Rune"
+						"ref": "Hilltop Mausoleum/Chapel/Moon Rune: The Hilltop Mausoleum",
+						"name": "Moon Rune: The Hilltop Mausoleum"
 					},
 					{
-						"ref": "Hilltop Mausoleum/Chapel Gate/Club"
+						"ref": "Hilltop Mausoleum/Chapel Gate/Equipment: Club near Broken Benches - HM",
+						"name": "Equipment: Club near Broken Benches - HM"
 					},
 					{
-						"ref": "Hilltop Mausoleum/Glass Heart[1]/Throwing Daggers"
+						"ref": "Hilltop Mausoleum/Glass Heart[1]/Equipment: Daggers near Block Puzzle - HM",
+						"name": "Equipment: Daggers near Block Puzzle - HM"
 					},
 					{
-						"ref": "Hilltop Mausoleum/Glass Heart/Copper Shield"
+						"ref": "Hilltop Mausoleum/Glass Heart/Equipment: Copper Shield near Block Puzzle - HM",
+						"name": "Equipment: Copper Shield near Block Puzzle - HM"
 					},
 					{
-						"ref": "Hilltop Mausoleum/3rd Grave Right/Energy Vial"
+						"ref": "Hilltop Mausoleum/3rd Grave Right/Energy Vial: Right Coffin - HM",
+						"name": "Energy Vial: Right Coffin - HM"
 					},
 					{
-						"ref": "Hilltop Mausoleum/Basement West/Energy Vial"
+						"ref": "Hilltop Mausoleum/Basement West/Energy Vial: Near Rune on Left Ramp - HM",
+						"name": "Energy Vial: Near Rune on Left Ramp - HM"
 					},
 					{
-						"ref": "Hilltop Mausoleum/Music Room[1]/Energy Vial 1"
+						"ref": "Hilltop Mausoleum/Music Room[1]/Energy Vial: Phantom of the Opera on Left - HM",
+						"name": "Energy Vial: Phantom of the Opera on Left - HM"
 					},
 					{
-						"ref": "Hilltop Mausoleum/Music Room[1]/Energy Vial 2"
+						"ref": "Hilltop Mausoleum/Music Room[1]/Energy Vial: Phantom of the Opera on Right - HM",
+						"name": "Energy Vial: Phantom of the Opera on Right - HM"
 					},
 					{
-						"ref": "Hilltop Mausoleum/Basement East/Energy Vial"
+						"ref": "Hilltop Mausoleum/Basement East/Energy Vial: Moon Room - HM",
+						"name": "Energy Vial: Moon Room - HM"
 					},
 					{
-						"ref": "Hilltop Mausoleum/4th Grave Left/Coin Bag"
+						"ref": "Hilltop Mausoleum/4th Grave Left/Gold Coins: Left Coffin - HM",
+						"name": "Gold Coins: Left Coffin - HM"
 					},
 					{
-						"ref": "Hilltop Mausoleum/Below Chapel/Coin Bag"
+						"ref": "Hilltop Mausoleum/Below Chapel/Gold Coins: After Earth Rune Door - HM",
+						"name": "Gold Coins: After Earth Rune Door - HM"
 					},
 					{
-						"ref": "Hilltop Mausoleum/Basement East[2]/Coin Chest"
+						"ref": "Hilltop Mausoleum/Basement East[2]/Gold Coins: Chest in Moon Room - HM",
+						"name": "Gold Coins: Chest in Moon Room - HM"
 					},
 					{
-						"ref": "Hilltop Mausoleum/Secret Alcove/Coin Chest 1"
+						"ref": "Hilltop Mausoleum/Start/Book: Glass Demon - HM",
+						"name": "Book: Glass Demon - HM"
 					},
 					{
-						"ref": "Hilltop Mausoleum/Secret Alcove/Coin Chest 2"
+						"ref": "Hilltop Mausoleum/Below Chapel[1]/Book: Demon Heart - HM",
+						"name": "Book: Demon Heart - HM"
 					},
 					{
-						"ref": "Hilltop Mausoleum/Secret Alcove/Coin Chest 3"
+						"ref": "Hilltop Mausoleum/Music Room[2]/Book: Phantom of the Opera - HM",
+						"name": "Book: Phantom of the Opera - HM"
 					},
 					{
-						"ref": "Hilltop Mausoleum/Clear/Books"
+						"ref": "Hilltop Mausoleum/Basement/Book: Thieving Imps - HM",
+						"name": "Book: Thieving Imps - HM"
 					},
 					{
-						"ref": "Hilltop Mausoleum/Secret Alcove/Chalice"
+						"ref": "Hilltop Mausoleum/Secret Alcove/Gold Coins: Gold Chest at Phantom of the Opera 1 - HM",
+						"name": "Gold Coins: Gold Chest at Phantom of the Opera 1 - HM"
 					},
 					{
-						"ref": "Hilltop Mausoleum/Clear/Cleared Hilltop Mausoleum"
+						"ref": "Hilltop Mausoleum/Secret Alcove/Gold Coins: Gold Chest at Phantom of the Opera 2 - HM",
+						"name": "Gold Coins: Gold Chest at Phantom of the Opera 2 - HM"
+					},
+					{
+						"ref": "Hilltop Mausoleum/Secret Alcove/Gold Coins: Gold Chest at Phantom of the Opera 3 - HM",
+						"name": "Gold Coins: Gold Chest at Phantom of the Opera 3 - HM"
+					},
+					{
+						"ref": "Hilltop Mausoleum/Secret Alcove/Chalice",
+						"name": "Chalice"
+					},
+					{
+						"ref": "Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
+						"name": "Cleared: Hilltop Mausoleum"
 					}
 				]
 			},
@@ -414,79 +548,112 @@
 				],
 				"sections": [
 					{
-						"ref": "Return to the Graveyard/Atop Mound/Star Rune"
+						"ref": "Return to the Graveyard/Atop Mound/Star Rune: Return to the Graveyard",
+						"name": "Star Rune: Return to the Graveyard"
 					},
 					{
-						"ref": "Return to the Graveyard/Shop/Silver Shield"
+						"ref": "Return to the Graveyard/Shop/Equipment: Silver Shield in Chest at Shop - RTG",
+						"name": "Equipment: Silver Shield in Chest at Shop - RTG"
 					},
 					{
-						"ref": "Return to the Graveyard/Return to the Graveyard/Daring Dash"
+						"ref": "Return to the Graveyard/Clear/Skill: Daring Dash",
+						"name": "Skill: Daring Dash"
 					},
 					{
-						"ref": "Return to the Graveyard/Secret Area/Energy Vial 1"
+						"ref": "Return to the Graveyard/Secret Area/Energy Vial: Coffin Area West - RTG",
+						"name": "Energy Vial: Coffin Area West - RTG"
 					},
 					{
-						"ref": "Return to the Graveyard/Secret Area/Energy Vial 2"
+						"ref": "Return to the Graveyard/Secret Area/Energy Vial: Coffin Area East - RTG",
+						"name": "Energy Vial: Coffin Area East - RTG"
 					},
 					{
-						"ref": "Return to the Graveyard/Shop[2]/Energy Vial"
+						"ref": "Return to the Graveyard/Shop[2]/Energy Vial: Below Shop - RTG",
+						"name": "Energy Vial: Below Shop - RTG"
 					},
 					{
-						"ref": "Return to the Graveyard/Undertakers Entrance/Energy Vial"
+						"ref": "Return to the Graveyard/Undertakers Entrance/Energy Vial: Undertakers Entrance - RTG",
+						"name": "Energy Vial: Undertakers Entrance - RTG"
 					},
 					{
-						"ref": "Return to the Graveyard/Right Exit/Energy Vial"
+						"ref": "Return to the Graveyard/Cliffs Right/Energy Vial: Cliffs Right - RTG",
+						"name": "Energy Vial: Cliffs Right - RTG"
 					},
 					{
-						"ref": "Return to the Graveyard/Left Exit/Energy Vial"
+						"ref": "Return to the Graveyard/Cliffs Left/Energy Vial: Cliffs Left - RTG",
+						"name": "Energy Vial: Cliffs Left - RTG"
 					},
 					{
-						"ref": "Return to the Graveyard/Secret Area[1]/Coin Chest 1"
+						"ref": "Return to the Graveyard/Secret Area[1]/Gold Coins: Chest in Coffin Area 1 - RTG",
+						"name": "Gold Coins: Chest in Coffin Area 1 - RTG"
 					},
 					{
-						"ref": "Return to the Graveyard/Secret Area[1]/Coin Chest 2"
+						"ref": "Return to the Graveyard/Secret Area[1]/Gold Coins: Chest in Coffin Area 2 - RTG",
+						"name": "Gold Coins: Chest in Coffin Area 2 - RTG"
 					},
 					{
-						"ref": "Return to the Graveyard/Secret Area[1]/Coin Chest 3"
+						"ref": "Return to the Graveyard/Secret Area[1]/Gold Coins: Chest in Coffin Area 3 - RTG",
+						"name": "Gold Coins: Chest in Coffin Area 3 - RTG"
 					},
 					{
-						"ref": "Return to the Graveyard/Secret Area[1]/Coin Chest 4"
+						"ref": "Return to the Graveyard/Secret Area[1]/Gold Coins: Chest in Coffin Area 4 - RTG",
+						"name": "Gold Coins: Chest in Coffin Area 4 - RTG"
 					},
 					{
-						"ref": "Return to the Graveyard/Secret Area[1]/Coin Chest 5"
+						"ref": "Return to the Graveyard/Secret Area[1]/Gold Coins: Chest in Coffin Area 5 - RTG",
+						"name": "Gold Coins: Chest in Coffin Area 5 - RTG"
 					},
 					{
-						"ref": "Return to the Graveyard/Secret Area Ledge/Coin Bag"
+						"ref": "Return to the Graveyard/Secret Area Ledge/Gold Coins: Bag above Coffin Area - RTG",
+						"name": "Gold Coins: Bag above Coffin Area - RTG"
 					},
 					{
-						"ref": "Return to the Graveyard/Raised Platform/Coin Bag"
+						"ref": "Return to the Graveyard/After Bridge/Gold Coins: Bag after Bridge - RTG",
+						"name": "Gold Coins: Bag after Bridge - RTG"
 					},
 					{
-						"ref": "Return to the Graveyard/Shop[1]/Coin Bag"
+						"ref": "Return to the Graveyard/Shop[1]/Gold Coins: Bag at Shop - RTG",
+						"name": "Gold Coins: Bag at Shop - RTG"
 					},
 					{
-						"ref": "Return to the Graveyard/Fountain/Coin Bag"
+						"ref": "Return to the Graveyard/Fountain/Gold Coins: Bag at Closed Gate - RTG",
+						"name": "Gold Coins: Bag at Closed Gate - RTG"
 					},
 					{
-						"ref": "Return to the Graveyard/Island/Coin Chest"
+						"ref": "Return to the Graveyard/Island/Gold Coins: Chest on Island - RTG",
+						"name": "Gold Coins: Chest on Island - RTG"
 					},
 					{
-						"ref": "Return to the Graveyard/Undertakers Entrance[1]/Coin Bag"
+						"ref": "Return to the Graveyard/Undertakers Entrance[1]/Gold Coins: Undertakers Entrance - RTG",
+						"name": "Gold Coins: Undertakers Entrance - RTG"
 					},
 					{
-						"ref": "Return to the Graveyard/Left Exit[1]/Coin Bag"
+						"ref": "Return to the Graveyard/Cliffs Left[1]/Gold Coins: Cliffs Left - RTG",
+						"name": "Gold Coins: Cliffs Left - RTG"
 					},
 					{
-						"ref": "Return to the Graveyard/Clear/Books"
+						"ref": "Return to the Graveyard/Secret Area/Book: Secret Areas - RTG",
+						"name": "Book: Secret Areas - RTG"
 					},
 					{
-						"ref": "Return to the Graveyard/Clear/Gargoyles"
+						"ref": "Return to the Graveyard/Skull Key Gate/Book: Skull Key - RTG",
+						"name": "Book: Skull Key - RTG"
 					},
 					{
-						"ref": "Return to the Graveyard/Undertakers/Chalice"
+						"ref": "Return to the Graveyard/Undertakers Entrance[2]/Book: Daring Dash - RTG",
+						"name": "Book: Daring Dash - RTG"
 					},
 					{
-						"ref": "Return to the Graveyard/Clear/Cleared Return to the Graveyard"
+						"ref": "Return to the Graveyard/Clear/Gargoyle: Exit - RTG",
+						"name": "Gargoyle: Exit - RTG"
+					},
+					{
+						"ref": "Return to the Graveyard/Undertakers/Chalice",
+						"name": "Chalice"
+					},
+					{
+						"ref": "Return to the Graveyard/Clear/Cleared: Return to the Graveyard",
+						"name": "Cleared: Return to the Graveyard"
 					}
 				]
 			},
@@ -501,82 +668,128 @@
 				],
 				"sections": [
 					{
-						"ref": "Scarecrow Fields/Spiker/Harvester Part"
+						"ref": "Scarecrow Fields/Harvested Path/Life Bottle: Scarecrow Fields",
+						"name": "Life Bottle: Scarecrow Fields"
 					},
 					{
-						"ref": "Scarecrow Fields/Second Machine[1]/Chaos Rune"
+						"ref": "Scarecrow Fields/Spiker/Key Item: Harvester Parts - SF",
+						"name": "Key Item: Harvester Parts - SF"
 					},
 					{
-						"ref": "Scarecrow Fields/Moon Shed/Earth Rune"
+						"ref": "Scarecrow Fields/Second Machine[1]/Chaos Rune: Scarecrow Fields",
+						"name": "Chaos Rune: Scarecrow Fields"
 					},
 					{
-						"ref": "Scarecrow Fields/First Machine/Moon Rune"
+						"ref": "Scarecrow Fields/Moon Hut/Earth Rune: Scarecrow Fields",
+						"name": "Earth Rune: Scarecrow Fields"
 					},
 					{
-						"ref": "Scarecrow Fields/Moon Shed[1]/Club"
+						"ref": "Scarecrow Fields/First Machine/Moon Rune: Scarecrow Fields",
+						"name": "Moon Rune: Scarecrow Fields"
 					},
 					{
-						"ref": "Scarecrow Fields/Second Machine/Silver Shield"
+						"ref": "Scarecrow Fields/Moon Hut[1]/Equipment: Club Inside Hut - SF",
+						"name": "Equipment: Club Inside Hut - SF"
 					},
 					{
-						"ref": "Scarecrow Fields/Barn/Copper Shield"
+						"ref": "Scarecrow Fields/Second Machine/Equipment: Silver Shield Behind Windmill - SF",
+						"name": "Equipment: Silver Shield Behind Windmill - SF"
 					},
 					{
-						"ref": "Scarecrow Fields/Shop/Energy Vial"
+						"ref": "Scarecrow Fields/Barn/Equipment: Copper Shield in Chest In the Barn - SF",
+						"name": "Equipment: Copper Shield in Chest In the Barn - SF"
 					},
 					{
-						"ref": "Scarecrow Fields/Cornfield Left/Energy Vial"
+						"ref": "Scarecrow Fields/Shop/Energy Vial: Right of fire near Moon Door - SF",
+						"name": "Energy Vial: Right of fire near Moon Door - SF"
 					},
 					{
-						"ref": "Scarecrow Fields/Haystack 1/Coin Bag"
+						"ref": "Scarecrow Fields/Cornfield Path/Energy Vial: Cornfield Path - SF",
+						"name": "Energy Vial: Cornfield Path - SF"
 					},
 					{
-						"ref": "Scarecrow Fields/Haystack 2/Coin Chest"
+						"ref": "Scarecrow Fields/Haystack 1/Gold Coins: Hay Stack at Beginning - SF",
+						"name": "Gold Coins: Hay Stack at Beginning - SF"
 					},
 					{
-						"ref": "Scarecrow Fields/Behind Shed/Coin Bag"
+						"ref": "Scarecrow Fields/Haystack 2/Gold Coins: Chest in Hay Stack near Moon Door - SF",
+						"name": "Gold Coins: Chest in Hay Stack near Moon Door - SF"
 					},
 					{
-						"ref": "Scarecrow Fields/Barn[1]/Coin Bag"
+						"ref": "Scarecrow Fields/Behind Hut/Gold Coins: Left of fire near Moon Door - SF",
+						"name": "Gold Coins: Left of fire near Moon Door - SF"
 					},
 					{
-						"ref": "Scarecrow Fields/Cornfield/Coin Bag"
+						"ref": "Scarecrow Fields/Barn[1]/Gold Coins: Bag in the Barn - SF",
+						"name": "Gold Coins: Bag in the Barn - SF"
 					},
 					{
-						"ref": "Scarecrow Fields/Cornfield Right/Coin Bag"
+						"ref": "Scarecrow Fields/Cornfield Sauare/Gold Coins: Cornfield Square near Barn - SF",
+						"name": "Gold Coins: Cornfield Square near Barn - SF"
 					},
 					{
-						"ref": "Scarecrow Fields/Haybail 2/Coin Chest"
+						"ref": "Scarecrow Fields/Cornfield Path[1]/Gold Coins: Cornfield Path 1 - SF",
+						"name": "Gold Coins: Cornfield Path 1 - SF"
 					},
 					{
-						"ref": "Scarecrow Fields/Haybail 1/Coin Bag"
+						"ref": "Scarecrow Fields/Haystack 4/Gold Coins: Chest Under Hay Stack - SF",
+						"name": "Gold Coins: Chest Under Hay Stack - SF"
 					},
 					{
-						"ref": "Scarecrow Fields/Press/Coin Bag"
+						"ref": "Scarecrow Fields/Haystack 3/Gold Coins: Bag under Barn Hay Stack - SF",
+						"name": "Gold Coins: Bag under Barn Hay Stack - SF"
 					},
 					{
-						"ref": "Scarecrow Fields/Spinner/Coin Bag"
+						"ref": "Scarecrow Fields/Press/Gold Coins: Bag in the Press - SF",
+						"name": "Gold Coins: Bag in the Press - SF"
 					},
 					{
-						"ref": "Scarecrow Fields/Spiker/Coin Chest"
+						"ref": "Scarecrow Fields/Spinner/Gold Coins: Bag in the Spinner - SF",
+						"name": "Gold Coins: Bag in the Spinner - SF"
 					},
 					{
-						"ref": "Scarecrow Fields/Harvested Path/Life Bottle"
+						"ref": "Scarecrow Fields/Spiker/Gold Coins: Chest next to Harvester Part - SF",
+						"name": "Gold Coins: Chest next to Harvester Part - SF"
 					},
 					{
-						"ref": "Scarecrow Fields/Harvested Path[2]/Coin Chest"
+						"ref": "Scarecrow Fields/Harvested Path[2]/Gold Coins: Chest Next to Chalice - SF",
+						"name": "Gold Coins: Chest Next to Chalice - SF"
 					},
 					{
-						"ref": "Scarecrow Fields/Clear/Books"
+						"ref": "Scarecrow Fields/Entrance/Book: Scarecrows - SF",
+						"name": "Book: Scarecrows - SF"
 					},
 					{
-						"ref": "Scarecrow Fields/Clear/Gargoyles"
+						"ref": "Scarecrow Fields/Moon Hut[2]/Book - Mischief Makers - SF",
+						"name": "Book - Mischief Makers - SF"
 					},
 					{
-						"ref": "Scarecrow Fields/Harvested Path[1]/Chalice"
+						"ref": "Scarecrow Fields/Barn Front/Book: Kul Katura - SF",
+						"name": "Book: Kul Katura - SF"
 					},
 					{
-						"ref": "Scarecrow Fields/Clear/Cleared Scarecrow Fields"
+						"ref": "Scarecrow Fields/Cornfield Path[2]/Book: Cornfields - SF",
+						"name": "Book: Cornfields - SF"
+					},
+					{
+						"ref": "Scarecrow Fields/Barn Back/Book: Mad Machines - SF",
+						"name": "Book: Mad Machines - SF"
+					},
+					{
+						"ref": "Scarecrow Fields/[2]]/Book: Corn Cutter - SF",
+						"name": "Book: Corn Cutter - SF"
+					},
+					{
+						"ref": "Scarecrow Fields/Clear/Gargoyle: Exit - SF",
+						"name": "Gargoyle: Exit - SF"
+					},
+					{
+						"ref": "Scarecrow Fields/Harvested Path[1]/Chalice",
+						"name": "Chalice"
+					},
+					{
+						"ref": "Scarecrow Fields/Clear/Cleared: Scarecrow Fields",
+						"name": "Cleared: Scarecrow Fields"
 					}
 				]
 			},
@@ -591,79 +804,104 @@
 				],
 				"sections": [
 					{
-						"ref": "Pumpkin Gorge/On Top of Roots/Time Rune"
+						"ref": "Pumpkin Gorge/On Top of Roots/Time Rune: Pumpkin Gorge",
+						"name": "Time Rune: Pumpkin Gorge"
 					},
 					{
-						"ref": "Pumpkin Gorge/Moon Rune Hut/Chaos Rune"
+						"ref": "Pumpkin Gorge/Moon Rune Hut/Chaos Rune: Pumpkin Gorge",
+						"name": "Chaos Rune: Pumpkin Gorge"
 					},
 					{
-						"ref": "Pumpkin Gorge/Rising Mushrooms Side Path/Earth Rune"
+						"ref": "Pumpkin Gorge/Rising Mushrooms Side Path/Earth Rune: Pumpkin Gorge",
+						"name": "Earth Rune: Pumpkin Gorge"
 					},
 					{
-						"ref": "Pumpkin Gorge/Moon Rune Path/Moon Rune"
+						"ref": "Pumpkin Gorge/Moon Rune Path/Moon Rune: Pumpkin Gorge",
+						"name": "Moon Rune: Pumpkin Gorge"
 					},
 					{
-						"ref": "Pumpkin Gorge/Hilltop/Star Rune"
+						"ref": "Pumpkin Gorge/Hilltop/Star Rune: Pumpkin Gorge",
+						"name": "Star Rune: Pumpkin Gorge"
 					},
 					{
-						"ref": "Pumpkin Gorge/Moon Rune Path[1]/Club"
+						"ref": "Pumpkin Gorge/Moon Rune Path[1]/Equipment: Club in Chest in Tunnel - PG",
+						"name": "Equipment: Club in Chest in Tunnel - PG"
 					},
 					{
-						"ref": "Pumpkin Gorge/Hilltop/Silver Shield"
+						"ref": "Pumpkin Gorge/Hilltop/Equipment: Silver Shield in Chest at Top of Hill - PG",
+						"name": "Equipment: Silver Shield in Chest at Top of Hill - PG"
 					},
 					{
-						"ref": "Pumpkin Gorge/Roots Clearing/Energy Vial 1"
+						"ref": "Pumpkin Gorge/Roots Clearing/Energy Vial: Vine Patch Left - PG",
+						"name": "Energy Vial: Vine Patch Left - PG"
 					},
 					{
-						"ref": "Pumpkin Gorge/Roots Clearing[1]/Energy Vial 2"
+						"ref": "Pumpkin Gorge/Roots Clearing[1]/Energy Vial: Vine Patch Right - PG",
+						"name": "Energy Vial: Vine Patch Right - PG"
 					},
 					{
-						"ref": "Pumpkin Gorge/Coop/Energy Vial"
+						"ref": "Pumpkin Gorge/Coop/Energy Vial: In Coop - PG",
+						"name": "Energy Vial: In Coop - PG"
 					},
 					{
-						"ref": "Pumpkin Gorge/Moon Rune Hut[1]/Energy Vial"
+						"ref": "Pumpkin Gorge/Moon Rune Hut[1]/Energy Vial: In Moon Hut - PG",
+						"name": "Energy Vial: In Moon Hut - PG"
 					},
 					{
-						"ref": "Pumpkin Gorge/Hilltop/Energy Vial"
+						"ref": "Pumpkin Gorge/Hilltop/Energy Vial: Top of Hill - PG",
+						"name": "Energy Vial: Top of Hill - PG"
 					},
 					{
-						"ref": "Pumpkin Gorge/Blocked Path Near End/Energy Vial"
+						"ref": "Pumpkin Gorge/Blocked Path Near End/Energy Vial: Boulders After Time Rune - PG",
+						"name": "Energy Vial: Boulders After Time Rune - PG"
 					},
 					{
-						"ref": "Pumpkin Gorge/Chalice Path/Energy Vial"
+						"ref": "Pumpkin Gorge/Chalice Path/Energy Vial: Chalice Path - PG",
+						"name": "Energy Vial: Chalice Path - PG"
 					},
 					{
-						"ref": "Pumpkin Gorge/Entry Road/Coin Bag"
+						"ref": "Pumpkin Gorge/Entry Road/Gold Coins: Bag Behind Rocks At Start - PG",
+						"name": "Gold Coins: Bag Behind Rocks At Start - PG"
 					},
 					{
-						"ref": "Pumpkin Gorge/Coop/Coin Chest 1"
+						"ref": "Pumpkin Gorge/Coop/Gold Coins: Chest in Coop 1 - PG",
+						"name": "Gold Coins: Chest in Coop 1 - PG"
 					},
 					{
-						"ref": "Pumpkin Gorge/Coop/Coin Chest 2"
+						"ref": "Pumpkin Gorge/Coop/Gold Coins: Chest in Coop 2 - PG",
+						"name": "Gold Coins: Chest in Coop 2 - PG"
 					},
 					{
-						"ref": "Pumpkin Gorge/Coop/Coin Chest 3"
+						"ref": "Pumpkin Gorge/Coop/Gold Coins: Chest in Coop 3 - PG",
+						"name": "Gold Coins: Chest in Coop 3 - PG"
 					},
 					{
-						"ref": "Pumpkin Gorge/Rising Mushrooms/Coin Bag"
+						"ref": "Pumpkin Gorge/Rising Mushrooms[1]/Gold Coins: Bag in Mushroom Area - PG",
+						"name": "Gold Coins: Bag in Mushroom Area - PG"
 					},
 					{
-						"ref": "Pumpkin Gorge/Blocked Path Near End/Coin Chest"
+						"ref": "Pumpkin Gorge/Blocked Path Near End/Gold Coins: Chest at Boulders after Time Rune - PG",
+						"name": "Gold Coins: Chest at Boulders after Time Rune - PG"
 					},
 					{
-						"ref": "Pumpkin Gorge/Behind Wall[1]/Coin Chest"
+						"ref": "Pumpkin Gorge/Behind Wall[1]/Gold Coins: Chest Near Chalice - PG",
+						"name": "Gold Coins: Chest Near Chalice - PG"
 					},
 					{
-						"ref": "Pumpkin Gorge/Clear/Books"
+						"ref": "Pumpkin Gorge/Rising Mushrooms/Book: Mushrooms - PG",
+						"name": "Book: Mushrooms - PG"
 					},
 					{
-						"ref": "Pumpkin Gorge/Clear/Gargoyles"
+						"ref": "Pumpkin Gorge/End/Gargoyle: Exit - PG",
+						"name": "Gargoyle: Exit - PG"
 					},
 					{
-						"ref": "Pumpkin Gorge/Behind Wall/Chalice"
+						"ref": "Pumpkin Gorge/Behind Wall/Chalice",
+						"name": "Chalice"
 					},
 					{
-						"ref": "Pumpkin Gorge/Clear/Cleared Pumpkin Gorge"
+						"ref": "Pumpkin Gorge/Clear/Cleared: Pumpkin Gorge",
+						"name": "Cleared: Pumpkin Gorge"
 					}
 				]
 			},
@@ -678,37 +916,52 @@
 				],
 				"sections": [
 					{
-						"ref": "Pumpkin Serpent/Witch's Cauldron/Dragon Gem"
+						"ref": "Pumpkin Serpent/Witch's Cauldron/Key Item: Dragon Gem - PS",
+						"name": "Key Item: Dragon Gem - PS"
 					},
 					{
-						"ref": "Pumpkin Serpent/Dried up Pond/Silver Shield"
+						"ref": "Pumpkin Serpent/Dried up Pond/Equipment: Silver Shield in Chest near Leeches - PS",
+						"name": "Equipment: Silver Shield in Chest near Leeches - PS"
 					},
 					{
-						"ref": "Pumpkin Serpent/Down the Well/Energy Vial 1"
+						"ref": "Pumpkin Serpent/Down the Well/Energy Vial: Left at Merchant Gargoyle - PS",
+						"name": "Energy Vial: Left at Merchant Gargoyle - PS"
 					},
 					{
-						"ref": "Pumpkin Serpent/Down the Well/Energy Vial 2"
+						"ref": "Pumpkin Serpent/Down the Well/Energy Vial: Right at Merchant Gargoyle - PS",
+						"name": "Energy Vial: Right at Merchant Gargoyle - PS"
 					},
 					{
-						"ref": "Pumpkin Serpent/Behind House/Coin Bag 1"
+						"ref": "Pumpkin Serpent/Behind House/Gold Coins: Bag Behind House 1 - PS",
+						"name": "Gold Coins: Bag Behind House 1 - PS"
 					},
 					{
-						"ref": "Pumpkin Serpent/Behind House[1]/Coin Bag 2"
+						"ref": "Pumpkin Serpent/Behind House[1]/Gold Coins: Bag Behind House 2 - PS",
+						"name": "Gold Coins: Bag Behind House 2 - PS"
 					},
 					{
-						"ref": "Pumpkin Serpent/Pod Behind Roots/Coin Bag"
+						"ref": "Pumpkin Serpent/Pod Behind Roots/Gold Coins: Bag Behind Vines and Pod - PS",
+						"name": "Gold Coins: Bag Behind Vines and Pod - PS"
 					},
 					{
-						"ref": "Pumpkin Serpent/Down the Well/Coin Chest"
+						"ref": "Pumpkin Serpent/Down the Well/Gold Coins: Chest at Merchant Gargoyle - PS",
+						"name": "Gold Coins: Chest at Merchant Gargoyle - PS"
 					},
 					{
-						"ref": "Pumpkin Serpent/Clear/Books"
+						"ref": "Pumpkin Serpent/Entrance/Book: Pumpkin King - PS",
+						"name": "Book: Pumpkin King - PS"
 					},
 					{
-						"ref": "Pumpkin Serpent/Down the Well[1]/Chalice"
+						"ref": "Pumpkin Serpent/Witch's Cauldron Entrance/Book: Pumpkin Witch - PS",
+						"name": "Book: Pumpkin Witch - PS"
 					},
 					{
-						"ref": "Pumpkin Serpent/Clear/Cleared Pumpkin Serpent"
+						"ref": "Pumpkin Serpent/Down the Well[1]/Chalice",
+						"name": "Chalice"
+					},
+					{
+						"ref": "Pumpkin Serpent/Clear/Cleared: Pumpkin Serpent",
+						"name": "Cleared: Pumpkin Serpent"
 					}
 				]
 			},
@@ -723,94 +976,176 @@
 				],
 				"sections": [
 					{
-						"ref": "Sleeping Village/Inn B2/Earth Rune"
+						"ref": "Sleeping Village/Inn B2/Earth Rune: Sleeping Village",
+						"name": "Earth Rune: Sleeping Village"
 					},
 					{
-						"ref": "Sleeping Village/Fountain/Chaos Rune"
+						"ref": "Sleeping Village/Fountain/Chaos Rune: Sleeping Village",
+						"name": "Chaos Rune: Sleeping Village"
 					},
 					{
-						"ref": "Sleeping Village/House at Fountain/Moon Rune"
+						"ref": "Sleeping Village/House at Fountain/Moon Rune: Sleeping Village",
+						"name": "Moon Rune: Sleeping Village"
 					},
 					{
-						"ref": "Sleeping Village/Church/Safe Key"
+						"ref": "Sleeping Village/Church/Key Item: Safe Key - SV",
+						"name": "Key Item: Safe Key - SV"
 					},
 					{
-						"ref": "Sleeping Village/Mayor's House[1]/Shadow Artefact"
+						"ref": "Sleeping Village/Mayor's House[1]/Key Item: Shadow Artefact - SV",
+						"name": "Key Item: Shadow Artefact - SV"
 					},
 					{
-						"ref": "Sleeping Village/Blacksmith[1]/Crucifix"
+						"ref": "Sleeping Village/Blacksmith[1]/Key Item: Crucifix - SV",
+						"name": "Key Item: Crucifix - SV"
 					},
 					{
-						"ref": "Sleeping Village/Inn B2[1]/Landlord's Bust"
+						"ref": "Sleeping Village/Inn B2[1]/Key Item: Landlords Bust - SV",
+						"name": "Key Item: Landlords Bust - SV"
 					},
 					{
-						"ref": "Sleeping Village/Library[1]/Crucifix Cast"
+						"ref": "Sleeping Village/Library[1]/Key Item: Crucifix Cast - SV",
+						"name": "Key Item: Crucifix Cast - SV"
 					},
 					{
-						"ref": "Sleeping Village/Blacksmith/Silver Shield"
+						"ref": "Sleeping Village/Blacksmith/Equipment: Silver Shield in Blacksmiths - SV",
+						"name": "Equipment: Silver Shield in Blacksmiths - SV"
 					},
 					{
-						"ref": "Sleeping Village/Inn B1/Club"
+						"ref": "Sleeping Village/Inn B1/Equipment: Club Chest under Inn Stairs - SV",
+						"name": "Equipment: Club Chest under Inn Stairs - SV"
 					},
 					{
-						"ref": "Sleeping Village/Behind Pond/Energy Vial"
+						"ref": "Sleeping Village/Pond/Energy Vial: At Pond - SV",
+						"name": "Energy Vial: At Pond - SV"
 					},
 					{
-						"ref": "Sleeping Village/Inn B1[3]/Energy Vial"
+						"ref": "Sleeping Village/Inn B1[3]/Energy Vial: Bust Switch - SV",
+						"name": "Energy Vial: Bust Switch - SV"
 					},
 					{
-						"ref": "Sleeping Village/Street Near End/Energy Vial"
+						"ref": "Sleeping Village/Street Near Exit/Energy Vial: Near Exit - SV",
+						"name": "Energy Vial: Near Exit - SV"
 					},
 					{
-						"ref": "Sleeping Village/Ledge at Mayor's House/Energy Vial"
+						"ref": "Sleeping Village/Ledge at Mayor's House/Energy Vial: Near Chalice - SV",
+						"name": "Energy Vial: Near Chalice - SV"
 					},
 					{
-						"ref": "Sleeping Village/Blacksmith/Coin Bag 1"
+						"ref": "Sleeping Village/Blacksmith/Gold Coins: Bag in Left Barrel at Blacksmith - SV",
+						"name": "Gold Coins: Bag in Left Barrel at Blacksmith - SV"
 					},
 					{
-						"ref": "Sleeping Village/Blacksmith/Coin Bag 2"
+						"ref": "Sleeping Village/Blacksmith/Gold Coins: Bag in Right Barrel at Blacksmith - SV",
+						"name": "Gold Coins: Bag in Right Barrel at Blacksmith - SV"
 					},
 					{
-						"ref": "Sleeping Village/Behind Pond/Coin Bag"
+						"ref": "Sleeping Village/Pond/Gold Coins: Bag at Pond - SV",
+						"name": "Gold Coins: Bag at Pond - SV"
 					},
 					{
-						"ref": "Sleeping Village/Inn/Coin Bag"
+						"ref": "Sleeping Village/Inn/Gold Coins: Bag in Barrel at Inn - SV",
+						"name": "Gold Coins: Bag in Barrel at Inn - SV"
 					},
 					{
-						"ref": "Sleeping Village/Inn B1[1]/Coin Bag 1"
+						"ref": "Sleeping Village/Inn B1[1]/Gold Coins: Bag in Barrel at bottom of Inn Stairs - SV",
+						"name": "Gold Coins: Bag in Barrel at bottom of Inn Stairs - SV"
 					},
 					{
-						"ref": "Sleeping Village/Inn B1[1]/Coin Bag 2"
+						"ref": "Sleeping Village/Inn B1[1]/Gold Coins: Bag in Barrel Behind Inn Stairs - SV",
+						"name": "Gold Coins: Bag in Barrel Behind Inn Stairs - SV"
 					},
 					{
-						"ref": "Sleeping Village/Inn B1[2]/Coin Bag 3"
+						"ref": "Sleeping Village/Inn B1[2]/Gold Coins: Bag In Top Bust Barrel - SV",
+						"name": "Gold Coins: Bag In Top Bust Barrel - SV"
 					},
 					{
-						"ref": "Sleeping Village/Inn B1[2]/Coin Bag 4"
+						"ref": "Sleeping Village/Inn B1[2]/Gold Coins: Bag In Switch Bust Barrel - SV",
+						"name": "Gold Coins: Bag In Switch Bust Barrel - SV"
 					},
 					{
-						"ref": "Sleeping Village/Library/Coin Bag"
+						"ref": "Sleeping Village/Library/Gold Coins: Bag in Library - SV",
+						"name": "Gold Coins: Bag in Library - SV"
 					},
 					{
-						"ref": "Sleeping Village/Mayor's House/Coin Bag 1"
+						"ref": "Sleeping Village/Mayor's House/Gold Coins: Bag at Top of table - SV",
+						"name": "Gold Coins: Bag at Top of table - SV"
 					},
 					{
-						"ref": "Sleeping Village/Mayor's House/Coin Bag 2"
+						"ref": "Sleeping Village/Mayor's House/Gold Coins: Bag at Bottom of table - SV",
+						"name": "Gold Coins: Bag at Bottom of table - SV"
 					},
 					{
-						"ref": "Sleeping Village/Ledge at Mayor's House/Coin Chest"
+						"ref": "Sleeping Village/Ledge at Mayor's House/Gold Coins: Chest next to Chalice - SV",
+						"name": "Gold Coins: Chest next to Chalice - SV"
 					},
 					{
-						"ref": "Sleeping Village/Clear/Books"
+						"ref": "Sleeping Village/Blacksmith/Book: Blacksmiths Monthly - SV",
+						"name": "Book: Blacksmiths Monthly - SV"
 					},
 					{
-						"ref": "Sleeping Village/Clear/Gargoyles"
+						"ref": "Sleeping Village/Church/Book: Missing Crucifix - SV",
+						"name": "Book: Missing Crucifix - SV"
 					},
 					{
-						"ref": "Sleeping Village/Ledge at Mayor's House/Chalice"
+						"ref": "Sleeping Village/Plaza/Book: Fountain Rune - SV",
+						"name": "Book: Fountain Rune - SV"
 					},
 					{
-						"ref": "Sleeping Village/Clear/Cleared Sleeping Village"
+						"ref": "Sleeping Village/Inn B2[1]/Book: Mayors Bust - SV",
+						"name": "Book: Mayors Bust - SV"
+					},
+					{
+						"ref": "Sleeping Village/Library[2]/Book: History of Gallowmere 1 - SV",
+						"name": "Book: History of Gallowmere 1 - SV"
+					},
+					{
+						"ref": "Sleeping Village/Library[2]/Book: History of Gallowmere 2 - SV",
+						"name": "Book: History of Gallowmere 2 - SV"
+					},
+					{
+						"ref": "Sleeping Village/Library[2]/Book: History of Gallowmere 3 - SV",
+						"name": "Book: History of Gallowmere 3 - SV"
+					},
+					{
+						"ref": "Sleeping Village/Library[2]/Book: History of Gallowmere 4 - SV",
+						"name": "Book: History of Gallowmere 4 - SV"
+					},
+					{
+						"ref": "Sleeping Village/Library[4]/Book: Heroes From History- SV",
+						"name": "Book: Heroes From History- SV"
+					},
+					{
+						"ref": "Sleeping Village/Library[3]/Book: Tourist Guide 1 - SV",
+						"name": "Book: Tourist Guide 1 - SV"
+					},
+					{
+						"ref": "Sleeping Village/Library[3]/Book: Tourist Guide 2 - SV",
+						"name": "Book: Tourist Guide 2 - SV"
+					},
+					{
+						"ref": "Sleeping Village/Library/Book: Mayor Memoire - SV",
+						"name": "Book: Mayor Memoire - SV"
+					},
+					{
+						"ref": "Sleeping Village/Church/Book: Mayors Regrets - SV",
+						"name": "Book: Mayors Regrets - SV"
+					},
+					{
+						"ref": "Sleeping Village/Clear/Book: Zaroks Note - SV",
+						"name": "Book: Zaroks Note - SV"
+					},
+					{
+						"ref": "Sleeping Village/Entrance/Gargoyle: Entrance - SV",
+						"name": "Gargoyle: Entrance - SV"
+					},
+					{
+						"ref": "Sleeping Village/Ledge at Mayor's House/Chalice",
+						"name": "Chalice"
+					},
+					{
+						"ref": "Sleeping Village/Clear/Cleared: Sleeping Village",
+						"name": "Cleared: Sleeping Village"
 					}
 				]
 			},
@@ -825,46 +1160,64 @@
 				],
 				"sections": [
 					{
-						"ref": "Asylum Grounds/Past Octopus/Chaos Rune"
+						"ref": "Asylum Grounds/Past Octopus/Chaos Rune: Asylum Grounds",
+						"name": "Chaos Rune: Asylum Grounds"
 					},
 					{
-						"ref": "Asylum Grounds/To Clown/Silver Shield"
+						"ref": "Asylum Grounds/To Clown/Equipment: Silver Shield in Chest Behind Door - AG",
+						"name": "Equipment: Silver Shield in Chest Behind Door - AG"
 					},
 					{
-						"ref": "Asylum Grounds/Chess Pieces/Energy Vial 1"
+						"ref": "Asylum Grounds/Chess Pieces/Energy Vial: Near Bishop - AG",
+						"name": "Energy Vial: Near Bishop - AG"
 					},
 					{
-						"ref": "Asylum Grounds/Chess Pieces[1]/Energy Vial 2"
+						"ref": "Asylum Grounds/Chess Pieces[1]/Energy Vial: Near King - AG",
+						"name": "Energy Vial: Near King - AG"
 					},
 					{
-						"ref": "Asylum Grounds/Bell at Star[1]/Coin Bag 2"
+						"ref": "Asylum Grounds/Bell at Star[1]/Gold Coins: Bag in Bell Grave Near Bell - AG",
+						"name": "Gold Coins: Bag in Bell Grave Near Bell - AG"
 					},
 					{
-						"ref": "Asylum Grounds/Bell at Star/Coin Bag 1"
+						"ref": "Asylum Grounds/Bell at Star/Gold Coins: Bag in Bell Grave Near Entrance - AG",
+						"name": "Gold Coins: Bag in Bell Grave Near Entrance - AG"
 					},
 					{
-						"ref": "Asylum Grounds/Shooting Statue/Coin Bag"
+						"ref": "Asylum Grounds/Shooting Statue/Gold Coins: Bag Near Shooting Statue - AG",
+						"name": "Gold Coins: Bag Near Shooting Statue - AG"
 					},
 					{
-						"ref": "Asylum Grounds/2nd Grave to Elephant/Coin Bag"
+						"ref": "Asylum Grounds/2nd Grave to Elephant/Gold Coins: Bag in Rat Grave - AG",
+						"name": "Gold Coins: Bag in Rat Grave - AG"
 					},
 					{
-						"ref": "Asylum Grounds/Mouse/Coin Bag"
+						"ref": "Asylum Grounds/Mouse/Gold Coins: Behind Chaos Gate - AG",
+						"name": "Gold Coins: Behind Chaos Gate - AG"
 					},
 					{
-						"ref": "Asylum Grounds/Bell Past Elephant/Coin Bag"
+						"ref": "Asylum Grounds/Bell Past Elephant/Gold Coins: Behind Elephant in Grave - AG",
+						"name": "Gold Coins: Behind Elephant in Grave - AG"
 					},
 					{
-						"ref": "Asylum Grounds/Clear/Books"
+						"ref": "Asylum Grounds/Past Entry Tree Lane/Book: Seek Jack - AG",
+						"name": "Book: Seek Jack - AG"
 					},
 					{
-						"ref": "Asylum Grounds/Clear/Gargoyles"
+						"ref": "Asylum Grounds/Chess Board/Book: Secret Exit - AG",
+						"name": "Book: Secret Exit - AG"
 					},
 					{
-						"ref": "Asylum Grounds/Elephant/Chalice"
+						"ref": "Asylum Grounds/Jack/Gargoyle: Jack of the Green - AG",
+						"name": "Gargoyle: Jack of the Green - AG"
 					},
 					{
-						"ref": "Asylum Grounds/Clear/Cleared Asylum Grounds"
+						"ref": "Asylum Grounds/Elephant/Chalice",
+						"name": "Chalice"
+					},
+					{
+						"ref": "Asylum Grounds/Clear/Cleared: Asylum Grounds",
+						"name": "Cleared: Asylum Grounds"
 					}
 				]
 			},
@@ -879,37 +1232,48 @@
 				],
 				"sections": [
 					{
-						"ref": "Inside the Asylum/Prison/Earth Rune"
+						"ref": "Inside the Asylum/Prison/Earth Rune: Inside the Asylum",
+						"name": "Earth Rune: Inside the Asylum"
 					},
 					{
-						"ref": "Inside the Asylum/Prison[2]/Dragon Gem"
+						"ref": "Inside the Asylum/Prison[2]/Key Item: Dragon Gem - IA",
+						"name": "Key Item: Dragon Gem - IA"
 					},
 					{
-						"ref": "Inside the Asylum/Room 1/Room 1 Clear"
+						"ref": "Inside the Asylum/Room 1/Gauntlet Cleared: Room 1 - IA",
+						"name": "Gauntlet Cleared: Room 1 - IA"
 					},
 					{
-						"ref": "Inside the Asylum/Room 2/Room 2 Clear"
+						"ref": "Inside the Asylum/Room 2/Gauntlet Cleared: Room 2 - IA",
+						"name": "Gauntlet Cleared: Room 2 - IA"
 					},
 					{
-						"ref": "Inside the Asylum/Room 3/Room 3 Clear"
+						"ref": "Inside the Asylum/Room 3/Gauntlet Cleared: Room 3 - IA",
+						"name": "Gauntlet Cleared: Room 3 - IA"
 					},
 					{
-						"ref": "Inside the Asylum/Room 4/Room 4 Clear"
+						"ref": "Inside the Asylum/Room 4/Gauntlet Cleared: Room 4 - IA",
+						"name": "Gauntlet Cleared: Room 4 - IA"
 					},
 					{
-						"ref": "Inside the Asylum/Room 5/Room 5 Clear"
+						"ref": "Inside the Asylum/Room 5/Gauntlet Cleared: Room 5 - IA",
+						"name": "Gauntlet Cleared: Room 5 - IA"
 					},
 					{
-						"ref": "Inside the Asylum/Prison[1]/Coin Bag 1"
+						"ref": "Inside the Asylum/Prison[1]/Gold Coins: Bag in Sewer Prison Entrance - IA",
+						"name": "Gold Coins: Bag in Sewer Prison Entrance - IA"
 					},
 					{
-						"ref": "Inside the Asylum/Prison/Coin Bag 2"
+						"ref": "Inside the Asylum/Prison/Gold Coins: Bag on Sewer Prison Bench - IA",
+						"name": "Gold Coins: Bag on Sewer Prison Bench - IA"
 					},
 					{
-						"ref": "Inside the Asylum/Prison/Chalice"
+						"ref": "Inside the Asylum/Prison/Chalice",
+						"name": "Chalice"
 					},
 					{
-						"ref": "Inside the Asylum/Clear/Cleared Inside the Asylum"
+						"ref": "Inside the Asylum/Clear/Cleared: Inside the Asylum",
+						"name": "Cleared: Inside the Asylum"
 					}
 				]
 			},
@@ -924,64 +1288,100 @@
 				],
 				"sections": [
 					{
-						"ref": "Enchanted Earth/Element Room/Shadow Talisman"
+						"ref": "Enchanted Earth/Shadow Cave/Key Item: Shadow Talisman - EE",
+						"name": "Key Item: Shadow Talisman - EE"
 					},
 					{
-						"ref": "Enchanted Earth/Elevator/Star Rune"
+						"ref": "Enchanted Earth/Elevator/Star Rune: Enchanted Earth",
+						"name": "Star Rune: Enchanted Earth"
 					},
 					{
-						"ref": "Enchanted Earth/Bird Nest/Coin Chest"
+						"ref": "Enchanted Earth/Bird Nest/Egg Drop 1 - EE",
+						"name": "Egg Drop 1 - EE"
 					},
 					{
-						"ref": "Enchanted Earth/Bird Nest/Copper Shield"
+						"ref": "Enchanted Earth/Bird Nest/Egg Drop 2 - EE",
+						"name": "Egg Drop 2 - EE"
 					},
 					{
-						"ref": "Enchanted Earth/Bird Nest/Earth Rune"
+						"ref": "Enchanted Earth/Bird Nest/Egg Drop 3 - EE",
+						"name": "Egg Drop 3 - EE"
 					},
 					{
-						"ref": "Enchanted Earth/Element Room/Energy Vial"
+						"ref": "Enchanted Earth/Shadow Cave[2]/Energy Vial: Shadow Talisman Cave - EE",
+						"name": "Energy Vial: Shadow Talisman Cave - EE"
 					},
 					{
-						"ref": "Enchanted Earth/Hollow Tree Top/Energy Vial 1"
+						"ref": "Enchanted Earth/Hollow Tree Top/Energy Vial: Left of Tree Drop - EE",
+						"name": "Energy Vial: Left of Tree Drop - EE"
 					},
 					{
-						"ref": "Enchanted Earth/Hollow Tree Top/Energy Vial 2"
+						"ref": "Enchanted Earth/Hollow Tree Top/Energy Vial: Right of Tree Drop - EE",
+						"name": "Energy Vial: Right of Tree Drop - EE"
 					},
 					{
-						"ref": "Enchanted Earth/Hollow Tree Bottom/Coin Bag"
+						"ref": "Enchanted Earth/Hollow Tree Bottom/Gold Coins: Bag Near Tree Hollow - EE",
+						"name": "Gold Coins: Bag Near Tree Hollow - EE"
 					},
 					{
-						"ref": "Enchanted Earth/Behind Lift Tree/Coin Bag 1"
+						"ref": "Enchanted Earth/Behind Big Tree/Gold Coins: Bag Behind Big Tree 1 - EE",
+						"name": "Gold Coins: Bag Behind Big Tree 1 - EE"
 					},
 					{
-						"ref": "Enchanted Earth/Behind Lift Tree/Coin Bag 2"
+						"ref": "Enchanted Earth/Behind Big Tree/Gold Coins: Bag Behind Big Tree 2 - EE",
+						"name": "Gold Coins: Bag Behind Big Tree 2 - EE"
 					},
 					{
-						"ref": "Enchanted Earth/Shadow Head/Coin Bag"
+						"ref": "Enchanted Earth/Shadow Head/Gold Coins: Bag at Cave Entrance - EE",
+						"name": "Gold Coins: Bag at Cave Entrance - EE"
 					},
 					{
-						"ref": "Enchanted Earth/Gated Chest/Coin Chest"
+						"ref": "Enchanted Earth/Gated Chest/Gold Coins: Chest Near Barrier - EE",
+						"name": "Gold Coins: Chest Near Barrier - EE"
 					},
 					{
-						"ref": "Enchanted Earth/Past Elevator/Coin Chest 1"
+						"ref": "Enchanted Earth/Past Elevator/Gold Coins: Chest Left of Fountain - EE",
+						"name": "Gold Coins: Chest Left of Fountain - EE"
 					},
 					{
-						"ref": "Enchanted Earth/Past Elevator/Coin Chest 2"
+						"ref": "Enchanted Earth/Past Elevator/Gold Coins: Chest Top of Fountain - EE",
+						"name": "Gold Coins: Chest Top of Fountain - EE"
 					},
 					{
-						"ref": "Enchanted Earth/Past Elevator/Coin Chest 3"
+						"ref": "Enchanted Earth/Past Elevator/Gold Coins: Chest Right of Fountain - EE",
+						"name": "Gold Coins: Chest Right of Fountain - EE"
 					},
 					{
-						"ref": "Enchanted Earth/Clear/Books"
+						"ref": "Enchanted Earth/Witch's Alcove/Book: Coven of Witches - EE",
+						"name": "Book: Coven of Witches - EE"
 					},
 					{
-						"ref": "Enchanted Earth/Clear/Gargoyles"
+						"ref": "Enchanted Earth/To Big Tree/Book: Dragon Bird - EE",
+						"name": "Book: Dragon Bird - EE"
 					},
 					{
-						"ref": "Enchanted Earth/Element Room[1]/Chalice"
+						"ref": "Enchanted Earth/Earth Gate/Book: Keep Out - EE",
+						"name": "Book: Keep Out - EE"
 					},
 					{
-						"ref": "Enchanted Earth/Clear/Cleared Enchanted Earth"
+						"ref": "Enchanted Earth/Shadow Cave[3]/Book: Take the Talisman - EE",
+						"name": "Book: Take the Talisman - EE"
+					},
+					{
+						"ref": "Enchanted Earth/Shadow Head[1]/Gargoyle: Outside Demon Entrance - EE",
+						"name": "Gargoyle: Outside Demon Entrance - EE"
+					},
+					{
+						"ref": "Enchanted Earth/Star Gate/Gargoyle: Outside Demon Exit- EE",
+						"name": "Gargoyle: Outside Demon Exit- EE"
+					},
+					{
+						"ref": "Enchanted Earth/Shadow Cave[1]/Chalice",
+						"name": "Chalice"
+					},
+					{
+						"ref": "Enchanted Earth/Clear/Cleared: Enchanted Earth",
+						"name": "Cleared: Enchanted Earth"
 					}
 				]
 			},
@@ -996,91 +1396,120 @@
 				],
 				"sections": [
 					{
-						"ref": "Ant Caves/Ambers/Amber 1"
+						"ref": "Ant Caves/Ambers/Key Item: Amber Piece 1 - TA",
+						"name": "Key Item: Amber Piece 1 - TA"
 					},
 					{
-						"ref": "Ant Caves/Ambers/Amber 2"
+						"ref": "Ant Caves/Ambers/Key Item: Amber Piece 2 - TA",
+						"name": "Key Item: Amber Piece 2 - TA"
 					},
 					{
-						"ref": "Ant Caves/Ambers/Amber 3"
+						"ref": "Ant Caves/Ambers/Key Item: Amber Piece 3 - TA",
+						"name": "Key Item: Amber Piece 3 - TA"
 					},
 					{
-						"ref": "Ant Caves/Ambers/Amber 4"
+						"ref": "Ant Caves/Ambers/Key Item: Amber Piece 4 - TA",
+						"name": "Key Item: Amber Piece 4 - TA"
 					},
 					{
-						"ref": "Ant Caves/Ambers/Amber 5"
+						"ref": "Ant Caves/Ambers/Key Item: Amber Piece 5 - TA",
+						"name": "Key Item: Amber Piece 5 - TA"
 					},
 					{
-						"ref": "Ant Caves/Ambers/Amber 6"
+						"ref": "Ant Caves/Ambers/Key Item: Amber Piece 6 - TA",
+						"name": "Key Item: Amber Piece 6 - TA"
 					},
 					{
-						"ref": "Ant Caves/Ambers/Amber 7"
+						"ref": "Ant Caves/Ambers/Key Item: Amber Piece 7 - TA",
+						"name": "Key Item: Amber Piece 7 - TA"
 					},
 					{
-						"ref": "Ant Caves/Ambers/Amber 8"
+						"ref": "Ant Caves/Ambers/Key Item: Amber Piece 8 - TA",
+						"name": "Key Item: Amber Piece 8 - TA"
 					},
 					{
-						"ref": "Ant Caves/Ambers/Amber 9"
+						"ref": "Ant Caves/Ambers/Key Item: Amber Piece 9 - TA",
+						"name": "Key Item: Amber Piece 9 - TA"
 					},
 					{
-						"ref": "Ant Caves/Ambers/Amber 10"
+						"ref": "Ant Caves/Ambers/Key Item: Amber Piece 10 - TA",
+						"name": "Key Item: Amber Piece 10 - TA"
 					},
 					{
-						"ref": "Ant Caves/Fairies/Fairy 1"
+						"ref": "Ant Caves/Fairies/Fairy 1 - TA",
+						"name": "Fairy 1 - TA"
 					},
 					{
-						"ref": "Ant Caves/Fairies/Fairy 2"
+						"ref": "Ant Caves/Fairies/Fairy 2 - TA",
+						"name": "Fairy 2 - TA"
 					},
 					{
-						"ref": "Ant Caves/Fairies/Fairy 3"
+						"ref": "Ant Caves/Fairies/Fairy 3 - TA",
+						"name": "Fairy 3 - TA"
 					},
 					{
-						"ref": "Ant Caves/Fairies/Fairy 4"
+						"ref": "Ant Caves/Fairies/Fairy 4 - TA",
+						"name": "Fairy 4 - TA"
 					},
 					{
-						"ref": "Ant Caves/Fairies/Fairy 5"
+						"ref": "Ant Caves/Fairies/Fairy 5 - TA",
+						"name": "Fairy 5 - TA"
 					},
 					{
-						"ref": "Ant Caves/Fairies/Fairy 6"
+						"ref": "Ant Caves/Fairies/Fairy 6 - TA",
+						"name": "Fairy 6 - TA"
 					},
 					{
-						"ref": "Ant Caves/Caves Entrance/Club"
+						"ref": "Ant Caves/Caves Entrance/Equipment: Club in Chest at Barrier - TA",
+						"name": "Equipment: Club in Chest at Barrier - TA"
 					},
 					{
-						"ref": "Ant Caves/Ant Caves Clear/Chicken Drumsticks"
+						"ref": "Ant Caves/Clear/Equipment: Chicken Drumsticks - TA",
+						"name": "Equipment: Chicken Drumsticks - TA"
 					},
 					{
-						"ref": "Ant Caves/Energy Vials[2]/Energy Vial 3"
+						"ref": "Ant Caves/Energy Vials[2]/Energy Vial: Before Fairy 1 - TA",
+						"name": "Energy Vial: Before Fairy 1 - TA"
 					},
 					{
-						"ref": "Ant Caves/Energy Vials/Energy Vial 1"
+						"ref": "Ant Caves/Energy Vials/Energy Vial: After Amber 2 - TA",
+						"name": "Energy Vial: After Amber 2 - TA"
 					},
 					{
-						"ref": "Ant Caves/Energy Vials[1]/Energy Vial 2"
+						"ref": "Ant Caves/Energy Vials[1]/Energy Vial: Fairy 2 Room Center - TA",
+						"name": "Energy Vial: Fairy 2 Room Center - TA"
 					},
 					{
-						"ref": "Ant Caves/Energy Vials[3]/Energy Vial 4"
+						"ref": "Ant Caves/Energy Vials[3]/Energy Vial: Fairy 3 - TA",
+						"name": "Energy Vial: Fairy 3 - TA"
 					},
 					{
-						"ref": "Ant Caves/Energy Vials[4]/Energy Vial 5"
+						"ref": "Ant Caves/Energy Vials[4]/Energy Vial: Birthing room exit - TA",
+						"name": "Energy Vial: Birthing room exit - TA"
 					},
 					{
-						"ref": "Ant Caves/Behind Barrier/Coin Chest"
+						"ref": "Ant Caves/Behind Barrier/Gold Coins: Chest at Barrier Fairy - TA",
+						"name": "Gold Coins: Chest at Barrier Fairy - TA"
 					},
 					{
-						"ref": "Ant Caves/Clear/Chicken Drumsticks"
+						"ref": "Ant Caves/Caves Entrance/Book: Fairy Portal - AH",
+						"name": "Book: Fairy Portal - AH"
 					},
 					{
-						"ref": "Ant Caves/Clear/Books"
+						"ref": "Ant Caves/Queen Entrance/Book: Queen Ant - AH",
+						"name": "Book: Queen Ant - AH"
 					},
 					{
-						"ref": "Ant Caves/Clear/Gargoyles"
+						"ref": "Ant Caves/Entrance/Gargoyle: Entrance - AH",
+						"name": "Gargoyle: Entrance - AH"
 					},
 					{
-						"ref": "Ant Caves/Clear/Chalice"
+						"ref": "Ant Caves/Clear/Chalice",
+						"name": "Chalice"
 					},
 					{
-						"ref": "Ant Caves/Clear/Cleared Ant Caves"
+						"ref": "Ant Caves/Clear/Cleared: Ant Caves",
+						"name": "Cleared: Ant Caves"
 					}
 				]
 			},
@@ -1095,82 +1524,108 @@
 				],
 				"sections": [
 					{
-						"ref": "Pools of the Ancient Dead/East Side Life Bottle/Life Bottle"
+						"ref": "Pools of the Ancient Dead/East Side Life Bottle/Life Bottle: Pools of the Ancient Dead",
+						"name": "Life Bottle: Pools of the Ancient Dead"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/West Side[6]/Chaos Rune"
+						"ref": "Pools of the Ancient Dead/West Side[6]/Chaos Rune: Pools of the Ancient Dead",
+						"name": "Chaos Rune: Pools of the Ancient Dead"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/West Side[2]/Soul 1"
+						"ref": "Pools of the Ancient Dead/East Side/Key Item: Soul Helmet 1 - PAD",
+						"name": "Key Item: Soul Helmet 1 - PAD"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/West Side[1]/Soul 2"
+						"ref": "Pools of the Ancient Dead/West Side[1]/Key Item: Soul Helmet 2 - PAD",
+						"name": "Key Item: Soul Helmet 2 - PAD"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/West Side[4]/Soul 3"
+						"ref": "Pools of the Ancient Dead/West Side[4]/Key Item: Soul Helmet 3 - PAD",
+						"name": "Key Item: Soul Helmet 3 - PAD"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/East Side/Soul 4"
+						"ref": "Pools of the Ancient Dead/West Side[2]/Key Item: Soul Helmet 4 - PAD",
+						"name": "Key Item: Soul Helmet 4 - PAD"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/East Side[1]/Soul 5"
+						"ref": "Pools of the Ancient Dead/East Side[1]/Key Item: Soul Helmet 5 - PAD",
+						"name": "Key Item: Soul Helmet 5 - PAD"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/East Side[3]/Soul 6"
+						"ref": "Pools of the Ancient Dead/East Side[3]/Key Item: Soul Helmet 6 - PAD",
+						"name": "Key Item: Soul Helmet 6 - PAD"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/East Side[4]/Soul 7"
+						"ref": "Pools of the Ancient Dead/East Side[4]/Key Item: Soul Helmet 7 - PAD",
+						"name": "Key Item: Soul Helmet 7 - PAD"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/East Side Downhill/Soul 8"
+						"ref": "Pools of the Ancient Dead/East Side Downhill/Key Item: Soul Helmet 8 - PAD",
+						"name": "Key Item: Soul Helmet 8 - PAD"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/East Side[2]/Silver Shield"
+						"ref": "Pools of the Ancient Dead/East Side[2]/Equipment: Silver Shield in Chest Near Soul 5 - PAD",
+						"name": "Equipment: Silver Shield in Chest Near Soul 5 - PAD"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/Tower/Energy Vial"
+						"ref": "Pools of the Ancient Dead/Tower/Energy Vial: Broken Structure near Entrance - PAD",
+						"name": "Energy Vial: Broken Structure near Entrance - PAD"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/West Side[5]/Energy Vial"
+						"ref": "Pools of the Ancient Dead/West Side[5]/Energy Vial: Next to Lost Soul 3 - PAD",
+						"name": "Energy Vial: Next to Lost Soul 3 - PAD"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/East Side[5]/Energy Vial"
+						"ref": "Pools of the Ancient Dead/East Side[5]/Energy Vial: Near Gate - PAD",
+						"name": "Energy Vial: Near Gate - PAD"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/East Side Downhill[1]/Energy Vial 1"
+						"ref": "Pools of the Ancient Dead/East Side Downhill[1]/Energy Vial: Chariot Right - PAD",
+						"name": "Energy Vial: Chariot Right - PAD"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/East Side Downhill[2]/Energy Vial 2"
+						"ref": "Pools of the Ancient Dead/East Side Downhill[2]/Energy Vial 2",
+						"name": "Energy Vial 2"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/East Side Life Bottle/Energy Vial 1"
+						"ref": "Pools of the Ancient Dead/East Side Life Bottle/Energy Vial: Jump Spot 1 - PAD",
+						"name": "Energy Vial: Jump Spot 1 - PAD"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/East Side Life Bottle/Energy Vial 2"
+						"ref": "Pools of the Ancient Dead/East Side Life Bottle/Energy Vial: Jump Spot 2 - PAD",
+						"name": "Energy Vial: Jump Spot 2 - PAD"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/Start/Coin Bag"
+						"ref": "Pools of the Ancient Dead/Entrance/Gold Coins: Bag at Entrance - PAD",
+						"name": "Gold Coins: Bag at Entrance - PAD"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/West Side/Coin Bag"
+						"ref": "Pools of the Ancient Dead/West Side/Gold Coins: Bag on Island Near Soul 2 - PAD",
+						"name": "Gold Coins: Bag on Island Near Soul 2 - PAD"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/East Side Life Bottle/Coin Chest 1"
+						"ref": "Pools of the Ancient Dead/East Side Life Bottle/Gold Coins: Jump Spot 1 - PAD",
+						"name": "Gold Coins: Jump Spot 1 - PAD"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/East Side Life Bottle/Coin Chest 2"
+						"ref": "Pools of the Ancient Dead/East Side Life Bottle/Gold Coins: Jump Spot 2 - PAD",
+						"name": "Gold Coins: Jump Spot 2 - PAD"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/Clear/Books"
+						"ref": "Pools of the Ancient Dead/Entrance[1]/Book: Enemy Warning - PAD",
+						"name": "Book: Enemy Warning - PAD"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/Clear/Gargoyles"
+						"ref": "Pools of the Ancient Dead/Entrance[2]/Gargoyle: Entrance - PAD",
+						"name": "Gargoyle: Entrance - PAD"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/West Side[3]/Chalice"
+						"ref": "Pools of the Ancient Dead/West Side[3]/Chalice",
+						"name": "Chalice"
 					},
 					{
-						"ref": "Pools of the Ancient Dead/Clear/Cleared Pools of the Ancient Dead"
+						"ref": "Pools of the Ancient Dead/Clear/Cleared: Pools of the Ancient Dead",
+						"name": "Cleared: Pools of the Ancient Dead"
 					}
 				]
 			},
@@ -1185,61 +1640,84 @@
 				],
 				"sections": [
 					{
-						"ref": "The Lake/Left Path Back/Chaos Rune"
+						"ref": "The Lake/Left Path Back/Chaos Rune: The Lake",
+						"name": "Chaos Rune: The Lake"
 					},
 					{
-						"ref": "The Lake/Left Path/Earth Rune"
+						"ref": "The Lake/Left Path/Earth Rune: The Lake",
+						"name": "Earth Rune: The Lake"
 					},
 					{
-						"ref": "The Lake/Past Tunnel[2]/Star Rune"
+						"ref": "The Lake/Past Tunnel[2]/Star Rune: The Lake",
+						"name": "Star Rune: The Lake"
 					},
 					{
-						"ref": "The Lake/Right Path/Time Rune"
+						"ref": "The Lake/Right Path/Time Rune: The Lake",
+						"name": "Time Rune: The Lake"
 					},
 					{
-						"ref": "The Lake/Down Whirlpool/Silver Shield"
+						"ref": "The Lake/Down Whirlpool/Equipment: Silver Shield In Whirlpool - TL",
+						"name": "Equipment: Silver Shield In Whirlpool - TL"
 					},
 					{
-						"ref": "The Lake/Left Path[2]/Energy Vial"
+						"ref": "The Lake/Left Path[2]/Energy Vial: Flooded House - TL",
+						"name": "Energy Vial: Flooded House - TL"
 					},
 					{
-						"ref": "The Lake/Down Whirlpool[4]/Energy Vial 1"
+						"ref": "The Lake/Down Whirlpool[4]/Energy Vial: Whirpool Wind 1 - TL",
+						"name": "Energy Vial: Whirpool Wind 1 - TL"
 					},
 					{
-						"ref": "The Lake/Down Whirlpool[4]/Energy Vial 2"
+						"ref": "The Lake/Down Whirlpool[4]/Energy Vial: Whirpool Wind 2 - TL",
+						"name": "Energy Vial: Whirpool Wind 2 - TL"
 					},
 					{
-						"ref": "The Lake/Left Path[1]/Coin Bag"
+						"ref": "The Lake/Left Path[1]/Gold Coins: Bag Outside Flooded House - TL",
+						"name": "Gold Coins: Bag Outside Flooded House - TL"
 					},
 					{
-						"ref": "The Lake/Gate Path/Coin Bag"
+						"ref": "The Lake/Gate Path/Gold Coins: Bag Near Closed Gate - TL",
+						"name": "Gold Coins: Bag Near Closed Gate - TL"
 					},
 					{
-						"ref": "The Lake/Down Whirlpool[1]/Coin Bag 1"
+						"ref": "The Lake/Down Whirlpool[1]/Gold Coins: Bag at the Whirlpool Entrance - TL",
+						"name": "Gold Coins: Bag at the Whirlpool Entrance - TL"
 					},
 					{
-						"ref": "The Lake/Down Whirlpool[2]/Coin Bag 2"
+						"ref": "The Lake/Down Whirlpool[2]/Gold Coins: Whirlpool Wind 1 - TL",
+						"name": "Gold Coins: Whirlpool Wind 1 - TL"
 					},
 					{
-						"ref": "The Lake/Down Whirlpool[3]/Coin Bag 3"
+						"ref": "The Lake/Down Whirlpool[3]/Gold Coins: Whirlpool Wind 2 - TL",
+						"name": "Gold Coins: Whirlpool Wind 2 - TL"
 					},
 					{
-						"ref": "The Lake/Past Tunnel/Coin Bag"
+						"ref": "The Lake/Past Tunnel/Gold Coins: Outside Whirlpool Exit - TL",
+						"name": "Gold Coins: Outside Whirlpool Exit - TL"
 					},
 					{
-						"ref": "The Lake/Past Tunnel[1]/Coin Chest"
+						"ref": "The Lake/Past Tunnel[1]/Gold Coins: Chest in Whirlpool Switch Area - TL",
+						"name": "Gold Coins: Chest in Whirlpool Switch Area - TL"
 					},
 					{
-						"ref": "The Lake/Clear/Books"
+						"ref": "The Lake/Start/Book: Learn to Stealth - TL",
+						"name": "Book: Learn to Stealth - TL"
 					},
 					{
-						"ref": "The Lake/Clear/Gargoyles"
+						"ref": "The Lake/Right Path[1]/Book: Whirlpool Manual - TL",
+						"name": "Book: Whirlpool Manual - TL"
 					},
 					{
-						"ref": "The Lake/Past Tunnel[3]/Chalice"
+						"ref": "The Lake/End/Gargoyle: Exit - TL",
+						"name": "Gargoyle: Exit - TL"
 					},
 					{
-						"ref": "The Lake/Clear/Cleared The Lake"
+						"ref": "The Lake/Past Tunnel[3]/Chalice",
+						"name": "Chalice"
+					},
+					{
+						"ref": "The Lake/Clear/Cleared: The Lake",
+						"name": "Cleared: The Lake"
 					}
 				]
 			},
@@ -1254,88 +1732,120 @@
 				],
 				"sections": [
 					{
-						"ref": "The Crystal Caves/Light Beams[1]/Earth Rune"
+						"ref": "The Crystal Caves/Light Beams[1]/Earth Rune: The Crystal Caves",
+						"name": "Earth Rune: The Crystal Caves"
 					},
 					{
-						"ref": "The Crystal Caves/Dragon's Lair[3]/Star Rune"
+						"ref": "The Crystal Caves/Dragon's Lair[3]/Star Rune: The Crystal Caves",
+						"name": "Star Rune: The Crystal Caves"
 					},
 					{
-						"ref": "The Crystal Caves/Cavern Ledge/Silver Shield"
+						"ref": "The Crystal Caves/Cavern Ledge/Equipment: Silver Shield in Crystal - CC",
+						"name": "Equipment: Silver Shield in Crystal - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Dragon's Lair[6]Dragon Armour"
+						"ref": "The Crystal Caves/Dragon's Lair[6]/Equipment: Dragon Armour - CC",
+						"name": "Equipment: Dragon Armour - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Dragon's Lair/Energy Vial 1"
+						"ref": "The Crystal Caves/Dragon's Lair/Energy Vial: Dragon Room 1st Platform - CC",
+						"name": "Energy Vial: Dragon Room 1st Platform - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Dragon's Lair[5]/Energy Vial 2"
+						"ref": "The Crystal Caves/Dragon's Lair[5]/Energy Vial: Dragon Room 3rd Platform - CC",
+						"name": "Energy Vial: Dragon Room 3rd Platform - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Fountain Climb/Coin Bag"
+						"ref": "The Crystal Caves/Fountain Climb/Gold Coins: Bag at bottom of winding staircase - CC",
+						"name": "Gold Coins: Bag at bottom of winding staircase - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Crystal Pond/Coin Chest"
+						"ref": "The Crystal Caves/Crystal Pond/Gold Coins: Chest in Crystal after Pool - CC",
+						"name": "Gold Coins: Chest in Crystal after Pool - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Entrance Room/Coin Bag"
+						"ref": "The Crystal Caves/Entrance Room/Gold Coins: Bag in Crystal at Start - CC",
+						"name": "Gold Coins: Bag in Crystal at Start - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Light Beams/Coin Bag"
+						"ref": "The Crystal Caves/Light Beams/Gold Coins: Bag in Spinner - CC",
+						"name": "Gold Coins: Bag in Spinner - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Cavern Ledge[1]/Coin Bag"
+						"ref": "The Crystal Caves/Cavern Ledge[1]/Gold Coins: Bag near Silver Shield - CC",
+						"name": "Gold Coins: Bag near Silver Shield - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Waterfall/Coin Chest"
+						"ref": "The Crystal Caves/Waterfall/Gold Coins: Chest in Crystal After Earth Door - CC",
+						"name": "Gold Coins: Chest in Crystal After Earth Door - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Dragon's Lair[1]/Coin Bag 1"
+						"ref": "The Crystal Caves/Dragon's Lair[1]/Gold Coins: Bag in Dragon Room 1 1st Platform - CC",
+						"name": "Gold Coins: Bag in Dragon Room 1 1st Platform - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Dragon's Lair[1]/Coin Bag 2"
+						"ref": "The Crystal Caves/Dragon's Lair[1]/Gold Coins: Bag in Dragon Room 2 1st Platform - CC",
+						"name": "Gold Coins: Bag in Dragon Room 2 1st Platform - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Dragon's Lair[1]/Coin Chest"
+						"ref": "The Crystal Caves/Dragon's Lair[1]/Gold Coins: Chest in Dragon Room 1st Platform - CC",
+						"name": "Gold Coins: Chest in Dragon Room 1st Platform - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Dragon's Lair[4]/Coin Bag 5"
+						"ref": "The Crystal Caves/Dragon's Lair[4]/Gold Coins: Bag in Dragon Room 2nd Platform - CC",
+						"name": "Gold Coins: Bag in Dragon Room 2nd Platform - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Dragon's Lair[4]/Coin Bag 6"
+						"ref": "The Crystal Caves/Dragon's Lair[4]/Gold Coins: Bag in Dragon Room 1 3rd Platform - CC",
+						"name": "Gold Coins: Bag in Dragon Room 1 3rd Platform - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Dragon's Lair[4]/Coin Bag 7"
+						"ref": "The Crystal Caves/Dragon's Lair[4]/Gold Coins: Bag in Dragon Room 2 3rd Platform - CC",
+						"name": "Gold Coins: Bag in Dragon Room 2 3rd Platform - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Dragon's Lair[4]/Coin Chest 3"
+						"ref": "The Crystal Caves/Dragon's Lair[4]/Gold Coins: Chest in Dragon Room 3rd Platform - CC",
+						"name": "Gold Coins: Chest in Dragon Room 3rd Platform - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Dragon's Lair[2]/Coin Bag 3"
+						"ref": "The Crystal Caves/Dragon's Lair[2]/Gold Coins: Bag in Dragon Room 4th Platform 1 - CC",
+						"name": "Gold Coins: Bag in Dragon Room 4th Platform 1 - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Dragon's Lair[2]/Coin Chest 2"
+						"ref": "The Crystal Caves/Dragon's Lair[2]/Gold Coins: Chest in Dragon Room 4th Platform - CC",
+						"name": "Gold Coins: Chest in Dragon Room 4th Platform - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Dragon's Lair[2]/Coin Bag 4"
+						"ref": "The Crystal Caves/Dragon's Lair[2]/Gold Coins: Bag in Dragon Room 4th Platform 2 - CC",
+						"name": "Gold Coins: Bag in Dragon Room 4th Platform 2 - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Water Pit[1]/Coin Bag 1"
+						"ref": "The Crystal Caves/Water Pit[1]/Gold Coins: Bag on Left of Pool - CC",
+						"name": "Gold Coins: Bag on Left of Pool - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Water Pit/Coin Bag 2"
+						"ref": "The Crystal Caves/Water Pit/Gold Coins: Bag on Right of Pool - CC",
+						"name": "Gold Coins: Bag on Right of Pool - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Clear/Books"
+						"ref": "The Crystal Caves/Before Earth Door/Book: Dragon Book - CC",
+						"name": "Book: Dragon Book - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Clear/Gargoyles"
+						"ref": "The Crystal Caves/Dragon's Lair[7]/Book - Summon Dragon - CC",
+						"name": "Book - Summon Dragon - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Start/Chalice"
+						"ref": "The Crystal Caves/Past Columns/Gargoyle: Cave Entrance - CC",
+						"name": "Gargoyle: Cave Entrance - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Clear/Cleared The Crystal Caves"
+						"ref": "The Crystal Caves/Start/Chalice",
+						"name": "Chalice"
+					},
+					{
+						"ref": "The Crystal Caves/Clear/Cleared: The Crystal Caves",
+						"name": "Cleared: The Crystal Caves"
 					}
 				]
 			},
@@ -1350,34 +1860,56 @@
 				],
 				"sections": [
 					{
-						"ref": "The Gallows Gauntlet/Gate at Start/Star Rune"
+						"ref": "The Gallows Gauntlet/Gate at Start/Star Rune: The Gallows Gauntlet",
+						"name": "Star Rune: The Gallows Gauntlet"
 					},
 					{
-						"ref": "The Gallows Gauntlet/Near End 1/Silver Shield"
+						"ref": "The Gallows Gauntlet/Near Early Exit/Equipment: Silver Shield in Chest Near Exit - GG",
+						"name": "Equipment: Silver Shield in Chest Near Exit - GG"
 					},
 					{
-						"ref": "The Gallows Gauntlet/Chalice Gate[1]/Energy Vial"
+						"ref": "The Gallows Gauntlet/Chalice Gate[1]/Energy Vial: Near Chalice - GG",
+						"name": "Energy Vial: Near Chalice - GG"
 					},
 					{
-						"ref": "The Gallows Gauntlet/Dragon Skeleton 1/Coin Bag"
+						"ref": "The Gallows Gauntlet/Stone Dragon 1/Gold Coins: Bag Behind Stone Dragon 1 - GG",
+						"name": "Gold Coins: Bag Behind Stone Dragon 1 - GG"
 					},
 					{
-						"ref": "The Gallows Gauntlet/Dragon Skeleton 2/Coin Bag"
+						"ref": "The Gallows Gauntlet/Stone Dragon 2/Gold Coins: Bag Behind Stone Dragon 2 - GG",
+						"name": "Gold Coins: Bag Behind Stone Dragon 2 - GG"
 					},
 					{
-						"ref": "The Gallows Gauntlet/Past Dragon Gate/Coin Chest"
+						"ref": "The Gallows Gauntlet/Past Dragon Gate/Gold Coins: Chest at Serpent - GG",
+						"name": "Gold Coins: Chest at Serpent - GG"
 					},
 					{
-						"ref": "The Gallows Gauntlet/Gate Near Star Gate/Coin Chest"
+						"ref": "The Gallows Gauntlet/Gate Near Star Gate/Gold Coins: Chest Near Star Entrance - GG",
+						"name": "Gold Coins: Chest Near Star Entrance - GG"
 					},
 					{
-						"ref": "The Gallows Gauntlet/Clear/Books"
+						"ref": "The Gallows Gauntlet/Entrance/Book: Serpent of Gallowmere - GG",
+						"name": "Book: Serpent of Gallowmere - GG"
 					},
 					{
-						"ref": "The Gallows Gauntlet/Chalice Gate/Chalice"
+						"ref": "The Gallows Gauntlet/Stone Dragon 1[1]/Book: Dragon Armour - GG",
+						"name": "Book: Dragon Armour - GG"
 					},
 					{
-						"ref": "The Gallows Gauntlet/Clear/Cleared The Gallows Gauntlet"
+						"ref": "The Gallows Gauntlet/Near Early Exit[1]/Book: Early Exit - GG",
+						"name": "Book: Early Exit - GG"
+					},
+					{
+						"ref": "The Gallows Gauntlet/Dragon Gate/Book: Magical Barrier - GG",
+						"name": "Book: Magical Barrier - GG"
+					},
+					{
+						"ref": "The Gallows Gauntlet/Chalice Gate/Chalice",
+						"name": "Chalice"
+					},
+					{
+						"ref": "The Gallows Gauntlet/Clear/Cleared: The Gallows Gauntlet",
+						"name": "Cleared: The Gallows Gauntlet"
 					}
 				]
 			},
@@ -1392,64 +1924,112 @@
 				],
 				"sections": [
 					{
-						"ref": "The Haunted Ruins/Crown Room[1]/Peregrin's Crown"
+						"ref": "The Haunted Ruins/Crown Room[1]/Key Item: King Peregrine's Crown - HR",
+						"name": "Key Item: King Peregrine's Crown - HR"
 					},
 					{
-						"ref": "The Haunted Ruins/Front Wall/Chaos Rune"
+						"ref": "The Haunted Ruins/Front Wall/Chaos Rune: The Haunted Ruins",
+						"name": "Chaos Rune: The Haunted Ruins"
 					},
 					{
-						"ref": "The Haunted Ruins/Stone Golems/Earth Rune"
+						"ref": "The Haunted Ruins/Stone Golems/Earth Rune: The Haunted Ruins",
+						"name": "Earth Rune: The Haunted Ruins"
 					},
 					{
-						"ref": "The Haunted Ruins/Inner Courtyard/Silver Shield"
+						"ref": "The Haunted Ruins/Inner Courtyard/Equipment: Silver Shield in Chest Near Rune Door - HR",
+						"name": "Equipment: Silver Shield in Chest Near Rune Door - HR"
 					},
 					{
-						"ref": "The Haunted Ruins/Inner Wall East/Energy Vial 1"
+						"ref": "The Haunted Ruins/Inner Wall East/Energy Vial: Above Rune - HR",
+						"name": "Energy Vial: Above Rune - HR"
 					},
 					{
-						"ref": "The Haunted Ruins/Inner Wall East[1]/Energy Vial 2"
+						"ref": "The Haunted Ruins/Inner Wall East[1]/Energy Vial: Corner of Walls 1 - HR",
+						"name": "Energy Vial: Corner of Walls 1 - HR"
 					},
 					{
-						"ref": "The Haunted Ruins/Inner Wall West/Energy Vial 1"
+						"ref": "The Haunted Ruins/Inner Wall West/Energy Vial: Corner of Walls 2 - HR",
+						"name": "Energy Vial: Corner of Walls 2 - HR"
 					},
 					{
-						"ref": "The Haunted Ruins/Inner Wall West/Energy Vial 2"
+						"ref": "The Haunted Ruins/Inner Wall West/Energy Vial: Corner of Walls 3 - HR",
+						"name": "Energy Vial: Corner of Walls 3 - HR"
 					},
 					{
-						"ref": "The Haunted Ruins/Outer Wall West/Energy Vial"
+						"ref": "The Haunted Ruins/Outer Wall West/Energy Vial: Up from Oil - HR",
+						"name": "Energy Vial: Up from Oil - HR"
 					},
 					{
-						"ref": "The Haunted Ruins/Farmers/Coin Bag"
+						"ref": "The Haunted Ruins/Farmers/Gold Coins: Near First Set of farmers - HR",
+						"name": "Gold Coins: Near First Set of farmers - HR"
 					},
 					{
-						"ref": "The Haunted Ruins/Outer Wall West[1]/Coin Bag 1"
+						"ref": "The Haunted Ruins/Outer Wall West[1]/Gold Coins: Bag Near Chalice North - HR",
+						"name": "Gold Coins: Bag Near Chalice North - HR"
 					},
 					{
-						"ref": "The Haunted Ruins/Outer Wall West[1]/Coin Bag 2"
+						"ref": "The Haunted Ruins/Outer Wall West[1]/Gold Coins: Bag Near Chalice South - HR",
+						"name": "Gold Coins: Bag Near Chalice South - HR"
 					},
 					{
-						"ref": "The Haunted Ruins/Crown Room/Coin Bag"
+						"ref": "The Haunted Ruins/Crown Room/Gold Coins: Bag in Crown Room - HR",
+						"name": "Gold Coins: Bag in Crown Room - HR"
 					},
 					{
-						"ref": "The Haunted Ruins/Catapult/Coin Chest 1"
+						"ref": "The Haunted Ruins/Catapult/Gold Coins: Chest at Catapult 1 - HR",
+						"name": "Gold Coins: Chest at Catapult 1 - HR"
 					},
 					{
-						"ref": "The Haunted Ruins/Catapult/Coin Chest 2"
+						"ref": "The Haunted Ruins/Catapult/Gold Coins: Chest at Catapult 2 - HR",
+						"name": "Gold Coins: Chest at Catapult 2 - HR"
 					},
 					{
-						"ref": "The Haunted Ruins/Catapult/Coin Chest 3"
+						"ref": "The Haunted Ruins/Catapult/Gold Coins: Chest at Catapult 3 - HR",
+						"name": "Gold Coins: Chest at Catapult 3 - HR"
 					},
 					{
-						"ref": "The Haunted Ruins/Clear/Books"
+						"ref": "The Haunted Ruins/Chickens/Book: Chickens - HR",
+						"name": "Book: Chickens - HR"
 					},
 					{
-						"ref": "The Haunted Ruins/Clear/Gargoyles"
+						"ref": "The Haunted Ruins/Front Wall[1]/Book: Farmers - HR",
+						"name": "Book: Farmers - HR"
 					},
 					{
-						"ref": "The Haunted Ruins/Outer Wall West[2]/Chalice"
+						"ref": "The Haunted Ruins/Outside Throne Room/Book: Sad King - HR",
+						"name": "Book: Sad King - HR"
 					},
 					{
-						"ref": "The Haunted Ruins/Clear/Cleared The Haunted Ruins"
+						"ref": "The Haunted Ruins/Throne Room/Book: Ghost King - HR",
+						"name": "Book: Ghost King - HR"
+					},
+					{
+						"ref": "The Haunted Ruins/Crown Room[1]/Book: The Volcano - HR",
+						"name": "Book: The Volcano - HR"
+					},
+					{
+						"ref": "The Haunted Ruins/After Oil/Book: Escape - HR",
+						"name": "Book: Escape - HR"
+					},
+					{
+						"ref": "The Haunted Ruins/Before Oil/Book: Oil - HR",
+						"name": "Book: Oil - HR"
+					},
+					{
+						"ref": "The Haunted Ruins/Drawbridge/Gargoyle: Drawbridge - HR",
+						"name": "Gargoyle: Drawbridge - HR"
+					},
+					{
+						"ref": "The Haunted Ruins/Steel Gates/Gargoyle: Steel Gates - HR",
+						"name": "Gargoyle: Steel Gates - HR"
+					},
+					{
+						"ref": "The Haunted Ruins/Outer Wall West[2]/Chalice",
+						"name": "Chalice"
+					},
+					{
+						"ref": "The Haunted Ruins/Clear/Cleared: The Haunted Ruins",
+						"name": "Cleared: The Haunted Ruins"
 					}
 				]
 			},
@@ -1464,58 +2044,80 @@
 				],
 				"sections": [
 					{
-						"ref": "The Ghost Ship/Upstairs/Moon Rune"
+						"ref": "The Ghost Ship/Upstairs/Moon Rune: Ghost Ship",
+						"name": "Moon Rune: Ghost Ship"
 					},
 					{
-						"ref": "The Ghost Ship/Past Cannons/Chaos Rune"
+						"ref": "The Ghost Ship/Past Cannons/Chaos Rune: Ghost Ship",
+						"name": "Chaos Rune: Ghost Ship"
 					},
 					{
-						"ref": "The Ghost Ship/Moon Cabin[1]/Star Rune"
+						"ref": "The Ghost Ship/Moon Cabin[1]/Star Rune: Ghost Ship",
+						"name": "Star Rune: Ghost Ship"
 					},
 					{
-						"ref": "The Ghost Ship/Below Trapdoors/Silver Shield"
+						"ref": "The Ghost Ship/Barrel Room/Equipment: Silver Shield in Chest in Barrel Room - GS",
+						"name": "Equipment: Silver Shield in Chest in Barrel Room - GS"
 					},
 					{
-						"ref": "The Ghost Ship/Captain/Club"
+						"ref": "The Ghost Ship/Captain/Equipment: Club in Chest at Captain - GS",
+						"name": "Equipment: Club in Chest at Captain - GS"
 					},
 					{
-						"ref": "The Ghost Ship/Moon Cabin/Energy Vial"
+						"ref": "The Ghost Ship/Moon Cabin/Energy Vial: In Cabin - GS",
+						"name": "Energy Vial: In Cabin - GS"
 					},
 					{
-						"ref": "The Ghost Ship/Cannon Room/Energy Vial"
+						"ref": "The Ghost Ship/Cannon Room/Energy Vial: In Cannon Room - GS",
+						"name": "Energy Vial: In Cannon Room - GS"
 					},
 					{
-						"ref": "The Ghost Ship/Below Trampolines/Energy Vial 1"
+						"ref": "The Ghost Ship/Below Trampolines/Energy Vial: Rope Bridge 1 - GS",
+						"name": "Energy Vial: Rope Bridge 1 - GS"
 					},
 					{
-						"ref": "The Ghost Ship/Below Trampolines[1]/Energy Vial 2"
+						"ref": "The Ghost Ship/Below Trampolines[1]/Energy Vial: Rope Bridge 2 - GS",
+						"name": "Energy Vial: Rope Bridge 2 - GS"
 					},
 					{
-						"ref": "The Ghost Ship/Up the Lift/Energy Vial 1"
+						"ref": "The Ghost Ship/Up the Lift[1]/Energy Vial: Cage Lift 1 - GS",
+						"name": "Energy Vial: Cage Lift 1 - GS"
 					},
 					{
-						"ref": "The Ghost Ship/Up the Lift[1]/Energy Vial 2"
+						"ref": "The Ghost Ship/Up the Lift/Energy Vial: Cage Lift 2 - GS",
+						"name": "Energy Vial: Cage Lift 2 - GS"
 					},
 					{
-						"ref": "The Ghost Ship/Below Trapdoors[1]/Coin Bag"
+						"ref": "The Ghost Ship/Barrel Room[1]/Gold Coins: Bag in Rolling Barrels Room - GS",
+						"name": "Gold Coins: Bag in Rolling Barrels Room - GS"
 					},
 					{
-						"ref": "The Ghost Ship/Fountain/Coin Bag"
+						"ref": "The Ghost Ship/Barrels/Gold Coins: Bag on Deck At Barrels - GS",
+						"name": "Gold Coins: Bag on Deck At Barrels - GS"
 					},
 					{
-						"ref": "The Ghost Ship/Cannon Room[1]/Coin Chest"
+						"ref": "The Ghost Ship/Cannon Room[1]/Gold Coins: Chest in Cannon Room - GS",
+						"name": "Gold Coins: Chest in Cannon Room - GS"
 					},
 					{
-						"ref": "The Ghost Ship/Below Trampolines[2]/Coin Bag"
+						"ref": "The Ghost Ship/Below Trampolines[2]/Gold Coins: Rope Bridge - GS",
+						"name": "Gold Coins: Rope Bridge - GS"
 					},
 					{
-						"ref": "The Ghost Ship/Clear/Books"
+						"ref": "The Ghost Ship/Start/Book: Skeleton Warriors - GS",
+						"name": "Book: Skeleton Warriors - GS"
 					},
 					{
-						"ref": "The Ghost Ship/Up the Lift/Chalice"
+						"ref": "The Ghost Ship/Before Captain/Book: Boss Strategy - GS",
+						"name": "Book: Boss Strategy - GS"
 					},
 					{
-						"ref": "The Ghost Ship/Clear/Cleared The Ghost Ship"
+						"ref": "The Ghost Ship/Up the Lift/Chalice",
+						"name": "Chalice"
+					},
+					{
+						"ref": "The Ghost Ship/Clear/Cleared: The Ghost Ship",
+						"name": "Cleared: The Ghost Ship"
 					}
 				]
 			},
@@ -1530,16 +2132,28 @@
 				],
 				"sections": [
 					{
-						"ref": "The Entrance Hall/Clear/Books"
+						"ref": "The Entrance Hall/Entrance/Book: Imp Magic - EH",
+						"name": "Book: Imp Magic - EH"
 					},
 					{
-						"ref": "The Entrance Hall/Clear/Gargoyles"
+						"ref": "The Entrance Hall/Zarok's Library/Book: Spell Book - EH",
+						"name": "Book: Spell Book - EH"
 					},
 					{
-						"ref": "The Entrance Hall/Zarok's Library/Chalice"
+						"ref": "The Entrance Hall/Zarok's Library[1]/Book: Zaroks Diary - EH",
+						"name": "Book: Zaroks Diary - EH"
 					},
 					{
-						"ref": "The Entrance Hall/Clear/Cleared The Entrance Hall"
+						"ref": "The Entrance Hall/Entrance[1]/Gargoyle: Entrance - EH",
+						"name": "Gargoyle: Entrance - EH"
+					},
+					{
+						"ref": "The Entrance Hall/Zarok's Library[2]/Chalice",
+						"name": "Chalice"
+					},
+					{
+						"ref": "The Entrance Hall/Clear/Cleared: The Entrance Hall",
+						"name": "Cleared: The Entrance Hall"
 					}
 				]
 			},
@@ -1554,58 +2168,76 @@
 				],
 				"sections": [
 					{
-						"ref": "The Time Device/Entrance Fountain/Life Bottle"
+						"ref": "The Time Device/Entrance Fountain/Life Bottle: The Time Device",
+						"name": "Life Bottle: The Time Device"
 					},
 					{
-						"ref": "The Time Device/South Path/Chaos Rune"
+						"ref": "The Time Device/South Path/Chaos Rune: The Time Device",
+						"name": "Chaos Rune: The Time Device"
 					},
 					{
-						"ref": "The Time Device/Lasers[1]/Earth Rune"
+						"ref": "The Time Device/Lasers[1]/Earth Rune: The Time Device",
+						"name": "Earth Rune: The Time Device"
 					},
 					{
-						"ref": "The Time Device/Earth Station[1]/Moon Rune"
+						"ref": "The Time Device/Earth Station[1]/Moon Rune: The Time Device",
+						"name": "Moon Rune: The Time Device"
 					},
 					{
-						"ref": "The Time Device/Time Spinners[1]/Time Rune"
+						"ref": "The Time Device/Time Spinners[1]/Time Rune: The Time Device",
+						"name": "Time Rune: The Time Device"
 					},
 					{
-						"ref": "The Time Device/Time Spinners/Silver Shield"
+						"ref": "The Time Device/Time Spinners/Equipment: Silver Shield on Clock - TD",
+						"name": "Equipment: Silver Shield on Clock - TD"
 					},
 					{
-						"ref": "The Time Device/Lasers[2]/Coin Bag 1"
+						"ref": "The Time Device/Lasers[2]/Gold Coins: Laser Platform Right - TD",
+						"name": "Gold Coins: Laser Platform Right - TD"
 					},
 					{
-						"ref": "The Time Device/Lasers[2]/Coin Bag 2"
+						"ref": "The Time Device/Lasers[2]/Gold Coins: Laser Platform Left - TD",
+						"name": "Gold Coins: Laser Platform Left - TD"
 					},
 					{
-						"ref": "The Time Device/Time Spinners[2]/Coin Chest 1"
+						"ref": "The Time Device/Time Spinners[2]/Gold Coins: Lone Pillar 1 - TD",
+						"name": "Gold Coins: Lone Pillar 1 - TD"
 					},
 					{
-						"ref": "The Time Device/Time Spinners[2]/Coin Chest 2"
+						"ref": "The Time Device/Time Spinners[2]/Gold Coins: Lone Pillar 2 - TD",
+						"name": "Gold Coins: Lone Pillar 2 - TD"
 					},
 					{
-						"ref": "The Time Device/Time Spinners[2]/Coin Chest 3"
+						"ref": "The Time Device/Time Spinners[2]/Gold Coins: Lone Pillar 3 - TD",
+						"name": "Gold Coins: Lone Pillar 3 - TD"
 					},
 					{
-						"ref": "The Time Device/Earth Station/Coin Bag 1"
+						"ref": "The Time Device/Earth Station/Gold Coins: Bag at Earth Station 1 - TD",
+						"name": "Gold Coins: Bag at Earth Station 1 - TD"
 					},
 					{
-						"ref": "The Time Device/Earth Station/Coin Bag 2"
+						"ref": "The Time Device/Earth Station/Gold Coins: Bag at Earth Station 2 - TD",
+						"name": "Gold Coins: Bag at Earth Station 2 - TD"
 					},
 					{
-						"ref": "The Time Device/Earth Station/Coin Bag 3"
+						"ref": "The Time Device/Earth Station/Gold Coins: Bag at Earth Station 3 - TD",
+						"name": "Gold Coins: Bag at Earth Station 3 - TD"
 					},
 					{
-						"ref": "The Time Device/Clear/Books"
+						"ref": "The Time Device/Station/Book: The Train - TD",
+						"name": "Book: The Train - TD"
 					},
 					{
-						"ref": "The Time Device/Clear/Gargoyles"
+						"ref": "The Time Device/Adjustable Clock/Gargoyle: Entrance - TD",
+						"name": "Gargoyle: Entrance - TD"
 					},
 					{
-						"ref": "The Time Device/Lasers/Chalice"
+						"ref": "The Time Device/Lasers/Chalice",
+						"name": "Chalice"
 					},
 					{
-						"ref": "The Time Device/Clear/Cleared The Time Device"
+						"ref": "The Time Device/Clear/Cleared: The Time Device",
+						"name": "Cleared: The Time Device"
 					}
 				]
 			},
@@ -1620,16 +2252,20 @@
 				],
 				"sections": [
 					{
-						"ref": "The Time Device/Zarok's Lair/Good Lightning"
+						"ref": "The Time Device/Zarok's Arena/Equipment: Good Lightning - ZL",
+						"name": "Equipment: Good Lightning - ZL"
 					},
 					{
-						"ref": "The Time Device/Zarok's Lair[1]/Silver Shield"
+						"ref": "The Time Device/Zarok's Arena[1]/Equipment: Silver Shield - ZL Arena",
+						"name": "Equipment: Silver Shield - ZL Arena"
 					},
 					{
-						"ref": "The Time Device/Clear Game/Gargoyles"
+						"ref": "The Time Device/Entrance/Gargoyle: Entrance - ZL",
+						"name": "Gargoyle: Entrance - ZL"
 					},
 					{
-						"ref": "The Time Device/Clear Game/Beat Zarok"
+						"ref": "The Time Device/Clear Game/Beat Zarok",
+						"name": "Beat Zarok"
 					}
 				]
 			}
