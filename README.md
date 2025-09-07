@@ -12,8 +12,8 @@ Due to the way the game deals with key items, it's hard to see what exactly you 
 
 # Notes
 
-Book and Gargoyles have been put at level clear location for now without specific logic.
 
-# Thanks
+
+# Credit
 
 VGCartography for the level maps - https://www.deviantart.com/vgcartography/gallery/89842419/medievil-1998
