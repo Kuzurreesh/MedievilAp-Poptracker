@@ -20,6 +20,31 @@ Chal = {
     [19] = "@The Entrance Hall/Zarok's Library[2]/Chalice",
     [20] = "@The Time Device/Lasers/Chalice"
 }
+Where = {
+    ["@The Ant C"] = "The Ant Caves",
+    ["@The Asylu"] = "The Asylum Grounds",
+    ["@Cemetery "] = "Cemetery Hill and Hilltop Mausoleum",
+    ["@The Cryst"] = "The Crystal Caves",
+    ["@Dan's Cry"] = "Dan's Crypt",
+    ["@Enchanted"] = "Enchanted Earth",
+    ["@The Entra"] = "The Entrance Hall",
+    ["@The Gallo"] = "The Gallows Gauntlet",
+    ["@The Haunt"] = "The Haunted Ruins",
+    ["@Hilltop M"] = "Cemetery Hill and Hilltop Mausoleum",
+    ["@Inside th"] = "Inside the Asylum",
+    ["@Pools of "] = "Pools of the Ancient Dead",
+    ["@Pumpkin G"] = "Pumpkin Gorge",
+    ["@Pumpkin S"] = "Pumpkin Serpent",
+    ["@Return to"] = "Return to the Graveyard",
+    ["@Scarecrow"] = "Scarecrow Fields",
+    ["@Sleeping "] = "Sleeping Village",
+    ["@The Ghost"] = "The Ghost Ship",
+    ["@The Grave"] = "The Graveyard",
+    ["@The Lake/"] = "The Lake",
+    ["@The Time "] = "The Time Device and Zarok's Lair",
+    ["@Zarok's L"] = "The Time Device and Zarok's Lair",
+
+}
 
 function ChaliceCount(section)
     if section.FullID:sub(-7) == "Chalice" then

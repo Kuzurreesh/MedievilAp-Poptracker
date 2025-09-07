@@ -166,6 +166,7 @@ function onLocation(location_id, location_name)
         return
     end
     local v = LOCATION_MAPPING[location_id]
+    
     if not v and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find location mapping for id %s", location_id))
     end
@@ -181,6 +182,13 @@ function onLocation(location_id, location_name)
         end
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find object for code %s", v[1]))
+    end
+    local v2 = v[1]:sub(1,10)
+    if v2 then
+    local v3 = Where[v2]
+    if v3 then
+        Tracker:UiHint("ActivateTab", v3)
+    end
     end
 end
 
