@@ -109,9 +109,6 @@
             },
             {
                 "name": "Prison",
-                "access_rules": [
-                    "$AsylumEarth"
-                ],
                 "map_locations": [
                     {
                         "map": "Inside the Asylum",
@@ -127,6 +124,9 @@
             },
             {
                 "name": "Prison",
+                "access_rules": [
+                    "$AsylumEarth"
+                ],
                 "map_locations": [
                     {
                         "map": "Inside the Asylum",
@@ -142,6 +142,9 @@
             },
             {
                 "name": "Clear",
+                "access_rules": [
+                    "$AsylumEarth"
+                ],
                 "map_locations": [
                     {
                         "map": "Inside the Asylum",

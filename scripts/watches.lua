@@ -22,7 +22,7 @@ Chal = {
 }
 Where = {
     ["@The Ant C"] = "The Ant Caves",
-    ["@The Asylu"] = "The Asylum Grounds",
+    ["@Asylum Gr"] = "The Asylum Grounds",
     ["@Cemetery "] = "Cemetery Hill and Hilltop Mausoleum",
     ["@The Cryst"] = "The Crystal Caves",
     ["@Dan's Cry"] = "Dan's Crypt",
