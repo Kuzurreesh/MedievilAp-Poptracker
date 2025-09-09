@@ -390,7 +390,7 @@ function Chalices(number)
 			return true
 		end
 	end
-	if Can("@Inside the Asylum/Prison/Chalice") then
+	if Can("@Inside the Asylum/Prison/Chalice") and Can("@Inside the Asylum/Clear/Cleared: Inside the Asylum") then
 		count = count + 1
 		if count >= number then
 			return true
