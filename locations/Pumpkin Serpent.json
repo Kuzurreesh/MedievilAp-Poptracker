@@ -22,7 +22,12 @@
                         "name": "Book: Pumpkin King - PS",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -42,7 +47,7 @@
                 ]
             },
             {
-                "name": "Behind House",
+                "name": "Behind House[1]",
                 "map_locations": [
                     {
                         "map": "Pumpkin Serpent",
@@ -70,7 +75,12 @@
                         "name": "Book: Pumpkin Witch - PS",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -144,7 +154,7 @@
                 ]
             },
             {
-                "name": "Down the Well",
+                "name": "Down the Well[1]",
                 "map_locations": [
                     {
                         "map": "Pumpkin Serpent",
@@ -155,7 +165,12 @@
                 "sections": [
                     {
                         "name": "Chalice",
-                        "visibility_rules": "include_chalices_in_checks",
+                        "access_rules": [
+                            "include_chalices_in_checks"
+                        ],
+                        "visibility_rules": [
+                            "include_chalices_in_checks"
+                        ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
                     }

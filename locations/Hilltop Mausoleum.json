@@ -26,7 +26,13 @@
                     {
                         "name": "Book: Glass Demon - HM",
                         "chest_unopened_img": "images/labels/Book3.png",
-                        "chest_opened_img": "images/labels/bookdisabled.png"
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -43,7 +49,13 @@
                     {
                         "name": "Book: Thieving Imps - HM",
                         "chest_unopened_img": "images/labels/Book3.png",
-                        "chest_opened_img": "images/labels/bookdisabled.png"
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -63,7 +75,7 @@
                 ]
             },
             {
-                "name": "Basement West",
+                "name": "Basement West[1]",
                 "map_locations": [
                     {
                         "map": "Cemetery Hill",
@@ -180,7 +192,7 @@
                 ]
             },
             {
-                "name": "Below Chapel",
+                "name": "Below Chapel[1]",
                 "access_rules": "$HillEarth",
                 "map_locations": [
                     {
@@ -194,8 +206,13 @@
                     {
                         "name": "Book: Demon Heart - HM",
                         "chest_unopened_img": "images/labels/Book3.png",
-                        "chest_opened_img": "images/labels/bookdisabled.png"
-                    
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -235,7 +252,7 @@
                 ]
             },
             {
-                "name": "Basement East",
+                "name": "Basement East[1]",
                 "access_rules": "$HillMoon",
                 "map_locations": [
                     {
@@ -251,7 +268,7 @@
                 ]
             },
             {
-                "name": "Basement East",
+                "name": "Basement East[2]",
                 "access_rules": "$HillMoon",
                 "map_locations": [
                     {
@@ -267,7 +284,7 @@
                 ]
             },
             {
-                "name": "Music Room",
+                "name": "Music Room[1]",
                 "access_rules": "$HillEarth",
                 "map_locations": [
                     {
@@ -286,7 +303,7 @@
                 ]
             },
             {
-                "name": "Music Room",
+                "name": "Music Room[2]",
                 "access_rules": "$HillEarth",
                 "map_locations": [
                     {
@@ -299,8 +316,13 @@
                     {
                         "name": "Book: Phantom of the Opera - HM",
                         "chest_unopened_img": "images/labels/Book3.png",
-                        "chest_opened_img": "images/labels/bookdisabled.png"
-                    
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -320,9 +342,11 @@
                     {
                         "name": "Chalice",
                         "access_rules": [
-                            "$HillMoon"
+                            "include_chalices_in_checks, $HillMoon"
                         ],
-                        "visibility_rules": "include_chalices_in_checks",
+                        "visibility_rules": [
+                            "include_chalices_in_checks"
+                        ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
                     },
@@ -338,7 +362,7 @@
                 ]
             },
             {
-                "name": "Glass Heart",
+                "name": "Glass Heart[1]",
                 "access_rules": [
                     "$HillChaos, $HillEarth"
                 ],

@@ -98,7 +98,7 @@
                 ]
             },
             {
-                "name": "Shop",
+                "name": "Shop[1]",
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
@@ -176,7 +176,12 @@
                         "name": "Book: Skull Key - RTG",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -201,7 +206,7 @@
                 ]
             },
             {
-                "name": "Cliffs Left",
+                "name": "Cliffs Left[1]",
                 "access_rules": [
                     "$ReturnStar"
                 ],
@@ -219,7 +224,7 @@
                 ]
             },
             {
-                "name": "Undertakers Entrance",
+                "name": "Undertakers Entrance[1]",
                 "access_rules": [
                     "$ReturnStar"
                 ],
@@ -237,7 +242,7 @@
                 ]
             },
             {
-                "name": "Undertakers Entrance",
+                "name": "Undertakers Entrance[2]",
                 "map_locations": [
                     {
                         "map": "Return to the Graveyard",
@@ -251,12 +256,17 @@
                         "name": "Book: Daring Dash - RTG",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
             {
-                "name": "Shop",
+                "name": "Shop[2]",
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
@@ -318,12 +328,17 @@
                         "name": "Book: Secret Areas - RTG",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
             {
-                "name": "Secret Area",
+                "name": "Secret Area[1]",
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
@@ -369,7 +384,12 @@
                 "sections": [
                     {
                         "name": "Chalice",
-                        "visibility_rules": "include_chalices_in_checks",
+                        "access_rules": [
+                            "include_chalices_in_checks"
+                        ],
+                        "visibility_rules": [
+                            "include_chalices_in_checks"
+                        ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
                     }
@@ -403,7 +423,12 @@
                         "name": "Gargoyle: Exit - RTG",
                         "chest_unopened_img": "images/labels/gargoyle2.png",
                         "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "visibility_rules": "gargoylesanity"
+                        "access_rules": [
+                            "gargoylesanity"
+                        ],
+                        "visibility_rules": [
+                            "gargoylesanity"
+                        ]
                     }
                 ]
             }

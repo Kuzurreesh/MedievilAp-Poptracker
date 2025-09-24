@@ -22,7 +22,12 @@
                         "name": "Gargoyle: Cave Entrance - CC",
                         "chest_unopened_img": "images/labels/gargoyle2.png",
                         "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "visibility_rules": "gargoylesanity"
+                        "access_rules": [
+                            "gargoylesanity"
+                        ],
+                        "visibility_rules": [
+                            "gargoylesanity"
+                        ]
                     }
                 ]
             },
@@ -57,7 +62,7 @@
                 ]
             },
             {
-                "name": "Light Beams",
+                "name": "Light Beams[1]",
                 "map_locations": [
                     {
                         "map": "Crystal Caves",
@@ -87,7 +92,7 @@
                 ]
             },
             {
-                "name": "Cavern Ledge",
+                "name": "Cavern Ledge[1]",
                 "map_locations": [
                     {
                         "map": "Crystal Caves",
@@ -130,7 +135,12 @@
                         "name": "Book: Dragon Book - CC",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -171,7 +181,7 @@
                 ]
             },
             {
-                "name": "Water Pit",
+                "name": "Water Pit[1]",
                 "access_rules": [
                     "$CrystalEarth"
                 ],
@@ -226,7 +236,7 @@
                 ]
             },
             {
-                "name": "Dragon's Lair",
+                "name": "Dragon's Lair[1]",
                 "access_rules": [
                     "$CrystalEarth"
                 ],
@@ -251,7 +261,7 @@
                 ]
             },
             {
-                "name": "Dragon's Lair",
+                "name": "Dragon's Lair[2]",
                 "access_rules": [
                     "$CrystalEarth"
                 ],
@@ -276,7 +286,7 @@
                 ]
             },
             {
-                "name": "Dragon's Lair",
+                "name": "Dragon's Lair[3]",
                 "access_rules": [
                     "$CrystalEarth"
                 ],
@@ -295,7 +305,7 @@
                 ]
             },
             {
-                "name": "Dragon's Lair",
+                "name": "Dragon's Lair[4]",
                 "access_rules": [
                     "$CrystalEarth"
                 ],
@@ -323,7 +333,7 @@
                 ]
             },
             {
-                "name": "Dragon's Lair",
+                "name": "Dragon's Lair[5]",
                 "access_rules": [
                     "$CrystalEarth"
                 ],
@@ -342,7 +352,7 @@
                 ]
             },
             {
-                "name": "Dragon's Lair",
+                "name": "Dragon's Lair[6]",
                 "access_rules": [
                     "boulder, dragongem: 2, $CrystalEarth"
                 ],
@@ -361,7 +371,10 @@
                 ]
             },
             {
-                "name": "Dragon's Lair",
+                "name": "Dragon's Lair[7]",
+                "access_rules": [
+                    "$CrystalEarth"
+                ],
                 "map_locations": [
                     {
                         "map": "Crystal Caves",
@@ -374,7 +387,12 @@
                         "name": "Book - Summon Dragon - CC",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -393,7 +411,12 @@
                 "sections": [
                     {
                         "name": "Chalice",
-                        "visibility_rules": "include_chalices_in_checks",
+                        "access_rules": [
+                            "include_chalices_in_checks"
+                        ],
+                        "visibility_rules": [
+                            "include_chalices_in_checks"
+                        ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
                     }

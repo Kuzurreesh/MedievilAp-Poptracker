@@ -21,6 +21,12 @@
                     {
                         "name": "Book: Breakables - CH",
                         "chest_unopened_img": "images/labels/Book3.png",
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ],
                         "chest_opened_img": "images/labels/bookdisabled.png"
                     }
                 ]
@@ -59,6 +65,12 @@
                     {
                         "name": "Book: Club - CH",
                         "chest_unopened_img": "images/labels/Book3.png",
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ],
                         "chest_opened_img": "images/labels/bookdisabled.png"
                     }
                 ]
@@ -94,7 +106,7 @@
                 ]
             },
             {
-                "name": "Entrance Witch's Cave",
+                "name": "Entrance Witch's Cave[1]",
                 "map_locations": [
                     {
                         "map": "Cemetery Hill",
@@ -106,6 +118,12 @@
                     {
                         "name": "Book: Destroy Boulder - CH",
                         "chest_unopened_img": "images/labels/Book3.png",
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ],
                         "chest_opened_img": "images/labels/bookdisabled.png"
                     }
                 ]
@@ -126,7 +144,13 @@
                     {
                         "name": "Gargoyle: Witch Cave - CH",
                         "chest_unopened_img": "images/labels/gargoyle2.png",
-                        "chest_opened_img": "images/labels/gargoyledisabled.png"
+                        "chest_opened_img": "images/labels/gargoyledisabled.png",
+                        "access_rules": [
+                            "gargoylesanity"
+                        ],
+                        "visibility_rules": [
+                            "gargoylesanity"
+                        ]
                     }
                 ]
             },
@@ -146,12 +170,18 @@
                     {
                         "name": "Book: A Guide to Covens",
                         "chest_unopened_img": "images/labels/Book3.png",
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ],
                         "chest_opened_img": "images/labels/bookdisabled.png"
                     }
                 ]
             },
             {
-                "name": "Boulder Hill",
+                "name": "Boulder Hill[1]",
                 "map_locations": [
                     {
                         "map": "Cemetery Hill",
@@ -166,7 +196,7 @@
                 ]
             },
             {
-                "name": "Boulder Hill",
+                "name": "Boulder Hill[2]",
                 "map_locations": [
                     {
                         "map": "Cemetery Hill",
@@ -214,12 +244,18 @@
                     {
                         "name": "Book: Hidden Locations - CH",
                         "chest_unopened_img": "images/labels/Book3.png",
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ],
                         "chest_opened_img": "images/labels/bookdisabled.png"
                     }
                 ]
             },
             {
-                "name": "Arena",
+                "name": "Arena[1]",
                 "access_rules": [
                     "club"
                 ],
@@ -233,14 +269,19 @@
                 "sections": [
                     {
                         "name": "Chalice",
-                        "visibility_rules": "include_chalices_in_checks",
+                        "access_rules": [
+                            "include_chalices_in_checks"
+                        ],
+                        "visibility_rules": [
+                            "include_chalices_in_checks"
+                        ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
                     }
                 ]
             },
             {
-                "name": "Arena",
+                "name": "Arena[2]",
                 "access_rules": [
                     "club"
                 ],
@@ -258,7 +299,7 @@
                 ]
             },
             {
-                "name": "Arena",
+                "name": "Arena[3]",
                 "access_rules": [
                     "club"
                 ],
@@ -276,7 +317,7 @@
                 ]
             },
             {
-                "name": "Arena",
+                "name": "Arena[4]",
                 "access_rules": [
                     "club"
                 ],
@@ -294,7 +335,7 @@
                 ]
             },
             {
-                "name": "Boulder Hill",
+                "name": "Boulder Hill[3]",
                 "map_locations": [
                     {
                         "map": "Cemetery Hill",
@@ -309,7 +350,7 @@
                 ]
             },
             {
-                "name": "Boulder Hill",
+                "name": "Boulder Hill[4]",
                 "map_locations": [
                     {
                         "map": "Cemetery Hill",

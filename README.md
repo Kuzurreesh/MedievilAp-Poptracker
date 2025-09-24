@@ -5,7 +5,7 @@ Due to the way the game deals with key items, it's hard to see what exactly you 
 # To Use
 
 - Download [Poptracker](https://github.com/black-sliver/PopTracker/releases)
-- Download the [latest release](https://github.com/riezahughes/MedievilAp-Poptracker/releases) of this pack
+- Download the [latest release](https://github.com/Kuzurreesh/MedievilAp-Poptracker/releases) of this pack
 - Put the zip file into the "packs" folder of poptracker
 - run poptracker and load the pack
 - click the "ap" icon and connect to your AP game!

@@ -40,14 +40,19 @@
                 "sections": [
                     {
                         "name": "Chalice",
-                        "visibility_rules": "include_chalices_in_checks",
+                        "access_rules": [
+                            "include_chalices_in_checks"
+                        ],
+                        "visibility_rules": [
+                            "include_chalices_in_checks"
+                        ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
                     }
                 ]
             },
             {
-                "name": "Behind Wall",
+                "name": "Behind Wall[1]",
                 "map_locations": [
                     {
                         "map": "Pumpkin Gorge",
@@ -99,7 +104,7 @@
                 ]
             },
             {
-                "name": "Moon Rune Hut",
+                "name": "Moon Rune Hut[1]",
                 "access_rules": [
                     "$GorgeMoon"
                 ],
@@ -138,7 +143,7 @@
                 ]
             },
             {
-                "name": "Moon Rune Path",
+                "name": "Moon Rune Path[1]",
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Scarecrow Fields/Clear/Cleared: Scarecrow Fields",
@@ -258,12 +263,17 @@
                         "name": "Book: Mushrooms - PG",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
             {
-                "name": "Rising Mushrooms",
+                "name": "Rising Mushrooms[1]",
                 "access_rules": [
                     "$GorgeChaos"
                 ],
@@ -320,7 +330,7 @@
                 ]
             },
             {
-                "name": "Roots Clearing",
+                "name": "Roots Clearing[1]",
                 "access_rules": [
                     "$GorgeChaos, $GorgeStar, $GorgeTime"
                 ],
@@ -354,7 +364,12 @@
                         "name": "Gargoyle: Exit - PG",
                         "chest_unopened_img": "images/labels/gargoyle2.png",
                         "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "visibility_rules": "gargoylesanity"
+                        "access_rules": [
+                            "gargoylesanity"
+                        ],
+                        "visibility_rules": [
+                            "gargoylesanity"
+                        ]
                     }
                 ]
             },

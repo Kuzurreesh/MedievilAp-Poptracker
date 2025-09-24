@@ -81,8 +81,8 @@ LOCATION_MAPPING = {
 	[99255014] = { "@Hilltop Mausoleum/Below Chapel/Gold Coins: After Earth Rune Door - HM" },
 	[99255015] = { "@Hilltop Mausoleum/Basement East[2]/Gold Coins: Chest in Moon Room - HM" },
 	[99255016] = { "@Hilltop Mausoleum/Start/Book: Glass Demon - HM" },
-	[99255017] = { "@Hilltop Mausoleum/Below Chapel[1]/Book: Demon Heart - HM" },
-	[99255018] = { "@Hilltop Mausoleum/Music Room[2]/Book: Phantom of the Opera - HM" },
+	[99255017] = { "@Hilltop Mausoleum/Music Room[2]/Book: Phantom of the Opera - HM" },
+	[99255018] = { "@Hilltop Mausoleum/Below Chapel[1]/Book: Demon Heart - HM" },
 	[99255019] = { "@Hilltop Mausoleum/Basement/Book: Thieving Imps - HM" },
 	[99276000] = { "@Hilltop Mausoleum/Secret Alcove/Gold Coins: Gold Chest at Phantom of the Opera 1 - HM" },
 	[99276001] = { "@Hilltop Mausoleum/Secret Alcove/Gold Coins: Gold Chest at Phantom of the Opera 2 - HM" },
@@ -420,7 +420,7 @@ LOCATION_MAPPING = {
 	[99264009] = { "@The Gallows Gauntlet/Near Early Exit[1]/Book: Early Exit - GG" },
 	[99264010] = { "@The Gallows Gauntlet/Dragon Gate/Book: Magical Barrier - GG" },
 	[99264012] = { "@The Gallows Gauntlet/Chalice Gate/Chalice" },
-	[99264011] = { "@The Gallows Gauntlet/Clear/Cleared: The Gallows Gauntlet" },
+	[99264011] = { "@The Gallows Gauntlet/Clear/Cleared: The Gallows Gauntlet", "@The Gallows Gauntlet/Clear[1]/Cleared: The Gallows Gauntlet" },
 
 	--The Haunted Ruins
 	[99269000] = { "@The Haunted Ruins/Crown Room[1]/Key Item: King Peregrine's Crown - HR" },
@@ -527,8 +527,9 @@ LOCATION_MAPPING = {
 	[99251017] = { "@The World Map/Hall of Heroes/Chalice Reward 18" },
 	[99251018] = { "@The World Map/Hall of Heroes/Chalice Reward 19" },
 	[99251019] = { "@The World Map/Hall of Heroes/Chalice Reward 20" },
-	[99251020] = { "@The World Map/Hall of Heroes/Books" },
-	[99251021] = { "@The World Map/Hall of Heroes/Gargoyles" }
+	[99251020] = { "@The World Map/Hall of Heroes/Book: Heroes of Eld - HH" },
+	[99251021] = { "@The World Map/Hall of Heroes/Book: Worthy Hero - HH" },
+	[99251022] = { "@The World Map/Hall of Heroes/Gargoyle: Entrance - HH" }
 
 
 

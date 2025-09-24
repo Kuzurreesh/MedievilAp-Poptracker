@@ -438,7 +438,7 @@ function Chalices(number)
 			return true
 		end
 	end
-	if Can("@The Ghost Ship/Up the Lift/Chalice") then
+	if Can("@The Ghost Ship/Up the Lift/Chalice") and Can("@The Ghost Ship/Clear/Cleared: The Ghost Ship") then
 		count = count + 1
 		if count >= number then
 			return true
@@ -457,4 +457,22 @@ function Chalices(number)
 		end
 	end
 	return count >= number
+end
+
+function Highlighting(list)
+	for key, value in pairs(list) do
+		local obj = Tracker:FindObjectForCode(value[1])
+		if obj then
+			obj.Highlight = Highlight.NoPriority
+		end
+	end
+end
+
+function Unlighting(list)
+	for key, value in pairs(list) do
+		local obj = Tracker:FindObjectForCode(value[1])
+		if obj then
+			obj.Highlight = Highlight.None
+		end
+	end
 end

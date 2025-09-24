@@ -22,7 +22,12 @@
                         "name": "Book: Coven of Witches - EE",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -58,7 +63,12 @@
                         "name": "Book: Keep Out - EE",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -81,7 +91,7 @@
                 ]
             },
             {
-                "name": "Shadow Head",
+                "name": "Shadow Head[1]",
                 "access_rules": [
                     "$EnchantEarth"
                 ],
@@ -97,7 +107,12 @@
                         "name": "Gargoyle: Outside Demon Entrance - EE",
                         "chest_unopened_img": "images/labels/gargoyle2.png",
                         "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "visibility_rules": "gargoylesanity"
+                        "access_rules": [
+                            "gargoylesanity"
+                        ],
+                        "visibility_rules": [
+                            "gargoylesanity"
+                        ]
                     }
                 ]
             },
@@ -118,7 +133,12 @@
                         "name": "Gargoyle: Outside Demon Exit- EE",
                         "chest_unopened_img": "images/labels/gargoyle2.png",
                         "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "visibility_rules": "gargoylesanity"
+                        "access_rules": [
+                            "gargoylesanity"
+                        ],
+                        "visibility_rules": [
+                            "gargoylesanity"
+                        ]
                     }
                 ]
             },
@@ -136,7 +156,12 @@
                         "name": "Book: Dragon Bird - EE",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -276,7 +301,7 @@
                 ]
             },
             {
-                "name": "Shadow Cave",
+                "name": "Shadow Cave[1]",
                 "access_rules": [
                     "shadowtalisman, shadowartefact, $EnchantEarth"
                 ],
@@ -290,14 +315,19 @@
                 "sections": [
                     {
                         "name": "Chalice",
-                        "visibility_rules": "include_chalices_in_checks",
+                        "access_rules": [
+                            "include_chalices_in_checks"
+                        ],
+                        "visibility_rules": [
+                            "include_chalices_in_checks"
+                        ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
                     }
                 ]
             },
             {
-                "name": "Shadow Cave",
+                "name": "Shadow Cave[2]",
                 "access_rules": [
                     "shadowtalisman, shadowartefact, $EnchantEarth"
                 ],
@@ -315,7 +345,7 @@
                 ]
             },
             {
-                "name": "Shadow Cave",
+                "name": "Shadow Cave[3]",
                 "access_rules": [
                     "shadowtalisman, shadowartefact, $EnchantEarth"
                 ],
@@ -331,7 +361,12 @@
                         "name": "Book: Take the Talisman - EE",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },

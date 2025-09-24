@@ -22,7 +22,12 @@
                         "name": "Book: Chickens - HR",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -40,7 +45,12 @@
                         "name": "Gargoyle: Drawbridge - HR",
                         "chest_unopened_img": "images/labels/gargoyle2.png",
                         "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "visibility_rules": "gargoylesanity"
+                        "access_rules": [
+                            "gargoylesanity"
+                        ],
+                        "visibility_rules": [
+                            "gargoylesanity"
+                        ]
                     }
                 ]
             },
@@ -58,7 +68,12 @@
                         "name": "Gargoyle: Steel Gates - HR",
                         "chest_unopened_img": "images/labels/gargoyle2.png",
                         "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "visibility_rules": "gargoylesanity"
+                        "access_rules": [
+                            "gargoylesanity"
+                        ],
+                        "visibility_rules": [
+                            "gargoylesanity"
+                        ]
                     }
                 ]
             },
@@ -78,7 +93,7 @@
                 ]
             },
             {
-                "name": "Front Wall",
+                "name": "Front Wall[1]",
                 "map_locations": [
                     {
                         "map": "Haunted Ruins",
@@ -91,7 +106,12 @@
                         "name": "Book: Farmers - HR",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -124,7 +144,12 @@
                         "name": "Book: Oil - HR",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -145,7 +170,12 @@
                         "name": "Book: Escape - HR",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -165,7 +195,7 @@
                 ]
             },
             {
-                "name": "Inner Wall East",
+                "name": "Inner Wall East[1]",
                 "map_locations": [
                     {
                         "map": "Haunted Ruins",
@@ -229,7 +259,12 @@
                         "name": "Book: Sad King - HR",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -250,7 +285,12 @@
                         "name": "Book: Ghost King - HR",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -291,7 +331,7 @@
                 ]
             },
             {
-                "name": "Crown Room",
+                "name": "Crown Room[1]",
                 "access_rules": [
                     "$RuinsChaos"
                 ],
@@ -310,7 +350,12 @@
                         "name": "Book: The Volcano - HR",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -330,7 +375,7 @@
                 ]
             },
             {
-                "name": "Outer Wall West",
+                "name": "Outer Wall West[1]",
                 "map_locations": [
                     {
                         "map": "Haunted Ruins",
@@ -348,7 +393,7 @@
                 ]
             },
             {
-                "name": "Outer Wall West",
+                "name": "Outer Wall West[2]",
                 "access_rules": [
                     "boulder, crown, golem, $RuinsChaos"
                 ],
@@ -362,7 +407,12 @@
                 "sections": [
                     {
                         "name": "Chalice",
-                        "visibility_rules": "include_chalices_in_checks",
+                        "access_rules": [
+                            "include_chalices_in_checks"
+                        ],
+                        "visibility_rules": [
+                            "include_chalices_in_checks"
+                        ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
                     }

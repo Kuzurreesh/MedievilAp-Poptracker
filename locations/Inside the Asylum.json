@@ -97,7 +97,12 @@
                         "name": "Earth Rune: Inside the Asylum"
                     },
                     {
-                        "visibility_rules": "include_chalices_in_checks",
+                        "access_rules": [
+                            "include_chalices_in_checks"
+                        ],
+                        "visibility_rules": [
+                            "include_chalices_in_checks"
+                        ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png",
                         "name": "Chalice"
@@ -108,7 +113,7 @@
                 ]
             },
             {
-                "name": "Prison",
+                "name": "Prison[1]",
                 "map_locations": [
                     {
                         "map": "Inside the Asylum",
@@ -123,7 +128,7 @@
                 ]
             },
             {
-                "name": "Prison",
+                "name": "Prison[2]",
                 "access_rules": [
                     "$AsylumEarth"
                 ],

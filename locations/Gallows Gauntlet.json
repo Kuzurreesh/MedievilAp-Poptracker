@@ -22,7 +22,12 @@
                         "name": "Book: Serpent of Gallowmere - GG",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -60,7 +65,7 @@
                 ]
             },
             {
-                "name": "Stone Dragon 1",
+                "name": "Stone Dragon 1[1]",
                 "map_locations": [
                     {
                         "map": "Gallows Gauntlet",
@@ -73,7 +78,12 @@
                         "name": "Book: Dragon Armour - GG",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -108,7 +118,7 @@
                 ]
             },
             {
-                "name": "Near Early Exit",
+                "name": "Near Early Exit[1]",
                 "map_locations": [
                     {
                         "map": "Gallows Gauntlet",
@@ -121,7 +131,12 @@
                         "name": "Book: Early Exit - GG",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -157,7 +172,12 @@
                         "name": "Book: Magical Barrier - GG",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -194,14 +214,19 @@
                 "sections": [
                     {
                         "name": "Chalice",
-                        "visibility_rules": "include_chalices_in_checks",
+                        "access_rules": [
+                            "include_chalices_in_checks"
+                        ],
+                        "visibility_rules": [
+                            "include_chalices_in_checks"
+                        ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
                     }
                 ]
             },
             {
-                "name": "Chalice Gate",
+                "name": "Chalice Gate[1]",
                 "access_rules": [
                     "dragonarmour"
                 ],
@@ -220,6 +245,9 @@
             },
             {
                 "name": "Clear",
+                "access_rules": [
+                    "$GallowStar"
+                ],
                 "map_locations": [
                     {
                         "map": "Gallows Gauntlet",
@@ -232,11 +260,25 @@
                 "sections": [
                     {
                         "name": "Cleared: The Gallows Gauntlet",
-                        "access_rules": [
-                            "$GallowStar"
-                        ],
-                        "chest_unopened_img": "images/labels/Not Cleared.png",
-                        "chest_opened_img": "images/labels/Cleared.png"
+                        "hosted_item": "clearedgallows"
+                    }
+                ]
+            },
+            {
+                "name": "Clear[1]",
+                "map_locations": [
+                    {
+                        "map": "Gallows Gauntlet",
+                        "x": 1300,
+                        "y": 670,
+                        "shape": "diamond",
+                        "size": 60
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cleared: The Gallows Gauntlet",
+                        "hosted_item": "clearedgallows"
                     }
                 ]
             }

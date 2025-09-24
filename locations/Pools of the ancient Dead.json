@@ -24,7 +24,7 @@
                 ]
             },
             {
-                "name": "Entrance",
+                "name": "Entrance[1]",
                 "map_locations": [
                     {
                         "map": "Pools of the Ancient Dead",
@@ -37,12 +37,17 @@
                         "name": "Book: Enemy Warning - PAD",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
             {
-                "name": "Entrance",
+                "name": "Entrance[2]",
                 "map_locations": [
                     {
                         "map": "Pools of the Ancient Dead",
@@ -55,7 +60,12 @@
                         "name": "Gargoyle: Entrance - PAD",
                         "chest_unopened_img": "images/labels/gargoyle2.png",
                         "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "visibility_rules": "gargoylesanity"
+                        "access_rules": [
+                            "gargoylesanity"
+                        ],
+                        "visibility_rules": [
+                            "gargoylesanity"
+                        ]
                     }
                 ]
             },
@@ -90,7 +100,7 @@
                 ]
             },
             {
-                "name": "West Side",
+                "name": "West Side[1]",
                 "map_locations": [
                     {
                         "map": "Pools of the Ancient Dead",
@@ -105,7 +115,7 @@
                 ]
             },
             {
-                "name": "West Side",
+                "name": "West Side[2]",
                 "map_locations": [
                     {
                         "map": "Pools of the Ancient Dead",
@@ -120,7 +130,7 @@
                 ]
             },
             {
-                "name": "West Side",
+                "name": "West Side[3]",
                 "access_rules": [
                     "$PADChaos"
                 ],
@@ -134,14 +144,19 @@
                 "sections": [
                     {
                         "name": "Chalice",
-                        "visibility_rules": "include_chalices_in_checks",
+                        "access_rules": [
+                            "include_chalices_in_checks"
+                        ],
+                        "visibility_rules": [
+                            "include_chalices_in_checks"
+                        ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
                     }
                 ]
             },
             {
-                "name": "West Side",
+                "name": "West Side[4]",
                 "map_locations": [
                     {
                         "map": "Pools of the Ancient Dead",
@@ -156,7 +171,7 @@
                 ]
             },
             {
-                "name": "West Side",
+                "name": "West Side[5]",
                 "map_locations": [
                     {
                         "map": "Pools of the Ancient Dead",
@@ -171,7 +186,7 @@
                 ]
             },
             {
-                "name": "West Side",
+                "name": "West Side[6]",
                 "map_locations": [
                     {
                         "map": "Pools of the Ancient Dead",
@@ -201,7 +216,7 @@
                 ]
             },
             {
-                "name": "East Side",
+                "name": "East Side[1]",
                 "map_locations": [
                     {
                         "map": "Pools of the Ancient Dead",
@@ -216,7 +231,7 @@
                 ]
             },
             {
-                "name": "East Side",
+                "name": "East Side[2]",
                 "map_locations": [
                     {
                         "map": "Pools of the Ancient Dead",
@@ -231,7 +246,7 @@
                 ]
             },
             {
-                "name": "East Side",
+                "name": "East Side[3]",
                 "map_locations": [
                     {
                         "map": "Pools of the Ancient Dead",
@@ -246,7 +261,7 @@
                 ]
             },
             {
-                "name": "East Side",
+                "name": "East Side[4]",
                 "access_rules": [
                     "$PADChaos"
                 ],
@@ -264,7 +279,7 @@
                 ]
             },
             {
-                "name": "East Side",
+                "name": "East Side[5]",
                 "map_locations": [
                     {
                         "map": "Pools of the Ancient Dead",
@@ -327,7 +342,7 @@
                 ]
             },
             {
-                "name": "East Side Downhill",
+                "name": "East Side Downhill[1]",
                 "access_rules": [
                     "$PADChaos"
                 ],
@@ -345,7 +360,7 @@
                 ]
             },
             {
-                "name": "East Side Downhill",
+                "name": "East Side Downhill[2]",
                 "access_rules": [
                     "$PADChaos"
                 ],

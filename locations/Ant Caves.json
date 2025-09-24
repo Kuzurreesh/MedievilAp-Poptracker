@@ -7,8 +7,8 @@
             "include_ant_hill_in_checks"
         ],
         "access_rules": [
-            "bash, witchtalisman, @Return to the Graveyard/Clear/Cleared: Return to the Graveyard",
-            "bash, witchtalisman, progression_option"
+            "bash, witchtalisman, @Return to the Graveyard/Clear/Cleared: Return to the Graveyard, include_ant_hill_in_checks",
+            "bash, witchtalisman, progression_option, include_ant_hill_in_checks"
         ],
         "children": [
             {
@@ -30,8 +30,8 @@
                 "name": "Entrance",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "witchtalisman, @Return to the Graveyard/Clear/Cleared: Return to the Graveyard",
-                    "witchtalisman, progression_option"
+                    "witchtalisman, @Return to the Graveyard/Clear/Cleared: Return to the Graveyard, include_ant_hill_in_checks",
+                    "witchtalisman, progression_option, include_ant_hill_in_checks"
                 ],
                 "visibility_rules": [
                     "include_ant_hill_in_checks"
@@ -48,6 +48,9 @@
                         "name": "Gargoyle: Entrance - AH",
                         "chest_unopened_img": "images/labels/gargoyle2.png",
                         "chest_opened_img": "images/labels/gargoyledisabled.png",
+                        "access_rules": [
+                            "gargoylesanity"
+                        ],
                         "visibility_rules": [
                             "gargoylesanity"
                         ]
@@ -58,8 +61,8 @@
                 "name": "Caves Entrance",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "witchtalisman, @Return to the Graveyard/Clear/Cleared: Return to the Graveyard",
-                    "witchtalisman, progression_option"
+                    "witchtalisman, @Return to the Graveyard/Clear/Cleared: Return to the Graveyard, include_ant_hill_in_checks",
+                    "witchtalisman, progression_option, include_ant_hill_in_checks"
                 ],
                 "visibility_rules": [
                     "include_ant_hill_in_checks"
@@ -79,6 +82,9 @@
                         "name": "Book: Fairy Portal - AH",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
+                        "access_rules": [
+                            "booksanity"
+                        ],
                         "visibility_rules": [
                             "booksanity"
                         ]
@@ -250,7 +256,7 @@
                 ]
             },
             {
-                "name": "Energy Vials",
+                "name": "Energy Vials[1]",
                 "map_locations": [
                     {
                         "map": "Ant Caves",
@@ -265,7 +271,7 @@
                 ]
             },
             {
-                "name": "Energy Vials",
+                "name": "Energy Vials[2]",
                 "map_locations": [
                     {
                         "map": "Ant Caves",
@@ -280,7 +286,7 @@
                 ]
             },
             {
-                "name": "Energy Vials",
+                "name": "Energy Vials[3]",
                 "map_locations": [
                     {
                         "map": "Ant Caves",
@@ -295,7 +301,7 @@
                 ]
             },
             {
-                "name": "Energy Vials",
+                "name": "Energy Vials[4]",
                 "map_locations": [
                     {
                         "map": "Ant Caves",
@@ -323,7 +329,12 @@
                         "name": "Book: Queen Ant - AH",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -347,7 +358,12 @@
                     },
                     {
                         "name": "Chalice",
-                        "visibility_rules": "include_chalices_in_checks",
+                        "access_rules": [
+                            "include_chalices_in_checks"
+                        ],
+                        "visibility_rules": [
+                            "include_chalices_in_checks"
+                        ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
                     },

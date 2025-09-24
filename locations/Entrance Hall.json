@@ -1,141 +1,147 @@
 [
-    {	
+    {
         "name": "The Entrance Hall",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
-		"access_rules": [
+        "access_rules": [
             "@The Ghost Ship/Clear/Cleared: The Ghost Ship",
             "progression_option"
-        ],	
-        "children": 
-        [
+        ],
+        "children": [
             {
                 "name": "Entrance",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Entrance Hall",
+                        "map": "Entrance Hall",
                         "x": 1415,
                         "y": 815
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-						"name": "Book: Imp Magic - EH",
-						"chest_unopened_img": "images/labels/Book3.png",
-						"chest_opened_img": "images/labels/bookdisabled.png",
-						"visibility_rules": "booksanity"
-					}
+                        "name": "Book: Imp Magic - EH",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
+                    }
                 ]
             },
             {
-                "name": "Entrance",
-                "map_locations": 
-                [
+                "name": "Entrance[1]",
+                "map_locations": [
                     {
-						"map": "Entrance Hall",
+                        "map": "Entrance Hall",
                         "x": 1370,
                         "y": 880
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-						"name": "Gargoyle: Entrance - EH",
-						"chest_unopened_img": "images/labels/gargoyle2.png",
-						"chest_opened_img": "images/labels/gargoyledisabled.png",
-						"visibility_rules": "gargoylesanity"
-					}
+                        "name": "Gargoyle: Entrance - EH",
+                        "chest_unopened_img": "images/labels/gargoyle2.png",
+                        "chest_opened_img": "images/labels/gargoyledisabled.png",
+                        "access_rules": [
+                            "gargoylesanity"
+                        ],
+                        "visibility_rules": [
+                            "gargoylesanity"
+                        ]
+                    }
                 ]
             },
             {
                 "name": "Zarok's Library",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Entrance Hall",
+                        "map": "Entrance Hall",
                         "x": 875,
                         "y": 915
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-						"name": "Book: Spell Book - EH",
-						"chest_unopened_img": "images/labels/Book3.png",
-						"chest_opened_img": "images/labels/bookdisabled.png",
-						"visibility_rules": "booksanity"
-					}
+                        "name": "Book: Spell Book - EH",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
+                    }
                 ]
             },
             {
-                "name": "Zarok's Library",
-                "map_locations": 
-                [
+                "name": "Zarok's Library[1]",
+                "map_locations": [
                     {
-						"map": "Entrance Hall",
+                        "map": "Entrance Hall",
                         "x": 905,
                         "y": 965
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
-						"name": "Book: Zaroks Diary - EH",
-						"chest_unopened_img": "images/labels/Book3.png",
-						"chest_opened_img": "images/labels/bookdisabled.png",
-						"visibility_rules": "booksanity"
-					}
+                        "name": "Book: Zaroks Diary - EH",
+                        "chest_unopened_img": "images/labels/Book3.png",
+                        "chest_opened_img": "images/labels/bookdisabled.png",
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
+                    }
                 ]
             },
             {
-                "name": "Zarok's Library",
-                "map_locations": 
-                [
+                "name": "Zarok's Library[2]",
+                "map_locations": [
                     {
-						"map": "Entrance Hall",
+                        "map": "Entrance Hall",
                         "x": 810,
                         "y": 975
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Chalice",
-						"visibility_rules": "include_chalices_in_checks",
-						"chest_unopened_img": "images/items/chalice.png",
-						"chest_opened_img": "images/items/empty chalice.png"
+                        "access_rules": [
+                            "imp, include_chalices_in_checks"
+                        ],
+                        "visibility_rules": [
+                            "include_chalices_in_checks"
+                        ],
+                        "chest_unopened_img": "images/items/chalice.png",
+                        "chest_opened_img": "images/items/empty chalice.png"
                     }
                 ]
             },
-			{
+            {
                 "name": "Clear",
-                "map_locations": 
-                [
+                "map_locations": [
                     {
-						"map": "Entrance Hall",
+                        "map": "Entrance Hall",
                         "x": 100,
                         "y": 170,
-						"shape": "diamond",
-						"size": 45
+                        "shape": "diamond",
+                        "size": 45
                     }
                 ],
-                
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Cleared: The Entrance Hall",
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
-					}
+                    }
                 ]
             }
-		]
+        ]
     }
 ]

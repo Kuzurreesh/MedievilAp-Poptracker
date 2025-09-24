@@ -18,6 +18,10 @@ function onClear(slot_data)
     end
     SLOT_DATA = slot_data
     CUR_INDEX = -1
+    ScriptHost:RemoveOnLocationSectionHandler("ChaliceCount")
+    ScriptHost:RemoveWatchForCode("Highlights1")
+    ScriptHost:RemoveWatchForCode("Highlights2")
+    
     -- reset locations
     for _, v in pairs(LOCATION_MAPPING) do
         if v[1] then
@@ -29,6 +33,7 @@ function onClear(slot_data)
                 if v[1]:sub(1, 1) == "@" then
                     obj.AvailableChestCount = obj.ChestCount
                 else
+                    --hosted_item reset
                     obj.Active = false
                 end
             elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -93,6 +98,9 @@ function onClear(slot_data)
 
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
+    ScriptHost:AddOnLocationSectionChangedHandler("ChaliceCount", ChaliceCount)
+    ScriptHost:AddWatchForCode("Highlights1", "progression_option", Lighting)
+    ScriptHost:AddWatchForCode("Highlights2", "runesanity", Lighting)
 end
 
 -- called when an item gets collected
@@ -181,18 +189,23 @@ function onLocation(location_id, location_name)
         else
             obj.Active = true
         end
+        if v[2] then
+            Tracker:FindObjectForCode(v[2]).AvailableChestCount = Tracker:FindObjectForCode(v[2]).AvailableChestCount - 1
+        end
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find object for code %s", v[1]))
     end
 
     -- MacGuyver Autotab
-    if v[1].find(v[1], "/Cleared:", 8) then
-        Tracker:UiHint("ActivateTab", "World Map")
-    else
-        local v2 = v[1]:sub(1, 10)
-        local v3 = Where[v2]
-        if v3 then
-            Tracker:UiHint("ActivateTab", v3)
+    if Has("autotab") then
+        if v[1].find(v[1], "/Cleared:", 8) then
+            Tracker:UiHint("ActivateTab", "World Map")
+        else
+            local v2 = v[1]:sub(1, 10)
+            local v3 = Where[v2]
+            if v3 then
+                Tracker:UiHint("ActivateTab", v3)
+            end
         end
     end
 end
@@ -206,7 +219,7 @@ end
 
 function onDataStorageUpdate(key, value, oldValue)
     --if you plan to only use the hints key, you can remove this if
-    print("datastrorage: ", key, value, oldValue)
+    print("called datastrorage: ", key, value, oldValue)
 end
 
 -- add AP callbacks

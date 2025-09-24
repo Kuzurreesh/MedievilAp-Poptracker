@@ -16,24 +16,37 @@
 				],
 				"sections": [
 					{
-						"name": "Books",
+						"name": "Book: Heroes of Eld - HH",
 						"chest_unopened_img": "images/labels/Book3.png",
 						"chest_opened_img": "images/labels/bookdisabled.png",
-						"clear_as_group": false,
 						"access_rules": [
-							"$Chalices|1"
+							"booksanity, $Chalices|1"
 						],
-						"visibility_rules": "booksanity"
+						"visibility_rules": [
+							"booksanity"
+						]
 					},
 					{
-						"name": "Gargoyles",
+						"name": "Book: Worthy Hero - HH",
+						"chest_unopened_img": "images/labels/Book3.png",
+						"chest_opened_img": "images/labels/bookdisabled.png",
+						"access_rules": [
+							"booksanity, $Chalices|1"
+						],
+						"visibility_rules": [
+							"booksanity"
+						]
+					},
+					{
+						"name": "Gargoyle: Entrance - HH",
 						"chest_unopened_img": "images/labels/gargoyle2.png",
 						"chest_opened_img": "images/labels/gargoyledisabled.png",
-						"clear_as_group": false,
 						"access_rules": [
-							"$Chalices|1"
+							"gargoylesanity, $Chalices|1"
 						],
-						"visibility_rules": "gargoylesanity"
+						"visibility_rules": [
+							"gargoylesanity"
+						]
 					},
 					{
 						"access_rules": [
@@ -1908,7 +1921,7 @@
 						"name": "Chalice"
 					},
 					{
-						"ref": "The Gallows Gauntlet/Clear/Cleared: The Gallows Gauntlet",
+						"ref": "The Gallows Gauntlet/Clear[1]/Cleared: The Gallows Gauntlet",
 						"name": "Cleared: The Gallows Gauntlet"
 					}
 				]

@@ -18,12 +18,16 @@
                     }
                 ],
                 "sections": [
-                    
                     {
                         "name": "Gargoyle: Entrance - SV",
                         "chest_unopened_img": "images/labels/gargoyle2.png",
                         "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "visibility_rules": "gargoylesanity"
+                        "access_rules": [
+                            "gargoylesanity"
+                        ],
+                        "visibility_rules": [
+                            "gargoylesanity"
+                        ]
                     }
                 ]
             },
@@ -56,12 +60,17 @@
                         "name": "Book: Blacksmiths Monthly - SV",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
             {
-                "name": "Blacksmith",
+                "name": "Blacksmith[1]",
                 "access_rules": [
                     "landlordsbust, crucifixcast"
                 ],
@@ -93,7 +102,12 @@
                         "name": "Book: Fountain Rune - SV",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -118,15 +132,22 @@
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
                         "access_rules": [
-                            "Crucifix"
+                            "Crucifix, booksanity"
                         ],
-                        "visibility_rules": "booksanity"
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     },
                     {
                         "name": "Book: Missing Crucifix - SV",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -197,7 +218,7 @@
                 ]
             },
             {
-                "name": "Inn B1",
+                "name": "Inn B1[1]",
                 "access_rules": [
                     "boulder, $SleepMoon"
                 ],
@@ -218,7 +239,7 @@
                 ]
             },
             {
-                "name": "Inn B1",
+                "name": "Inn B1[2]",
                 "access_rules": [
                     "boulder, $SleepMoon, $SleepEarth"
                 ],
@@ -239,7 +260,7 @@
                 ]
             },
             {
-                "name": "Inn B1",
+                "name": "Inn B1[3]",
                 "access_rules": [
                     "$SleepMoon, $SleepEarth"
                 ],
@@ -275,7 +296,7 @@
                 ]
             },
             {
-                "name": "Inn B2",
+                "name": "Inn B2[1]",
                 "access_rules": [
                     "$SleepMoon"
                 ],
@@ -288,13 +309,21 @@
                 ],
                 "sections": [
                     {
-                        "name": "Key Item: Landlords Bust - SV"
+                        "name": "Key Item: Landlords Bust - SV",
+                        "access_rules": [
+                            "$SleepEarth"
+                        ]
                     },
                     {
                         "name": "Book: Mayors Bust - SV",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -335,9 +364,11 @@
                     {
                         "name": "Chalice",
                         "access_rules": [
-                            "@Sleeping Village/Inn B2[1]/Key Item: Landlords Bust - SV"
+                            "include_chalices_in_checks, @Sleeping Village/Inn B2[1]/Key Item: Landlords Bust - SV"
                         ],
-                        "visibility_rules": "include_chalices_in_checks",
+                        "visibility_rules": [
+                            "include_chalices_in_checks"
+                        ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
                     },
@@ -368,9 +399,9 @@
                 ]
             },
             {
-                "name": "Mayor's House",
+                "name": "Mayor's House[1]",
                 "access_rules": [
-                    "Crucifix, safekey"
+                    "Crucifix, safekey, @Sleeping Village/Inn B2[1]/Key Item: Landlords Bust - SV"
                 ],
                 "map_locations": [
                     {
@@ -405,12 +436,17 @@
                         "name": "Book: Mayor Memoire - SV",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
             {
-                "name": "Library",
+                "name": "Library[1]",
                 "access_rules": [
                     "bash, $SleepChaos"
                 ],
@@ -428,7 +464,7 @@
                 ]
             },
             {
-                "name": "Library",
+                "name": "Library[2]",
                 "access_rules": [
                     "$SleepChaos"
                 ],
@@ -444,30 +480,50 @@
                         "name": "Book: History of Gallowmere 1 - SV",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     },
                     {
                         "name": "Book: History of Gallowmere 2 - SV",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     },
                     {
                         "name": "Book: History of Gallowmere 3 - SV",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     },
                     {
                         "name": "Book: History of Gallowmere 4 - SV",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
             {
-                "name": "Library",
+                "name": "Library[3]",
                 "access_rules": [
                     "$SleepChaos"
                 ],
@@ -483,18 +539,28 @@
                         "name": "Book: Tourist Guide 1 - SV",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     },
                     {
                         "name": "Book: Tourist Guide 2 - SV",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
             {
-                "name": "Library",
+                "name": "Library[4]",
                 "access_rules": [
                     "$SleepChaos"
                 ],
@@ -511,7 +577,12 @@
                         "name": "Book: Heroes From History- SV",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -533,7 +604,7 @@
             {
                 "name": "Clear",
                 "access_rules": [
-                    "@Sleeping Village/Inn B2[1]/Key Item: Landlords Bust - SV, Crucifix"
+                    "Crucifix"
                 ],
                 "map_locations": [
                     {
@@ -548,13 +619,21 @@
                     {
                         "name": "Cleared: Sleeping Village",
                         "chest_unopened_img": "images/labels/Not Cleared.png",
-                        "chest_opened_img": "images/labels/Cleared.png"
+                        "chest_opened_img": "images/labels/Cleared.png",
+                        "access_rules": [
+                            "@Sleeping Village/Inn B2[1]/Key Item: Landlords Bust - SV"
+                        ]
                     },
                     {
                         "name": "Book: Zaroks Note - SV",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             }

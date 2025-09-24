@@ -22,7 +22,12 @@
                         "name": "Book: Learn to Stealth - TL",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -42,7 +47,7 @@
                 ]
             },
             {
-                "name": "Left Path",
+                "name": "Left Path[1]",
                 "map_locations": [
                     {
                         "map": "Lake",
@@ -57,7 +62,7 @@
                 ]
             },
             {
-                "name": "Left Path",
+                "name": "Left Path[2]",
                 "map_locations": [
                     {
                         "map": "Lake",
@@ -102,7 +107,7 @@
                 ]
             },
             {
-                "name": "Right Path",
+                "name": "Right Path[1]",
                 "map_locations": [
                     {
                         "map": "Lake",
@@ -115,7 +120,12 @@
                         "name": "Book: Whirlpool Manual - TL",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -138,7 +148,7 @@
                 ]
             },
             {
-                "name": "Down Whirlpool",
+                "name": "Down Whirlpool[1]",
                 "access_rules": [
                     "$LakeChaos, $LakeTime, $LakeEarth"
                 ],
@@ -156,7 +166,7 @@
                 ]
             },
             {
-                "name": "Down Whirlpool",
+                "name": "Down Whirlpool[2]",
                 "access_rules": [
                     "$LakeChaos, $LakeTime, $LakeEarth"
                 ],
@@ -174,7 +184,7 @@
                 ]
             },
             {
-                "name": "Down Whirlpool",
+                "name": "Down Whirlpool[3]",
                 "access_rules": [
                     "$LakeChaos, $LakeTime, $LakeEarth"
                 ],
@@ -192,7 +202,7 @@
                 ]
             },
             {
-                "name": "Down Whirlpool",
+                "name": "Down Whirlpool[4]",
                 "access_rules": [
                     "$LakeChaos, $LakeTime, $LakeEarth"
                 ],
@@ -246,7 +256,7 @@
                 ]
             },
             {
-                "name": "Past Tunnel",
+                "name": "Past Tunnel[1]",
                 "access_rules": [
                     "$LakeChaos, $LakeTime, $LakeEarth"
                 ],
@@ -264,7 +274,7 @@
                 ]
             },
             {
-                "name": "Past Tunnel",
+                "name": "Past Tunnel[2]",
                 "access_rules": [
                     "$LakeChaos, $LakeTime, $LakeEarth"
                 ],
@@ -282,7 +292,7 @@
                 ]
             },
             {
-                "name": "Past Tunnel",
+                "name": "Past Tunnel[3]",
                 "access_rules": [
                     "$LakeChaos, $LakeTime, $LakeEarth"
                 ],
@@ -296,7 +306,12 @@
                 "sections": [
                     {
                         "name": "Chalice",
-                        "visibility_rules": "include_chalices_in_checks",
+                        "access_rules": [
+                            "include_chalices_in_checks"
+                        ],
+                        "visibility_rules": [
+                            "include_chalices_in_checks"
+                        ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
                     }
@@ -316,7 +331,12 @@
                         "name": "Gargoyle: Exit - TL",
                         "chest_unopened_img": "images/labels/gargoyle2.png",
                         "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "visibility_rules": "gargoylesanity"
+                        "access_rules": [
+                            "gargoylesanity"
+                        ],
+                        "visibility_rules": [
+                            "gargoylesanity"
+                        ]
                     }
                 ]
             },

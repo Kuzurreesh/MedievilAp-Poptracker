@@ -13,8 +13,8 @@
                 "map_locations": [
                     {
                         "map": "Time Device",
-                        "x": 1000,
-                        "y": 1740
+                        "x": 580,
+                        "y": 2095
                     }
                 ],
                 "sections": [
@@ -22,7 +22,12 @@
                         "name": "Gargoyle: Entrance - TD",
                         "chest_unopened_img": "images/labels/gargoyle2.png",
                         "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "visibility_rules": "gargoylesanity"
+                        "access_rules": [
+                            "gargoylesanity"
+                        ],
+                        "visibility_rules": [
+                            "gargoylesanity"
+                        ]
                     }
                 ]
             },
@@ -42,7 +47,7 @@
                 ]
             },
             {
-                "name": "Time Spinners",
+                "name": "Time Spinners[1]",
                 "map_locations": [
                     {
                         "map": "Time Device",
@@ -57,7 +62,7 @@
                 ]
             },
             {
-                "name": "Time Spinners",
+                "name": "Time Spinners[2]",
                 "access_rules": [
                     "dash, $DeviceTime"
                 ],
@@ -115,7 +120,12 @@
                         "name": "Book: The Train - TD",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -152,14 +162,19 @@
                 "sections": [
                     {
                         "name": "Chalice",
-                        "visibility_rules": "include_chalices_in_checks",
+                        "access_rules": [
+                            "include_chalices_in_checks"
+                        ],
+                        "visibility_rules": [
+                            "include_chalices_in_checks"
+                        ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
                     }
                 ]
             },
             {
-                "name": "Lasers",
+                "name": "Lasers[1]",
                 "access_rules": [
                     "$DeviceTime"
                 ],
@@ -177,7 +192,7 @@
                 ]
             },
             {
-                "name": "Lasers",
+                "name": "Lasers[2]",
                 "access_rules": [
                     "$DeviceTime"
                 ],
@@ -222,7 +237,7 @@
                 ]
             },
             {
-                "name": "Earth Station",
+                "name": "Earth Station[1]",
                 "access_rules": [
                     "$DeviceTime, $DeviceChaos, $DeviceEarth"
                 ],
@@ -282,7 +297,7 @@
                 ]
             },
             {
-                "name": "Zarok's Arena",
+                "name": "Zarok's Arena[1]",
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@The Time Device/Clear/Cleared: The Time Device",
@@ -320,7 +335,12 @@
                         "name": "Gargoyle: Entrance - ZL",
                         "chest_unopened_img": "images/labels/gargoyle2.png",
                         "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "visibility_rules": "gargoylesanity"
+                        "access_rules": [
+                            "gargoylesanity"
+                        ],
+                        "visibility_rules": [
+                            "gargoylesanity"
+                        ]
                     }
                 ]
             },

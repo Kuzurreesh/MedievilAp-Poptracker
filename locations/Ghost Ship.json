@@ -22,7 +22,12 @@
                         "name": "Book: Skeleton Warriors - GS",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -42,7 +47,7 @@
                 ]
             },
             {
-                "name": "Barrel Room",
+                "name": "Barrel Room[1]",
                 "map_locations": [
                     {
                         "map": "Ghost Ship",
@@ -75,7 +80,7 @@
                 ]
             },
             {
-                "name": "Moon Cabin",
+                "name": "Moon Cabin[1]",
                 "access_rules": [
                     "$ShipMoon"
                 ],
@@ -159,7 +164,7 @@
                 ]
             },
             {
-                "name": "Below Trampolines",
+                "name": "Below Trampolines[1]",
                 "access_rules": [
                     "$ShipChaos, $ShipStar"
                 ],
@@ -177,7 +182,7 @@
                 ]
             },
             {
-                "name": "Below Trampolines",
+                "name": "Below Trampolines[2]",
                 "access_rules": [
                     "$ShipChaos, $ShipStar"
                 ],
@@ -214,7 +219,7 @@
                 ]
             },
             {
-                "name": "Cannon Room",
+                "name": "Cannon Room[1]",
                 "access_rules": [
                     "$ShipChaos, $ShipStar"
                 ],
@@ -244,9 +249,12 @@
                     {
                         "name": "Chalice",
                         "access_rules": [
-                            "club, $ShipChaos, $ShipStar"
+                            "club, include_chalices_in_checks, $ShipChaos, $ShipStar",
+                            "include_chalices_in_checks, $ShipMoon, $ShipChaos, $ShipStar"
                         ],
-                        "visibility_rules": "include_chalices_in_checks",
+                        "visibility_rules": [
+                            "include_chalices_in_checks"
+                        ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
                     },
@@ -259,7 +267,7 @@
                 ]
             },
             {
-                "name": "Up the Lift",
+                "name": "Up the Lift[1]",
                 "access_rules": [
                     "$ShipChaos, $ShipStar"
                 ],
@@ -293,7 +301,12 @@
                         "name": "Book: Boss Strategy - GS",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },

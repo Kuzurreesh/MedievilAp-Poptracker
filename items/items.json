@@ -15,19 +15,19 @@
         "name": "Small Sword",
         "type": "toggle",
         "img": "images/items/SmallSword.png",
-        "codes": "sword"
+        "codes": "sword, imp"
     },
     {
         "name": "Broadsword",
         "type": "toggle",
         "img": "images/items/Broadsword.png",
-        "codes": "broadsword"
+        "codes": "broadsword, imp"
     },
     {
         "name": "Magic Sword",
         "type": "toggle",
         "img": "images/items/MagicSword.png",
-        "codes": "magicsword"
+        "codes": "magicsword, imp"
     },
     {
         "name": "Copper Shield",
@@ -51,25 +51,25 @@
         "name": "Club",
         "type": "toggle",
         "img": "images/items/Club.png",
-        "codes": "club, bash, boulder"
+        "codes": "club, bash, boulder, imp"
     },
     {
         "name": "Hammer",
         "type": "toggle",
         "img": "images/items/Hammer.png",
-        "codes": "hammer, bash, boulder"
+        "codes": "hammer, bash, boulder, imp"
     },
     {
         "name": "Axe",
         "type": "toggle",
         "img": "images/items/Axe.png",
-        "codes": "axe"
+        "codes": "axe, imp"
     },
     {
         "name": "Lightning",
         "type": "toggle",
         "img": "images/items/Lightning.png",
-        "codes": "lightning"
+        "codes": "lightning, imp"
     },
     {
         "name": "Good Lightning",
@@ -81,37 +81,37 @@
         "name": "Throwing Daggers",
         "type": "toggle",
         "img": "images/items/ThrowingDaggers.png",
-        "codes": "throwingdaggers"
+        "codes": "throwingdaggers, imp"
     },
     {
         "name": "Crossbow",
         "type": "toggle",
         "img": "images/items/Crossbow.png",
-        "codes": "crossbow"
+        "codes": "crossbow, imp"
     },
     {
         "name": "Spear",
         "type": "toggle",
         "img": "images/items/Spear.png",
-        "codes": "spear"
+        "codes": "spear, imp"
     },
     {
         "name": "Longbow",
         "type": "toggle",
         "img": "images/items/Longbow.png",
-        "codes": "longbow"
+        "codes": "longbow, imp"
     },
     {
         "name": "Flaming Longbow",
         "type": "toggle",
         "img": "images/items/FlamingLongbow.png",
-        "codes": "flaminglongbow"
+        "codes": "flaminglongbow, imp"
     },
     {
         "name": "Magic Longbow",
         "type": "toggle",
         "img": "images/items/MagicLongbow.png",
-        "codes": "magiclongbow"
+        "codes": "magiclongbow, imp"
     },
     {
         "name": "Sheet Music",
@@ -645,7 +645,7 @@
         "name": "Chicken Drumstick",
         "type": "toggle",
         "img": "images/items/chickendrumstick.png",
-        "codes": "chickendrumstick"
+        "codes": "chickendrumstick, imp"
     },
     {
         "name": "Chalice",
@@ -887,7 +887,7 @@
         "name": "Book",
         "type": "progressive_toggle",
         "img": "images/labels/book.png",
-        "initial_active_state": true,
+        "initial_active_state": false,
         "loop": true,
         "codes": "booksanity"
     },
@@ -901,7 +901,7 @@
         "name": "Gargoyle",
         "type": "progressive_toggle",
         "img": "images/labels/gargoyle.png",
-        "initial_active_state": true,
+        "initial_active_state": false,
         "loop": true,
         "codes": "gargoylesanity"
     },
@@ -917,6 +917,37 @@
         "img": "images/maps/world map.png",
         "loop": true,
         "codes": "progression_option"
+    },
+    {
+        "name": "Sphere Label",
+        "type": "static",
+        "img": "images/labels/sphere 1.png",
+        "codes": "spherelabel"
+    },
+    {
+        "name": "Lights",
+        "type": "progressive_toggle",
+        "img": "images/labels/Lights.png",
+        "disabled_img": "images/labels/NoLights.png",
+        "disabled_img_mods": "@enabled",
+        "loop": true,
+        "codes": "Highlightings"
+    },
+    {
+        "name": "Autotab Label",
+        "type": "static",
+        "img": "images/labels/autotab.png",
+        "codes": "tablabel"
+    },
+    {
+        "name": "Autotab",
+        "type": "progressive_toggle",
+        "img": "images/labels/Cleared3.png",
+        "disabled_img": "images/labels/Not Cleared3.png",
+        "disabled_img_mods": "@enabled",
+        "initial_active_state": true,
+        "loop": true,
+        "codes": "autotab"
     },
     {
         "name": "Dan's Crypt Icon",

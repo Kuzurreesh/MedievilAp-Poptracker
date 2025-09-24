@@ -53,7 +53,8 @@
 			[
 				"crypticon",
 				"starcrypt",
-				"","graveicon",
+				"",
+				"graveicon",
 				"earthgrave",
 				"chaosgrave"
 			],
@@ -91,7 +92,8 @@
 				"earthsleep"
 			],
 			[
-				"","landlordsbust",
+				"",
+				"landlordsbust",
 				"crucifixcast",
 				"crucifix",
 				"safekey"
@@ -99,13 +101,15 @@
 			[
 				"serpenticon",
 				"witchtalisman",
-				"","groundsicon",
+				"",
+				"groundsicon",
 				"chaosgrounds"
 			],
 			[
 				"asylumicon",
 				"earthasylum",
-				"","anticon",
+				"",
+				"anticon",
 				"amber",
 				"witchtalisman"
 			],
@@ -1050,7 +1054,7 @@
 		"content": [
 			{
 				"type": "itemgrid",
-				"item_margin": "2, 2",
+				"item_margin": "5, 2",
 				"h_alignment": "left",
 				"item_h_alignment": "center",
 				"item_v_alignment": "center",
@@ -1060,24 +1064,26 @@
 					[
 						"goallabel",
 						"goal",
-						"runelabel",
-						"runesanity"
-					],
-					[
-						"chalicelabel",
-						"include_chalices_in_checks",
-						"booksanitylabel",
-						"booksanity"
-					],
-					[
-						"antlabel",
-						"include_ant_hill_in_checks",
-						"gargoylesanitylabel",
-						"gargoylesanity"
+						"spherelabel",
+						"Highlightings",
+						"tablabel",
+						"autotab"
 					],
 					[
 						"openlabel",
-						"progression_option"
+						"progression_option",
+						"chalicelabel",
+						"include_chalices_in_checks",
+						"antlabel",
+						"include_ant_hill_in_checks"
+					],
+					[
+						"runelabel",
+						"runesanity",
+						"booksanitylabel",
+						"booksanity",
+						"gargoylesanitylabel",
+						"gargoylesanity"
 					]
 				]
 			}

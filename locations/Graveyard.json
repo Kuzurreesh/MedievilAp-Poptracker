@@ -37,6 +37,9 @@
                         "name": "Book: Welcome Back - TG",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
+                        "access_rules": [
+                            "booksanity"
+                        ],
                         "visibility_rules": [
                             "booksanity"
                         ]
@@ -81,6 +84,9 @@
                         "name": "Book: Healing Fountain - TG",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
+                        "access_rules": [
+                            "booksanity"
+                        ],
                         "visibility_rules": [
                             "booksanity"
                         ]
@@ -106,7 +112,7 @@
                 ]
             },
             {
-                "name": "Past Earth Gate",
+                "name": "Past Earth Gate[1]",
                 "access_rules": [
                     "$GraveEarth"
                 ],
@@ -138,6 +144,9 @@
                         "name": "Book: Gaze of an Angel - TG",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
+                        "access_rules": [
+                            "booksanity"
+                        ],
                         "visibility_rules": [
                             "booksanity"
                         ]
@@ -174,7 +183,12 @@
                 "sections": [
                     {
                         "name": "Chalice",
-                        "visibility_rules": "include_chalices_in_checks",
+                        "access_rules": [
+                            "include_chalices_in_checks"
+                        ],
+                        "visibility_rules": [
+                            "include_chalices_in_checks"
+                        ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
                     }
@@ -213,6 +227,9 @@
                         "name": "Book: Skull Key - TG",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
+                        "access_rules": [
+                            "booksanity"
+                        ],
                         "visibility_rules": [
                             "booksanity"
                         ]
@@ -290,7 +307,12 @@
                         "name": "Gargoyle: End of Level - TG",
                         "chest_unopened_img": "images/labels/gargoyle2.png",
                         "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "clear_as_group": false
+                        "access_rules": [
+                            "gargoylesanity"
+                        ],
+                        "visibility_rules": [
+                            "gargoylesanity"
+                        ]
                     }
                 ]
             },

@@ -22,7 +22,12 @@
                         "name": "Book: Scarecrows - SF",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -114,7 +119,7 @@
                 ]
             },
             {
-                "name": "Second Machine",
+                "name": "Second Machine[1]",
                 "access_rules": [
                     "$ScareEarth"
                 ],
@@ -132,7 +137,7 @@
                 ]
             },
             {
-                "name": "Moon Hut",
+                "name": "Moon Hut[1]",
                 "access_rules": [
                     "$ScareMoon"
                 ],
@@ -150,7 +155,7 @@
                 ]
             },
             {
-                "name": "Moon Hut",
+                "name": "Moon Hut[2]",
                 "map_locations": [
                     {
                         "map": "Scarecrow Fields",
@@ -163,7 +168,12 @@
                         "name": "Book - Mischief Makers - SF",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -184,7 +194,12 @@
                         "name": "Book: Kul Katura - SF",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -205,7 +220,12 @@
                         "name": "Book: Mad Machines - SF",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -229,7 +249,7 @@
                 ]
             },
             {
-                "name": "Harvested Path",
+                "name": "Harvested Path[1]",
                 "access_rules": [
                     "$ScareEarth, $ScareChaos, harvesterpart"
                 ],
@@ -244,14 +264,19 @@
                 "sections": [
                     {
                         "name": "Chalice",
-                        "visibility_rules": "include_chalices_in_checks",
+                        "access_rules": [
+                            "include_chalices_in_checks"
+                        ],
+                        "visibility_rules": [
+                            "include_chalices_in_checks"
+                        ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
                     }
                 ]
             },
             {
-                "name": "Harvested Path",
+                "name": "Harvested Path[2]",
                 "access_rules": [
                     "$ScareEarth, $ScareChaos, harvesterpart"
                 ],
@@ -285,7 +310,7 @@
                 ]
             },
             {
-                "name": "Barn",
+                "name": "Barn[1]",
                 "access_rules": [
                     "$ScareEarth, $ScareChaos"
                 ],
@@ -303,7 +328,7 @@
                 ]
             },
             {
-                "name": "Barn",
+                "name": "Barn[2]",
                 "access_rules": [
                     "$ScareEarth, $ScareChaos"
                 ],
@@ -319,7 +344,12 @@
                         "name": "Book: Corn Cutter - SF",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -360,7 +390,7 @@
                 ]
             },
             {
-                "name": "Cornfield Path",
+                "name": "Cornfield Path[1]",
                 "access_rules": [
                     "$ScareEarth, $ScareChaos"
                 ],
@@ -378,7 +408,7 @@
                 ]
             },
             {
-                "name": "Cornfield Path",
+                "name": "Cornfield Path[2]",
                 "access_rules": [
                     "$ScareEarth, $ScareChaos"
                 ],
@@ -394,7 +424,12 @@
                         "name": "Book: Cornfields - SF",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
-                        "visibility_rules": "booksanity"
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
                     }
                 ]
             },
@@ -542,7 +577,12 @@
                         "name": "Gargoyle: Exit - SF",
                         "chest_unopened_img": "images/labels/gargoyle2.png",
                         "chest_opened_img": "images/labels/gargoyledisabled.png",
-                        "visibility_rules": "gargoylesanity"
+                        "access_rules": [
+                            "gargoylesanity"
+                        ],
+                        "visibility_rules": [
+                            "gargoylesanity"
+                        ]
                     }
                 ]
             }
