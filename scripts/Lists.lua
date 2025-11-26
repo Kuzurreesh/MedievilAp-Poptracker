@@ -21,7 +21,7 @@ Chal = {
     [20] = "@The Time Device/Lasers/Chalice"
 }
 Where = {
-    ["@The Ant C"] = "The Ant Caves",
+    ["@Ant Caves"] = "The Ant Caves",
     ["@Asylum Gr"] = "The Asylum Grounds",
     ["@Cemetery "] = "Cemetery Hill and Hilltop Mausoleum",
     ["@The Cryst"] = "The Crystal Caves",
@@ -435,5 +435,11 @@ RuneH = {
     [132] = { "@The World Map/Hall of Heroes/Chalice Reward 6" },
     [133] = { "@The World Map/Hall of Heroes/Chalice Reward 7" },
     [134] = { "@The Crystal Caves/Dragon's Lair[7]/Book - Summon Dragon - CC" },
+
+}
+
+Maps = {
+
+
 
 }

@@ -420,7 +420,7 @@ LOCATION_MAPPING = {
 	[99264009] = { "@The Gallows Gauntlet/Near Early Exit[1]/Book: Early Exit - GG" },
 	[99264010] = { "@The Gallows Gauntlet/Dragon Gate/Book: Magical Barrier - GG" },
 	[99264012] = { "@The Gallows Gauntlet/Chalice Gate/Chalice" },
-	[99264011] = { "@The Gallows Gauntlet/Clear/Cleared: The Gallows Gauntlet", "@The Gallows Gauntlet/Clear[1]/Cleared: The Gallows Gauntlet" },
+	[99264011] = { "clearedgallows" },
 
 	--The Haunted Ruins
 	[99269000] = { "@The Haunted Ruins/Crown Room[1]/Key Item: King Peregrine's Crown - HR" },

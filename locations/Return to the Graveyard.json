@@ -287,9 +287,6 @@
             },
             {
                 "name": "Island",
-                "access_rules": [
-                    "$ReturnStar"
-                ],
                 "map_locations": [
                     {
                         "map": "Return to the Graveyard",

@@ -49,7 +49,7 @@
             {
                 "name": "Behind Boulders",
                 "access_rules": [
-                    "boulder"
+                    "[boulder]"
                 ],
                 "map_locations": [
                     {
