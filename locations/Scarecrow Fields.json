@@ -232,7 +232,7 @@
             {
                 "name": "Harvested Path",
                 "access_rules": [
-                    "$ScareEarth, $ScareChaos, harvesterpart"
+                    "^$Harvester"
                 ],
                 "map_locations": [
                     {
@@ -251,7 +251,7 @@
             {
                 "name": "Harvested Path[1]",
                 "access_rules": [
-                    "$ScareEarth, $ScareChaos, harvesterpart"
+                    "^$Harvester"
                 ],
                 "map_locations": [
                     {
@@ -278,7 +278,7 @@
             {
                 "name": "Harvested Path[2]",
                 "access_rules": [
-                    "$ScareEarth, $ScareChaos, harvesterpart"
+                    "^$Harvester"
                 ],
                 "map_locations": [
                     {

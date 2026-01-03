@@ -12,6 +12,8 @@ SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
+
+
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump(slot_data)))
@@ -21,7 +23,13 @@ function onClear(slot_data)
     ScriptHost:RemoveOnLocationSectionHandler("ChaliceCount")
     ScriptHost:RemoveWatchForCode("Highlights1")
     ScriptHost:RemoveWatchForCode("Highlights2")
-    
+    TeamName = Archipelago:GetPlayerAlias(Archipelago.PlayerNumber)
+    TeamNumber = Archipelago.TeamNumber
+    NotifyKeys = {
+        "Medievil_GPS_Team" .. TeamNumber .. "_" .. TeamName
+    }
+    Archipelago:SetNotify(NotifyKeys)
+
     -- reset locations
     for _, v in pairs(LOCATION_MAPPING) do
         if v[1] then
@@ -213,13 +221,34 @@ end
 -- called when a bounce message is received
 function onBounce(json)
     print(string.format("called onBounce: %s", dump(json)))
+    --[[   local data = json["data"]
+    if data then
+        if data["type"] == "MapUpdate" then
 
+        end
+    end
     -- your code goes here
+]]
 end
 
 function onDataStorageUpdate(key, value, oldValue)
     --if you plan to only use the hints key, you can remove this if
     print("called datastrorage: ", key, value, oldValue)
+    if key.find(key, "GPS") then
+        local r = value["MapId"]
+        if r >=0 and r <24 then
+            print("mapID: ", r)
+            local Map = Maps[r]
+            print("Map: ", Map)
+            if Map then
+                Tracker:UiHint("ActivateTab", Map)
+            end
+        else
+            print("Other map: ", r, value["MapName"])
+        end
+    else
+        return
+    end
 end
 
 -- add AP callbacks

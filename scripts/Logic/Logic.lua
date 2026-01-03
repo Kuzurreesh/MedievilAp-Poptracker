@@ -86,6 +86,19 @@ function ScareEarth()
 	end
 end
 
+function Harvester()
+	local runes = (Has("runesanity") and Has("chaosscare") and Has("earthscare")) or not Has("runesanity")
+	if Has("harvesterpart") and runes then
+		return AccessibilityLevel.Normal
+	else
+		if Has("dash") and runes then
+			return AccessibilityLevel.SequenceBreak
+		else
+			return AccessibilityLevel.None
+		end
+	end
+end
+
 -- Pumpkin Gorge
 function GorgeMoon()
 	if (Has("runesanity") and Has("moongorge") or not Has("runesanity")) then

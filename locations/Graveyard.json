@@ -168,6 +168,30 @@
                     }
                 ]
             },
+             {
+                "name": "Spinning Statue[1]",
+                "access_rules": [
+                    "$GraveChaos"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Graveyard",
+                        "x": 2135,
+                        "y": 1165
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Book: The Chalice",
+                        "access_rules": [
+                            "booksanity"
+                        ],
+                        "visibility_rules": [
+                            "booksanity"
+                        ]
+                    }
+                ]
+            },
             {
                 "name": "Spinning Statue",
                 "access_rules": [

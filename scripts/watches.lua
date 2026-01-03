@@ -18,6 +18,9 @@ end
 
 ScriptHost:AddOnLocationSectionChangedHandler("ChaliceCount", ChaliceCount)
 
+function Datatesting(code)
+    Archipelago:Get(NotifyKeys)
+end
 
 function Lighting(code)
     ScriptHost:RemoveOnLocationSectionHandler("ChaliceCount")
@@ -34,6 +37,11 @@ function Lighting(code)
     ScriptHost:AddOnLocationSectionChangedHandler("ChaliceCount", ChaliceCount)
 end
 
+function CountChalice(new, old)
+    print("chalicenumber: ", new, old)
+end
+
 ScriptHost:AddWatchForCode("Highlights", "Highlightings", Lighting)
 ScriptHost:AddWatchForCode("Highlights1", "progression_option", Lighting)
 ScriptHost:AddWatchForCode("Highlights2", "runesanity", Lighting)
+ScriptHost:AddWatchForCode("axe", "axe", Datatesting)

@@ -235,7 +235,7 @@ Always = {
     [118] = { "@The Crystal Caves/Before Earth Door/Book: Dragon Book - CC" },
     [119] = { "@The Crystal Caves/Cavern Ledge/Equipment: Silver Shield in Crystal - CC" },
     [120] = { "@The Crystal Caves/Cavern Ledge[1]/Gold Coins: Bag near Silver Shield - CC" },
-    
+
     [122] = { "@The Crystal Caves/Entrance Room/Gold Coins: Bag in Crystal at Start - CC" },
     [123] = { "@The Crystal Caves/Fountain Climb/Gold Coins: Bag at bottom of winding staircase - CC" },
     [124] = { "@The Crystal Caves/Light Beams/Gold Coins: Bag in Spinner - CC" },
@@ -439,7 +439,29 @@ RuneH = {
 }
 
 Maps = {
-
-
+    [0] = "World Map",
+    [1] = "The Graveyard",
+    [2] = "Return to the Graveyard",
+    [3] = "Cemetery Hill and Hilltop Mausoleum",
+    [4] = "Cemetery Hill and Hilltop Mausoleum",
+    [5] = "Scarecrow Fields",
+    [6] = "Dan's Crypt",
+    [7] = "The Ant Caves",
+    [8] = "The Crystal Caves",
+    [9] = "Pumpkin Gorge",
+    [10] = "Pumpkin Serpent",
+    [11] = "Sleeping Village",
+    [12] = "Pools of the Ancient Dead",
+    [13] = "The Asylum Grounds",
+    [14] = "Inside the Asylum",
+    [15] = "Enchanted Earth",
+    [16] = "The Gallows Gauntlet",
+    [17] = "The Haunted Ruins",
+    [18] = "World Map",
+    [19] = "The Ghost Ship",
+    [20] = "The Entrance Hall",
+    [21] = "The Time Device and Zarok's Lair",
+    [22] = "The Lake",
+    [23] = "The Time Device and Zarok's Lair"
 
 }

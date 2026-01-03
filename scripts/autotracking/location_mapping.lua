@@ -36,9 +36,10 @@ LOCATION_MAPPING = {
 	[99253012] = { "@The Graveyard/Fountain/Book: Healing Fountain - TG" },
 	[99253013] = { "@The Graveyard/Past Chaos Gate/Book: Gaze of an Angel - TG" },
 	[99253014] = { "@The Graveyard/Skeleton Key Gate/Book: Skull Key - TG" },
-	[99253015] = { "@The Graveyard/End/Gargoyle: End of Level - TG" },
-	[99253017] = { "@The Graveyard/Spinning Statue/Chalice" },
-	[99253016] = { "@The Graveyard/Clear/Cleared: The Graveyard" },
+	[99253015] = { "@The Graveyard/Spinning Statue[1]/Book: The Chalice" },
+	[99253016] = { "@The Graveyard/End/Gargoyle: End of Level - TG" },
+	[99253018] = { "@The Graveyard/Spinning Statue/Chalice" },
+	[99253017] = { "@The Graveyard/Clear/Cleared: The Graveyard" },
 
 	--Cemetery Hill
 	[99275000] = { "@Cemetery Hill/Arena[4]/Key Item: Witches Talisman - CH" },
