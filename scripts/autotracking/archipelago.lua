@@ -28,7 +28,7 @@ function onClear(slot_data)
     NotifyKeys = {
         "Medievil_GPS_Team" .. TeamNumber .. "_" .. TeamName
     }
-    Archipelago:SetNotify(NotifyKeys)
+
 
     -- reset locations
     for _, v in pairs(LOCATION_MAPPING) do
@@ -78,37 +78,39 @@ function onClear(slot_data)
 
     -- Autotracking options
     if slot_data["options"] then
-        --	print("options detected: ")
         local otable = slot_data["options"]
-        for key, value in pairs(otable) do
-            --	print("table: ", key, value)
-            if key == "include_ant_hill_in_checks" then
-                --	print("key ok: ", key, value)
-                Tracker:FindObjectForCode(key).Active = value
-            elseif key == "runesanity" then
-                Tracker:FindObjectForCode(key).Active = value
-            elseif key == "goal" then
-                --print("goal: ", key, value)
-                Tracker:FindObjectForCode("goal").CurrentStage = value
-            elseif key == "include_chalices_in_checks" then
-                --	print("key ok: ", key, value)
-                Tracker:FindObjectForCode(key).Active = value
-            elseif key == "booksanity" then
-                Tracker:FindObjectForCode(key).Active = value
-            elseif key == "gargoylesanity" then
-                Tracker:FindObjectForCode(key).Active = value
-            elseif key == "progression_option" then
-                Tracker:FindObjectForCode(key).Active = value
+        local counted = 0
+
+        Tracker:FindObjectForCode("runesanity").Active = otable["runesanity"]
+        Tracker:FindObjectForCode("goal").CurrentStage = otable["goal"]
+        Tracker:FindObjectForCode("include_ant_hill_in_checks").Active = otable["include_ant_hill_in_checks"]
+        Tracker:FindObjectForCode("include_chalices_in_checks").Active = otable["include_chalices_in_checks"]
+
+        if Has("include_chalices_in_checks") then
+            local amount = otable["chalice_win_count"]
+            if not Has("include_ant_hill_in_checks") then
+                if amount > 19 then
+                    counted = 19
+                else
+                    counted = amount
+                end
+            else
+                counted = amount
             end
         end
-    end
 
+        Tracker:FindObjectForCode("Chalice").MaxCount = counted
+        Tracker:FindObjectForCode("booksanity").Active = otable["booksanity"]
+        Tracker:FindObjectForCode("gargoylesanity").Active = otable["gargoylesanity"]
+        Tracker:FindObjectForCode("progression_option").Active = otable["progression_option"]
+    end
 
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
     ScriptHost:AddOnLocationSectionChangedHandler("ChaliceCount", ChaliceCount)
     ScriptHost:AddWatchForCode("Highlights1", "progression_option", Lighting)
     ScriptHost:AddWatchForCode("Highlights2", "runesanity", Lighting)
+    Archipelago:SetNotify(NotifyKeys)
 end
 
 -- called when an item gets collected
@@ -232,22 +234,21 @@ function onBounce(json)
 end
 
 function onDataStorageUpdate(key, value, oldValue)
-    --if you plan to only use the hints key, you can remove this if
-    print("called datastrorage: ", key, value, oldValue)
-    if key.find(key, "GPS") then
-        local r = value["MapId"]
-        if r >=0 and r <24 then
-            print("mapID: ", r)
-            local Map = Maps[r]
-            print("Map: ", Map)
-            if Map then
-                Tracker:UiHint("ActivateTab", Map)
+    -- print("called datastrorage: ", key, value, oldValue)
+    if Has("autotab") then
+        if key.find(key, "GPS") then
+            local r = value["MapId"]
+            if r >= 0 and r < 24 then
+                local Map = Maps[r]
+                if Map then
+                    Tracker:UiHint("ActivateTab", Map)
+                end
+            else
+                print("ERROR; Other map: ", r, value["MapName"])
             end
         else
-            print("Other map: ", r, value["MapName"])
+            return
         end
-    else
-        return
     end
 end
 

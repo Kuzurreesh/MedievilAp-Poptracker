@@ -801,6 +801,12 @@
         "codes": "Hall"
     },
     {
+        "name": "GO",
+        "type": "toggle",
+        "img": "images/labels/Go.png",
+        "codes": "GO"
+    },
+    {
         "name": "Ant Caves",
         "type": "progressive_toggle",
         "loop": true,
@@ -948,6 +954,148 @@
         "initial_active_state": true,
         "loop": true,
         "codes": "autotab"
+    },
+    {
+        "name": "Chalice Amount",
+        "type": "static",
+        "img": "images/labels/chalice Amount.png",
+        "codes": "Amount"
+    },
+    {
+        "name": "Chalice win count",
+        "type": "progressive",
+        "codes": "chalice_win_count",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/labels/1chalice.png",
+                "img_mods": "@disabled",
+                "codes": "chalice_win_count",
+                "inherit_codes": true,
+                "name": "Unused"
+            },
+            {
+                "img": "images/labels/1chalice.png",
+                "codes": "chalice_win_count",
+                "inherit_codes": true,
+                "name": "1 Chalice"
+            },
+            {
+                "img": "images/labels/2chalice.png",
+                "codes": "chalice_win_count",
+                "inherit_codes": true,
+                "name": "2 Chalices"
+            },
+            {
+                "img": "images/labels/3chalice.png",
+                "codes": "chalice_win_count",
+                "inherit_codes": true,
+                "name": "3 Chalices"
+            },
+            {
+                "img": "images/labels/4chalice.png",
+                "codes": "chalice_win_count",
+                "inherit_codes": true,
+                "name": "4 Chalices"
+            },
+            {
+                "img": "images/labels/5chalice.png",
+                "codes": "chalice_win_count",
+                "inherit_codes": true,
+                "name": "5 Chalices"
+            },
+            {
+                "img": "images/labels/6chalice.png",
+                "codes": "chalice_win_count",
+                "inherit_codes": true,
+                "name": "6 Chalices"
+            },
+            {
+                "img": "images/labels/7chalice.png",
+                "codes": "chalice_win_count",
+                "inherit_codes": true,
+                "name": "7 Chalices"
+            },
+            {
+                "img": "images/labels/8chalice.png",
+                "codes": "chalice_win_count",
+                "inherit_codes": true,
+                "name": "8 Chalices"
+            },
+            {
+                "img": "images/labels/9chalice.png",
+                "codes": "chalice_win_count",
+                "inherit_codes": true,
+                "name": "9 Chalices"
+            },
+            {
+                "img": "images/labels/10chalice.png",
+                "codes": "chalice_win_count",
+                "inherit_codes": true,
+                "name": "10 Chalices"
+            },
+            {
+                "img": "images/labels/11chalice.png",
+                "codes": "chalice_win_count",
+                "inherit_codes": true,
+                "name": "11 Chalices"
+            },
+            {
+                "img": "images/labels/12chalice.png",
+                "codes": "chalice_win_count",
+                "inherit_codes": true,
+                "name": "12 Chalices"
+            },
+            {
+                "img": "images/labels/13chalice.png",
+                "codes": "chalice_win_count",
+                "inherit_codes": true,
+                "name": "13 Chalices"
+            },
+            {
+                "img": "images/labels/14chalice.png",
+                "codes": "chalice_win_count",
+                "inherit_codes": true,
+                "name": "14 Chalices"
+            },
+            {
+                "img": "images/labels/15chalice.png",
+                "codes": "chalice_win_count",
+                "inherit_codes": true,
+                "name": "15 Chalices"
+            },
+            {
+                "img": "images/labels/16chalice.png",
+                "codes": "chalice_win_count",
+                "inherit_codes": true,
+                "name": "16 Chalices"
+            },
+            {
+                "img": "images/labels/17chalice.png",
+                "codes": "chalice_win_count",
+                "inherit_codes": true,
+                "name": "17 Chalices"
+            },
+            {
+                "img": "images/labels/18chalice.png",
+                "codes": "chalice_win_count",
+                "inherit_codes": true,
+                "name": "18 Chalices"
+            },
+            {
+                "img": "images/labels/19chalice.png",
+                "codes": "chalice_win_count",
+                "inherit_codes": true,
+                "name": "19 Chalices"
+            },
+            {
+                "img": "images/labels/20chalice.png",
+                "codes": "chalice_win_count",
+                "inherit_codes": true,
+                "name": "20 Chalices"
+            }
+        ]
     },
     {
         "name": "Dan's Crypt Icon",
