@@ -38,6 +38,19 @@
 			]
 		]
 	},
+	"go": {
+		"type": "itemgrid",
+		"margin": "5, 0",
+		"item_margin": "0, 0",
+		"h_alignment": "left",
+		"item_h_alignment": "center",
+		"item_v_alignment": "center",
+		"item_height": 65,
+		"item_width": 65,
+		"rows": [
+			["GO"]
+		]},
+
 	"crypt": {
 		"type": "itemgrid",
 		"item_margin": "2, 2",
@@ -1084,6 +1097,10 @@
 						"booksanity",
 						"gargoylesanitylabel",
 						"gargoylesanity"
+					],
+					[
+						"Amount",
+						"chalice_win_count"
 					]
 				]
 			}

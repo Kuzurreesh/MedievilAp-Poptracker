@@ -12,34 +12,34 @@
 					"v_alignment": "stretch",
 					"margin": "0, 0",
 					"content": [
-							
-										{
-											"type": "array",
-											"orientation": "vertical",
-											"v_alignment": "top",
-											"content": [
-												{
-														"type": "layout",
-														"key": "weapons"
-												},
-												{
-														"type": "layout",
-														"key": "shared_item_grid_horizontal"
-												},
-												{
-														"type": "layout",
-														"key": "keyitemslabel"
-												},
-												{
-														"type": "layout",
-														"key": "crypt"
-												}
-												
-											]
-										},
-									
-								
+						{
+							"type": "array",
+							"orientation": "vertical",
+							"v_alignment": "top",
+							"content": [
 								{
+									"type": "layout",
+									"key": "weapons"
+								},
+								{
+									"type": "layout",
+									"key": "shared_item_grid_horizontal"
+								},
+								{
+									"type": "layout",
+									"key": "go"
+								},
+								{
+									"type": "layout",
+									"key": "keyitemslabel"
+								},
+								{
+									"type": "layout",
+									"key": "crypt"
+								}
+							]
+						},
+						{
 							"type": "tabbed",
 							"dock": "top",
 							"tabs": [
@@ -50,12 +50,13 @@
 										"type": "dock",
 										"dock": "top",
 										"content": [
-																				
 											{
 												"type": "map",
-												"maps": ["World Map"]
+												"maps": [
+													"World Map"
+												]
 											}
-											]
+										]
 									}
 								},
 								{
@@ -66,12 +67,13 @@
 										"dock": "top",
 										"margin": "5, 0",
 										"content": [
-																				
 											{
 												"type": "map",
-												"maps": ["Dan's Crypt"]
+												"maps": [
+													"Dan's Crypt"
+												]
 											}
-											]
+										]
 									}
 								},
 								{
@@ -81,12 +83,13 @@
 										"type": "dock",
 										"dock": "top",
 										"content": [
-																				
 											{
 												"type": "map",
-												"maps": ["Graveyard"]
+												"maps": [
+													"Graveyard"
+												]
 											}
-											]
+										]
 									}
 								},
 								{
@@ -96,18 +99,15 @@
 										"type": "dock",
 										"dock": "top",
 										"content": [
-											
-												
 											{
 												"type": "map",
-												"maps": ["Cemetery Hill"]
+												"maps": [
+													"Cemetery Hill"
+												]
 											}
-											
-											]
+										]
 									}
 								},
-								
-								
 								{
 									"title": "Return to the Graveyard",
 									"icon": "images/labels/wolves.png",
@@ -115,10 +115,11 @@
 										"type": "dock",
 										"dock": "top",
 										"content": [
-																		
 											{
 												"type": "map",
-												"maps": ["Return to the Graveyard"]
+												"maps": [
+													"Return to the Graveyard"
+												]
 											}
 										]
 									}
@@ -130,14 +131,15 @@
 										"type": "dock",
 										"dock": "top",
 										"content": [
-																	
 											{
 												"type": "map",
-												"maps": ["Scarecrow Fields"]
+												"maps": [
+													"Scarecrow Fields"
+												]
 											}
 										]
 									}
-								},			
+								},
 								{
 									"title": "Pumpkin Gorge",
 									"icon": "images/labels/pumpkin.png",
@@ -145,10 +147,11 @@
 										"type": "dock",
 										"dock": "top",
 										"content": [
-																					
 											{
 												"type": "map",
-												"maps": ["Pumpkin Gorge"]
+												"maps": [
+													"Pumpkin Gorge"
+												]
 											}
 										]
 									}
@@ -160,10 +163,11 @@
 										"type": "dock",
 										"dock": "top",
 										"content": [
-																					
 											{
 												"type": "map",
-												"maps": ["Pumpkin Serpent"]
+												"maps": [
+													"Pumpkin Serpent"
+												]
 											}
 										]
 									}
@@ -175,15 +179,15 @@
 										"type": "dock",
 										"dock": "top",
 										"content": [
-																				
 											{
 												"type": "map",
-												"maps": ["Sleeping Village"]
+												"maps": [
+													"Sleeping Village"
+												]
 											}
 										]
 									}
 								},
-											
 								{
 									"title": "The Asylum Grounds",
 									"icon": "images/labels/jack.png",
@@ -191,10 +195,11 @@
 										"type": "dock",
 										"dock": "top",
 										"content": [
-																				
 											{
 												"type": "map",
-												"maps": ["Asylum Grounds"]
+												"maps": [
+													"Asylum Grounds"
+												]
 											}
 										]
 									}
@@ -206,14 +211,15 @@
 										"type": "dock",
 										"dock": "top",
 										"content": [
-																			
 											{
 												"type": "map",
-												"maps": ["Inside the Asylum"]
+												"maps": [
+													"Inside the Asylum"
+												]
 											}
 										]
 									}
-								},			
+								},
 								{
 									"title": "Enchanted Earth",
 									"icon": "images/labels/demonettes.png",
@@ -221,10 +227,11 @@
 										"type": "dock",
 										"dock": "top",
 										"content": [
-																				
 											{
 												"type": "map",
-												"maps": ["Enchanted Earth"]
+												"maps": [
+													"Enchanted Earth"
+												]
 											}
 										]
 									}
@@ -236,15 +243,15 @@
 										"type": "dock",
 										"dock": "top",
 										"content": [
-																				
 											{
 												"type": "map",
-												"maps": ["Ant Caves"]
+												"maps": [
+													"Ant Caves"
+												]
 											}
 										]
 									}
 								},
-								
 								{
 									"title": "Pools of the Ancient Dead",
 									"icon": "images/items/soul helmet.png",
@@ -252,10 +259,11 @@
 										"type": "dock",
 										"dock": "top",
 										"content": [
-																			
 											{
 												"type": "map",
-												"maps": ["Pools of the Ancient Dead"]
+												"maps": [
+													"Pools of the Ancient Dead"
+												]
 											}
 										]
 									}
@@ -267,10 +275,11 @@
 										"type": "dock",
 										"dock": "top",
 										"content": [
-																			
 											{
 												"type": "map",
-												"maps": ["Lake"]
+												"maps": [
+													"Lake"
+												]
 											}
 										]
 									}
@@ -282,10 +291,11 @@
 										"type": "dock",
 										"dock": "top",
 										"content": [
-																			
 											{
 												"type": "map",
-												"maps": ["Crystal Caves"]
+												"maps": [
+													"Crystal Caves"
+												]
 											}
 										]
 									}
@@ -297,10 +307,11 @@
 										"type": "dock",
 										"dock": "top",
 										"content": [
-																				
 											{
 												"type": "map",
-												"maps": ["Gallows Gauntlet"]
+												"maps": [
+													"Gallows Gauntlet"
+												]
 											}
 										]
 									}
@@ -312,10 +323,11 @@
 										"type": "dock",
 										"dock": "top",
 										"content": [
-																			
 											{
 												"type": "map",
-												"maps": ["Haunted Ruins"]
+												"maps": [
+													"Haunted Ruins"
+												]
 											}
 										]
 									}
@@ -327,15 +339,15 @@
 										"type": "dock",
 										"dock": "top",
 										"content": [
-																			
 											{
 												"type": "map",
-												"maps": ["Ghost Ship"]
+												"maps": [
+													"Ghost Ship"
+												]
 											}
 										]
 									}
 								},
-								
 								{
 									"title": "The Entrance Hall",
 									"icon": "images/labels/kobold.png",
@@ -343,12 +355,13 @@
 										"type": "dock",
 										"dock": "top",
 										"content": [
-												
 											{
-										"type": "map",
-										"maps": ["Entrance Hall"]
-									}
-									]
+												"type": "map",
+												"maps": [
+													"Entrance Hall"
+												]
+											}
+										]
 									}
 								},
 								{
@@ -359,16 +372,15 @@
 										"dock": "top",
 										"margin": "5, 0",
 										"content": [
-																			
 											{
 												"type": "map",
-												"maps": ["Time Device"]
+												"maps": [
+													"Time Device"
+												]
 											}
-											]
+										]
 									}
 								}
-								
-								
 							]
 						}
 					]
@@ -388,7 +400,7 @@
 				"content": {
 					"type": "layout",
 					"key": "settings"
-				}	
+				}
 			}
 		]
 	}
