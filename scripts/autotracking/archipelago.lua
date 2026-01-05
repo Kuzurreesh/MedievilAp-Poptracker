@@ -31,6 +31,7 @@ function onClear(slot_data)
     }
 
 
+
     -- reset locations
     for _, v in pairs(LOCATION_MAPPING) do
         if v[1] then
