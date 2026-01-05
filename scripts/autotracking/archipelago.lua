@@ -249,18 +249,21 @@ end
 function onDataStorageUpdate(key, value, oldValue)
     -- print("called datastrorage: ", key, value, oldValue)
     if Has("autotab") then
-        local r = value["MapId"]
+        
+        print("value: ", value)
         local Map
+        local r = Maps2[value]
         if r then
-            Map = Maps[r]
+            Map = r
+             print("mapname: ",  Map)
         else
-            r = value["MapName"]
-            Map = Maps2[r]
+            Map = Maps[value["MapId"]]
+            print("mapid: ", r, Map)
         end
         if Map then
             Tracker:UiHint("ActivateTab", Map)
         else
-            print("ERROR; Other map: ", r, value["MapName"])
+            print("ERROR; Other map: ", r, value["MapName"], Map)
         end
     end
 end
