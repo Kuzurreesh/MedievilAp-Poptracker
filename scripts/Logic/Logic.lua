@@ -32,7 +32,7 @@ function GO()
 		end
 	elseif Goal == 1 then
 		state = Chalices(Tracker:FindObjectForCode("chalice_win_count").CurrentStage)
-			print("state chalice goal: ", state)
+		--	print("state chalice goal: ", state)
 	else
 		state = Chalices(Tracker:FindObjectForCode("chalice_win_count").CurrentStage) and
 			Can("@The Time Device/Clear Game/Beat Zarok")
@@ -40,7 +40,7 @@ function GO()
 
 		--	print("state both goal: ",state)
 	end
-	print("state2: ", state)
+	--print("state2: ", state)
 	ending.Active = state
 end
 
