@@ -465,3 +465,32 @@ Maps = {
     [23] = "The Time Device and Zarok's Lair"
 
 }
+
+
+Maps2 = {
+    ["None/Out of Game"] = "World Map",
+    ["The Graveyard"] = "The Graveyard",
+    ["Return to the Graveyard"] = "Return to the Graveyard",
+    ["Cemetery Hill"] = "Cemetery Hill and Hilltop Mausoleum",
+    ["The Hilltop Mausoleum"] = "Cemetery Hill and Hilltop Mausoleum",
+    ["Scarecrow Fields"] = "Scarecrow Fields",
+    ["Dan's Crypt"] = "Dan's Crypt",
+    ["The Ant Caves"] = "The Ant Caves",
+    ["The Crystal Caves"] = "The Crystal Caves",
+    ["Pumpkin Gorge"] = "Pumpkin Gorge",
+    ["The Pumpkin Serpent"] = "Pumpkin Serpent",
+    ["The Sleeping Village"] = "Sleeping Village",
+    ["Pools Of The Ancient Dead"] = "Pools of the Ancient Dead",
+    ["The Asylum Grounds"] = "The Asylum Grounds",
+    ["Inside The Asylum"] = "Inside the Asylum",
+    ["The Enchanted Earth"] = "Enchanted Earth",
+    ["The Gallows Gauntlet"] = "The Gallows Gauntlet",
+    ["The Haunted Ruins"] = "The Haunted Ruins",
+    ["Hall of Heroes"] = "World Map",
+    ["The Ghost Ship"] = "The Ghost Ship",
+    ["The Entrance Hall"] = "The Entrance Hall",
+    ["The Time Device"] = "The Time Device and Zarok's Lair",
+    ["The Lake"] = "The Lake",
+    ["Zarok's Lair"] = "The Time Device and Zarok's Lair"
+
+}

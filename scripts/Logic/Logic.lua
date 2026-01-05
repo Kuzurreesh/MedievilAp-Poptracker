@@ -10,6 +10,42 @@ function Can(location)
 	end
 end
 
+function GO()
+	--('GO!!!')
+	Goal = Tracker:FindObjectForCode("goal").CurrentStage
+
+	--print('GO?', Goal)
+	local ending = Tracker:FindObjectForCode("GO")
+	--print("ending: ", ending)
+	local state = false
+	--print("state: ", state)
+	--local y = Tracker:FindObjectForCode("chalice_win_count").CurrentStage
+
+	--local x = Chalices(Tracker:FindObjectForCode("chalice_win_count").CurrentStage)
+	--	print("chalice function: ", x, y)
+	if Goal == 0 then
+		--	print("zarok goal")
+		if Can("@The Time Device/Clear Game/Beat Zarok") then
+			state = true
+		else
+			state = false
+		end
+	elseif Goal == 1 then
+		state = Chalices(Tracker:FindObjectForCode("chalice_win_count").CurrentStage)
+			print("state chalice goal: ", state)
+	else
+		state = Chalices(Tracker:FindObjectForCode("chalice_win_count").CurrentStage) and
+			Can("@The Time Device/Clear Game/Beat Zarok")
+
+
+		--	print("state both goal: ",state)
+	end
+	print("state2: ", state)
+	ending.Active = state
+end
+
+ScriptHost:AddWatchForCode("Go-Mode", "goodlightning", GO)
+
 -- Graveyard
 function GraveEarth()
 	if (Has("runesanity") and Has("earthgrave") or not Has("runesanity")) then
@@ -347,7 +383,7 @@ function Chalices(number)
 	local count = 0
 	number = tonumber(number)
 	if not Has("include_chalices_in_checks") then
-		return 0
+		return false
 	end
 	if Can("@The Graveyard/Spinning Statue/Chalice") then
 		count = count + 1
@@ -469,8 +505,13 @@ function Chalices(number)
 			return true
 		end
 	end
-	return count >= number
+	if count >= number then
+		return true
+	end
+	return false
 end
+
+ScriptHost:AddWatchForCode("chalicechange", "chalice", GO)
 
 function Highlighting(list)
 	for key, value in pairs(list) do

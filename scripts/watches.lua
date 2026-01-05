@@ -1,4 +1,5 @@
 function ChaliceCount(section)
+    
     if section.FullID:sub(-7) == "Chalice" then
         local obj = Tracker:FindObjectForCode("chalice")
         local count = 0
@@ -18,9 +19,7 @@ end
 
 ScriptHost:AddOnLocationSectionChangedHandler("ChaliceCount", ChaliceCount)
 
-function Datatesting(code)
-    Archipelago:Get(NotifyKeys)
-end
+
 
 function Lighting(code)
     ScriptHost:RemoveOnLocationSectionHandler("ChaliceCount")
@@ -44,4 +43,4 @@ end
 ScriptHost:AddWatchForCode("Highlights", "Highlightings", Lighting)
 ScriptHost:AddWatchForCode("Highlights1", "progression_option", Lighting)
 ScriptHost:AddWatchForCode("Highlights2", "runesanity", Lighting)
-ScriptHost:AddWatchForCode("axe", "axe", Datatesting)
+

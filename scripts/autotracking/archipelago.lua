@@ -13,7 +13,6 @@ LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
 
-
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump(slot_data)))
@@ -23,6 +22,8 @@ function onClear(slot_data)
     ScriptHost:RemoveOnLocationSectionHandler("ChaliceCount")
     ScriptHost:RemoveWatchForCode("Highlights1")
     ScriptHost:RemoveWatchForCode("Highlights2")
+    ScriptHost:RemoveWatchForCode("Go-Mode")
+    ScriptHost:RemoveWatchForCode("chalicechange")
     TeamName = Archipelago:GetPlayerAlias(Archipelago.PlayerNumber)
     TeamNumber = Archipelago.TeamNumber
     NotifyKeys = {
@@ -75,6 +76,7 @@ function onClear(slot_data)
 
     -- reset local item(s)
     Tracker:FindObjectForCode("Chalice").AcquiredCount = 0
+    Tracker:FindObjectForCode("GO").Active = false
 
     -- Autotracking options
     if slot_data["options"] then
@@ -83,12 +85,16 @@ function onClear(slot_data)
 
         Tracker:FindObjectForCode("runesanity").Active = otable["runesanity"]
         Tracker:FindObjectForCode("goal").CurrentStage = otable["goal"]
+
+        Goal = otable["goal"]
         Tracker:FindObjectForCode("include_ant_hill_in_checks").Active = otable["include_ant_hill_in_checks"]
         Tracker:FindObjectForCode("include_chalices_in_checks").Active = otable["include_chalices_in_checks"]
 
         if Has("include_chalices_in_checks") then
+            Tracker:FindObjectForCode("Chalice").MaxCount = 20
             local amount = otable["chalice_win_count"]
             if not Has("include_ant_hill_in_checks") then
+                Tracker:FindObjectForCode("Chalice").MaxCount = 19
                 if amount > 19 then
                     counted = 19
                 else
@@ -97,19 +103,25 @@ function onClear(slot_data)
             else
                 counted = amount
             end
+        elseif Has("include_ant_hill_in_checks") then
+            counted = 19
+        else
+            counted = 20
         end
 
-        Tracker:FindObjectForCode("Chalice").MaxCount = counted
+        Tracker:FindObjectForCode("chalice_win_count").CurrentStage = counted
         Tracker:FindObjectForCode("booksanity").Active = otable["booksanity"]
         Tracker:FindObjectForCode("gargoylesanity").Active = otable["gargoylesanity"]
         Tracker:FindObjectForCode("progression_option").Active = otable["progression_option"]
     end
-
+    GO()
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
     ScriptHost:AddOnLocationSectionChangedHandler("ChaliceCount", ChaliceCount)
     ScriptHost:AddWatchForCode("Highlights1", "progression_option", Lighting)
     ScriptHost:AddWatchForCode("Highlights2", "runesanity", Lighting)
+    ScriptHost:AddWatchForCode("Go-Mode", "goodlightning", GO)
+    ScriptHost:AddWatchForCode("chalicechange", "chalice", GO)
     Archipelago:SetNotify(NotifyKeys)
 end
 
@@ -236,18 +248,18 @@ end
 function onDataStorageUpdate(key, value, oldValue)
     -- print("called datastrorage: ", key, value, oldValue)
     if Has("autotab") then
-        if key.find(key, "GPS") then
-            local r = value["MapId"]
-            if r >= 0 and r < 24 then
-                local Map = Maps[r]
-                if Map then
-                    Tracker:UiHint("ActivateTab", Map)
-                end
-            else
-                print("ERROR; Other map: ", r, value["MapName"])
-            end
+        local r = value["MapId"]
+        local Map
+        if r then
+            Map = Maps[r]
         else
-            return
+            r = value["MapName"]
+            Map = Maps2[r]
+        end
+        if Map then
+            Tracker:UiHint("ActivateTab", Map)
+        else
+            print("ERROR; Other map: ", r, value["MapName"])
         end
     end
 end
