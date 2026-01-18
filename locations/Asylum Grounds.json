@@ -270,6 +270,9 @@
             },
             {
                 "name": "Clear",
+                "access_rules": [
+                    "$GroundsChaos"
+                ],
                 "map_locations": [
                     {
                         "map": "Asylum Grounds",
@@ -282,9 +285,6 @@
                 "sections": [
                     {
                         "name": "Cleared: Asylum Grounds",
-                        "access_rules": [
-                            "$GroundsChaos"
-                        ],
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
                     }

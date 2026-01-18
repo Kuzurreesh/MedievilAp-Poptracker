@@ -17,12 +17,12 @@ function ChaliceCount(section)
     end
 end
 
-ScriptHost:AddOnLocationSectionChangedHandler("ChaliceCount", ChaliceCount)
+-- ScriptHost:AddOnLocationSectionChangedHandler("ChaliceCount", ChaliceCount)
 
 
 
 function Lighting(code)
-    ScriptHost:RemoveOnLocationSectionHandler("ChaliceCount")
+   -- ScriptHost:RemoveOnLocationSectionHandler("ChaliceCount")
     if Has("Highlightings") and Has("progression_option") then
         Highlighting(Always)
         Highlighting(RuneH)
@@ -33,11 +33,7 @@ function Lighting(code)
         Unlighting(Always)
         Unlighting(RuneH)
     end
-    ScriptHost:AddOnLocationSectionChangedHandler("ChaliceCount", ChaliceCount)
-end
-
-function CountChalice(new, old)
-    print("chalicenumber: ", new, old)
+  --  ScriptHost:AddOnLocationSectionChangedHandler("ChaliceCount", ChaliceCount)
 end
 
 ScriptHost:AddWatchForCode("Highlights", "Highlightings", Lighting)

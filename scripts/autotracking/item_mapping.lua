@@ -22,6 +22,15 @@ ITEM_MAPPING = {
 	[BASE_ITEM_ID + 46] = { "shieldcopper", "toggle" },
 	[BASE_ITEM_ID + 47] = { "shieldsilver", "toggle" },
 	[BASE_ITEM_ID + 48] = { "shieldgold", "toggle" },
+	[BASE_ITEM_ID + 50] = { "bottle", "consumable" },
+	[BASE_ITEM_ID + 51] = { "bottle", "consumable" },
+	[BASE_ITEM_ID + 52] = { "bottle", "consumable" },
+	[BASE_ITEM_ID + 53] = { "bottle", "consumable" },
+	[BASE_ITEM_ID + 54] = { "bottle", "consumable" },
+	[BASE_ITEM_ID + 55] = { "bottle", "consumable" },
+	[BASE_ITEM_ID + 56] = { "bottle", "consumable" },
+	[BASE_ITEM_ID + 57] = { "bottle", "consumable" },
+	[BASE_ITEM_ID + 58] = { "bottle", "consumable" },
 	[BASE_ITEM_ID + 60] = { "daring5", "toggle" },
 
 	-- Key Items

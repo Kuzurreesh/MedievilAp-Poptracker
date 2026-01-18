@@ -424,6 +424,9 @@
             },
             {
                 "name": "Clear",
+                "access_rules": [
+                    "$CrystalStar"
+                ],
                 "map_locations": [
                     {
                         "map": "Crystal Caves",
@@ -436,9 +439,6 @@
                 "sections": [
                     {
                         "name": "Cleared: The Crystal Caves",
-                        "access_rules": [
-                            "$CrystalStar"
-                        ],
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
                     }

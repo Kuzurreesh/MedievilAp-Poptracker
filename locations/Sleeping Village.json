@@ -346,15 +346,16 @@
                 ]
             },
             {
-                "name": "Ledge at Mayor's House",
+                "name": "Upper Ledge at Mayor's House",
                 "access_rules": [
                     "Crucifix"
                 ],
                 "map_locations": [
                     {
                         "map": "Sleeping Village",
-                        "x": 1370,
-                        "y": 1355
+                        "x": 1385,
+                        "y": 1310,
+                        "size": 35
                     }
                 ],
                 "sections": [
@@ -362,18 +363,31 @@
                         "name": "Energy Vial: Near Chalice - SV"
                     },
                     {
+                        "name": "Gold Coins: Chest next to Chalice - SV"
+                    }
+                ]
+            },
+            {
+                "name": "Bottom Ledge at Mayor's House",
+                "access_rules": [
+                    "Crucifix, include_chalices_in_checks, @Sleeping Village/Inn B2[1]/Key Item: Landlords Bust - SV"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Sleeping Village",
+                        "x": 1375,
+                        "y": 1355,
+                        "size": 45
+                    }
+                ],
+                "sections": [
+                    {
                         "name": "Chalice",
-                        "access_rules": [
-                            "include_chalices_in_checks, @Sleeping Village/Inn B2[1]/Key Item: Landlords Bust - SV"
-                        ],
                         "visibility_rules": [
                             "include_chalices_in_checks"
                         ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
-                    },
-                    {
-                        "name": "Gold Coins: Chest next to Chalice - SV"
                     }
                 ]
             },
@@ -602,7 +616,7 @@
                 ]
             },
             {
-                "name": "Clear",
+                "name": "Exit Book",
                 "access_rules": [
                     "Crucifix"
                 ],
@@ -617,14 +631,6 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cleared: Sleeping Village",
-                        "chest_unopened_img": "images/labels/Not Cleared.png",
-                        "chest_opened_img": "images/labels/Cleared.png",
-                        "access_rules": [
-                            "@Sleeping Village/Inn B2[1]/Key Item: Landlords Bust - SV"
-                        ]
-                    },
-                    {
                         "name": "Book: Zaroks Note - SV",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
@@ -634,6 +640,28 @@
                         "visibility_rules": [
                             "booksanity"
                         ]
+                    }
+                ]
+            },
+            {
+                "name": "Clear",
+                "access_rules": [
+                    "Crucifix, @Sleeping Village/Inn B2[1]/Key Item: Landlords Bust - SV"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Sleeping Village",
+                        "x": 1825,
+                        "y": 870,
+                        "shape": "diamond",
+                        "size": 60
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cleared: Sleeping Village",
+                        "chest_unopened_img": "images/labels/Not Cleared.png",
+                        "chest_opened_img": "images/labels/Cleared.png"
                     }
                 ]
             }

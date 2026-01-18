@@ -372,6 +372,9 @@
             },
             {
                 "name": "Clear",
+                "access_rules": [
+                    "shadowtalisman, shadowartefact, $EnchantEarth, $EnchantStar"
+                ],
                 "map_locations": [
                     {
                         "map": "Enchanted Earth",
@@ -384,9 +387,6 @@
                 "sections": [
                     {
                         "name": "Cleared: Enchanted Earth",
-                        "access_rules": [
-                            "shadowtalisman, shadowartefact, $EnchantEarth, $EnchantStar"
-                        ],
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
                     }

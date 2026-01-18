@@ -342,6 +342,9 @@
             },
             {
                 "name": "Clear",
+                "access_rules": [
+                    "$LakeStar"
+                ],
                 "map_locations": [
                     {
                         "map": "Lake",
@@ -354,9 +357,6 @@
                 "sections": [
                     {
                         "name": "Cleared: The Lake",
-                        "access_rules": [
-                            "$LakeStar"
-                        ],
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
                     }

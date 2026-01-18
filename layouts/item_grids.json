@@ -63,7 +63,9 @@
 		"item_width": 25,
 		"rows": [
 			[
-				"chalice"
+				"chaliceproxy",
+				"",
+				"bottle"
 			],
 			[
 				"crypticon",
