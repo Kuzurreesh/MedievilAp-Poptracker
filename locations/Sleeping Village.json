@@ -623,10 +623,9 @@
                 "map_locations": [
                     {
                         "map": "Sleeping Village",
-                        "x": 1825,
-                        "y": 870,
-                        "shape": "diamond",
-                        "size": 60
+                        "x": 1790,
+                        "y": 850,
+                        "size": 40
                     }
                 ],
                 "sections": [
@@ -651,10 +650,10 @@
                 "map_locations": [
                     {
                         "map": "Sleeping Village",
-                        "x": 1825,
+                        "x": 1850,
                         "y": 870,
                         "shape": "diamond",
-                        "size": 60
+                        "size": 55
                     }
                 ],
                 "sections": [
