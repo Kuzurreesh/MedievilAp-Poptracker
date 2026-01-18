@@ -27,6 +27,23 @@ function Chalice_Win(num)
 	end
 end
 
+function Can2(location)
+	if Tracker:FindObjectForCode(location).AccessibilityLevel == 6 then
+		return true
+	else
+		return false
+	end
+end
+
+function Chalice_Win(num)
+	num = tonumber(num)
+	if Tracker:FindObjectForCode("chalice_win_count").CurrentStage >= num then
+		return true
+	else
+		return false
+	end
+end
+
 function GO()
 	Goal = Tracker:FindObjectForCode("goal").CurrentStage
 	local ending = Tracker:FindObjectForCode("GO")
@@ -55,6 +72,7 @@ function GO()
 			state = true
 		end
 	
+
 	ending.Active = state
 end
 
