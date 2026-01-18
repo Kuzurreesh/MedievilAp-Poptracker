@@ -19,11 +19,12 @@ function onClear(slot_data)
     end
     SLOT_DATA = slot_data
     CUR_INDEX = -1
-    ScriptHost:RemoveOnLocationSectionHandler("ChaliceCount")
+   -- ScriptHost:RemoveOnLocationSectionHandler("ChaliceCount")
     ScriptHost:RemoveWatchForCode("Highlights1")
     ScriptHost:RemoveWatchForCode("Highlights2")
     ScriptHost:RemoveWatchForCode("Go-Mode")
     ScriptHost:RemoveWatchForCode("chalicechange")
+    ScriptHost:RemoveWatchForCode("bottle")
     TeamName = Archipelago:GetPlayerAlias(Archipelago.PlayerNumber)
     TeamNumber = Archipelago.TeamNumber
     NotifyKeys = {
@@ -82,7 +83,7 @@ function onClear(slot_data)
     -- Autotracking options
     if slot_data["options"] then
         local otable = slot_data["options"]
-        local counted = 0
+        local amount = 0
 
         Tracker:FindObjectForCode("runesanity").Active = otable["runesanity"]
         Tracker:FindObjectForCode("goal").CurrentStage = otable["goal"]
@@ -92,38 +93,33 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("include_chalices_in_checks").Active = otable["include_chalices_in_checks"]
 
         if Has("include_chalices_in_checks") then
-            Tracker:FindObjectForCode("Chalice").MaxCount = 20
-            local amount = otable["chalice_win_count"]
-            if not Has("include_ant_hill_in_checks") then
-                Tracker:FindObjectForCode("Chalice").MaxCount = 19
-                if amount > 19 then
-                    counted = 19
-                else
-                    counted = amount
-                end
-            else
-                counted = amount
-            end
-        elseif Has("include_ant_hill_in_checks") then
-            counted = 19
+            amount = otable["chalice_win_count"]
+            Tracker:FindObjectForCode("Chalice").MaxCount = amount
         else
-            counted = 20
+            amount = 0
         end
-
-        Tracker:FindObjectForCode("chalice_win_count").CurrentStage = counted
+        local tracker = Tracker:FindObjectForCode("chaliceproxy")
+        Tracker:FindObjectForCode("chalice_win_count").CurrentStage = amount
+        Tracker:FindObjectForCode("chalice").MaxCount = amount
+        tracker.BadgeText = "0/" .. tostring(amount)
+        tracker.IgnoreUserInput = true
         Tracker:FindObjectForCode("booksanity").Active = otable["booksanity"]
         Tracker:FindObjectForCode("gargoylesanity").Active = otable["gargoylesanity"]
         Tracker:FindObjectForCode("progression_option").Active = otable["progression_option"]
+        
     end
     GO()
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
-    ScriptHost:AddOnLocationSectionChangedHandler("ChaliceCount", ChaliceCount)
+   -- ScriptHost:AddOnLocationSectionChangedHandler("ChaliceCount", ChaliceCount)
     ScriptHost:AddWatchForCode("Highlights1", "progression_option", Lighting)
     ScriptHost:AddWatchForCode("Highlights2", "runesanity", Lighting)
     ScriptHost:AddWatchForCode("Go-Mode", "goodlightning", GO)
     ScriptHost:AddWatchForCode("chalicechange", "chalice", GO)
+    ScriptHost:AddWatchForCode("bottle", "bottle", GO)
+    Archipelago:Get(NotifyKeys)
     Archipelago:SetNotify(NotifyKeys)
+    
 end
 
 -- called when an item gets collected
@@ -249,21 +245,36 @@ end
 function onDataStorageUpdate(key, value, oldValue)
     -- print("called datastrorage: ", key, value, oldValue)
     if Has("autotab") then
-        
-        print("value: ", value)
+     --   print("Key: ", key)
+      --  print("value: ", value)
         local Map
-        local r = Maps2[value]
+        local r = Maps[value]
         if r then
             Map = r
-             print("mapname: ",  Map)
+        --    print("mapname: ",  Map)
         else
-            Map = Maps[value["MapId"]]
-            print("mapid: ", r, Map)
+            Map = Maps[value["MapName"]]
+        --    print("mapid: ", r, Map)
         end
         if Map then
             Tracker:UiHint("ActivateTab", Map)
         else
-            print("ERROR; Other map: ", r, value["MapName"], Map)
+         --   print("ERROR; Other map: ", r, value["MapName"], Map, "GPS?: ", value["GPS"])
+            Tracker:UiHint("ActivateTab", "World Map")
+        end
+    end
+    local count = tonumber(value["Region"])
+   -- print("count region: ", count)
+    if count then
+        local tracker = Tracker:FindObjectForCode("chaliceproxy")
+        Tracker:FindObjectForCode("chalice").AcquiredCount = count
+        
+        if count > 0 then
+            tracker.Active = true
+        end
+        tracker.BadgeText = tostring(count) .. "/" .. tostring(Tracker:FindObjectForCode("chalice_win_count").CurrentStage)
+        if count >= Tracker:FindObjectForCode("chalice_win_count").CurrentStage then
+            tracker.BadgeTextColor = "00FF00"
         end
     end
 end

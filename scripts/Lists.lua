@@ -6,11 +6,11 @@ Chal = {
     [5] = "@Scarecrow Fields/Harvested Path[1]/Chalice",
     [6] = "@Pumpkin Gorge/Behind Wall/Chalice",
     [7] = "@Pumpkin Serpent/Down the Well[1]/Chalice",
-    [8] = "@Sleeping Village/Ledge at Mayor's House/Chalice",
+    [8] = "@Sleeping Village/Bottom Ledge at Mayor's House/Chalice",
     [9] = "@Asylum Grounds/Elephant/Chalice",
     [10] = "@Inside the Asylum/Prison/Chalice",
     [11] = "@Enchanted Earth/Shadow Cave[1]/Chalice",
-    [12] = "@Ant Caves/Clear/Chalice",
+    [12] = "@Ant Caves/Chalice/Chalice",
     [13] = "@Pools of the Ancient Dead/West Side[3]/Chalice",
     [14] = "@The Lake/Past Tunnel[3]/Chalice",
     [15] = "@The Crystal Caves/Start/Chalice",
@@ -19,6 +19,51 @@ Chal = {
     [18] = "@The Ghost Ship/Up the Lift/Chalice",
     [19] = "@The Entrance Hall/Zarok's Library[2]/Chalice",
     [20] = "@The Time Device/Lasers/Chalice"
+}
+Counting = {
+    [1]  = { "@The Graveyard/Spinning Statue", "@The Graveyard/Clear" },
+    [2]  = { "@Cemetery Hill/Arena[1]", "@Cemetery Hill/Clear" },
+    [3]  = { "@Hilltop Mausoleum/Secret Alcove", "@Hilltop Mausoleum/Clear" },
+    [4]  = { "@Return to the Graveyard/Undertakers", "@Return to the Graveyard/Clear" },
+    [5]  = { "@Scarecrow Fields/Harvested Path[1]", "@Scarecrow Fields/Clear" },
+    [6]  = { "@Pumpkin Gorge/Behind Wall", "@Pumpkin Gorge/Clear" },
+    [7]  = { "@Pumpkin Serpent/Down the Well[1]", "@Pumpkin Serpent/Clear" },
+    [8]  = { "@Sleeping Village/Bottom Ledge at Mayor's House", "@Sleeping Village/Clear" },
+    [9]  = { "@Asylum Grounds/Elephant", "@Asylum Grounds/Clear" },
+    [10] = { "@Inside the Asylum/Prison", "@Inside the Asylum/Clear" },
+    [11] = { "@Enchanted Earth/Shadow Cave[1]", "@Enchanted Earth/Clear" },
+    [12] = { "@Ant Caves/Chalice", "@Ant Caves/Clear" },
+    [13] = { "@Pools of the Ancient Dead/West Side[3]", "@Pools of the Ancient Dead/Clear" },
+    [14] = { "@The Lake/Past Tunnel[3]", "@The Lake/Clear" },
+    [15] = { "@The Crystal Caves/Start", "@The Crystal Caves/Clear" },
+    [16] = { "@The Gallows Gauntlet/Chalice Gate", "@The Gallows Gauntlet/Clear" },
+    [17] = { "@The Haunted Ruins/Outer Wall West[2]", "@The Haunted Ruins/Clear" },
+    [18] = { "@The Ghost Ship/Up the Lift", "@The Ghost Ship/Clear" },
+    [19] = { "@The Entrance Hall/Zarok's Library[2]", "@The Entrance Hall/Clear" },
+    [20] = { "@The Time Device/Lasers", "@The Time Device/Clear" }
+
+}
+Chal2 = {
+    [1] = "@The Graveyard/Spinning Statue",
+    [2] = "@Cemetery Hill/Arena[1]",
+    [3] = "@Hilltop Mausoleum/Secret Alcove",
+    [4] = "@Return to the Graveyard/Undertakers",
+    [5] = "@Scarecrow Fields/Harvested Path[1]",
+    [6] = "@Pumpkin Gorge/Behind Wall",
+    [7] = "@Pumpkin Serpent/Down the Well[1]",
+    [8] = "@Sleeping Village/Bottom Ledge at Mayor's House",
+    [9] = "@Asylum Grounds/Elephant",
+    [10] = "@Inside the Asylum/Prison",
+    [11] = "@Enchanted Earth/Shadow Cave[1]",
+    [12] = "@Ant Caves/Chalice",
+    [13] = "@Pools of the Ancient Dead/West Side[3]",
+    [14] = "@The Lake/Past Tunnel[3]",
+    [15] = "@The Crystal Caves/Start",
+    [16] = "@The Gallows Gauntlet/Chalice Gate",
+    [17] = "@The Haunted Ruins/Outer Wall West[2]",
+    [18] = "@The Ghost Ship/Up the Lift",
+    [19] = "@The Entrance Hall/Zarok's Library[2]",
+    [20] = "@The Time Device/Lasers"
 }
 Where = {
     ["@Ant Caves"] = "The Ant Caves",
@@ -438,7 +483,7 @@ RuneH = {
 
 }
 
-Maps = {
+Maps2 = {
     [0] = "World Map",
     [1] = "The Graveyard",
     [2] = "Return to the Graveyard",
@@ -467,7 +512,7 @@ Maps = {
 }
 
 
-Maps2 = {
+Maps = {
     ["None/Out of Game"] = "World Map",
     ["The Graveyard"] = "The Graveyard",
     ["Return to the Graveyard"] = "Return to the Graveyard",
@@ -475,15 +520,15 @@ Maps2 = {
     ["The Hilltop Mausoleum"] = "Cemetery Hill and Hilltop Mausoleum",
     ["Scarecrow Fields"] = "Scarecrow Fields",
     ["Dan's Crypt"] = "Dan's Crypt",
-    ["The Ant Caves"] = "The Ant Caves",
+    ["Ant Hill"] = "The Ant Caves",
     ["The Crystal Caves"] = "The Crystal Caves",
     ["Pumpkin Gorge"] = "Pumpkin Gorge",
     ["The Pumpkin Serpent"] = "Pumpkin Serpent",
     ["The Sleeping Village"] = "Sleeping Village",
     ["Pools Of The Ancient Dead"] = "Pools of the Ancient Dead",
     ["The Asylum Grounds"] = "The Asylum Grounds",
-    ["Inside The Asylum"] = "Inside the Asylum",
-    ["The Enchanted Earth"] = "Enchanted Earth",
+    ["Inside the Asylum"] = "Inside the Asylum",
+    ["Enchanted Earth"] = "Enchanted Earth",
     ["The Gallows Gauntlet"] = "The Gallows Gauntlet",
     ["The Haunted Ruins"] = "The Haunted Ruins",
     ["Hall of Heroes"] = "World Map",

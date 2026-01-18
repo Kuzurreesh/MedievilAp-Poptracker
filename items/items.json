@@ -650,11 +650,27 @@
     {
         "name": "Chalice",
         "type": "consumable",
-        "overlay_font_size": "15",
+        "overlay_font_size": "14",
         "img": "images/items/Chalice.png",
         "codes": "chalice",
-        "initial_quantity": 0,
+        "overlay_align": "left",
+        "initial_quantity": 2,
         "max_quantity": 20
+    },
+    {
+        "name": "Chalice Proxy",
+        "type": "toggle",
+        "img": "images/items/Chalice.png",
+        "codes": "chaliceproxy"
+    },
+    {
+        "name": "Life Bottle",
+        "type": "consumable",
+        "overlay_font_size": "14",
+        "img": "images/labels/full.png",
+        "codes": "bottle",
+        "initial_quantity": 0,
+        "max_quantity": 9
     },
     {
         "name": "Items",

@@ -256,6 +256,9 @@
             },
             {
                 "name": "Clear",
+                "access_rules": [
+                    "$DeviceTime, $DeviceChaos, $DeviceMoon"
+                ],
                 "map_locations": [
                     {
                         "map": "Time Device",
@@ -268,12 +271,9 @@
                 "sections": [
                     {
                         "name": "Cleared: The Time Device",
-                        "access_rules": [
-                            "$DeviceTime, $DeviceChaos, $DeviceMoon"
-                        ],
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
-                    }                    
+                    }
                 ]
             },
             {
@@ -348,8 +348,8 @@
                 "name": "Clear Game",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@The Time Device/Clear/Cleared: The Time Device",
-                    "progression_option"
+                    "@The Time Device/Clear/Cleared: The Time Device, [bottle:5], goodlightning",
+                    "progression_option, [bottle:5], goodlightning"
                 ],
                 "map_locations": [
                     {
@@ -363,9 +363,6 @@
                 "sections": [
                     {
                         "name": "Beat Zarok",
-                        "access_rules": [
-                            "goodlightning"
-                        ],
                         "chest_unopened_img": "images/labels/zarok.png",
                         "chest_opened_img": "images/labels/zarok2disabled.png"
                     }

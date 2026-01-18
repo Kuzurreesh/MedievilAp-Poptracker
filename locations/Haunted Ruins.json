@@ -444,6 +444,9 @@
             },
             {
                 "name": "Clear",
+                "access_rules": [
+                    "crown, golem, $RuinsEarth, $RuinsChaos"
+                ],
                 "map_locations": [
                     {
                         "map": "Haunted Ruins",
@@ -456,9 +459,6 @@
                 "sections": [
                     {
                         "name": "Cleared: The Haunted Ruins",
-                        "access_rules": [
-                            "crown, golem, $RuinsEarth, $RuinsChaos"
-                        ],
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
                     }

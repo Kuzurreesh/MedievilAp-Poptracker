@@ -379,6 +379,7 @@
             },
             {
                 "name": "Clear",
+                "access_rules": "helmet: 8",
                 "map_locations": [
                     {
                         "map": "Pools of the Ancient Dead",
@@ -391,7 +392,6 @@
                 "sections": [
                     {
                         "name": "Cleared: Pools of the Ancient Dead",
-                        "access_rules": "helmet: 8",
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
                     }

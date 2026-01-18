@@ -102,6 +102,9 @@
             },
             {
                 "name": "Zarok's Library[2]",
+                "access_rules": [
+                    "imp, include_chalices_in_checks"
+                ],
                 "map_locations": [
                     {
                         "map": "Entrance Hall",
@@ -112,9 +115,6 @@
                 "sections": [
                     {
                         "name": "Chalice",
-                        "access_rules": [
-                            "imp, include_chalices_in_checks"
-                        ],
                         "visibility_rules": [
                             "include_chalices_in_checks"
                         ],

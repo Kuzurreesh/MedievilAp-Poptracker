@@ -238,6 +238,10 @@
             },
             {
                 "name": "Up the Lift",
+                "access_rules": [
+                    "$ShipChaos, $ShipStar, include_chalices_in_checks, club",
+                    "$ShipChaos, $ShipStar, include_chalices_in_checks, $ShipMoon"
+                ],
                 "map_locations": [
                     {
                         "map": "Ghost Ship",
@@ -248,10 +252,6 @@
                 "sections": [
                     {
                         "name": "Chalice",
-                        "access_rules": [
-                            "club, include_chalices_in_checks, $ShipChaos, $ShipStar",
-                            "include_chalices_in_checks, $ShipMoon, $ShipChaos, $ShipStar"
-                        ],
                         "visibility_rules": [
                             "include_chalices_in_checks"
                         ],
@@ -259,10 +259,25 @@
                         "chest_opened_img": "images/items/empty chalice.png"
                     },
                     {
-                        "name": "Energy Vial: Cage Lift 2 - GS",
-                        "access_rules": [
-                            "$ShipChaos, $ShipStar"
-                        ]
+                        "name": "Energy Vial: Cage Lift 2 - GS"
+                    }
+                ]
+            },
+            {
+                "name": "Up the Lift[2]",
+                "access_rules": [
+                    "$ShipChaos, $ShipStar"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ghost Ship",
+                        "x": 1325,
+                        "y": 685
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Energy Vial: Cage Lift 2 - GS"
                     }
                 ]
             },
@@ -330,6 +345,9 @@
             },
             {
                 "name": "Clear",
+                "access_rules": [
+                    "club, $ShipChaos, $ShipStar"
+                ],
                 "map_locations": [
                     {
                         "map": "Ghost Ship",
@@ -342,9 +360,6 @@
                 "sections": [
                     {
                         "name": "Cleared: The Ghost Ship",
-                        "access_rules": [
-                            "club, $ShipChaos, $ShipStar"
-                        ],
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
                     }

@@ -308,8 +308,9 @@
                 "map_locations": [
                     {
                         "map": "Cemetery Hill",
-                        "x": 2100,
-                        "y": 450
+                        "x": 2105,
+                        "y": 450,
+                        "size": 50
                     }
                 ],
                 "sections": [
@@ -329,27 +330,41 @@
             {
                 "name": "Secret Alcove",
                 "access_rules": [
-                    "sheetmusic, $HillEarth"
+                    "sheetmusic, $HillEarth, include_chalices_in_checks, $HillMoon"
                 ],
                 "map_locations": [
                     {
                         "map": "Cemetery Hill",
-                        "x": 2200,
-                        "y": 415
+                        "x": 2245,
+                        "y": 430,
+                        "size": 50
                     }
                 ],
                 "sections": [
                     {
                         "name": "Chalice",
-                        "access_rules": [
-                            "include_chalices_in_checks, $HillMoon"
-                        ],
                         "visibility_rules": [
                             "include_chalices_in_checks"
                         ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Secret Alcove Coins",
+                "access_rules": [
+                    "sheetmusic, $HillEarth"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Cemetery Hill",
+                        "x": 2180,
+                        "y": 415,
+                        "size": 50
+                    }
+                ],
+                "sections": [
                     {
                         "name": "Gold Coins: Gold Chest at Phantom of the Opera 1 - HM"
                     },

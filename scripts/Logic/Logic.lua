@@ -10,37 +10,51 @@ function Can(location)
 	end
 end
 
-function GO()
-	--('GO!!!')
-	Goal = Tracker:FindObjectForCode("goal").CurrentStage
-
-	--print('GO?', Goal)
-	local ending = Tracker:FindObjectForCode("GO")
-	--print("ending: ", ending)
-	local state = false
-	--print("state: ", state)
-	--local y = Tracker:FindObjectForCode("chalice_win_count").CurrentStage
-
-	--local x = Chalices(Tracker:FindObjectForCode("chalice_win_count").CurrentStage)
-	--	print("chalice function: ", x, y)
-	if Goal == 0 then
-		--	print("zarok goal")
-		if Can("@The Time Device/Clear Game/Beat Zarok") then
-			state = true
-		else
-			state = false
-		end
-	elseif Goal == 1 then
-		state = Chalices(Tracker:FindObjectForCode("chalice_win_count").CurrentStage)
-		--	print("state chalice goal: ", state)
+function Can2(location)
+	if Tracker:FindObjectForCode(location).AccessibilityLevel == 6 then
+		return true
 	else
-		state = Chalices(Tracker:FindObjectForCode("chalice_win_count").CurrentStage) and
-			Can("@The Time Device/Clear Game/Beat Zarok")
-
-
-		--	print("state both goal: ",state)
+		return false
 	end
-	--print("state2: ", state)
+end
+
+function Chalice_Win(num)
+	num = tonumber(num)
+	if Tracker:FindObjectForCode("chalice_win_count").CurrentStage >= num then
+		return true
+	else
+		return false
+	end
+end
+
+function GO()
+	Goal = Tracker:FindObjectForCode("goal").CurrentStage
+	local ending = Tracker:FindObjectForCode("GO")
+	local state = false
+	local count = 0
+
+	for index, value in ipairs(Chal2) do
+		print("Gocount: ", value)
+		if Can2(value) then
+			print("true")
+			count = count + 1
+		else
+			print("false")
+		end
+		print("count:" , count)
+	end
+	local can = count >= Tracker:FindObjectForCode("chalice_win_count").CurrentStage
+	
+		if Goal == 0 then
+			if Can("@The Time Device/Clear Game/Beat Zarok") then
+				state = true
+			end
+		elseif Goal == 1 and can then
+			state = true
+		elseif Can("@The Time Device/Clear Game/Beat Zarok") and can then
+			state = true
+		end
+	
 	ending.Active = state
 end
 
@@ -382,6 +396,27 @@ end
 function Chalices(number)
 	local count = 0
 	number = tonumber(number)
+
+	if not Has("include_chalices_in_checks") then
+		return false
+	end
+	for index, value in ipairs(Counting) do
+		if Can2(value[1]) and Can2(value[2]) then
+			print("can chalice:", value[1])
+			count = count + 1
+		end
+		
+		if count >= number then
+			return true
+		end
+	end
+	print("end")
+	return false
+end
+
+function Chalices2(number)
+	local count = 0
+	number = tonumber(number)
 	if not Has("include_chalices_in_checks") then
 		return false
 	end
@@ -427,7 +462,7 @@ function Chalices(number)
 			return true
 		end
 	end
-	if Can("@Sleeping Village/Ledge at Mayor's House/Chalice") then
+	if Can("@Sleeping Village/Bottom Ledge at Mayor's House/Chalice") then
 		count = count + 1
 		if count >= number then
 			return true
