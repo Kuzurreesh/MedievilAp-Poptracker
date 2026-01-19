@@ -110,7 +110,46 @@ ITEM_MAPPING = {
 	--Time Runes
 	[BASE_ITEM_ID + 153] = { "timelake", "toggle" },
 	[BASE_ITEM_ID + 154] = { "timegorge", "toggle" },
-	[BASE_ITEM_ID + 155] = { "timedevice", "toggle" }
+	[BASE_ITEM_ID + 155] = { "timedevice", "toggle" },
+
+	--Traps
+	[BASE_ITEM_ID + 156] = { "trap", "toggle" },
+	[BASE_ITEM_ID + 157] = { "trap", "toggle" },
+	[BASE_ITEM_ID + 158] = { "trap", "toggle" },
+	[BASE_ITEM_ID + 159] = { "trap", "toggle" },
+
+	-- Filler
+	[BASE_ITEM_ID + 0] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 1] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 2] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 3] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 4] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 5] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 6] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 7] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 8] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 9] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 10] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 11] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 12] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 13] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 14] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 15] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 16] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 17] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 18] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 19] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 20] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 21] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 22] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 23] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 24] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 25] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 26] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 27] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 28] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 29] = { "filler", "toggle" },
+	[BASE_ITEM_ID + 30] = { "filler", "toggle" }
 
 
 }

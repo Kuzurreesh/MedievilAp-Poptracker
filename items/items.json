@@ -648,6 +648,198 @@
         "codes": "chickendrumstick, imp"
     },
     {
+        "name": "Trap: Heavy",
+        "type": "toggle",
+        "img": "images/items/chickendrumstick.png",
+        "codes": "trap"
+    },
+    {
+        "name": "Gold Coins (50)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Gold Coins (100)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Gold Coins (150)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Dagger Ammo (10)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Dagger Ammo (20)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Broadsword Charge (20)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Broadsword Charge (50)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Club Charge (20)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Club Charge (50)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Chicken Drumsticks Ammo (10)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Crossbow Ammo (20)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Crossbow Ammo (50)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Longbow Ammo (20)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Longbow Ammo (50)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Fire Longbow Ammo (20)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Fire Longbow Ammo (50)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Magic Longbow Ammo (20)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Magic Longbow Ammo (50)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Spear Ammo (20)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Spear Ammo (50)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Lightning Charge (30)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Lightning Charge (50)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Copper Shield Ammo (50)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Copper Shield Ammo (100)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Silver Shield Ammo (50)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Silver Shield Ammo (100)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Gold Shield Ammo (50)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Gold Shield Ammo (100)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Health Vial (50)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Health Vial (150)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Health Vial (300)",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "filler"
+    },
+    {
         "name": "Chalice",
         "type": "consumable",
         "overlay_font_size": "14",

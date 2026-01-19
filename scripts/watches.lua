@@ -34,6 +34,7 @@ function Lighting(code)
         Unlighting(RuneH)
     end
   --  ScriptHost:AddOnLocationSectionChangedHandler("ChaliceCount", ChaliceCount)
+  Archipelago:Get(NotifyHints)
 end
 
 ScriptHost:AddWatchForCode("Highlights", "Highlightings", Lighting)

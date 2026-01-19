@@ -539,3 +539,10 @@ Maps = {
     ["Zarok's Lair"] = "The Time Device and Zarok's Lair"
 
 }
+HIGHLIGHT_STATUS_MAPPING = {
+    [0] = 2, --Unspecified
+    [10] = 1, -- NoPriority
+    [20] = -1, -- Avoid
+    [30] = 3, -- Priority
+    [40] = 0 -- None
+}

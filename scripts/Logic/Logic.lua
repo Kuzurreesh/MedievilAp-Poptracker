@@ -568,7 +568,7 @@ function Highlighting(list)
 	for key, value in pairs(list) do
 		local obj = Tracker:FindObjectForCode(value[1])
 		if obj then
-			obj.Highlight = Highlight.NoPriority
+			obj.Highlight = Highlight.Unspecified
 		end
 	end
 end
