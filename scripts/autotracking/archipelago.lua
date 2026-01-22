@@ -247,16 +247,17 @@ end
 
 function onDataStorageUpdate(key, value, oldValue)
     --  print("called datastrorage: ", key, value, oldValue)
-    if key == NotifyKeys[1] then
+    if key == NotifyKeys[1] and value then
         if Has("autotab") then
             --  print("Key: ", key)
             --  print("value: ", value)
             local Map
             local r = Maps[value]
+            local x = Maps[value["MapName"]]
             if r then
                 Map = r
                 -- print("mapname: ", Map)
-            elseif Maps[value["MapName"]] then
+            elseif x then
                 Map = Maps[value["MapName"]]
                 --  print("mapid: ", r, Map)
             end
@@ -283,7 +284,7 @@ function onDataStorageUpdate(key, value, oldValue)
             end
         end
     end
-    if key == NotifyHints[1] then
+    if key == NotifyHints[1] and value then
         for _, hint in ipairs(value) do
             -- we only care about hints in our world
             local hint_status = hint.status
@@ -300,18 +301,18 @@ function onDataStorageUpdate(key, value, oldValue)
                         end
                         if hinted_item == "filler" then
                             hint_status = 20
-                        elseif hinted_item == "small" or "medium" or "large" then
+                        elseif hinted_item == "small" or hinted_item == "medium" or hinted_item == "large" then
                             hint_status = 0
                         end
                         Tracker:FindObjectForCode(location_code).Highlight = HIGHLIGHT_STATUS_MAPPING[hint_status]
                     end
 
                     -- print("itemflag", hint.item_flags)
-                    -- local x = tonumber(hint.location)
+                     --local x = tonumber(hint.location)
                     -- print("item:", hint.item, ITEM_MAPPING[hint.item][1])
-                    -- print("location: ", hint.location, LOCATION_MAPPING[x][1])
+                    -- print("location: ", hint.location, LOCATION_MAPPING[x][1], hint_status)
                     -- print("for", hint.receiving_player, Archipelago:GetPlayerAlias(hint.receiving_player))
-                    -- print("----------------------------------------------------------------------------------------")
+                   -- print("----------------------------------------------------------------------------------------")
                 end
             end
         end
