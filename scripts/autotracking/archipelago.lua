@@ -256,7 +256,7 @@ function onDataStorageUpdate(key, value, oldValue)
             if r then
                 Map = r
                 -- print("mapname: ", Map)
-            else
+            elseif Maps[value["MapName"]] then
                 Map = Maps[value["MapName"]]
                 --  print("mapid: ", r, Map)
             end
@@ -267,8 +267,7 @@ function onDataStorageUpdate(key, value, oldValue)
                 Tracker:UiHint("ActivateTab", "World Map")
             end
         end
-        local count = 0
-        -- tonumber(value["Region"])
+        local count = tonumber(value["Region"])
         -- print("count region: ", count)
         if count then
             local tracker = Tracker:FindObjectForCode("chaliceproxy")
@@ -297,6 +296,8 @@ function onDataStorageUpdate(key, value, oldValue)
                             local hinted_item = ITEM_MAPPING[hint_item][1]
                             if hinted_item == "filler" then
                                 hint_status = 20
+                            elseif hinted_item == "small" or "medium" or "large" then
+                                hint_status = 0
                             end
                         end
                         Tracker:FindObjectForCode(location_code).Highlight = HIGHLIGHT_STATUS_MAPPING[hint_status]

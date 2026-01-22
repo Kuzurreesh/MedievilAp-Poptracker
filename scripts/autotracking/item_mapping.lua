@@ -147,9 +147,9 @@ ITEM_MAPPING = {
 	[BASE_ITEM_ID + 25] = { "filler", "toggle" },
 	[BASE_ITEM_ID + 26] = { "filler", "toggle" },
 	[BASE_ITEM_ID + 27] = { "filler", "toggle" },
-	[BASE_ITEM_ID + 28] = { "filler", "toggle" },
-	[BASE_ITEM_ID + 29] = { "filler", "toggle" },
-	[BASE_ITEM_ID + 30] = { "filler", "toggle" }
+	[BASE_ITEM_ID + 28] = { "small", "toggle" },
+	[BASE_ITEM_ID + 29] = { "medium", "toggle" },
+	[BASE_ITEM_ID + 30] = { "large", "toggle" }
 
 
 }

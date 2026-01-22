@@ -825,19 +825,19 @@
         "name": "Health Vial (50)",
         "type": "toggle",
         "img": "images/items/axe.png",
-        "codes": "filler"
+        "codes": "small"
     },
     {
         "name": "Health Vial (150)",
         "type": "toggle",
         "img": "images/items/axe.png",
-        "codes": "filler"
+        "codes": "medium"
     },
     {
         "name": "Health Vial (300)",
         "type": "toggle",
         "img": "images/items/axe.png",
-        "codes": "filler"
+        "codes": "large"
     },
     {
         "name": "Chalice",
