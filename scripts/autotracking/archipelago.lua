@@ -292,13 +292,16 @@ function onDataStorageUpdate(key, value, oldValue)
                 if hint.finding_player == Archipelago.PlayerNumber then
                     local location_code = LOCATION_MAPPING[hint.location][1]
                     if location_code and location_code:sub(1, 1) == "@" then
+                        local hinted_item = ""
                         if Archipelago:GetPlayerGame(hint.receiving_player) == "Medievil" then
-                            local hinted_item = ITEM_MAPPING[hint_item][1]
-                            if hinted_item == "filler" then
-                                hint_status = 20
-                            elseif hinted_item == "small" or "medium" or "large" then
-                                hint_status = 0
-                            end
+                            hinted_item = ITEM_MAPPING[hint_item][1]
+                        elseif Archipelago:GetPlayerGame(hint.receiving_player) == "Medievil 2" then
+                            hinted_item = Medi_II_Items[hint_item][1]
+                        end
+                        if hinted_item == "filler" then
+                            hint_status = 20
+                        elseif hinted_item == "small" or "medium" or "large" then
+                            hint_status = 0
                         end
                         Tracker:FindObjectForCode(location_code).Highlight = HIGHLIGHT_STATUS_MAPPING[hint_status]
                     end

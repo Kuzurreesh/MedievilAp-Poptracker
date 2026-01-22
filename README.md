@@ -11,7 +11,11 @@ Due to the way the game deals with key items, it's hard to see what exactly you 
 - click the "ap" icon and connect to your AP game!
 
 # Notes
-
+Hint highlights:
+* gold - Priority
+* white - Unspeciefied (likely only MediEvil and 2 energy vials)
+* blue - NoPriority (likely only with sphere 1 option)
+* red - Avoid (traps and medi 1 and 2 shields/ammo)
 
 
 # Credit
