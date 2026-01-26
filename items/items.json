@@ -845,13 +845,13 @@
         "overlay_font_size": "14",
         "img": "images/items/Chalice.png",
         "codes": "chalice",
-        "overlay_align": "left",
-        "initial_quantity": 2,
+        "initial_quantity": 0,
         "max_quantity": 20
     },
     {
-        "name": "Chalice Proxy",
+        "name": "Chalice ",
         "type": "toggle",
+        "overlay_align": "left",
         "img": "images/items/Chalice.png",
         "codes": "chaliceproxy"
     },
