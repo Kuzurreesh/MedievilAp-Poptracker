@@ -1,5 +1,4 @@
 function ChaliceCount(section)
-    
     if section.FullID:sub(-7) == "Chalice" then
         local obj = Tracker:FindObjectForCode("chalice")
         local count = 0
@@ -22,7 +21,7 @@ end
 
 
 function Lighting(code)
-   -- ScriptHost:RemoveOnLocationSectionHandler("ChaliceCount")
+    -- ScriptHost:RemoveOnLocationSectionHandler("ChaliceCount")
     if Has("Highlightings") and Has("progression_option") then
         Highlighting(Always)
         Highlighting(RuneH)
@@ -33,11 +32,21 @@ function Lighting(code)
         Unlighting(Always)
         Unlighting(RuneH)
     end
-  --  ScriptHost:AddOnLocationSectionChangedHandler("ChaliceCount", ChaliceCount)
-  Archipelago:Get(NotifyHints)
+    --  ScriptHost:AddOnLocationSectionChangedHandler("ChaliceCount", ChaliceCount)
+    Archipelago:Get(NotifyHints)
 end
+
+function HUDLess()
+    if Has("zoom") then
+        Tracker:UiHint("Zoom Dan's Crypt", "16")
+        Tracker:UiHint("Pan Dan's Crypt", "1350,1350")
+        Tracker:UiHint("ActivateTab", "Dan's Crypt")
+    end
+end
+
+ScriptHost:AddWatchForCode("Zoom trap", "zoom", HUDLess)
+
 
 ScriptHost:AddWatchForCode("Highlights", "Highlightings", Lighting)
 ScriptHost:AddWatchForCode("Highlights1", "progression_option", Lighting)
 ScriptHost:AddWatchForCode("Highlights2", "runesanity", Lighting)
-

@@ -49,7 +49,7 @@
 		"item_width": 65,
 		"rows": [
 			[
-				"GO"
+				"GO", "zoom"
 			]
 		]
 	},
@@ -1104,7 +1104,9 @@
 					],
 					[
 						"Amount",
-						"chalice_win_count"
+						"chalice_win_count",
+						"Amount",
+						"zoom"
 					]
 				]
 			}

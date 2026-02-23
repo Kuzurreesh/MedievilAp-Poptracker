@@ -654,6 +654,18 @@
         "codes": "trap"
     },
     {
+        "name": "Traps",
+        "type": "toggle",
+        "img": "images/items/chickendrumstick.png",
+        "codes": "zoom"
+    },
+    {
+        "name": "Trap: HUDLess",
+        "type": "toggle",
+        "img": "images/items/chickendrumstick.png",
+        "codes": "HUD"
+    },
+    {
         "name": "Gold Coins (50)",
         "type": "toggle",
         "img": "images/items/axe.png",
@@ -1306,133 +1318,133 @@
         ]
     },
     {
-        "name": "Dan's Crypt Icon",
+        "name": "Dan's Crypt ",
         "type": "static",
         "img": "images/labels/dc.png",
         "codes": "crypticon"
     },
     {
-        "name": "The Graveyard Icon",
+        "name": "The Graveyard ",
         "type": "static",
         "img": "images/labels/tg.png",
         "codes": "graveicon"
     },
     {
-        "name": "Cemetery Hill Icon",
+        "name": "Cemetery Hill ",
         "type": "static",
         "img": "images/labels/ch.png",
         "codes": "hillicon"
     },
     {
-        "name": "Hilltop Mausoleum Icon",
+        "name": "Hilltop Mausoleum ",
         "type": "static",
         "img": "images/labels/hm.png",
         "codes": "mausoleumicon"
     },
     {
-        "name": "Return to the Graveyard Icon",
+        "name": "Return to the Graveyard ",
         "type": "static",
         "img": "images/labels/rtg.png",
         "codes": "rtgicon"
     },
     {
-        "name": "Scarecrow Fields Icon",
+        "name": "Scarecrow Fields ",
         "type": "static",
         "img": "images/labels/sf.png",
         "codes": "scareicon"
     },
     {
-        "name": "Pumpkin Gorge Icon",
+        "name": "Pumpkin Gorge ",
         "type": "static",
         "img": "images/labels/pg.png",
         "codes": "gorgeicon"
     },
     {
-        "name": "Pumpkin Serpent Icon",
+        "name": "Pumpkin Serpent ",
         "type": "static",
         "img": "images/labels/ps.png",
         "codes": "serpenticon"
     },
     {
-        "name": "Sleeping Village Icon",
+        "name": "Sleeping Village ",
         "type": "static",
         "img": "images/labels/sv.png",
         "codes": "sleepicon"
     },
     {
-        "name": "Asylum Grounds Icon",
+        "name": "Asylum Grounds ",
         "type": "static",
         "img": "images/labels/ag.png",
         "codes": "groundsicon"
     },
     {
-        "name": "Inside the Asylum Icon",
+        "name": "Inside the Asylum ",
         "type": "static",
         "img": "images/labels/ia.png",
         "codes": "asylumicon"
     },
     {
-        "name": "Enchanted Earth Icon",
+        "name": "Enchanted Earth ",
         "type": "static",
         "img": "images/labels/ee.png",
         "codes": "enchanticon"
     },
     {
-        "name": "Ant Caves Icon",
+        "name": "Ant Caves ",
         "type": "static",
         "img": "images/labels/ac.png",
         "codes": "anticon"
     },
     {
-        "name": "Pools of the Ancient Dead Icon",
+        "name": "Pools of the Ancient Dead ",
         "type": "static",
         "img": "images/labels/pad.png",
         "codes": "padicon"
     },
     {
-        "name": "Lake Icon",
+        "name": "Lake ",
         "type": "static",
         "img": "images/labels/tl.png",
         "codes": "lakeicon"
     },
     {
-        "name": "Crystal Caves Icon",
+        "name": "Crystal Caves ",
         "type": "static",
         "img": "images/labels/cc.png",
         "codes": "crystalicon"
     },
     {
-        "name": "Gallows Gauntlet Icon",
+        "name": "Gallows Gauntlet ",
         "type": "static",
         "img": "images/labels/gg.png",
         "codes": "gallowsicon"
     },
     {
-        "name": "Haunted Ruins Icon",
+        "name": "Haunted Ruins ",
         "type": "static",
         "img": "images/labels/hr.png",
         "codes": "ruinsicon"
     },
     {
-        "name": "The Ghost Ship Icon",
+        "name": "The Ghost Ship ",
         "type": "static",
         "img": "images/labels/gs.png",
         "codes": "shipicon"
     },
     {
-        "name": "Entrance Hall Icon",
+        "name": "Entrance Hall ",
         "type": "static",
         "img": "images/labels/eh.png",
         "codes": "hallicon"
     },
     {
-        "name": "The Time Device Icon",
+        "name": "The Time Device ",
         "type": "static",
         "img": "images/labels/td.png",
         "codes": "deviceicon"
     },
     {
-        "name": "Zarok's Lair Icon",
+        "name": "Zarok's Lair ",
         "type": "static",
         "img": "images/labels/zl.png",
         "codes": "zarokicon"
