@@ -17,7 +17,10 @@ Hint highlights:
 * blue - NoPriority (likely only with sphere 1 option)
 * red - Avoid (traps and medi 1 and 2 shields/ammo)
 
+Traps: 
+Can individually turn them off with left/right-click Hub/Dark
+
 
 # Credit
 
-VGCartography for the level maps - https://www.deviantart.com/vgcartography/gallery/89842419/medievil-1998
+VGCartography for the level maps - https://www.deviantart.com/vgcartography
