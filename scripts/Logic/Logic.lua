@@ -62,7 +62,7 @@ function GO()
 			--	print("false")
 			count2 = count2 + 1
 		end
-	--	print("count:" , count, count2)
+		--	print("count:" , count, count2)
 	end
 	local can = count >= Tracker:FindObjectForCode("chalice_win_count").CurrentStage
 
@@ -79,19 +79,21 @@ function GO()
 
 	ending.Active = state
 	local text
-	if count >= Tracker:FindObjectForCode("chalice_win_count").CurrentStage then
-		ending.BadgeTextColor = "00FF00"
-	elseif count == count2 then
-		ending.BadgeTextColor = "FFFFFF"
-	elseif count < count2 then
-		ending.BadgeTextColor = "FFFF00"
+	if Tracker:FindObjectForCode("chalice_win_count").CurrentStage > 0 then
+		if count >= Tracker:FindObjectForCode("chalice_win_count").CurrentStage then
+			ending.BadgeTextColor = "00FF00"
+		elseif count == count2 then
+			ending.BadgeTextColor = "FFFFFF"
+		elseif count < count2 then
+			ending.BadgeTextColor = "FFFF00"
+		end
+		if count2 > count then
+			text = "-" .. count2
+		else
+			text = ""
+		end
+		ending.BadgeText = count .. text .. "/" .. Tracker:FindObjectForCode("chalice_win_count").CurrentStage
 	end
-	if count2 > count then
-		text = "-" .. count2
-	else
-		text = ""
-	end
-	ending.BadgeText = count .. text .. "/" .. Tracker:FindObjectForCode("chalice_win_count").CurrentStage
 end
 
 ScriptHost:AddWatchForCode("Go-Mode", "goodlightning", GO)
