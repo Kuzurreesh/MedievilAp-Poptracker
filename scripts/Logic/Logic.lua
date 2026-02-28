@@ -18,17 +18,17 @@ function Can2(location)
 	end
 end
 
-function Chalice_Win(num)
-	num = tonumber(num)
-	if Tracker:FindObjectForCode("chalice_win_count").CurrentStage >= num then
+function Can3(location)
+	if Tracker:FindObjectForCode(location).AccessibilityLevel == 5 then
 		return true
 	else
 		return false
 	end
 end
 
-function Can2(location)
-	if Tracker:FindObjectForCode(location).AccessibilityLevel == 6 then
+function Chalice_Win(num)
+	num = tonumber(num)
+	if Tracker:FindObjectForCode("chalice_win_count").CurrentStage >= num then
 		return true
 	else
 		return false
@@ -49,31 +49,49 @@ function GO()
 	local ending = Tracker:FindObjectForCode("GO")
 	local state = false
 	local count = 0
+	local count2 = 0
 
 	for index, value in ipairs(Chal2) do
 		--print("Gocount: ", value)
+		--print("can3", Can3(value))
 		if Can2(value) then
-		--	print("true")
+			--	print("true")
 			count = count + 1
-		else
-		--	print("false")
+			count2 = count2 + 1
+		elseif Can3(value) then
+			--	print("false")
+			count2 = count2 + 1
 		end
-		--print("count:" , count)
+	--	print("count:" , count, count2)
 	end
 	local can = count >= Tracker:FindObjectForCode("chalice_win_count").CurrentStage
-	
-		if Goal == 0 then
-			if Can("@The Time Device/Clear Game/Beat Zarok") then
-				state = true
-			end
-		elseif Goal == 1 and can then
-			state = true
-		elseif Can("@The Time Device/Clear Game/Beat Zarok") and can then
+
+	if Goal == 0 then
+		if Can("@The Time Device/Clear Game/Beat Zarok") then
 			state = true
 		end
-	
+	elseif Goal == 1 and can then
+		state = true
+	elseif Can("@The Time Device/Clear Game/Beat Zarok") and can then
+		state = true
+	end
+
 
 	ending.Active = state
+	local text
+	if count >= Tracker:FindObjectForCode("chalice_win_count").CurrentStage then
+		ending.BadgeTextColor = "00FF00"
+	elseif count == count2 then
+		ending.BadgeTextColor = "FFFFFF"
+	elseif count < count2 then
+		ending.BadgeTextColor = "FFFF00"
+	end
+	if count2 > count then
+		text = "-" .. count2
+	else
+		text = ""
+	end
+	ending.BadgeText = count .. text .. "/" .. Tracker:FindObjectForCode("chalice_win_count").CurrentStage
 end
 
 ScriptHost:AddWatchForCode("Go-Mode", "goodlightning", GO)
@@ -422,7 +440,7 @@ function Chalices(number)
 		if Can2(value[1]) and Can2(value[2]) then
 			count = count + 1
 		end
-		
+
 		if count >= number then
 			return true
 		end
@@ -581,3 +599,7 @@ function Unlighting(list)
 		end
 	end
 end
+
+--function Trap()
+--	if Has("zoom")
+--end

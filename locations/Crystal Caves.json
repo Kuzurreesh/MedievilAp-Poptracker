@@ -3,6 +3,7 @@
         "name": "The Crystal Caves",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
+        "visibility_rules":["HUD"],
         "access_rules": [
             "@The Lake/Clear/Cleared: The Lake",
             "progression_option"
@@ -12,7 +13,7 @@
                 "name": "Past Columns",
                 "map_locations": [
                     {
-                        "map": "Crystal Caves",
+                        "map": "The Crystal Caves",
                         "x": 880,
                         "y": 950
                     }
@@ -35,7 +36,7 @@
                 "name": "Entrance Room",
                 "map_locations": [
                     {
-                        "map": "Crystal Caves",
+                        "map": "The Crystal Caves",
                         "x": 1085,
                         "y": 915
                     }
@@ -50,7 +51,7 @@
                 "name": "Light Beams",
                 "map_locations": [
                     {
-                        "map": "Crystal Caves",
+                        "map": "The Crystal Caves",
                         "x": 1450,
                         "y": 720
                     }
@@ -65,7 +66,7 @@
                 "name": "Light Beams[1]",
                 "map_locations": [
                     {
-                        "map": "Crystal Caves",
+                        "map": "The Crystal Caves",
                         "x": 1475,
                         "y": 625
                     }
@@ -80,7 +81,7 @@
                 "name": "Cavern Ledge",
                 "map_locations": [
                     {
-                        "map": "Crystal Caves",
+                        "map": "The Crystal Caves",
                         "x": 1980,
                         "y": 585
                     }
@@ -95,7 +96,7 @@
                 "name": "Cavern Ledge[1]",
                 "map_locations": [
                     {
-                        "map": "Crystal Caves",
+                        "map": "The Crystal Caves",
                         "x": 2060,
                         "y": 615
                     }
@@ -110,7 +111,7 @@
                 "name": "Fountain Climb",
                 "map_locations": [
                     {
-                        "map": "Crystal Caves",
+                        "map": "The Crystal Caves",
                         "x": 2445,
                         "y": 880
                     }
@@ -125,7 +126,7 @@
                 "name": "Before Earth Door",
                 "map_locations": [
                     {
-                        "map": "Crystal Caves",
+                        "map": "The Crystal Caves",
                         "x": 2525,
                         "y": 1090
                     }
@@ -151,7 +152,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Crystal Caves",
+                        "map": "The Crystal Caves",
                         "x": 2775,
                         "y": 1140
                     }
@@ -169,7 +170,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Crystal Caves",
+                        "map": "The Crystal Caves",
                         "x": 1935,
                         "y": 1290
                     }
@@ -187,7 +188,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Crystal Caves",
+                        "map": "The Crystal Caves",
                         "x": 2045,
                         "y": 1480
                     }
@@ -205,7 +206,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Crystal Caves",
+                        "map": "The Crystal Caves",
                         "x": 1710,
                         "y": 1240
                     }
@@ -223,7 +224,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Crystal Caves",
+                        "map": "The Crystal Caves",
                         "x": 3160,
                         "y": 1110,
                         "size": 45
@@ -242,7 +243,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Crystal Caves",
+                        "map": "The Crystal Caves",
                         "x": 3213,
                         "y": 1130,
                         "size": 45
@@ -267,7 +268,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Crystal Caves",
+                        "map": "The Crystal Caves",
                         "x": 3280,
                         "y": 1055,
                         "size": 45
@@ -292,7 +293,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Crystal Caves",
+                        "map": "The Crystal Caves",
                         "x": 3333,
                         "y": 1065,
                         "size": 45
@@ -311,7 +312,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Crystal Caves",
+                        "map": "The Crystal Caves",
                         "x": 3370,
                         "y": 1175,
                         "size": 45
@@ -339,7 +340,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Crystal Caves",
+                        "map": "The Crystal Caves",
                         "x": 3317,
                         "y": 1190,
                         "size": 45
@@ -358,7 +359,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Crystal Caves",
+                        "map": "The Crystal Caves",
                         "x": 3215,
                         "y": 1290,
                         "shape": "trapezoid"
@@ -377,7 +378,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Crystal Caves",
+                        "map": "The Crystal Caves",
                         "x": 3110,
                         "y": 1175
                     }
@@ -403,7 +404,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Crystal Caves",
+                        "map": "The Crystal Caves",
                         "x": 515,
                         "y": 895
                     }
@@ -429,7 +430,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Crystal Caves",
+                        "map": "The Crystal Caves",
                         "x": 985,
                         "y": 230,
                         "shape": "diamond",

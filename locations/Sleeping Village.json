@@ -3,6 +3,7 @@
         "name": "Sleeping Village",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
+        "visibility_rules":["HUD"],
         "access_rules": [
             "@Scarecrow Fields/Clear/Cleared: Scarecrow Fields",
             "progression_option"

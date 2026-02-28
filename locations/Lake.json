@@ -3,6 +3,7 @@
         "name": "The Lake",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
+        "visibility_rules":["HUD"],
         "access_rules": [
             "@Pools of the Ancient Dead/Clear/Cleared: Pools of the Ancient Dead",
             "progression_option"
@@ -12,7 +13,7 @@
                 "name": "Start",
                 "map_locations": [
                     {
-                        "map": "Lake",
+                        "map": "The Lake",
                         "x": 1490,
                         "y": 1730
                     }
@@ -35,7 +36,7 @@
                 "name": "Left Path",
                 "map_locations": [
                     {
-                        "map": "Lake",
+                        "map": "The Lake",
                         "x": 895,
                         "y": 1305
                     }
@@ -50,7 +51,7 @@
                 "name": "Left Path[1]",
                 "map_locations": [
                     {
-                        "map": "Lake",
+                        "map": "The Lake",
                         "x": 360,
                         "y": 1595
                     }
@@ -65,7 +66,7 @@
                 "name": "Left Path[2]",
                 "map_locations": [
                     {
-                        "map": "Lake",
+                        "map": "The Lake",
                         "x": 75,
                         "y": 1645
                     }
@@ -80,7 +81,7 @@
                 "name": "Left Path Back",
                 "map_locations": [
                     {
-                        "map": "Lake",
+                        "map": "The Lake",
                         "x": 425,
                         "y": 1060
                     }
@@ -95,7 +96,7 @@
                 "name": "Right Path",
                 "map_locations": [
                     {
-                        "map": "Lake",
+                        "map": "The Lake",
                         "x": 2300,
                         "y": 1115
                     }
@@ -110,7 +111,7 @@
                 "name": "Right Path[1]",
                 "map_locations": [
                     {
-                        "map": "Lake",
+                        "map": "The Lake",
                         "x": 2385,
                         "y": 1085
                     }
@@ -136,7 +137,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Lake",
+                        "map": "The Lake",
                         "x": 2210,
                         "y": 1515
                     }
@@ -154,7 +155,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Lake",
+                        "map": "The Lake",
                         "x": 1980,
                         "y": 1410
                     }
@@ -172,7 +173,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Lake",
+                        "map": "The Lake",
                         "x": 1780,
                         "y": 1250
                     }
@@ -190,7 +191,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Lake",
+                        "map": "The Lake",
                         "x": 1205,
                         "y": 970
                     }
@@ -208,7 +209,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Lake",
+                        "map": "The Lake",
                         "x": 1900,
                         "y": 1355
                     }
@@ -226,7 +227,7 @@
                 "name": "Gate Path",
                 "map_locations": [
                     {
-                        "map": "Lake",
+                        "map": "The Lake",
                         "x": 780,
                         "y": 755
                     }
@@ -244,7 +245,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Lake",
+                        "map": "The Lake",
                         "x": 75,
                         "y": 615
                     }
@@ -262,7 +263,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Lake",
+                        "map": "The Lake",
                         "x": 910,
                         "y": 535
                     }
@@ -280,7 +281,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Lake",
+                        "map": "The Lake",
                         "x": 630,
                         "y": 380
                     }
@@ -298,7 +299,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Lake",
+                        "map": "The Lake",
                         "x": 730,
                         "y": 1110
                     }
@@ -321,7 +322,7 @@
                 "name": "End",
                 "map_locations": [
                     {
-                        "map": "Lake",
+                        "map": "The Lake",
                         "x": 270,
                         "y": 1475
                     }
@@ -347,7 +348,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Lake",
+                        "map": "The Lake",
                         "x": 185,
                         "y": 1470,
                         "shape": "diamond",

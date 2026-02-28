@@ -484,30 +484,33 @@ RuneH = {
 }
 
 Maps2 = {
-    [0] = "World Map",
-    [1] = "The Graveyard",
-    [2] = "Return to the Graveyard",
-    [3] = "Cemetery Hill and Hilltop Mausoleum",
-    [4] = "Cemetery Hill and Hilltop Mausoleum",
-    [5] = "Scarecrow Fields",
-    [6] = "Dan's Crypt",
-    [7] = "The Ant Caves",
-    [8] = "The Crystal Caves",
-    [9] = "Pumpkin Gorge",
-    [10] = "Pumpkin Serpent",
-    [11] = "Sleeping Village",
-    [12] = "Pools of the Ancient Dead",
-    [13] = "The Asylum Grounds",
-    [14] = "Inside the Asylum",
-    [15] = "Enchanted Earth",
-    [16] = "The Gallows Gauntlet",
-    [17] = "The Haunted Ruins",
-    [18] = "World Map",
-    [19] = "The Ghost Ship",
-    [20] = "The Entrance Hall",
-    [21] = "The Time Device and Zarok's Lair",
-    [22] = "The Lake",
-    [23] = "The Time Device and Zarok's Lair"
+
+    [0]  = { "World Map", "582,469" },
+    [1]  = { "The Graveyard", "2100,838" },
+    [2]  = { "Return to the Graveyard", "1190,1416" },
+    [3]  = { "Cemetery Hill and Hilltop Mausoleum", "1750,1314" },
+    [4]  = { "Cemetery Hill and Hilltop Mausoleum", "1750,1314" },
+    [5]  = { "Scarecrow Fields", "2158,1230" },
+    [6]  = { "Dan's Crypt", "1000,835" },
+    [7]  = { "The Ant Caves", "1309,1979" },
+    [8]  = { "The Crystal Caves", "1728,790" },
+    [9]  = { "Pumpkin Gorge", "1836,986" },
+    [10] = { "Pumpkin Serpent", "500,385" },
+    [11] = { "Sleeping Village", "1225,943" },
+    [12] = { "Pools of the Ancient Dead", "1850,857" },
+    [13] = { "The Asylum Grounds", "1392,943" },
+    [14] = { "Inside the Asylum", "770,753" },
+    [15] = { "Enchanted Earth", "1196,1125" },
+    [16] = { "The Gallows Gauntlet", "1179,890" },
+    [17] = { "The Haunted Ruins", "815,1315" },
+    [18] = { "World Map", "582,469" },
+    [19] = { "The Ghost Ship", "1281,673" },
+    [20] = { "The Entrance Hall", "827,570" },
+    [21] = { "The Time Device and Zarok's Lair", "1885,1239" },
+    [22] = { "The Lake", "1309,952" },
+    [23] = { "The Time Device and Zarok's Lair", "1885,1239" }
+
+
 
 }
 
@@ -532,7 +535,7 @@ Maps = {
     ["The Gallows Gauntlet"] = "The Gallows Gauntlet",
     ["The Haunted Ruins"] = "The Haunted Ruins",
     ["Hall of Heroes"] = "World Map",
-    ["The Ghost Ship"] = "The Ghost Ship",
+    ["Ghost Ship"] = "The Ghost Ship",
     ["The Entrance Hall"] = "The Entrance Hall",
     ["The Time Device"] = "The Time Device and Zarok's Lair",
     ["The Lake"] = "The Lake",
@@ -540,9 +543,9 @@ Maps = {
 
 }
 HIGHLIGHT_STATUS_MAPPING = {
-    [0] = 2, --Unspecified
-    [10] = 1, -- NoPriority
+    [0] = 2,   --Unspecified
+    [10] = 1,  -- NoPriority
     [20] = -1, -- Avoid
-    [30] = 3, -- Priority
-    [40] = 0 -- None
+    [30] = 3,  -- Priority
+    [40] = 0   -- None
 }

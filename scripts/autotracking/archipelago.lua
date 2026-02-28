@@ -11,7 +11,7 @@ CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
-
+Traps = {}
 
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -23,8 +23,8 @@ function onClear(slot_data)
     ScriptHost:RemoveWatchForCode("Highlights1")
     ScriptHost:RemoveWatchForCode("Highlights2")
     ScriptHost:RemoveWatchForCode("Go-Mode")
-    ScriptHost:RemoveWatchForCode("chalicechange")
-    ScriptHost:RemoveWatchForCode("bottle")
+    ScriptHost:RemoveWatchForCode("imp weapon")
+    ScriptHost:RemoveWatchForCode("Rune")
     TeamName = Archipelago:GetPlayerAlias(Archipelago.PlayerNumber)
     TeamNumber = Archipelago.TeamNumber
     NotifyKeys = {
@@ -106,23 +106,27 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("chalice").MaxCount = amount
         tracker.BadgeText = "0/" .. tostring(amount)
         tracker.IgnoreUserInput = true
+        tracker:SetOverlayFontSize(14)
         Tracker:FindObjectForCode("booksanity").Active = otable["booksanity"]
         Tracker:FindObjectForCode("gargoylesanity").Active = otable["gargoylesanity"]
         Tracker:FindObjectForCode("progression_option").Active = otable["progression_option"]
     end
-    GO()
+    
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
     -- ScriptHost:AddOnLocationSectionChangedHandler("ChaliceCount", ChaliceCount)
     ScriptHost:AddWatchForCode("Highlights1", "progression_option", Lighting)
     ScriptHost:AddWatchForCode("Highlights2", "runesanity", Lighting)
-    ScriptHost:AddWatchForCode("Go-Mode", "goodlightning", GO)
-    ScriptHost:AddWatchForCode("chalicechange", "chalice", GO)
-    ScriptHost:AddWatchForCode("bottle", "bottle", GO)
+    ScriptHost:AddWatchForCode("Go-Mode", "gocheck", GO)
+  --  ScriptHost:AddWatchForCode("chalicechange", "chalice", GO)
+   -- ScriptHost:AddWatchForCode("bottle", "bottle", GO)
+    ScriptHost:AddWatchForCode("imp weapon", "imp", GO)
+    ScriptHost:AddWatchForCode("Rune", "rune", GO)
     Archipelago:Get(NotifyKeys)
     Archipelago:Get(NotifyHints)
     Archipelago:SetNotify(NotifyKeys)
     Archipelago:SetNotify(NotifyHints)
+    GO()
 end
 
 -- called when an item gets collected
@@ -234,15 +238,48 @@ end
 
 -- called when a bounce message is received
 function onBounce(json)
-    print(string.format("called onBounce: %s", dump(json)))
-    --[[   local data = json["data"]
-    if data then
-        if data["type"] == "MapUpdate" then
+    -- print("hud: ",json["data"]["HUD"]["Region"],json["data"]["HUD"]["MapName"] )
+    local data = json["data"]["trap"]
+    if Has("zoom") then
+        if data["MapId"] > 0 then
+            if data["Region"] == "set" then
+                local name = Maps2[data["MapId"]]
+                if data["MapName"] == "HUD" and Has("HUDtrap")  then
+                    Tracker:FindObjectForCode("HUD").Active = false
+                    table.insert(Traps, { data["MapName"], data["MapId"] })
+                elseif data["MapName"] == "Dark" and Has("dark") and PopVersion >= "0.34.0" then
+                    Tracker:UiHint("Zoom " .. name[1], "16")
+                    Tracker:UiHint("Pan " .. name[1], "200,500")
+                    table.insert(Traps, { data["MapName"], data["MapId"] })
+                else
+                    print("No valid trap", data["MapName"])
+                end
+            elseif data["Region"] == "reset" then
 
+            else
+                print("No valid action", data["Region"])
+            end
         end
     end
-    -- your code goes here
-]]
+    if data["Region"] == "reset" then
+        if Traps[1] then
+            if Traps[1][1] == "HUD" then
+                Tracker:FindObjectForCode("HUD").Active = true
+            elseif Traps[1][1] == "Dark" and PopVersion >= "0.34.0" then
+                Tracker:UiHint("Zoom " .. Maps2[Traps[1][2]][1], "1")
+                Tracker:UiHint("Pan " .. Maps2[Traps[1][2]][1], Maps2[Traps[1][2]][2])
+            else
+                print("No valid trap in list", Traps[1][1])
+            end
+            table.remove(Traps, 1)
+        else
+            print("Can't reset, empty trap list!")
+        end
+    elseif data["Region"] == "set" then
+
+    else
+        print("No valid action", data["Region"])
+    end
 end
 
 function onDataStorageUpdate(key, value, oldValue)
@@ -256,7 +293,7 @@ function onDataStorageUpdate(key, value, oldValue)
             local x = Maps[value["MapName"]]
             if r then
                 Map = r
-                -- print("mapname: ", Map)
+                --    print("mapname: ", Map)
             elseif x then
                 Map = Maps[value["MapName"]]
                 --  print("mapid: ", r, Map)
@@ -264,7 +301,7 @@ function onDataStorageUpdate(key, value, oldValue)
             if Map then
                 Tracker:UiHint("ActivateTab", Map)
             else
-                --   print("ERROR; Other map: ", r, value["MapName"], Map, "GPS?: ", value["GPS"])
+                --      print("ERROR; Other map: ", r, value["MapName"], Map, "GPS?: ", value["GPS"])
                 Tracker:UiHint("ActivateTab", "World Map")
             end
         end
@@ -308,11 +345,11 @@ function onDataStorageUpdate(key, value, oldValue)
                     end
 
                     -- print("itemflag", hint.item_flags)
-                     --local x = tonumber(hint.location)
+                    --local x = tonumber(hint.location)
                     -- print("item:", hint.item, ITEM_MAPPING[hint.item][1])
                     -- print("location: ", hint.location, LOCATION_MAPPING[x][1], hint_status)
                     -- print("for", hint.receiving_player, Archipelago:GetPlayerAlias(hint.receiving_player))
-                   -- print("----------------------------------------------------------------------------------------")
+                    -- print("----------------------------------------------------------------------------------------")
                 end
             end
         end

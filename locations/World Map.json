@@ -3,6 +3,7 @@
 		"name": "The World Map",
 		"chest_unopened_img": "images/items/chalice.png",
 		"chest_opened_img": "images/items/empty chalice.png",
+		"visibility_rules":["HUD"],
 		"children": [
 			{
 				"name": "Hall of Heroes",

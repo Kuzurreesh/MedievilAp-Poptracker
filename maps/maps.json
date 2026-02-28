@@ -1,24 +1,24 @@
 ﻿[
 	{
-		"name": "Ant Caves",
+		"name": "The Ant Caves",
 		"location_size": 50,
 		"location_border_thickness": 4,
 		"img": "images/maps/Ant Caves.jpeg"
 	},
 	{
-		"name": "Asylum Grounds",
+		"name": "The Asylum Grounds",
 		"location_size": 50,
 		"location_border_thickness": 3,
 		"img": "images/maps/Asylum Grounds.Jpeg"
 	},
 	{
-		"name": "Cemetery Hill",
+		"name": "Cemetery Hill and Hilltop Mausoleum",
 		"location_size": 60,
 		"location_border_thickness": 5,
 		"img": "images/maps/Cemetery Hill.jpeg"
 	},
 	{
-		"name": "Crystal Caves",
+		"name": "The Crystal Caves",
 		"location_size": 50,
 		"location_border_thickness": 4,
 		"img": "images/maps/crystal caves.jpeg"
@@ -36,31 +36,31 @@
 		"img": "images/maps/enchanted earth.jpeg"
 	},
 	{
-		"name": "Entrance Hall",
+		"name": "The Entrance Hall",
 		"location_size": 35,
 		"location_border_thickness": 3,
 		"img": "images/maps/Entrance Hall.jpeg"
 	},
 	{
-		"name": "Gallows Gauntlet",
+		"name": "The Gallows Gauntlet",
 		"location_size": 45,
 		"location_border_thickness": 4,
 		"img": "images/maps/Gallows gauntlet.jpeg"
 	},
 	{
-		"name": "Ghost Ship",
+		"name": "The Ghost Ship",
 		"location_size": 40,
 		"location_border_thickness": 3,
 		"img": "images/maps/Ghost Ship.jpeg"
 	},
 	{
-		"name": "Graveyard",
+		"name": "The Graveyard",
 		"location_size": 50,
 		"location_border_thickness": 3,
 		"img": "images/maps/graveyard.jpeg"
 	},
 	{
-		"name": "Haunted Ruins",
+		"name": "The Haunted Ruins",
 		"location_size": 45,
 		"location_border_thickness": 4,
 		"img": "images/maps/haunted ruins.jpeg"
@@ -78,7 +78,7 @@
 		"img": "images/maps/Inside the asylum.jpeg"
 	},
 	{
-		"name": "Lake",
+		"name": "The Lake",
 		"location_size": 50,
 		"location_border_thickness": 4,
 		"img": "images/maps/Lake.jpeg"
@@ -120,7 +120,7 @@
 		"img": "images/maps/Sleeping Village.jpeg"
 	},
 	{
-		"name": "Time Device",
+		"name": "The Time Device and Zarok's Lair",
 		"location_size": 50,
 		"location_border_thickness": 4,
 		"img": "images/maps/Time Device.jpeg"

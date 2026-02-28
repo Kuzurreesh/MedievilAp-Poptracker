@@ -3,6 +3,7 @@
         "name": "The Haunted Ruins",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
+        "visibility_rules":["HUD"],
         "access_rules": [
             "@The Gallows Gauntlet/Clear/Cleared: The Gallows Gauntlet",
             "progression_option"
@@ -12,7 +13,7 @@
                 "name": "Chickens",
                 "map_locations": [
                     {
-                        "map": "Haunted Ruins",
+                        "map": "The Haunted Ruins",
                         "x": 1325,
                         "y": 2235
                     }
@@ -35,7 +36,7 @@
                 "name": "Drawbridge",
                 "map_locations": [
                     {
-                        "map": "Haunted Ruins",
+                        "map": "The Haunted Ruins",
                         "x": 1170,
                         "y": 1820
                     }
@@ -58,7 +59,7 @@
                 "name": "Steel Gates",
                 "map_locations": [
                     {
-                        "map": "Haunted Ruins",
+                        "map": "The Haunted Ruins",
                         "x": 755,
                         "y": 1310
                     }
@@ -81,7 +82,7 @@
                 "name": "Front Wall",
                 "map_locations": [
                     {
-                        "map": "Haunted Ruins",
+                        "map": "The Haunted Ruins",
                         "x": 870,
                         "y": 1785
                     }
@@ -96,7 +97,7 @@
                 "name": "Front Wall[1]",
                 "map_locations": [
                     {
-                        "map": "Haunted Ruins",
+                        "map": "The Haunted Ruins",
                         "x": 1135,
                         "y": 1750
                     }
@@ -119,7 +120,7 @@
                 "name": "Farmers",
                 "map_locations": [
                     {
-                        "map": "Haunted Ruins",
+                        "map": "The Haunted Ruins",
                         "x": 850,
                         "y": 1705
                     }
@@ -134,7 +135,7 @@
                 "name": "Before Oil",
                 "map_locations": [
                     {
-                        "map": "Haunted Ruins",
+                        "map": "The Haunted Ruins",
                         "x": 735,
                         "y": 1675
                     }
@@ -160,7 +161,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Haunted Ruins",
+                        "map": "The Haunted Ruins",
                         "x": 670,
                         "y": 1460
                     }
@@ -183,7 +184,7 @@
                 "name": "Inner Wall East",
                 "map_locations": [
                     {
-                        "map": "Haunted Ruins",
+                        "map": "The Haunted Ruins",
                         "x": 1300,
                         "y": 1175
                     }
@@ -198,7 +199,7 @@
                 "name": "Inner Wall East[1]",
                 "map_locations": [
                     {
-                        "map": "Haunted Ruins",
+                        "map": "The Haunted Ruins",
                         "x": 1385,
                         "y": 1420
                     }
@@ -213,7 +214,7 @@
                 "name": "Inner Wall West",
                 "map_locations": [
                     {
-                        "map": "Haunted Ruins",
+                        "map": "The Haunted Ruins",
                         "x": 680,
                         "y": 1310
                     }
@@ -231,7 +232,7 @@
                 "name": "Inner Courtyard",
                 "map_locations": [
                     {
-                        "map": "Haunted Ruins",
+                        "map": "The Haunted Ruins",
                         "x": 1275,
                         "y": 1270
                     }
@@ -249,7 +250,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Haunted Ruins",
+                        "map": "The Haunted Ruins",
                         "x": 940,
                         "y": 1180
                     }
@@ -275,7 +276,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Haunted Ruins",
+                        "map": "The Haunted Ruins",
                         "x": 880,
                         "y": 955
                     }
@@ -301,7 +302,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Haunted Ruins",
+                        "map": "The Haunted Ruins",
                         "x": 1200,
                         "y": 1100
                     }
@@ -319,7 +320,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Haunted Ruins",
+                        "map": "The Haunted Ruins",
                         "x": 525,
                         "y": 265
                     }
@@ -337,7 +338,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Haunted Ruins",
+                        "map": "The Haunted Ruins",
                         "x": 480,
                         "y": 415
                     }
@@ -363,7 +364,7 @@
                 "name": "Outer Wall West",
                 "map_locations": [
                     {
-                        "map": "Haunted Ruins",
+                        "map": "The Haunted Ruins",
                         "x": 580,
                         "y": 1480
                     }
@@ -378,7 +379,7 @@
                 "name": "Outer Wall West[1]",
                 "map_locations": [
                     {
-                        "map": "Haunted Ruins",
+                        "map": "The Haunted Ruins",
                         "x": 655,
                         "y": 1710
                     }
@@ -399,7 +400,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Haunted Ruins",
+                        "map": "The Haunted Ruins",
                         "x": 715,
                         "y": 1745
                     }
@@ -425,7 +426,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Haunted Ruins",
+                        "map": "The Haunted Ruins",
                         "x": 540,
                         "y": 1290
                     }
@@ -449,7 +450,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Haunted Ruins",
+                        "map": "The Haunted Ruins",
                         "x": 575,
                         "y": 1345,
                         "shape": "diamond",

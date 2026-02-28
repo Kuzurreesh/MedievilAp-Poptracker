@@ -40,7 +40,7 @@ function dump_table(o, depth)
             if type(k) ~= 'number' then
                 kc = '"' .. k .. '"'
             end
-            s = s .. tabs2 .. '[' .. kc .. '] = ' .. dump(v, depth + 1) .. ',\n'
+            s = s .. tabs2 .. '[' .. kc .. '] = ' .. dump_table(v, depth + 1) .. ',\n'
         end
         return s .. tabs .. '}'
     else

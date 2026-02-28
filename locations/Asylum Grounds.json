@@ -3,6 +3,7 @@
         "name": "Asylum Grounds",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
+        "visibility_rules":["HUD"],
         "access_rules": [
             "@Sleeping Village/Clear/Cleared: Sleeping Village",
             "progression_option"
@@ -12,7 +13,7 @@
                 "name": "Bell at Star",
                 "map_locations": [
                     {
-                        "map": "Asylum Grounds",
+                        "map": "The Asylum Grounds",
                         "x": 475,
                         "y": 1335
                     }
@@ -27,7 +28,7 @@
                 "name": "Bell at Star[1]",
                 "map_locations": [
                     {
-                        "map": "Asylum Grounds",
+                        "map": "The Asylum Grounds",
                         "x": 240,
                         "y": 1330
                     }
@@ -42,7 +43,7 @@
                 "name": "Past Entry Tree Lane",
                 "map_locations": [
                     {
-                        "map": "Asylum Grounds",
+                        "map": "The Asylum Grounds",
                         "x": 820,
                         "y": 1495
                     }
@@ -65,7 +66,7 @@
                 "name": "Jack",
                 "map_locations": [
                     {
-                        "map": "Asylum Grounds",
+                        "map": "The Asylum Grounds",
                         "x": 1480,
                         "y": 1775
                     }
@@ -88,7 +89,7 @@
                 "name": "To Clown",
                 "map_locations": [
                     {
-                        "map": "Asylum Grounds",
+                        "map": "The Asylum Grounds",
                         "x": 610,
                         "y": 1045
                     }
@@ -103,7 +104,7 @@
                 "name": "Shooting Statue",
                 "map_locations": [
                     {
-                        "map": "Asylum Grounds",
+                        "map": "The Asylum Grounds",
                         "x": 888,
                         "y": 1040
                     }
@@ -121,7 +122,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Asylum Grounds",
+                        "map": "The Asylum Grounds",
                         "x": 555,
                         "y": 500
                     }
@@ -139,7 +140,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Asylum Grounds",
+                        "map": "The Asylum Grounds",
                         "x": 450,
                         "y": 615
                     }
@@ -157,7 +158,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Asylum Grounds",
+                        "map": "The Asylum Grounds",
                         "x": 1040,
                         "y": 1435
                     }
@@ -172,7 +173,7 @@
                 "name": "2nd Grave to Elephant",
                 "map_locations": [
                     {
-                        "map": "Asylum Grounds",
+                        "map": "The Asylum Grounds",
                         "x": 1810,
                         "y": 1255
                     }
@@ -190,7 +191,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Asylum Grounds",
+                        "map": "The Asylum Grounds",
                         "x": 1362,
                         "y": 925
                     }
@@ -205,7 +206,7 @@
                 "name": "Past Octopus",
                 "map_locations": [
                     {
-                        "map": "Asylum Grounds",
+                        "map": "The Asylum Grounds",
                         "x": 970,
                         "y": 820
                     }
@@ -223,7 +224,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Asylum Grounds",
+                        "map": "The Asylum Grounds",
                         "x": 435,
                         "y": 540
                     }
@@ -249,7 +250,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Asylum Grounds",
+                        "map": "The Asylum Grounds",
                         "x": 1890,
                         "y": 815
                     }
@@ -275,7 +276,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Asylum Grounds",
+                        "map": "The Asylum Grounds",
                         "x": 560,
                         "y": 620,
                         "shape": "diamond",

@@ -3,6 +3,7 @@
         "name": "Pools of the Ancient Dead",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
+        "visibility_rules":["HUD"],
         "access_rules": [
             "@Enchanted Earth/Clear/Cleared: Enchanted Earth",
             "progression_option"

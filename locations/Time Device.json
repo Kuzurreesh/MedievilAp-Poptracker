@@ -3,6 +3,7 @@
         "name": "The Time Device",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
+        "visibility_rules":["HUD"],
         "access_rules": [
             "@The Entrance Hall/Clear/Cleared: The Entrance Hall",
             "progression_option"
@@ -12,7 +13,7 @@
                 "name": "Adjustable Clock",
                 "map_locations": [
                     {
-                        "map": "Time Device",
+                        "map": "The Time Device and Zarok's Lair",
                         "x": 580,
                         "y": 2095
                     }
@@ -35,7 +36,7 @@
                 "name": "Time Spinners",
                 "map_locations": [
                     {
-                        "map": "Time Device",
+                        "map": "The Time Device and Zarok's Lair",
                         "x": 1000,
                         "y": 1740
                     }
@@ -50,7 +51,7 @@
                 "name": "Time Spinners[1]",
                 "map_locations": [
                     {
-                        "map": "Time Device",
+                        "map": "The Time Device and Zarok's Lair",
                         "x": 920,
                         "y": 1810
                     }
@@ -68,7 +69,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Time Device",
+                        "map": "The Time Device and Zarok's Lair",
                         "x": 773,
                         "y": 1450
                     }
@@ -92,7 +93,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Time Device",
+                        "map": "The Time Device and Zarok's Lair",
                         "x": 1020,
                         "y": 2005
                     }
@@ -110,7 +111,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Time Device",
+                        "map": "The Time Device and Zarok's Lair",
                         "x": 1845,
                         "y": 1530
                     }
@@ -136,7 +137,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Time Device",
+                        "map": "The Time Device and Zarok's Lair",
                         "x": 1890,
                         "y": 2020
                     }
@@ -154,7 +155,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Time Device",
+                        "map": "The Time Device and Zarok's Lair",
                         "x": 955,
                         "y": 765
                     }
@@ -180,7 +181,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Time Device",
+                        "map": "The Time Device and Zarok's Lair",
                         "x": 815,
                         "y": 1135
                     }
@@ -198,7 +199,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Time Device",
+                        "map": "The Time Device and Zarok's Lair",
                         "x": 790,
                         "y": 990
                     }
@@ -219,7 +220,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Time Device",
+                        "map": "The Time Device and Zarok's Lair",
                         "x": 2580,
                         "y": 2035
                     }
@@ -243,7 +244,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Time Device",
+                        "map": "The Time Device and Zarok's Lair",
                         "x": 2830,
                         "y": 1925
                     }
@@ -261,7 +262,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Time Device",
+                        "map": "The Time Device and Zarok's Lair",
                         "x": 2545,
                         "y": 1285,
                         "shape": "diamond",
@@ -285,7 +286,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Time Device",
+                        "map": "The Time Device and Zarok's Lair",
                         "x": 3010,
                         "y": 835
                     }
@@ -305,7 +306,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Time Device",
+                        "map": "The Time Device and Zarok's Lair",
                         "x": 2895,
                         "y": 695
                     }
@@ -325,7 +326,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Time Device",
+                        "map": "The Time Device and Zarok's Lair",
                         "x": 2690,
                         "y": 910
                     }
@@ -353,7 +354,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Time Device",
+                        "map": "The Time Device and Zarok's Lair",
                         "x": 3230,
                         "y": 650,
                         "shape": "trapezoid",

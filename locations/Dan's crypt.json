@@ -3,6 +3,7 @@
         "name": "Dan's Crypt",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
+        "visibility_rules":["HUD"],
         "children": [
             {
                 "name": "Spawn",

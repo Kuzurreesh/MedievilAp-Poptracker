@@ -37,14 +37,35 @@ function Lighting(code)
 end
 
 function HUDLess()
+local k = 2
     if Has("zoom") then
-        Tracker:UiHint("Zoom Dan's Crypt", "16")
-        Tracker:UiHint("Pan Dan's Crypt", "1350,1350")
-        Tracker:UiHint("ActivateTab", "Dan's Crypt")
+        print("Zoom " .. Maps2[k][1], "16")
+        print("Pan " .. Maps2[k][1], Maps2[k][3],"200,500")
+       Tracker:UiHint("Zoom " .. Maps2[k][1], "16")
+       Tracker:UiHint("Pan " .. Maps2[k][1], "200,500")
+      -- Tracker:UiHint("Zoom The Graveyard", "5")
+        --Tracker:UiHint("Pan The Graveyard", "500,500")
+       
+        Tracker:UiHint("ActivateTab", Maps2[k][1])
+    else
+        Tracker:UiHint("Zoom " .. Maps2[k][1], "1")
+        Tracker:UiHint("Pan " .. Maps2[k][1], Maps2[k][2])
     end
 end
 
-ScriptHost:AddWatchForCode("Zoom trap", "zoom", HUDLess)
+function Zoom()
+if Has("zoom") then
+    Tracker:FindObjectForCode("dark").Active = true
+    Tracker:FindObjectForCode("HUDtrap").Active = true
+else
+    Tracker:FindObjectForCode("dark").Active = false
+    Tracker:FindObjectForCode("HUDtrap").Active = false
+    Tracker:FindObjectForCode("HUD").Active = true
+end
+end
+
+
+ScriptHost:AddWatchForCode("Zoom trap", "zoom", Zoom)
 
 
 ScriptHost:AddWatchForCode("Highlights", "Highlightings", Lighting)

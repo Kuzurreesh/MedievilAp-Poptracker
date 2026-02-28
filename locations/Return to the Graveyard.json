@@ -3,6 +3,7 @@
         "name": "Return to the Graveyard",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
+        "visibility_rules":["HUD"],
         "access_rules": [
             "skullkey, @Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
             "skullkey, progression_option"
@@ -11,7 +12,8 @@
             {
                 "name": "Cliffs Right",
                 "access_rules": [
-                    "$ReturnStar"
+                    "$ReturnStar",
+                    "[]"
                 ],
                 "map_locations": [
                     {
@@ -29,7 +31,8 @@
             {
                 "name": "Undertakers Entrance",
                 "access_rules": [
-                    "$ReturnStar"
+                    "$ReturnStar",
+                    "[]"
                 ],
                 "map_locations": [
                     {
@@ -82,7 +85,8 @@
             {
                 "name": "Cliffs Left",
                 "access_rules": [
-                    "$ReturnStar"
+                    "$ReturnStar",
+                    "[]"
                 ],
                 "map_locations": [
                     {
@@ -208,7 +212,8 @@
             {
                 "name": "Cliffs Left[1]",
                 "access_rules": [
-                    "$ReturnStar"
+                    "$ReturnStar",
+                    "[]"
                 ],
                 "map_locations": [
                     {
@@ -226,7 +231,8 @@
             {
                 "name": "Undertakers Entrance[1]",
                 "access_rules": [
-                    "$ReturnStar"
+                    "$ReturnStar",
+                    "[]"
                 ],
                 "map_locations": [
                     {
@@ -369,7 +375,8 @@
             {
                 "name": "Undertakers",
                 "access_rules": [
-                    "$ReturnStar"
+                    "$ReturnStar",
+                    "[]"
                 ],
                 "map_locations": [
                     {
@@ -395,7 +402,8 @@
             {
                 "name": "Clear",
                 "access_rules": [
-                    "$ReturnStar"
+                    "$ReturnStar",
+                    "[]"
                 ],
                 "map_locations": [
                     {

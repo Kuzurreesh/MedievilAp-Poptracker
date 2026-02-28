@@ -3,6 +3,7 @@
         "name": "The Ghost Ship",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
+        "visibility_rules":["HUD"],
         "access_rules": [
             "@The Haunted Ruins/Clear/Cleared: The Haunted Ruins",
             "progression_option"
@@ -12,7 +13,7 @@
                 "name": "Start",
                 "map_locations": [
                     {
-                        "map": "Ghost Ship",
+                        "map": "The Ghost Ship",
                         "x": 275,
                         "y": 220
                     }
@@ -35,7 +36,7 @@
                 "name": "Barrel Room",
                 "map_locations": [
                     {
-                        "map": "Ghost Ship",
+                        "map": "The Ghost Ship",
                         "x": 450,
                         "y": 670
                     }
@@ -50,7 +51,7 @@
                 "name": "Barrel Room[1]",
                 "map_locations": [
                     {
-                        "map": "Ghost Ship",
+                        "map": "The Ghost Ship",
                         "x": 443,
                         "y": 716
                     }
@@ -68,7 +69,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Ghost Ship",
+                        "map": "The Ghost Ship",
                         "x": 278,
                         "y": 425
                     }
@@ -86,7 +87,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Ghost Ship",
+                        "map": "The Ghost Ship",
                         "x": 185,
                         "y": 405
                     }
@@ -101,7 +102,7 @@
                 "name": "Upstairs",
                 "map_locations": [
                     {
-                        "map": "Ghost Ship",
+                        "map": "The Ghost Ship",
                         "x": 465,
                         "y": 200
                     }
@@ -116,7 +117,7 @@
                 "name": "Barrels",
                 "map_locations": [
                     {
-                        "map": "Ghost Ship",
+                        "map": "The Ghost Ship",
                         "x": 795,
                         "y": 565
                     }
@@ -134,7 +135,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Ghost Ship",
+                        "map": "The Ghost Ship",
                         "x": 1185,
                         "y": 840
                     }
@@ -152,7 +153,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Ghost Ship",
+                        "map": "The Ghost Ship",
                         "x": 1520,
                         "y": 865
                     }
@@ -170,7 +171,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Ghost Ship",
+                        "map": "The Ghost Ship",
                         "x": 1665,
                         "y": 935
                     }
@@ -188,7 +189,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Ghost Ship",
+                        "map": "The Ghost Ship",
                         "x": 1660,
                         "y": 1180,
                         "size": 30
@@ -207,7 +208,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Ghost Ship",
+                        "map": "The Ghost Ship",
                         "x": 710,
                         "y": 955
                     }
@@ -225,7 +226,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Ghost Ship",
+                        "map": "The Ghost Ship",
                         "x": 525,
                         "y": 985
                     }
@@ -244,7 +245,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Ghost Ship",
+                        "map": "The Ghost Ship",
                         "x": 1400,
                         "y": 670
                     }
@@ -257,9 +258,6 @@
                         ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
-                    },
-                    {
-                        "name": "Energy Vial: Cage Lift 2 - GS"
                     }
                 ]
             },
@@ -270,7 +268,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Ghost Ship",
+                        "map": "The Ghost Ship",
                         "x": 1325,
                         "y": 685
                     }
@@ -288,7 +286,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Ghost Ship",
+                        "map": "The Ghost Ship",
                         "x": 1835,
                         "y": 885
                     }
@@ -306,7 +304,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Ghost Ship",
+                        "map": "The Ghost Ship",
                         "x": 2005,
                         "y": 1060
                     }
@@ -332,7 +330,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Ghost Ship",
+                        "map": "The Ghost Ship",
                         "x": 2115,
                         "y": 1130
                     }
@@ -350,7 +348,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Ghost Ship",
+                        "map": "The Ghost Ship",
                         "x": 2380,
                         "y": 1155,
                         "shape": "diamond",

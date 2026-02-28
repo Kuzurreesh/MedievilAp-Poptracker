@@ -49,7 +49,7 @@
 		"item_width": 65,
 		"rows": [
 			[
-				"GO", "zoom"
+				"GO"
 			]
 		]
 	},
@@ -1071,7 +1071,7 @@
 		"content": [
 			{
 				"type": "itemgrid",
-				"item_margin": "5, 2",
+				"item_margin": "8, 2",
 				"h_alignment": "left",
 				"item_h_alignment": "center",
 				"item_v_alignment": "center",
@@ -1081,10 +1081,10 @@
 					[
 						"goallabel",
 						"goal",
-						"spherelabel",
-						"Highlightings",
-						"tablabel",
-						"autotab"
+						"chalicelabel",
+						"include_chalices_in_checks",
+						"Amount",
+						"chalice_win_count"
 					],
 					[
 						"openlabel",
@@ -1095,18 +1095,19 @@
 						"include_ant_hill_in_checks"
 					],
 					[
-						"chalicelabel",
-						"include_chalices_in_checks",
 						"booksanitylabel",
 						"booksanity",
 						"gargoylesanitylabel",
-						"gargoylesanity"
+						"gargoylesanity",
+						"spherelabel",
+						"Highlightings"
 					],
 					[
-						"Amount",
-						"chalice_win_count",
-						"Amount",
-						"zoom"
+						"tablabel",
+						"autotab",
+						"zoomlabel",
+						"zoom",
+						"darkhud"
 					]
 				]
 			}

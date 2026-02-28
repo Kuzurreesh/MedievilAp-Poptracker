@@ -21,4 +21,5 @@ print("")
 
 
 ScriptHost:LoadScript("scripts/autotracking/archipelago.lua")
+ScriptHost:LoadScript("scripts/utils.lua")
 

@@ -251,5 +251,5 @@ Medi_II_Items = {
 	[9901090] = { "Trap", "toggle" },
 	[9901091] = { "Trap", "toggle" },
 	[9901092] = { "Trap", "toggle" },
-	[9901093] = { "Trap", "toggle" },
+	[9901093] = { "Trap", "toggle" }
 }

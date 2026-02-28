@@ -4,7 +4,7 @@
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
         "visibility_rules": [
-            "include_ant_hill_in_checks"
+            "include_ant_hill_in_checks, HUD"
         ],
         "access_rules": [
             "bash, witchtalisman, @Return to the Graveyard/Clear/Cleared: Return to the Graveyard, include_ant_hill_in_checks",
@@ -15,7 +15,7 @@
                 "name": "Behind Barrier",
                 "map_locations": [
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 135,
                         "y": 370
                     }
@@ -38,7 +38,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 140,
                         "y": 120
                     }
@@ -69,7 +69,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 425,
                         "y": 320
                     }
@@ -95,53 +95,53 @@
                 "name": "Ambers",
                 "map_locations": [
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 280,
                         "y": 1080
                     },
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 700,
                         "y": 920
                     },
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 710,
                         "y": 1200
                     },
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 1035,
                         "y": 830
                     },
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 1045,
                         "y": 1180
                     },
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 930,
                         "y": 1450
                     },
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 1015,
                         "y": 1560
                     },
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 1450,
                         "y": 1860,
                         "size": 45
                     },
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 1600,
                         "y": 1765
                     },
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 1860,
                         "y": 1695
                     }
@@ -183,37 +183,37 @@
                 "name": "Fairies",
                 "map_locations": [
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 260,
                         "y": 925,
                         "size": 40
                     },
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 430,
                         "y": 1215,
                         "size": 40
                     },
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 1345,
                         "y": 1265,
                         "size": 40
                     },
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 1128,
                         "y": 1673,
                         "size": 40
                     },
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 1445,
                         "y": 1920,
                         "size": 40
                     },
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 1790,
                         "y": 1620,
                         "size": 40
@@ -244,7 +244,7 @@
                 "name": "Energy Vials",
                 "map_locations": [
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 550,
                         "y": 1085
                     }
@@ -259,7 +259,7 @@
                 "name": "Energy Vials[1]",
                 "map_locations": [
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 540,
                         "y": 1200
                     }
@@ -274,7 +274,7 @@
                 "name": "Energy Vials[2]",
                 "map_locations": [
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 180,
                         "y": 1345
                     }
@@ -289,7 +289,7 @@
                 "name": "Energy Vials[3]",
                 "map_locations": [
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 1310,
                         "y": 1365
                     }
@@ -304,7 +304,7 @@
                 "name": "Energy Vials[4]",
                 "map_locations": [
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 775,
                         "y": 1520
                     }
@@ -319,7 +319,7 @@
                 "name": "Queen Entrance",
                 "map_locations": [
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 1980,
                         "y": 1750
                     }
@@ -348,11 +348,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 2400,
-                        "y": 1770,
-                        "shape": "diamond",
-                        "size": 60
+                        "y": 1830
                     }
                 ],
                 "sections": [
@@ -367,7 +365,7 @@
                 "name": "Clear",
                 "map_locations": [
                     {
-                        "map": "Ant Caves",
+                        "map": "The Ant Caves",
                         "x": 2400,
                         "y": 1770,
                         "shape": "diamond",
@@ -382,21 +380,7 @@
                         ]
                     },
                     {
-                        "name": "Chalice",
-                        "access_rules": [
-                            "include_chalices_in_checks"
-                        ],
-                        "visibility_rules": [
-                            "include_chalices_in_checks"
-                        ],
-                        "chest_unopened_img": "images/items/chalice.png",
-                        "chest_opened_img": "images/items/empty chalice.png"
-                    },
-                    {
                         "name": "Cleared: Ant Caves",
-                        "access_rules": [
-                            "amber: 7"
-                        ],
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
                     }

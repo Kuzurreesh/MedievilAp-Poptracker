@@ -9,7 +9,7 @@
         "name": "Daring Dash",
         "type": "toggle",
         "img": "images/items/Daring Dash5.png",
-        "codes": "Daring5, bash, dash, golem"
+        "codes": "Daring5, bash, dash, golem, gocheck"
     },
     {
         "name": "Small Sword",
@@ -75,7 +75,7 @@
         "name": "Good Lightning",
         "type": "toggle",
         "img": "images/items/GoodLightning.png",
-        "codes": "goodlightning"
+        "codes": "goodlightning, gocheck"
     },
     {
         "name": "Throwing Daggers",
@@ -117,7 +117,7 @@
         "name": "Sheet Music",
         "type": "toggle",
         "img": "images/items/sheet music.png",
-        "codes": "sheetmusic"
+        "codes": "sheetmusic, gocheck"
     },
     {
         "name": "Cleared Crypt",
@@ -291,7 +291,7 @@
         "name": "Skull Key",
         "type": "toggle",
         "img": "images/items/skull key.png",
-        "codes": "skullkey"
+        "codes": "skullkey, gocheck"
     },
     {
         "name": "Chaos Rune",
@@ -561,7 +561,7 @@
         "name": "Harvester Part",
         "type": "toggle",
         "img": "images/items/harvester part.png",
-        "codes": "harvesterpart"
+        "codes": "harvesterpart, gocheck"
     },
     {
         "name": "Safe Key",
@@ -585,31 +585,31 @@
         "name": "Crucifix",
         "type": "toggle",
         "img": "images/items/crucifix.png",
-        "codes": "crucifix"
+        "codes": "crucifix, gocheck"
     },
     {
         "name": "Peregrin's Crown",
         "type": "toggle",
         "img": "images/items/PeregrinCrown.png",
-        "codes": "crown"
+        "codes": "crown, gocheck"
     },
     {
         "name": "Shadow Artefact",
         "type": "toggle",
         "img": "images/items/shadow artefact.png",
-        "codes": "shadowartefact"
+        "codes": "shadowartefact, gocheck"
     },
     {
         "name": "Shadow Talisman",
         "type": "toggle",
         "img": "images/items/shadow talisman.png",
-        "codes": "shadowtalisman"
+        "codes": "shadowtalisman, gocheck"
     },
     {
         "name": "Witch Talisman",
         "type": "toggle",
         "img": "images/items/witch talisman.png",
-        "codes": "witchtalisman"
+        "codes": "witchtalisman, gocheck"
     },
     {
         "name": "Amber",
@@ -639,7 +639,7 @@
         "name": "Dragon Armour",
         "type": "toggle",
         "img": "images/items/dragonpotion.png",
-        "codes": "dragonarmour, golem"
+        "codes": "dragonarmour, golem, gocheck"
     },
     {
         "name": "Chicken Drumstick",
@@ -650,20 +650,73 @@
     {
         "name": "Trap: Heavy",
         "type": "toggle",
-        "img": "images/items/chickendrumstick.png",
+        "img": "images/items/tr.png",
         "codes": "trap"
     },
     {
         "name": "Traps",
+        "type": "static",
+        "img": "images/labels/traps.png",
+        "codes": "zoomlabel"
+    },
+    {
+        "name": "HUD",
         "type": "toggle",
-        "img": "images/items/chickendrumstick.png",
+        "img": "images/labels/hud.png",
+        "initial_active_state": true,
+        "codes": "HUD"
+    },
+    {
+        "name": "Traps",
+        "type": "progressive_toggle",
+        "img": "images/labels/Cleared3.png",
+        "disabled_img": "images/labels/Not Cleared3.png",
+        "disabled_img_mods": "@enabled",
+        "initial_active_state": true,
         "codes": "zoom"
     },
     {
         "name": "Trap: HUDLess",
         "type": "toggle",
-        "img": "images/items/chickendrumstick.png",
-        "codes": "HUD"
+        "img": "images/labels/hud.png",
+        "initial_active_state": true,
+        "codes": "HUDtrap"
+    },
+    {
+        "name": "Trap: Darkness",
+        "type": "toggle",
+        "img": "images/labels/dark.png",
+        "initial_active_state": true,
+        "codes": "dark"
+    },
+    {
+        "name": "Traps",
+        "type": "composite_toggle",
+        "item_left": "HUDtrap",
+        "item_right": "dark",
+        "codes": "darkhud",
+        "images": [
+            {
+                "left": true,
+                "right": true,
+                "img": "images/labels/huddark.png"
+            },
+            {
+                "left": true,
+                "right": false,
+                "img": "images/labels/hudnodark.png"
+            },
+            {
+                "left": false,
+                "right": true,
+                "img": "images/labels/nohuddark.png"
+            },
+            {
+                "left": false,
+                "right": false,
+                "img": "images/labels/nohudnodark.png"
+            }
+        ]
     },
     {
         "name": "Gold Coins (50)",
@@ -856,7 +909,7 @@
         "type": "consumable",
         "overlay_font_size": "14",
         "img": "images/items/Chalice.png",
-        "codes": "chalice",
+        "codes": "chalice, gocheck",
         "initial_quantity": 0,
         "max_quantity": 20
     },
@@ -872,7 +925,7 @@
         "type": "consumable",
         "overlay_font_size": "14",
         "img": "images/labels/full.png",
-        "codes": "bottle",
+        "codes": "bottle, gocheck",
         "initial_quantity": 0,
         "max_quantity": 9
     },
@@ -1035,7 +1088,7 @@
         "codes": "include_ant_hill_in_checks"
     },
     {
-        "name": "Ant Caves Label",
+        "name": "Ant Caves ",
         "type": "static",
         "img": "images/labels/ant caves text.png",
         "codes": "antlabel"
@@ -1048,13 +1101,13 @@
         "codes": "runesanity"
     },
     {
-        "name": "Runesanity Label",
+        "name": "Runesanity ",
         "type": "static",
         "img": "images/labels/runesanity text.png",
         "codes": "runelabel"
     },
     {
-        "name": "Goal Label",
+        "name": "Goal ",
         "type": "static",
         "img": "images/labels/goal text.png",
         "codes": "goallabel"
@@ -1084,7 +1137,7 @@
         ]
     },
     {
-        "name": "Chalice Label",
+        "name": "Chalice  ",
         "type": "static",
         "img": "images/labels/chalice text.png",
         "codes": "chalicelabel"
@@ -1104,7 +1157,7 @@
         "codes": "keyitemslabel"
     },
     {
-        "name": "Booksanity Label",
+        "name": "Booksanity ",
         "type": "static",
         "img": "images/labels/booksanity.png",
         "codes": "booksanitylabel"
@@ -1118,7 +1171,7 @@
         "codes": "booksanity"
     },
     {
-        "name": "Gargoylesanity Label",
+        "name": "Gargoylesanity ",
         "type": "static",
         "img": "images/labels/gargoylesanity.png",
         "codes": "gargoylesanitylabel"
@@ -1132,7 +1185,7 @@
         "codes": "gargoylesanity"
     },
     {
-        "name": "Open Label",
+        "name": "Open ",
         "type": "static",
         "img": "images/labels/open.png",
         "codes": "openlabel"
@@ -1145,7 +1198,7 @@
         "codes": "progression_option"
     },
     {
-        "name": "Sphere Label",
+        "name": "Sphere ",
         "type": "static",
         "img": "images/labels/sphere 1.png",
         "codes": "spherelabel"
@@ -1160,7 +1213,7 @@
         "codes": "Highlightings"
     },
     {
-        "name": "Autotab Label",
+        "name": "Autotab ",
         "type": "static",
         "img": "images/labels/autotab.png",
         "codes": "tablabel"

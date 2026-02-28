@@ -3,6 +3,7 @@
         "name": "Hilltop Mausoleum",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
+        "visibility_rules":["HUD"],
         "access_rules": [
             "boulder, @Cemetery Hill/Clear/Cleared: Cemetery Hill",
             "boulder, progression_option"
@@ -17,7 +18,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Cemetery Hill",
+                        "map": "Cemetery Hill and Hilltop Mausoleum",
                         "x": 1355,
                         "y": 980
                     }
@@ -40,7 +41,7 @@
                 "name": "Basement",
                 "map_locations": [
                     {
-                        "map": "Cemetery Hill",
+                        "map": "Cemetery Hill and Hilltop Mausoleum",
                         "x": 1845,
                         "y": 1050
                     }
@@ -63,7 +64,7 @@
                 "name": "Basement West",
                 "map_locations": [
                     {
-                        "map": "Cemetery Hill",
+                        "map": "Cemetery Hill and Hilltop Mausoleum",
                         "x": 1325,
                         "y": 450
                     }
@@ -78,7 +79,7 @@
                 "name": "Basement West[1]",
                 "map_locations": [
                     {
-                        "map": "Cemetery Hill",
+                        "map": "Cemetery Hill and Hilltop Mausoleum",
                         "x": 1150,
                         "y": 485
                     }
@@ -94,7 +95,7 @@
                 "access_rules": "$HillEarth",
                 "map_locations": [
                     {
-                        "map": "Cemetery Hill",
+                        "map": "Cemetery Hill and Hilltop Mausoleum",
                         "x": 2170,
                         "y": 500
                     }
@@ -110,7 +111,7 @@
                 "access_rules": "$HillEarth",
                 "map_locations": [
                     {
-                        "map": "Cemetery Hill",
+                        "map": "Cemetery Hill and Hilltop Mausoleum",
                         "x": 1925,
                         "y": 375
                     }
@@ -130,7 +131,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Cemetery Hill",
+                        "map": "Cemetery Hill and Hilltop Mausoleum",
                         "x": 1800,
                         "y": 520
                     }
@@ -148,7 +149,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Cemetery Hill",
+                        "map": "Cemetery Hill and Hilltop Mausoleum",
                         "x": 2500,
                         "y": 211
                     }
@@ -164,7 +165,7 @@
                 "access_rules": "$HillMoon",
                 "map_locations": [
                     {
-                        "map": "Cemetery Hill",
+                        "map": "Cemetery Hill and Hilltop Mausoleum",
                         "x": 2715,
                         "y": 1405
                     }
@@ -180,7 +181,7 @@
                 "access_rules": "$HillEarth",
                 "map_locations": [
                     {
-                        "map": "Cemetery Hill",
+                        "map": "Cemetery Hill and Hilltop Mausoleum",
                         "x": 2435,
                         "y": 415
                     }
@@ -196,7 +197,7 @@
                 "access_rules": "$HillEarth",
                 "map_locations": [
                     {
-                        "map": "Cemetery Hill",
+                        "map": "Cemetery Hill and Hilltop Mausoleum",
                         "x": 2215,
                         "y": 345,
                         "size": 45
@@ -225,7 +226,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Cemetery Hill",
+                        "map": "Cemetery Hill and Hilltop Mausoleum",
                         "x": 1560,
                         "y": 755
                     }
@@ -240,7 +241,7 @@
                 "name": "3rd Grave Right",
                 "map_locations": [
                     {
-                        "map": "Cemetery Hill",
+                        "map": "Cemetery Hill and Hilltop Mausoleum",
                         "x": 1630,
                         "y": 875
                     }
@@ -256,7 +257,7 @@
                 "access_rules": "$HillMoon",
                 "map_locations": [
                     {
-                        "map": "Cemetery Hill",
+                        "map": "Cemetery Hill and Hilltop Mausoleum",
                         "x": 2740,
                         "y": 1480
                     }
@@ -272,7 +273,7 @@
                 "access_rules": "$HillMoon",
                 "map_locations": [
                     {
-                        "map": "Cemetery Hill",
+                        "map": "Cemetery Hill and Hilltop Mausoleum",
                         "x": 2645,
                         "y": 1475
                     }
@@ -288,7 +289,7 @@
                 "access_rules": "$HillEarth",
                 "map_locations": [
                     {
-                        "map": "Cemetery Hill",
+                        "map": "Cemetery Hill and Hilltop Mausoleum",
                         "x": 2080,
                         "y": 550
                     }
@@ -307,7 +308,7 @@
                 "access_rules": "$HillEarth",
                 "map_locations": [
                     {
-                        "map": "Cemetery Hill",
+                        "map": "Cemetery Hill and Hilltop Mausoleum",
                         "x": 2105,
                         "y": 450,
                         "size": 50
@@ -334,7 +335,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Cemetery Hill",
+                        "map": "Cemetery Hill and Hilltop Mausoleum",
                         "x": 2245,
                         "y": 430,
                         "size": 50
@@ -358,7 +359,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Cemetery Hill",
+                        "map": "Cemetery Hill and Hilltop Mausoleum",
                         "x": 2180,
                         "y": 415,
                         "size": 50
@@ -383,7 +384,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Cemetery Hill",
+                        "map": "Cemetery Hill and Hilltop Mausoleum",
                         "x": 2460,
                         "y": 290
                     }
@@ -401,7 +402,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Cemetery Hill",
+                        "map": "Cemetery Hill and Hilltop Mausoleum",
                         "x": 2050,
                         "y": 320,
                         "shape": "diamond",

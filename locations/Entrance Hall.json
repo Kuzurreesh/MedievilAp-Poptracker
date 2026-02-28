@@ -3,6 +3,7 @@
         "name": "The Entrance Hall",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
+        "visibility_rules":["HUD"],
         "access_rules": [
             "@The Ghost Ship/Clear/Cleared: The Ghost Ship",
             "progression_option"
@@ -12,7 +13,7 @@
                 "name": "Entrance",
                 "map_locations": [
                     {
-                        "map": "Entrance Hall",
+                        "map": "The Entrance Hall",
                         "x": 1415,
                         "y": 815
                     }
@@ -35,7 +36,7 @@
                 "name": "Entrance[1]",
                 "map_locations": [
                     {
-                        "map": "Entrance Hall",
+                        "map": "The Entrance Hall",
                         "x": 1370,
                         "y": 880
                     }
@@ -58,7 +59,7 @@
                 "name": "Zarok's Library",
                 "map_locations": [
                     {
-                        "map": "Entrance Hall",
+                        "map": "The Entrance Hall",
                         "x": 875,
                         "y": 915
                     }
@@ -81,7 +82,7 @@
                 "name": "Zarok's Library[1]",
                 "map_locations": [
                     {
-                        "map": "Entrance Hall",
+                        "map": "The Entrance Hall",
                         "x": 905,
                         "y": 965
                     }
@@ -107,7 +108,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Entrance Hall",
+                        "map": "The Entrance Hall",
                         "x": 810,
                         "y": 975
                     }
@@ -127,7 +128,7 @@
                 "name": "Clear",
                 "map_locations": [
                     {
-                        "map": "Entrance Hall",
+                        "map": "The Entrance Hall",
                         "x": 100,
                         "y": 170,
                         "shape": "diamond",
