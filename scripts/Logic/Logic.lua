@@ -599,7 +599,3 @@ function Unlighting(list)
 		end
 	end
 end
-
---function Trap()
---	if Has("zoom")
---end
