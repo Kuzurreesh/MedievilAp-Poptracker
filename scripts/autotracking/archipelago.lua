@@ -111,15 +111,15 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("gargoylesanity").Active = otable["gargoylesanity"]
         Tracker:FindObjectForCode("progression_option").Active = otable["progression_option"]
     end
-    
+
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
     -- ScriptHost:AddOnLocationSectionChangedHandler("ChaliceCount", ChaliceCount)
     ScriptHost:AddWatchForCode("Highlights1", "progression_option", Lighting)
     ScriptHost:AddWatchForCode("Highlights2", "runesanity", Lighting)
     ScriptHost:AddWatchForCode("Go-Mode", "gocheck", GO)
-  --  ScriptHost:AddWatchForCode("chalicechange", "chalice", GO)
-   -- ScriptHost:AddWatchForCode("bottle", "bottle", GO)
+    --  ScriptHost:AddWatchForCode("chalicechange", "chalice", GO)
+    -- ScriptHost:AddWatchForCode("bottle", "bottle", GO)
     ScriptHost:AddWatchForCode("imp weapon", "imp", GO)
     ScriptHost:AddWatchForCode("Rune", "rune", GO)
     Archipelago:Get(NotifyKeys)
@@ -212,11 +212,13 @@ function onLocation(location_id, location_name)
     if obj then
         if v[1]:sub(1, 1) == "@" then
             obj.AvailableChestCount = obj.AvailableChestCount - 1
+            obj.Highlight = Highlight.None
         else
             obj.Active = true
         end
         if v[2] then
             Tracker:FindObjectForCode(v[2]).AvailableChestCount = Tracker:FindObjectForCode(v[2]).AvailableChestCount - 1
+            Tracker:FindObjectForCode(v[2]).Highlight = Highlight.None
         end
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find object for code %s", v[1]))
@@ -244,7 +246,7 @@ function onBounce(json)
         if data["MapId"] > 0 then
             if data["Region"] == "set" then
                 local name = Maps2[data["MapId"]]
-                if data["MapName"] == "HUD" and Has("HUDtrap")  then
+                if data["MapName"] == "HUD" and Has("HUDtrap") then
                     Tracker:FindObjectForCode("HUD").Active = false
                     table.insert(Traps, { data["MapName"], data["MapId"] })
                 elseif data["MapName"] == "Dark" and Has("dark") and PopVersion >= "0.34.0" then
@@ -318,6 +320,8 @@ function onDataStorageUpdate(key, value, oldValue)
                 "/" .. tostring(Tracker:FindObjectForCode("chalice_win_count").CurrentStage)
             if count >= Tracker:FindObjectForCode("chalice_win_count").CurrentStage then
                 tracker.BadgeTextColor = "00FF00"
+            else
+                tracker.BadgeTextColor = "FFFFFF"
             end
         end
     end
@@ -326,9 +330,10 @@ function onDataStorageUpdate(key, value, oldValue)
             -- we only care about hints in our world
             local hint_status = hint.status
             local hint_item = hint.item
-            if hint_status < 40 then
-                if hint.finding_player == Archipelago.PlayerNumber then
-                    local location_code = LOCATION_MAPPING[hint.location][1]
+
+            if hint.finding_player == Archipelago.PlayerNumber then
+                local location_code = LOCATION_MAPPING[hint.location][1]
+                if hint.found == false then
                     if location_code and location_code:sub(1, 1) == "@" then
                         local hinted_item = ""
                         if Archipelago:GetPlayerGame(hint.receiving_player) == "Medievil" then
@@ -341,8 +346,11 @@ function onDataStorageUpdate(key, value, oldValue)
                         elseif hinted_item == "small" or hinted_item == "medium" or hinted_item == "large" then
                             hint_status = 0
                         end
+
                         Tracker:FindObjectForCode(location_code).Highlight = HIGHLIGHT_STATUS_MAPPING[hint_status]
                     end
+                else
+                    Tracker:FindObjectForCode(location_code).Highlight = Highlight.None
 
                     -- print("itemflag", hint.item_flags)
                     --local x = tonumber(hint.location)

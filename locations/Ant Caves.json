@@ -45,7 +45,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Gargoyle: Entrance - AH",
+                        "name": "Gargoyle: Entrance - TA",
                         "chest_unopened_img": "images/labels/gargoyle2.png",
                         "chest_opened_img": "images/labels/gargoyledisabled.png",
                         "access_rules": [
@@ -79,7 +79,7 @@
                         "name": "Equipment: Club in Chest at Barrier - TA"
                     },
                     {
-                        "name": "Book: Fairy Portal - AH",
+                        "name": "Book: Fairy Portal - TA",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
                         "access_rules": [
@@ -326,7 +326,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Book: Queen Ant - AH",
+                        "name": "Book: Queen Ant - TA",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
                         "access_rules": [

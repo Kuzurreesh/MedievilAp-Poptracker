@@ -589,7 +589,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Book: Heroes From History- SV",
+                        "name": "Book: Heroes From History - SV",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
                         "access_rules": [

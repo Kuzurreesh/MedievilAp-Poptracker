@@ -838,8 +838,8 @@
 						"name": "Book: Scarecrows - SF"
 					},
 					{
-						"ref": "Scarecrow Fields/Moon Hut[2]/Book - Mischief Makers - SF",
-						"name": "Book - Mischief Makers - SF"
+						"ref": "Scarecrow Fields/Moon Hut[2]/Book: Mischief Makers - SF",
+						"name": "Book: Mischief Makers - SF"
 					},
 					{
 						"ref": "Scarecrow Fields/Barn Front/Book: Kul Katura - SF",
@@ -1570,16 +1570,16 @@
 						"name": "Gold Coins: Chest at Barrier Fairy - TA"
 					},
 					{
-						"ref": "Ant Caves/Caves Entrance/Book: Fairy Portal - AH",
-						"name": "Book: Fairy Portal - AH"
+						"ref": "Ant Caves/Caves Entrance/Book: Fairy Portal - TA",
+						"name": "Book: Fairy Portal - TA"
 					},
 					{
-						"ref": "Ant Caves/Queen Entrance/Book: Queen Ant - AH",
-						"name": "Book: Queen Ant - AH"
+						"ref": "Ant Caves/Queen Entrance/Book: Queen Ant - TA",
+						"name": "Book: Queen Ant - TA"
 					},
 					{
-						"ref": "Ant Caves/Entrance/Gargoyle: Entrance - AH",
-						"name": "Gargoyle: Entrance - AH"
+						"ref": "Ant Caves/Entrance/Gargoyle: Entrance - TA",
+						"name": "Gargoyle: Entrance - TA"
 					},
 					{
 						"ref": "Ant Caves/Chalice/Chalice",
@@ -1910,8 +1910,8 @@
 						"name": "Book: Dragon Book - CC"
 					},
 					{
-						"ref": "The Crystal Caves/Dragon's Lair[7]/Book - Summon Dragon - CC",
-						"name": "Book - Summon Dragon - CC"
+						"ref": "The Crystal Caves/Dragon's Lair[7]/Book: Summon Dragon - CC",
+						"name": "Book: Summon Dragon - CC"
 					},
 					{
 						"ref": "The Crystal Caves/Past Columns/Gargoyle: Cave Entrance - CC",

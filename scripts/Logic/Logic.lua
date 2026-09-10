@@ -35,15 +35,6 @@ function Chalice_Win(num)
 	end
 end
 
-function Chalice_Win(num)
-	num = tonumber(num)
-	if Tracker:FindObjectForCode("chalice_win_count").CurrentStage >= num then
-		return true
-	else
-		return false
-	end
-end
-
 function GO()
 	Goal = Tracker:FindObjectForCode("goal").CurrentStage
 	local ending = Tracker:FindObjectForCode("GO")
@@ -97,6 +88,7 @@ function GO()
 end
 
 ScriptHost:AddWatchForCode("Go-Mode", "goodlightning", GO)
+ScriptHost:AddWatchForCode("Bottle Go-Mode", "bottle", GO)
 
 -- Graveyard
 function GraveEarth()
@@ -588,7 +580,11 @@ function Highlighting(list)
 	for key, value in pairs(list) do
 		local obj = Tracker:FindObjectForCode(value[1])
 		if obj then
-			obj.Highlight = Highlight.NoPriority
+			if obj.AccessibilityLevel == AccessibilityLevel.Cleared then
+				obj.Highlight = Highlight.None
+			else
+				obj.Highlight = Highlight.NoPriority
+			end
 		end
 	end
 end

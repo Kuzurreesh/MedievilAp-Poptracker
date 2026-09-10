@@ -166,7 +166,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Book - Mischief Makers - SF",
+                        "name": "Book: Mischief Makers - SF",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
                         "access_rules": [

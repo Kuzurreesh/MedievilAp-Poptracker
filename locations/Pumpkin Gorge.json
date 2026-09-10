@@ -29,7 +29,7 @@
             {
                 "name": "Behind Wall",
                 "access_rules": [
-                    "$GorgeChaos, $GorgeStar, $GorgeTime"
+                    "boulder, $GorgeChaos, $GorgeStar, $GorgeTime"
                 ],
                 "map_locations": [
                     {
