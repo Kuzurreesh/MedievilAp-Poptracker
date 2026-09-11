@@ -169,7 +169,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Book: A Guide to Covens",
+                        "name": "Book: A Guide to Covens - CH",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "access_rules": [
                             "booksanity"
