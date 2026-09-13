@@ -26,6 +26,27 @@ function Can3(location)
 	end
 end
 
+function RangedRune()
+	if Tracker:FindObjectForCode("runesanity").Active == true then
+		return true
+	elseif Tracker:ProviderCountForCode("ranged") > 0 then
+		return true
+	else
+		return false
+	end
+end
+
+function WeaponRune()
+	if Tracker:FindObjectForCode("runesanity").Active == true then
+		return true
+	elseif Tracker:ProviderCountForCode("weapon") > 0 then
+		return true
+	else
+		return false
+	end
+end
+
+
 function Chalice_Win(num)
 	num = tonumber(num)
 	if Tracker:FindObjectForCode("chalice_win_count").CurrentStage >= num then
@@ -89,6 +110,16 @@ end
 
 ScriptHost:AddWatchForCode("Go-Mode", "goodlightning", GO)
 ScriptHost:AddWatchForCode("Bottle Go-Mode", "bottle", GO)
+
+-- Dan's Crypt
+function CryptStar()
+	if (Has("runesanity") and Has("starcrypt") or not Has("runesanity")) then
+		return true
+	else
+		return false
+	end
+end
+
 
 -- Graveyard
 function GraveEarth()

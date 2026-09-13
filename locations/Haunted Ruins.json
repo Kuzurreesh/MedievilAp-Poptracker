@@ -6,7 +6,7 @@
         "visibility_rules":["HUD"],
         "access_rules": [
             "@The Gallows Gauntlet/Clear/Cleared: The Gallows Gauntlet",
-            "progression_option"
+            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
         ],
         "children": [
             {
@@ -396,7 +396,7 @@
             {
                 "name": "Outer Wall West[2]",
                 "access_rules": [
-                    "boulder, crown, golem, $RuinsChaos"
+                    "crown, golem, $RuinsChaos"
                 ],
                 "map_locations": [
                     {

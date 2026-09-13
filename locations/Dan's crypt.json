@@ -173,7 +173,7 @@
                     }
                 ],
                 "access_rules": [
-                    "bash"
+                    "bash, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
                 ],
                 "sections": [
                     {
@@ -275,6 +275,7 @@
             },
             {
                 "name": "Clear",
+                "access_rules":["$CryptStar"],
                 "map_locations": [
                     {
                         "map": "Dan's Crypt",

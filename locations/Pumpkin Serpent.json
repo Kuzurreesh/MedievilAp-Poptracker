@@ -6,7 +6,7 @@
         "visibility_rules":["HUD"],
         "access_rules": [
             "@Pumpkin Gorge/Clear/Cleared: Pumpkin Gorge",
-            "progression_option"
+            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
         ],
         "children": [
             {
@@ -88,7 +88,7 @@
             {
                 "name": "Witch's Cauldron",
                 "access_rules": [
-                    "witchtalisman"
+                    "witchtalisman, [weapon]"
                 ],
                 "map_locations": [
                     {
@@ -120,6 +120,7 @@
             },
             {
                 "name": "Down the Well",
+                "access_rules":["[weapon]"],
                 "map_locations": [
                     {
                         "map": "Pumpkin Serpent",
@@ -156,6 +157,7 @@
             },
             {
                 "name": "Down the Well[1]",
+                "access_rules":["[weapon]"],
                 "map_locations": [
                     {
                         "map": "Pumpkin Serpent",

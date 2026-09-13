@@ -12,6 +12,7 @@
             "display_name": "Tracker 0.7.0",
 			"flags": ["ap"]
         }
-    }
+    },
+    "versions_url": "https://raw.githubusercontent.com/Kuzurreesh/MediEvilAP-poptracker/refs/heads/versions/versions.json"
 
 }

@@ -19,12 +19,13 @@ function onClear(slot_data)
     end
     SLOT_DATA = slot_data
     CUR_INDEX = -1
-    -- ScriptHost:RemoveOnLocationSectionHandler("ChaliceCount")
+    ScriptHost:RemoveOnLocationSectionHandler("In Logic")
     ScriptHost:RemoveWatchForCode("Highlights1")
     ScriptHost:RemoveWatchForCode("Highlights2")
     ScriptHost:RemoveWatchForCode("Go-Mode")
     ScriptHost:RemoveWatchForCode("imp weapon")
     ScriptHost:RemoveWatchForCode("Rune")
+    ScriptHost:RemoveWatchForCode("Counting")
     TeamName = Archipelago:GetPlayerAlias(Archipelago.PlayerNumber)
     TeamNumber = Archipelago.TeamNumber
     NotifyKeys = {
@@ -114,7 +115,7 @@ function onClear(slot_data)
 
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
-    -- ScriptHost:AddOnLocationSectionChangedHandler("ChaliceCount", ChaliceCount)
+    ScriptHost:AddOnLocationSectionChangedHandler("In Logic", ChaliceCount)
     ScriptHost:AddWatchForCode("Highlights1", "progression_option", Lighting)
     ScriptHost:AddWatchForCode("Highlights2", "runesanity", Lighting)
     ScriptHost:AddWatchForCode("Go-Mode", "gocheck", GO)
@@ -122,11 +123,13 @@ function onClear(slot_data)
     -- ScriptHost:AddWatchForCode("bottle", "bottle", GO)
     ScriptHost:AddWatchForCode("imp weapon", "imp", GO)
     ScriptHost:AddWatchForCode("Rune", "rune", GO)
+    ScriptHost:AddWatchForCode("Counting", "*", ChaliceCount)
     Archipelago:Get(NotifyKeys)
     Archipelago:Get(NotifyHints)
     Archipelago:SetNotify(NotifyKeys)
     Archipelago:SetNotify(NotifyHints)
     GO()
+    ChaliceCount()
 end
 
 -- called when an item gets collected
@@ -241,46 +244,50 @@ end
 -- called when a bounce message is received
 function onBounce(json)
     -- print("hud: ",json["data"]["HUD"]["Region"],json["data"]["HUD"]["MapName"] )
-    local data = json["data"]["trap"]
-    if Has("zoom") then
-        if data["MapId"] > 0 then
-            if data["Region"] == "set" then
-                local name = Maps2[data["MapId"]]
-                if data["MapName"] == "HUD" and Has("HUDtrap") then
-                    Tracker:FindObjectForCode("HUD").Active = false
-                    table.insert(Traps, { data["MapName"], data["MapId"] })
-                elseif data["MapName"] == "Dark" and Has("dark") and PopVersion >= "0.34.0" then
-                    Tracker:UiHint("Zoom " .. name[1], "16")
-                    Tracker:UiHint("Pan " .. name[1], "200,500")
-                    table.insert(Traps, { data["MapName"], data["MapId"] })
+    print(dump_table(json))
+    
+    if json["data"] ~= nil then
+        local data = json["data"]["trap"]
+        if Has("zoom") then
+            if data["MapId"] > 0 then
+                if data["Region"] == "set" then
+                    local name = Maps2[data["MapId"]]
+                    if data["MapName"] == "HUD" and Has("HUDtrap") then
+                        Tracker:FindObjectForCode("HUD").Active = false
+                        table.insert(Traps, { data["MapName"], data["MapId"] })
+                    elseif data["MapName"] == "Dark" and Has("dark") and PopVersion >= "0.34.0" then
+                        Tracker:UiHint("Zoom " .. name[1], "16")
+                        Tracker:UiHint("Pan " .. name[1], "200,500")
+                        table.insert(Traps, { data["MapName"], data["MapId"] })
+                    else
+                        print("No valid trap", data["MapName"])
+                    end
+                elseif data["Region"] == "reset" then
+
                 else
-                    print("No valid trap", data["MapName"])
+                    print("No valid action", data["Region"])
                 end
-            elseif data["Region"] == "reset" then
-
-            else
-                print("No valid action", data["Region"])
             end
         end
-    end
-    if data["Region"] == "reset" then
-        if Traps[1] then
-            if Traps[1][1] == "HUD" then
-                Tracker:FindObjectForCode("HUD").Active = true
-            elseif Traps[1][1] == "Dark" and PopVersion >= "0.34.0" then
-                Tracker:UiHint("Zoom " .. Maps2[Traps[1][2]][1], "1")
-                Tracker:UiHint("Pan " .. Maps2[Traps[1][2]][1], Maps2[Traps[1][2]][2])
+        if data["Region"] == "reset" then
+            if Traps[1] then
+                if Traps[1][1] == "HUD" then
+                    Tracker:FindObjectForCode("HUD").Active = true
+                elseif Traps[1][1] == "Dark" and PopVersion >= "0.34.0" then
+                    Tracker:UiHint("Zoom " .. Maps2[Traps[1][2]][1], "1")
+                    Tracker:UiHint("Pan " .. Maps2[Traps[1][2]][1], Maps2[Traps[1][2]][2])
+                else
+                    print("No valid trap in list", Traps[1][1])
+                end
+                table.remove(Traps, 1)
             else
-                print("No valid trap in list", Traps[1][1])
+                print("Can't reset, empty trap list!")
             end
-            table.remove(Traps, 1)
+        elseif data["Region"] == "set" then
+
         else
-            print("Can't reset, empty trap list!")
+            print("No valid action", data["Region"])
         end
-    elseif data["Region"] == "set" then
-
-    else
-        print("No valid action", data["Region"])
     end
 end
 

@@ -6,7 +6,7 @@
         "visibility_rules":["HUD"],
         "access_rules": [
             "@The Entrance Hall/Clear/Cleared: The Entrance Hall",
-            "progression_option"
+            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
         ],
         "children": [
             {
@@ -282,7 +282,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@The Time Device/Clear/Cleared: The Time Device",
-                    "progression_option"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
                 ],
                 "map_locations": [
                     {
@@ -302,7 +302,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@The Time Device/Clear/Cleared: The Time Device",
-                    "progression_option"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
                 ],
                 "map_locations": [
                     {
@@ -322,7 +322,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@The Time Device/Clear/Cleared: The Time Device",
-                    "progression_option"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
                 ],
                 "map_locations": [
                     {
@@ -349,8 +349,8 @@
                 "name": "Clear Game",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@The Time Device/Clear/Cleared: The Time Device, [bottle:5], goodlightning",
-                    "progression_option, [bottle:5], goodlightning"
+                    "@The Time Device/Clear/Cleared: The Time Device, [bottle:5], goodlightning, [weapon]",
+                    "progression_option, [bottle:5], goodlightning, [weapon], @Dan's Crypt/Clear/Cleared: Dan's Crypt"
                 ],
                 "map_locations": [
                     {

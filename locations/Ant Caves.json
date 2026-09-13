@@ -8,7 +8,7 @@
         ],
         "access_rules": [
             "bash, witchtalisman, @Return to the Graveyard/Clear/Cleared: Return to the Graveyard, include_ant_hill_in_checks",
-            "bash, witchtalisman, progression_option, include_ant_hill_in_checks"
+            "bash, witchtalisman, progression_option, include_ant_hill_in_checks, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
         ],
         "children": [
             {
@@ -31,7 +31,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "witchtalisman, @Return to the Graveyard/Clear/Cleared: Return to the Graveyard, include_ant_hill_in_checks",
-                    "witchtalisman, progression_option, include_ant_hill_in_checks"
+                    "witchtalisman, progression_option, include_ant_hill_in_checks, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
                 ],
                 "visibility_rules": [
                     "include_ant_hill_in_checks"
@@ -62,7 +62,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "witchtalisman, @Return to the Graveyard/Clear/Cleared: Return to the Graveyard, include_ant_hill_in_checks",
-                    "witchtalisman, progression_option, include_ant_hill_in_checks"
+                    "witchtalisman, progression_option, include_ant_hill_in_checks, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
                 ],
                 "visibility_rules": [
                     "include_ant_hill_in_checks"

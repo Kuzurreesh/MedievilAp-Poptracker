@@ -6,9 +6,9 @@
         "visibility_rules":["HUD"],
         "access_rules": [
             "@Scarecrow Fields/Clear/Cleared: Scarecrow Fields, dash",
-            "progression_option, dash",
+            "progression_option, dash, @Dan's Crypt/Clear/Cleared: Dan's Crypt",
             "@Scarecrow Fields/Clear/Cleared: Scarecrow Fields, boulder",
-            "progression_option, boulder"
+            "progression_option, boulder, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
         ],
         "children": [
             {
@@ -128,7 +128,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Scarecrow Fields/Clear/Cleared: Scarecrow Fields",
-                    "progression_option"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
                 ],
                 "map_locations": [
                     {
@@ -148,7 +148,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Scarecrow Fields/Clear/Cleared: Scarecrow Fields",
-                    "progression_option"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
                 ],
                 "map_locations": [
                     {

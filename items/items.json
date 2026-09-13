@@ -6,6 +6,12 @@
         "codes": "arm"
     },
     {
+        "name": "Count",
+        "type": "static",
+        "img": "images/items/Arm.png",
+        "codes": "count"
+    },
+    {
         "name": "Daring Dash",
         "type": "toggle",
         "img": "images/items/Daring Dash5.png",
@@ -15,19 +21,19 @@
         "name": "Small Sword",
         "type": "toggle",
         "img": "images/items/SmallSword.png",
-        "codes": "sword, imp"
+        "codes": "sword, imp, weapon"
     },
     {
         "name": "Broadsword",
         "type": "toggle",
         "img": "images/items/Broadsword.png",
-        "codes": "broadsword, imp"
+        "codes": "broadsword, imp, weapon"
     },
     {
         "name": "Magic Sword",
         "type": "toggle",
         "img": "images/items/MagicSword.png",
-        "codes": "magicsword, imp"
+        "codes": "magicsword, imp, weapon"
     },
     {
         "name": "Copper Shield",
@@ -51,25 +57,25 @@
         "name": "Club",
         "type": "toggle",
         "img": "images/items/Club.png",
-        "codes": "club, bash, boulder, imp"
+        "codes": "club, bash, boulder, imp, weapon"
     },
     {
         "name": "Hammer",
         "type": "toggle",
         "img": "images/items/Hammer.png",
-        "codes": "hammer, bash, boulder, imp"
+        "codes": "hammer, bash, boulder, imp, weapon"
     },
     {
         "name": "Axe",
         "type": "toggle",
         "img": "images/items/Axe.png",
-        "codes": "axe, imp"
+        "codes": "axe, imp, weapon, ranged"
     },
     {
         "name": "Lightning",
         "type": "toggle",
         "img": "images/items/Lightning.png",
-        "codes": "lightning, imp"
+        "codes": "lightning, imp, weapon, ranged"
     },
     {
         "name": "Good Lightning",
@@ -81,37 +87,37 @@
         "name": "Throwing Daggers",
         "type": "toggle",
         "img": "images/items/ThrowingDaggers.png",
-        "codes": "throwingdaggers, imp"
+        "codes": "throwingdaggers, imp, weapon, ranged"
     },
     {
         "name": "Crossbow",
         "type": "toggle",
         "img": "images/items/Crossbow.png",
-        "codes": "crossbow, imp"
+        "codes": "crossbow, imp, weapon, ranged"
     },
     {
         "name": "Spear",
         "type": "toggle",
         "img": "images/items/Spear.png",
-        "codes": "spear, imp"
+        "codes": "spear, imp, weapon, ranged"
     },
     {
         "name": "Longbow",
         "type": "toggle",
         "img": "images/items/Longbow.png",
-        "codes": "longbow, imp"
+        "codes": "longbow, imp, weapon, ranged"
     },
     {
         "name": "Flaming Longbow",
         "type": "toggle",
         "img": "images/items/FlamingLongbow.png",
-        "codes": "flaminglongbow, imp"
+        "codes": "flaminglongbow, imp, weapon, ranged"
     },
     {
         "name": "Magic Longbow",
         "type": "toggle",
         "img": "images/items/MagicLongbow.png",
-        "codes": "magiclongbow, imp"
+        "codes": "magiclongbow, imp, weapon, ranged"
     },
     {
         "name": "Sheet Music",
@@ -645,7 +651,7 @@
         "name": "Chicken Drumstick",
         "type": "toggle",
         "img": "images/items/chickendrumstick.png",
-        "codes": "chickendrumstick, imp"
+        "codes": "chickendrumstick, imp, weapon"
     },
     {
         "name": "Trap: Heavy",

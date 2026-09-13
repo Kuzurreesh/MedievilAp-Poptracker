@@ -6,7 +6,7 @@
         "visibility_rules":["HUD"],
         "access_rules": [
             "skullkey, @Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
-            "skullkey, progression_option"
+            "skullkey, progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
         ],
         "children": [
             {
@@ -67,7 +67,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
-                    "progression_option"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
                 ],
                 "map_locations": [
                     {
@@ -106,7 +106,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
-                    "progression_option"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
                 ],
                 "map_locations": [
                     {
@@ -126,7 +126,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
-                    "progression_option"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
                 ],
                 "map_locations": [
                     {
@@ -146,7 +146,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
-                    "progression_option"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
                 ],
                 "map_locations": [
                     {
@@ -166,7 +166,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
-                    "progression_option"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
                 ],
                 "map_locations": [
                     {
@@ -194,7 +194,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
-                    "progression_option"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
                 ],
                 "map_locations": [
                     {
@@ -276,7 +276,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
-                    "progression_option"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
                 ],
                 "map_locations": [
                     {
@@ -311,7 +311,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
-                    "progression_option"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
                 ],
                 "map_locations": [
                     {
@@ -345,7 +345,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
-                    "progression_option"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
                 ],
                 "map_locations": [
                     {
@@ -402,7 +402,7 @@
             {
                 "name": "Clear",
                 "access_rules": [
-                    "$ReturnStar",
+                    "$ReturnStar, [weapon]",
                     "[]"
                 ],
                 "map_locations": [

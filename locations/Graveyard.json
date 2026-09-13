@@ -6,7 +6,7 @@
         "visibility_rules":["HUD"],
         "access_rules": [
             "@Dan's Crypt/Clear/Cleared: Dan's Crypt",
-            "progression_option"
+            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
         ],
         "children": [
             {

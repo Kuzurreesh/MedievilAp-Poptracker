@@ -6,7 +6,7 @@
         "visibility_rules":["HUD"],
         "access_rules": [
             "@Return to the Graveyard/Clear/Cleared: Return to the Graveyard",
-            "progression_option"
+            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
         ],
         "children": [
             {
@@ -223,7 +223,7 @@
             {
                 "name": "Hollow Tree Top",
                 "access_rules": [
-                    "shadowtalisman, shadowartefact"
+                    "shadowtalisman, shadowartefact, ranged"
                 ],
                 "map_locations": [
                     {
@@ -262,7 +262,7 @@
             {
                 "name": "Past Elevator",
                 "access_rules": [
-                    "shadowtalisman, shadowartefact"
+                    "shadowtalisman, shadowartefact, ranged"
                 ],
                 "map_locations": [
                     {
@@ -304,7 +304,7 @@
             {
                 "name": "Shadow Cave[1]",
                 "access_rules": [
-                    "shadowtalisman, shadowartefact, $EnchantEarth"
+                    "shadowtalisman, shadowartefact, $EnchantEarth, ranged"
                 ],
                 "map_locations": [
                     {
@@ -374,7 +374,7 @@
             {
                 "name": "Clear",
                 "access_rules": [
-                    "shadowtalisman, shadowartefact, $EnchantEarth, $EnchantStar"
+                    "shadowtalisman, shadowartefact, $EnchantEarth, $EnchantStar, $RangedRune"
                 ],
                 "map_locations": [
                     {

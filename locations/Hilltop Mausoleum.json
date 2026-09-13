@@ -6,7 +6,7 @@
         "visibility_rules":["HUD"],
         "access_rules": [
             "boulder, @Cemetery Hill/Clear/Cleared: Cemetery Hill",
-            "boulder, progression_option"
+            "boulder, progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
         ],
         "children": [
             {
@@ -14,7 +14,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Cemetery Hill/Clear/Cleared: Cemetery Hill",
-                    "progression_option"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
                 ],
                 "map_locations": [
                     {
@@ -127,7 +127,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Cemetery Hill/Clear/Cleared: Cemetery Hill",
-                    "progression_option"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
                 ],
                 "map_locations": [
                     {
@@ -222,7 +222,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Cemetery Hill/Clear/Cleared: Cemetery Hill",
-                    "progression_option"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
                 ],
                 "map_locations": [
                     {
@@ -398,7 +398,7 @@
             {
                 "name": "Clear",
                 "access_rules": [
-                    "$HillChaos, $HillEarth"
+                    "$HillChaos, $HillEarth, [ranged]"
                 ],
                 "map_locations": [
                     {
