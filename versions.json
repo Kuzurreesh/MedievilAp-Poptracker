@@ -1,0 +1,12 @@
+{
+    "versions": [    
+        {
+            "package_version": "0.7.0",
+            "download_url": "https://github.com/Kuzurreesh/MedievilAp-Poptracker/archive/refs/tags/v0.7.0.zip",
+            "sha256": "049ae3bcef296c8d5b11cd3a89c622119a7f812f792b2150c01b262dbdf1a88b",
+            "changelog": [
+                "Trap Integration"
+            ]
+        }
+    ]
+}
