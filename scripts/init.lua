@@ -2,7 +2,6 @@
 if (PopVersion >= "0.30.4") then
 	Tracker.AllowDeferredLogicUpdate = true
 end
-ScriptHost:LoadScript("scripts/watches.lua")
 ScriptHost:LoadScript("scripts/autotracking.lua")
 ScriptHost:LoadScript("scripts/locations.lua")
 ScriptHost:LoadScript("scripts/logic/logic.lua")
@@ -16,7 +15,12 @@ Tracker:AddMaps("maps/maps.json")
 Tracker:AddLayouts("layouts/item_grids.json")
 Tracker:AddLayouts("layouts/layouts.json")
 
+for index, value in pairs(Where2) do
+	Tracker:FindObjectForCode(value):SetOverlayFontSize(9)	
+	
+end
 
-
+ScriptHost:LoadScript("scripts/watches.lua")
+ChaliceCount()
 
 

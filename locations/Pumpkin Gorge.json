@@ -232,7 +232,7 @@
             {
                 "name": "Entry Road",
                 "access_rules": [
-                    "boulder"
+                    "bash"
                 ],
                 "map_locations": [
                     {

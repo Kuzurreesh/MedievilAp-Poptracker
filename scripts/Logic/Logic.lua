@@ -611,7 +611,7 @@ function Highlighting(list)
 	for key, value in pairs(list) do
 		local obj = Tracker:FindObjectForCode(value[1])
 		if obj then
-			if obj.AccessibilityLevel == AccessibilityLevel.Cleared then
+			if obj.AccessibilityLevel == AccessibilityLevel.Cleared or obj.AccessibilityLevel == AccessibilityLevel.SequenceBreak then
 				obj.Highlight = Highlight.None
 			else
 				obj.Highlight = Highlight.NoPriority

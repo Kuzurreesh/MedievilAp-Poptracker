@@ -15,6 +15,7 @@
 						{
 							"type": "array",
 							"orientation": "vertical",
+							"margin": "0,0",
 							"v_alignment": "top",
 							"content": [
 								{

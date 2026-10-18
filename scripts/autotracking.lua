@@ -20,6 +20,6 @@ print("")
  --if Tracker.AllowDeferredLogicUpdate == false then Tracker.AllowDeferredLogicUpdate = true end
 
 
-ScriptHost:LoadScript("scripts/autotracking/archipelago.lua")
 ScriptHost:LoadScript("scripts/utils.lua")
+ScriptHost:LoadScript("scripts/autotracking/archipelago.lua")
 

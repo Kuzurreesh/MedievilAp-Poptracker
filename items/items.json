@@ -6,10 +6,10 @@
         "codes": "arm"
     },
     {
-        "name": "Count",
+        "name": "Available Locations",
         "type": "static",
-        "img": "images/items/Arm.png",
-        "codes": "count"
+        "img": "images/labels/all.png",
+        "codes": "countering"
     },
     {
         "name": "Daring Dash",
@@ -620,7 +620,7 @@
     {
         "name": "Amber",
         "type": "consumable",
-        "overlay_font_size": "15",
+        "overlay_font_size": 15,
         "img": "images/items/Amber.png",
         "codes": "amber,amber1,amber2,amber3,amber4,amber5,amber6",
         "max_quantity": 7
@@ -628,7 +628,7 @@
     {
         "name": "Soul Helmet",
         "type": "consumable",
-        "overlay_font_size": "15",
+        "overlay_font_size": 15,
         "img": "images/items/soul helmet.png",
         "codes": "soulhelmet, helmet",
         "max_quantity": 8
@@ -636,7 +636,7 @@
     {
         "name": "Dragon Gem",
         "type": "consumable",
-        "overlay_font_size": "15",
+        "overlay_font_size": 15,
         "img": "images/items/Dragon Gem.png",
         "codes": "dragongem",
         "max_quantity": 2
@@ -675,11 +675,11 @@
     {
         "name": "Traps",
         "type": "progressive_toggle",
+        "initial_active_state": true,"stages": [{"name": "Traps",
         "img": "images/labels/Cleared3.png",
         "disabled_img": "images/labels/Not Cleared3.png",
         "disabled_img_mods": "@enabled",
-        "initial_active_state": true,
-        "codes": "zoom"
+        "codes": "zoom"}]
     },
     {
         "name": "Trap: HUDLess",
@@ -913,7 +913,7 @@
     {
         "name": "Chalice",
         "type": "consumable",
-        "overlay_font_size": "14",
+        "overlay_font_size": 14,
         "img": "images/items/Chalice.png",
         "codes": "chalice, gocheck",
         "initial_quantity": 0,
@@ -929,7 +929,7 @@
     {
         "name": "Life Bottle",
         "type": "consumable",
-        "overlay_font_size": "14",
+        "overlay_font_size": 14,
         "img": "images/labels/full.png",
         "codes": "bottle, gocheck",
         "initial_quantity": 0,
@@ -1089,9 +1089,9 @@
         "name": "Ant Caves",
         "type": "progressive_toggle",
         "loop": true,
+        "initial_active_state": true,"stages": [{"name": "Ant Caves",
         "img": "images/labels/ant hill3.png",
-        "initial_active_state": true,
-        "codes": "include_ant_hill_in_checks"
+        "codes": "include_ant_hill_in_checks"}]
     },
     {
         "name": "Ant Caves ",
@@ -1102,9 +1102,9 @@
     {
         "name": "Runesanity",
         "type": "progressive_toggle",
+        "loop": true,"stages": [{"name": "Runesanity",
         "img": "images/labels/runesanity.png",
-        "loop": true,
-        "codes": "runesanity"
+        "codes": "runesanity"}]
     },
     {
         "name": "Runesanity ",
@@ -1121,24 +1121,23 @@
     {
         "name": "Goal",
         "type": "progressive",
-        "codes": "goal",
         "allow_disabled": false,
         "loop": true,
         "stages": [
             {
                 "name": "Zarok",
                 "img": "images/labels/zarok2.png",
-                "codes": "zarok"
+                "codes": "goal,zarok"
             },
             {
                 "name": "Chalices",
                 "img": "images/labels/chalices2.png",
-                "codes": "chalices"
+                "codes": "goal,chalices"
             },
             {
                 "name": "Both",
                 "img": "images/labels/both2.png",
-                "codes": "both"
+                "codes": "goal,both"
             }
         ]
     },
@@ -1151,10 +1150,15 @@
     {
         "name": "Chalice",
         "type": "progressive_toggle",
-        "img": "images/labels/chalice9.png",
         "initial_active_state": true,
         "loop": true,
-        "codes": "include_chalices_in_checks"
+        "stages": [
+            {
+                "name": "Chalice",
+                "img": "images/labels/chalice9.png",
+                "codes": "include_chalices_in_checks"
+            }
+        ]
     },
     {
         "name": "Key Items",
@@ -1171,10 +1175,15 @@
     {
         "name": "Book",
         "type": "progressive_toggle",
-        "img": "images/labels/book.png",
         "initial_active_state": false,
         "loop": true,
-        "codes": "booksanity"
+        "stages": [
+            {
+                "name": "Book",
+                "codes": "booksanity",
+                "img": "images/labels/book.png"
+            }
+        ]
     },
     {
         "name": "Gargoylesanity ",
@@ -1185,10 +1194,12 @@
     {
         "name": "Gargoyle",
         "type": "progressive_toggle",
-        "img": "images/labels/gargoyle.png",
+        
         "initial_active_state": false,
         "loop": true,
-        "codes": "gargoylesanity"
+        "stages": [
+            {"name": "Gargoyle","img": "images/labels/gargoyle.png",
+        "codes": "gargoylesanity"}]
     },
     {
         "name": "Open ",
@@ -1199,9 +1210,10 @@
     {
         "name": "Open",
         "type": "progressive_toggle",
-        "img": "images/maps/world map.png",
         "loop": true,
-        "codes": "progression_option"
+        "stages": [{"name": "Open",
+        "img": "images/maps/world map.png",
+        "codes": "progression_option"}]
     },
     {
         "name": "Sphere ",
@@ -1212,11 +1224,11 @@
     {
         "name": "Lights",
         "type": "progressive_toggle",
-        "img": "images/labels/Lights.png",
-        "disabled_img": "images/labels/NoLights.png",
-        "disabled_img_mods": "@enabled",
+        
         "loop": true,
-        "codes": "Highlightings"
+        "stages": [{"name": "Lights","img": "images/labels/Lights.png",
+        "disabled_img": "images/labels/NoLights.png",
+        "disabled_img_mods": "@enabled","codes": "Highlightings"}]
     },
     {
         "name": "Autotab ",
@@ -1227,12 +1239,12 @@
     {
         "name": "Autotab",
         "type": "progressive_toggle",
-        "img": "images/labels/Cleared3.png",
-        "disabled_img": "images/labels/Not Cleared3.png",
-        "disabled_img_mods": "@enabled",
         "initial_active_state": true,
         "loop": true,
-        "codes": "autotab"
+        "stages": [{"name": "Autotab",
+        "img": "images/labels/Cleared3.png",
+        "disabled_img": "images/labels/Not Cleared3.png",
+        "disabled_img_mods": "@enabled","codes": "autotab"}]
     },
     {
         "name": "Chalice Amount",
@@ -1243,7 +1255,6 @@
     {
         "name": "Chalice win count",
         "type": "progressive",
-        "codes": "chalice_win_count",
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -1377,135 +1388,164 @@
         ]
     },
     {
+        "name": "Hall of Heroes ",
+        "type": "static",
+        "img": "images/labels/hoh.png",
+        "overlay_align": "center",
+        "codes": "hohicon"
+    },
+    {
         "name": "Dan's Crypt ",
         "type": "static",
         "img": "images/labels/dc.png",
+        "overlay_align": "center",
         "codes": "crypticon"
     },
     {
         "name": "The Graveyard ",
         "type": "static",
         "img": "images/labels/tg.png",
+        "overlay_align": "center",
         "codes": "graveicon"
     },
     {
         "name": "Cemetery Hill ",
         "type": "static",
         "img": "images/labels/ch.png",
+        "overlay_align": "center",
         "codes": "hillicon"
     },
     {
         "name": "Hilltop Mausoleum ",
         "type": "static",
         "img": "images/labels/hm.png",
+        "overlay_align": "center",
         "codes": "mausoleumicon"
     },
     {
         "name": "Return to the Graveyard ",
         "type": "static",
         "img": "images/labels/rtg.png",
+        "overlay_align": "center",
         "codes": "rtgicon"
     },
     {
         "name": "Scarecrow Fields ",
         "type": "static",
         "img": "images/labels/sf.png",
+        "overlay_align": "center",
         "codes": "scareicon"
     },
     {
         "name": "Pumpkin Gorge ",
         "type": "static",
         "img": "images/labels/pg.png",
+        "overlay_align": "center",
         "codes": "gorgeicon"
     },
     {
         "name": "Pumpkin Serpent ",
         "type": "static",
         "img": "images/labels/ps.png",
+        "overlay_align": "center",
         "codes": "serpenticon"
     },
     {
         "name": "Sleeping Village ",
         "type": "static",
         "img": "images/labels/sv.png",
+        "overlay_align": "center",
         "codes": "sleepicon"
     },
     {
         "name": "Asylum Grounds ",
         "type": "static",
         "img": "images/labels/ag.png",
+        "overlay_align": "center",
         "codes": "groundsicon"
     },
     {
         "name": "Inside the Asylum ",
         "type": "static",
         "img": "images/labels/ia.png",
+        "overlay_align": "center",
         "codes": "asylumicon"
     },
     {
         "name": "Enchanted Earth ",
         "type": "static",
         "img": "images/labels/ee.png",
+        "overlay_align": "center",
         "codes": "enchanticon"
     },
     {
         "name": "Ant Caves ",
         "type": "static",
         "img": "images/labels/ac.png",
+        "overlay_align": "center",
         "codes": "anticon"
     },
     {
         "name": "Pools of the Ancient Dead ",
         "type": "static",
         "img": "images/labels/pad.png",
+        "overlay_align": "center",
         "codes": "padicon"
     },
     {
         "name": "Lake ",
         "type": "static",
         "img": "images/labels/tl.png",
+        "overlay_align": "center",
         "codes": "lakeicon"
     },
     {
         "name": "Crystal Caves ",
         "type": "static",
         "img": "images/labels/cc.png",
+        "overlay_align": "center",
         "codes": "crystalicon"
     },
     {
         "name": "Gallows Gauntlet ",
         "type": "static",
         "img": "images/labels/gg.png",
+        "overlay_align": "center",
         "codes": "gallowsicon"
     },
     {
         "name": "Haunted Ruins ",
         "type": "static",
         "img": "images/labels/hr.png",
+        "overlay_align": "center",
         "codes": "ruinsicon"
     },
     {
         "name": "The Ghost Ship ",
         "type": "static",
         "img": "images/labels/gs.png",
+        "overlay_align": "center",
         "codes": "shipicon"
     },
     {
         "name": "Entrance Hall ",
         "type": "static",
         "img": "images/labels/eh.png",
+        "overlay_align": "center",
         "codes": "hallicon"
     },
     {
         "name": "The Time Device ",
         "type": "static",
         "img": "images/labels/td.png",
+        "overlay_align": "center",
         "codes": "deviceicon"
     },
     {
         "name": "Zarok's Lair ",
         "type": "static",
         "img": "images/labels/zl.png",
+        "overlay_align": "center",
         "codes": "zarokicon"
     }
 ]

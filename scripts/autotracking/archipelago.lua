@@ -15,7 +15,7 @@ Traps = {}
 
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onClear, slot_data:\n%s", dump(slot_data)))
+        print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
     end
     SLOT_DATA = slot_data
     CUR_INDEX = -1
@@ -26,13 +26,19 @@ function onClear(slot_data)
     ScriptHost:RemoveWatchForCode("imp weapon")
     ScriptHost:RemoveWatchForCode("Rune")
     ScriptHost:RemoveWatchForCode("Counting")
-    TeamName = Archipelago:GetPlayerAlias(Archipelago.PlayerNumber)
+    Slot = Archipelago.PlayerNumber
+    TeamName = Archipelago:GetPlayerAlias(Slot)
     TeamNumber = Archipelago.TeamNumber
+    Seed = Archipelago.Seed
+
+    --print("------------------seed------------------", Seed)
     NotifyKeys = {
-        "Medievil_GPS_Team" .. TeamNumber .. "_" .. TeamName
+        "Medievil_GPS_Team" .. TeamNumber .. "_" .. TeamName,
+      --  "Medievil_" .. Slot .. "_" .. Seed .. "_GPS",
+       -- "Medievil_" .. Slot .. "_" .. Seed .. "_ItemIndex"
     }
     NotifyHints = {
-        "_read_hints_" .. TeamNumber .. "_" .. Archipelago.PlayerNumber
+        "_read_hints_" .. TeamNumber .. "_" .. Slot
     }
 
 
@@ -191,8 +197,8 @@ function onItem(index, item_id, item_name, player_number)
         end
     end
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("local items: %s", dump(LOCAL_ITEMS)))
-        print(string.format("global items: %s", dump(GLOBAL_ITEMS)))
+        print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
+        print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
     end
 end
 
@@ -244,12 +250,12 @@ end
 -- called when a bounce message is received
 function onBounce(json)
     -- print("hud: ",json["data"]["HUD"]["Region"],json["data"]["HUD"]["MapName"] )
-    print(dump_table(json))
-    
+    -- print("---------bounce------------------",dump_table(json))
+
     if json["data"] ~= nil then
         local data = json["data"]["trap"]
         if Has("zoom") then
-            if data["MapId"] > 0 then
+            if data["MapId"] >= 0 then
                 if data["Region"] == "set" then
                     local name = Maps2[data["MapId"]]
                     if data["MapName"] == "HUD" and Has("HUDtrap") then
@@ -257,7 +263,7 @@ function onBounce(json)
                         table.insert(Traps, { data["MapName"], data["MapId"] })
                     elseif data["MapName"] == "Dark" and Has("dark") and PopVersion >= "0.34.0" then
                         Tracker:UiHint("Zoom " .. name[1], "16")
-                        Tracker:UiHint("Pan " .. name[1], "200,500")
+                        Tracker:UiHint("Pan " .. name[1], name[3])
                         table.insert(Traps, { data["MapName"], data["MapId"] })
                     else
                         print("No valid trap", data["MapName"])
@@ -273,7 +279,7 @@ function onBounce(json)
             if Traps[1] then
                 if Traps[1][1] == "HUD" then
                     Tracker:FindObjectForCode("HUD").Active = true
-                elseif Traps[1][1] == "Dark" and PopVersion >= "0.34.0" then
+                elseif Traps[1][1] == "Dark" then
                     Tracker:UiHint("Zoom " .. Maps2[Traps[1][2]][1], "1")
                     Tracker:UiHint("Pan " .. Maps2[Traps[1][2]][1], Maps2[Traps[1][2]][2])
                 else
@@ -292,25 +298,21 @@ function onBounce(json)
 end
 
 function onDataStorageUpdate(key, value, oldValue)
-    --  print("called datastrorage: ", key, value, oldValue)
+   -- print("called datastrorage: ", key, dump_table(value))
     if key == NotifyKeys[1] and value then
         if Has("autotab") then
-            --  print("Key: ", key)
-            --  print("value: ", value)
+            --print("called datastrorage: ", dump_table(key), "value", dump_table(value), "oldvalue", dump_table(oldValue))
             local Map
             local r = Maps[value]
             local x = Maps[value["MapName"]]
             if r then
                 Map = r
-                --    print("mapname: ", Map)
             elseif x then
                 Map = Maps[value["MapName"]]
-                --  print("mapid: ", r, Map)
             end
             if Map then
                 Tracker:UiHint("ActivateTab", Map)
             else
-                --      print("ERROR; Other map: ", r, value["MapName"], Map, "GPS?: ", value["GPS"])
                 Tracker:UiHint("ActivateTab", "World Map")
             end
         end

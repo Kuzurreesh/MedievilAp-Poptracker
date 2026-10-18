@@ -396,7 +396,7 @@
             {
                 "name": "Outer Wall West[2]",
                 "access_rules": [
-                    "crown, golem, $RuinsChaos"
+                    "[boulder], crown, [golem], $RuinsChaos"
                 ],
                 "map_locations": [
                     {

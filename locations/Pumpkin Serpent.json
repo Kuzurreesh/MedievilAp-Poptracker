@@ -181,6 +181,7 @@
             },
             {
                 "name": "Clear",
+                "access_rules":["[weapon]"],
                 "map_locations": [
                     {
                         "map": "Pumpkin Serpent",
