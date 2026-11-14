@@ -10,6 +10,7 @@
 					"type": "array",
 					"orientation": "horizontal",
 					"v_alignment": "stretch",
+					"dock": "top",
 					"margin": "0, 0",
 					"content": [
 						{

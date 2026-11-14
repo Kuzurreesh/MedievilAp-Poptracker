@@ -1389,7 +1389,7 @@
     },
     {
         "name": "Hall of Heroes ",
-        "type": "static",
+        "type": "toggle",
         "img": "images/labels/hoh.png",
         "overlay_align": "center",
         "codes": "hohicon"
@@ -1403,140 +1403,140 @@
     },
     {
         "name": "The Graveyard ",
-        "type": "static",
+        "type": "toggle",
         "img": "images/labels/tg.png",
         "overlay_align": "center",
         "codes": "graveicon"
     },
     {
         "name": "Cemetery Hill ",
-        "type": "static",
+        "type": "toggle",
         "img": "images/labels/ch.png",
         "overlay_align": "center",
         "codes": "hillicon"
     },
     {
         "name": "Hilltop Mausoleum ",
-        "type": "static",
+        "type": "toggle",
         "img": "images/labels/hm.png",
         "overlay_align": "center",
         "codes": "mausoleumicon"
     },
     {
         "name": "Return to the Graveyard ",
-        "type": "static",
+        "type": "toggle",
         "img": "images/labels/rtg.png",
         "overlay_align": "center",
         "codes": "rtgicon"
     },
     {
         "name": "Scarecrow Fields ",
-        "type": "static",
+        "type": "toggle",
         "img": "images/labels/sf.png",
         "overlay_align": "center",
         "codes": "scareicon"
     },
     {
         "name": "Pumpkin Gorge ",
-        "type": "static",
+        "type": "toggle",
         "img": "images/labels/pg.png",
         "overlay_align": "center",
         "codes": "gorgeicon"
     },
     {
         "name": "Pumpkin Serpent ",
-        "type": "static",
+        "type": "toggle",
         "img": "images/labels/ps.png",
         "overlay_align": "center",
         "codes": "serpenticon"
     },
     {
         "name": "Sleeping Village ",
-        "type": "static",
+        "type": "toggle",
         "img": "images/labels/sv.png",
         "overlay_align": "center",
         "codes": "sleepicon"
     },
     {
         "name": "Asylum Grounds ",
-        "type": "static",
+        "type": "toggle",
         "img": "images/labels/ag.png",
         "overlay_align": "center",
         "codes": "groundsicon"
     },
     {
         "name": "Inside the Asylum ",
-        "type": "static",
+        "type": "toggle",
         "img": "images/labels/ia.png",
         "overlay_align": "center",
         "codes": "asylumicon"
     },
     {
         "name": "Enchanted Earth ",
-        "type": "static",
+        "type": "toggle",
         "img": "images/labels/ee.png",
         "overlay_align": "center",
         "codes": "enchanticon"
     },
     {
         "name": "Ant Caves ",
-        "type": "static",
+        "type": "toggle",
         "img": "images/labels/ac.png",
         "overlay_align": "center",
         "codes": "anticon"
     },
     {
         "name": "Pools of the Ancient Dead ",
-        "type": "static",
+        "type": "toggle",
         "img": "images/labels/pad.png",
         "overlay_align": "center",
         "codes": "padicon"
     },
     {
         "name": "Lake ",
-        "type": "static",
+        "type": "toggle",
         "img": "images/labels/tl.png",
         "overlay_align": "center",
         "codes": "lakeicon"
     },
     {
         "name": "Crystal Caves ",
-        "type": "static",
+        "type": "toggle",
         "img": "images/labels/cc.png",
         "overlay_align": "center",
         "codes": "crystalicon"
     },
     {
         "name": "Gallows Gauntlet ",
-        "type": "static",
+        "type": "toggle",
         "img": "images/labels/gg.png",
         "overlay_align": "center",
         "codes": "gallowsicon"
     },
     {
         "name": "Haunted Ruins ",
-        "type": "static",
+        "type": "toggle",
         "img": "images/labels/hr.png",
         "overlay_align": "center",
         "codes": "ruinsicon"
     },
     {
         "name": "The Ghost Ship ",
-        "type": "static",
+        "type": "toggle",
         "img": "images/labels/gs.png",
         "overlay_align": "center",
         "codes": "shipicon"
     },
     {
         "name": "Entrance Hall ",
-        "type": "static",
+        "type": "toggle",
         "img": "images/labels/eh.png",
         "overlay_align": "center",
         "codes": "hallicon"
     },
     {
         "name": "The Time Device ",
-        "type": "static",
+        "type": "toggle",
         "img": "images/labels/td.png",
         "overlay_align": "center",
         "codes": "deviceicon"
@@ -1547,5 +1547,14 @@
         "img": "images/labels/zl.png",
         "overlay_align": "center",
         "codes": "zarokicon"
+    },
+    {
+        "name": "Kight of Gallowmere",
+        "type": "consumable",
+        "overlay_font_size": 15,
+        "img": "images/items/Amber.png",
+        "codes": "knight",
+        "max_quantity": 250
     }
+    
 ]

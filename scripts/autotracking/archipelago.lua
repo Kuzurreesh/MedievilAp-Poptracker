@@ -297,6 +297,67 @@ function onBounce(json)
     end
 end
 
+function onClearGet(key, value, oldValue)
+   -- print("called datastrorage: ", key, dump_table(value))
+    if key == NotifyKeys[1] and value then
+        Tracker:UiHint("ActivateTab", "World Map")
+        local count = tonumber(value["Region"])
+        -- print("count region: ", count)
+        if count then
+            local tracker = Tracker:FindObjectForCode("chaliceproxy")
+            Tracker:FindObjectForCode("chalice").AcquiredCount = count
+
+            if count > 0 then
+                tracker.Active = true
+            end
+            tracker.BadgeText = tostring(count) ..
+                "/" .. tostring(Tracker:FindObjectForCode("chalice_win_count").CurrentStage)
+            if count >= Tracker:FindObjectForCode("chalice_win_count").CurrentStage then
+                tracker.BadgeTextColor = "00FF00"
+            else
+                tracker.BadgeTextColor = "FFFFFF"
+            end
+        end
+    end
+    if key == NotifyHints[1] and value then
+        for _, hint in ipairs(value) do
+            -- we only care about hints in our world
+            local hint_status = hint.status
+            local hint_item = hint.item
+
+            if hint.finding_player == Archipelago.PlayerNumber then
+                local location_code = LOCATION_MAPPING[hint.location][1]
+                if hint.found == false then
+                    if location_code and location_code:sub(1, 1) == "@" then
+                        local hinted_item = ""
+                        if Archipelago:GetPlayerGame(hint.receiving_player) == "Medievil" then
+                            hinted_item = ITEM_MAPPING[hint_item][1]
+                        elseif Archipelago:GetPlayerGame(hint.receiving_player) == "Medievil 2" then
+                            hinted_item = Medi_II_Items[hint_item][1]
+                        end
+                        if hinted_item == "filler" then
+                            hint_status = 20
+                        elseif hinted_item == "small" or hinted_item == "medium" or hinted_item == "large" then
+                            hint_status = 0
+                        end
+
+                        Tracker:FindObjectForCode(location_code).Highlight = HIGHLIGHT_STATUS_MAPPING[hint_status]
+                    end
+                else
+                    Tracker:FindObjectForCode(location_code).Highlight = Highlight.None
+
+                    -- print("itemflag", hint.item_flags)
+                    --local x = tonumber(hint.location)
+                    -- print("item:", hint.item, ITEM_MAPPING[hint.item][1])
+                    -- print("location: ", hint.location, LOCATION_MAPPING[x][1], hint_status)
+                    -- print("for", hint.receiving_player, Archipelago:GetPlayerAlias(hint.receiving_player))
+                    -- print("----------------------------------------------------------------------------------------")
+                end
+            end
+        end
+    end
+end
+
 function onDataStorageUpdate(key, value, oldValue)
    -- print("called datastrorage: ", key, dump_table(value))
     if key == NotifyKeys[1] and value then
@@ -384,5 +445,5 @@ if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
     Archipelago:AddLocationHandler("location handler", onLocation)
 end
 Archipelago:AddBouncedHandler("bounce handler", onBounce)
-Archipelago:AddRetrievedHandler("retrieved handler", onDataStorageUpdate)
+Archipelago:AddRetrievedHandler("retrieved handler", onClearGet)
 Archipelago:AddSetReplyHandler("set reply handler", onDataStorageUpdate)
