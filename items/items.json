@@ -1389,7 +1389,7 @@
     },
     {
         "name": "Hall of Heroes ",
-        "type": "toggle",
+        "type": "static",
         "img": "images/labels/hoh.png",
         "overlay_align": "center",
         "codes": "hohicon"
@@ -1543,7 +1543,7 @@
     },
     {
         "name": "Zarok's Lair ",
-        "type": "static",
+        "type": "toggle",
         "img": "images/labels/zl.png",
         "overlay_align": "center",
         "codes": "zarokicon"
