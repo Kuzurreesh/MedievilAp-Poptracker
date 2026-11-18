@@ -63,12 +63,13 @@ ScriptHost:AddWatchForCode("Counting", "*", ChaliceCount)
 
 
 function Progression(code)
-    local item = code:sub(5,code:len())
+    local item = code:sub(5, code:len())
     local count = Tracker:FindObjectForCode(code).AcquiredCount
     for i = 1, count, 1 do
         Tracker:FindObjectForCode(item .. i).Active = true
     end
 end
+
 ScriptHost:AddWatchForCode("progsword", "progsword", Progression)
 ScriptHost:AddWatchForCode("progshield", "progshield", Progression)
 ScriptHost:AddWatchForCode("progbow", "progbow", Progression)
@@ -78,10 +79,20 @@ function AllKnights()
     if Tracker:FindObjectForCode("knight").AcquiredCount >= Tracker:FindObjectForCode("knights_to_find").AcquiredCount then
         Tracker:FindObjectForCode("knight").BadgeTextColor = "#00FF00"
     else
-         Tracker:FindObjectForCode("knight").BadgeTextColor = "#FFFFFF"
+        Tracker:FindObjectForCode("knight").BadgeTextColor = "#FFFFFF"
     end
 end
+
 ScriptHost:AddWatchForCode("Aqcuired Kinghts", "knight", AllKnights)
+
+
+function Shopping()
+    for index, value in ipairs(SHOP) do
+        Tracker:FindObjectForCode(value).AvailableChestCount = Tracker:FindObjectForCode("shopsanity")
+            .AcquiredCount
+    end
+end
+ScriptHost:AddWatchForCode("Shops", "shopsanity", Shopping)
 
 
 function Lighting(code)

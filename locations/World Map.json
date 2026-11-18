@@ -3,7 +3,9 @@
 		"name": "The World Map",
 		"chest_unopened_img": "images/items/chalice.png",
 		"chest_opened_img": "images/items/empty chalice.png",
-		"visibility_rules":["HUD"],
+		"visibility_rules": [
+			"HUD"
+		],
 		"children": [
 			{
 				"name": "Hall of Heroes",
@@ -374,6 +376,10 @@
 						"name": "Gold Coins: Bag Near Hill Fountain - TG"
 					},
 					{
+						"ref": "The Graveyard/Merchant Gargoyle/Items",
+						"name": "Items"
+					},
+					{
 						"ref": "The Graveyard/Entry Path/Book: Welcome Back - TG",
 						"name": "Book: Welcome Back - TG"
 					},
@@ -468,6 +474,10 @@
 					{
 						"ref": "Cemetery Hill/Arena/Gold Coins: Chest in Arena - CH",
 						"name": "Gold Coins: Chest in Arena - CH"
+					},
+					{
+						"ref": "Cemetery Hill/Merchant Gargoyle/Items",
+						"name": "Items"
 					},
 					{
 						"ref": "Cemetery Hill/Start/Book: Breakables - CH",
@@ -574,8 +584,24 @@
 						"name": "Gold Coins: After Earth Rune Door - HM"
 					},
 					{
+						"ref": "Hilltop Mausoleum/Secret Alcove Coins/Gold Coins: Gold Chest at Phantom of the Opera 1 - HM",
+						"name": "Gold Coins: Gold Chest at Phantom of the Opera 1 - HM"
+					},
+					{
+						"ref": "Hilltop Mausoleum/Secret Alcove Coins/Gold Coins: Gold Chest at Phantom of the Opera 2 - HM",
+						"name": "Gold Coins: Gold Chest at Phantom of the Opera 2 - HM"
+					},
+					{
+						"ref": "Hilltop Mausoleum/Secret Alcove Coins/Gold Coins: Gold Chest at Phantom of the Opera 3 - HM",
+						"name": "Gold Coins: Gold Chest at Phantom of the Opera 3 - HM"
+					},
+					{
 						"ref": "Hilltop Mausoleum/Basement East[2]/Gold Coins: Chest in Moon Room - HM",
 						"name": "Gold Coins: Chest in Moon Room - HM"
+					},
+					{
+						"ref": "Hilltop Mausoleum/Merchant Gargoyle/Items",
+						"name": "Items"
 					},
 					{
 						"ref": "Hilltop Mausoleum/Start/Book: Glass Demon - HM",
@@ -592,18 +618,6 @@
 					{
 						"ref": "Hilltop Mausoleum/Basement/Book: Thieving Imps - HM",
 						"name": "Book: Thieving Imps - HM"
-					},
-					{
-						"ref": "Hilltop Mausoleum/Secret Alcove Coins/Gold Coins: Gold Chest at Phantom of the Opera 1 - HM",
-						"name": "Gold Coins: Gold Chest at Phantom of the Opera 1 - HM"
-					},
-					{
-						"ref": "Hilltop Mausoleum/Secret Alcove Coins/Gold Coins: Gold Chest at Phantom of the Opera 2 - HM",
-						"name": "Gold Coins: Gold Chest at Phantom of the Opera 2 - HM"
-					},
-					{
-						"ref": "Hilltop Mausoleum/Secret Alcove Coins/Gold Coins: Gold Chest at Phantom of the Opera 3 - HM",
-						"name": "Gold Coins: Gold Chest at Phantom of the Opera 3 - HM"
 					},
 					{
 						"ref": "Hilltop Mausoleum/Secret Alcove/Chalice",
@@ -708,6 +722,14 @@
 					{
 						"ref": "Return to the Graveyard/Cliffs Left[1]/Gold Coins: Cliffs Left - RTG",
 						"name": "Gold Coins: Cliffs Left - RTG"
+					},
+					{
+						"ref": "Return to the Graveyard/Merchant Gargoyle/Items",
+						"name": "Items"
+					},
+					{
+						"ref": "Return to the Graveyard/Merchant Gargoyle Cliff/Items",
+						"name": "Cliff Items"
 					},
 					{
 						"ref": "Return to the Graveyard/Secret Area/Book: Secret Areas - RTG",
@@ -832,6 +854,14 @@
 					{
 						"ref": "Scarecrow Fields/Harvested Path[2]/Gold Coins: Chest Next to Chalice - SF",
 						"name": "Gold Coins: Chest Next to Chalice - SF"
+					},
+					{
+						"ref": "Scarecrow Fields/Merchant Gargoyle/Items",
+						"name": "Items"
+					},
+					{
+						"ref": "Scarecrow Fields/Merchant Gargoyle Chalice/Items",
+						"name": "Chalice Items"
 					},
 					{
 						"ref": "Scarecrow Fields/Entrance/Book: Scarecrows - SF",
@@ -966,6 +996,10 @@
 						"name": "Gold Coins: Chest Near Chalice - PG"
 					},
 					{
+						"ref": "Pumpkin Gorge/Merchant Gargoyle/Items",
+						"name": "Items"
+					},
+					{
 						"ref": "Pumpkin Gorge/Rising Mushrooms/Book: Mushrooms - PG",
 						"name": "Book: Mushrooms - PG"
 					},
@@ -1024,6 +1058,10 @@
 					{
 						"ref": "Pumpkin Serpent/Down the Well/Gold Coins: Chest at Merchant Gargoyle - PS",
 						"name": "Gold Coins: Chest at Merchant Gargoyle - PS"
+					},
+					{
+						"ref": "Pumpkin Serpent/Merchant Gargoyle/Items",
+						"name": "Items"
 					},
 					{
 						"ref": "Pumpkin Serpent/Entrance/Book: Pumpkin King - PS",
@@ -1158,6 +1196,10 @@
 						"name": "Gold Coins: Chest next to Chalice - SV"
 					},
 					{
+						"ref": "Sleeping Village/Merchant Gargoyle/Items",
+						"name": "Items"
+					},
+					{
 						"ref": "Sleeping Village/Blacksmith/Book: Blacksmiths Monthly - SV",
 						"name": "Book: Blacksmiths Monthly - SV"
 					},
@@ -1278,6 +1320,10 @@
 						"name": "Gold Coins: Behind Elephant in Grave - AG"
 					},
 					{
+						"ref": "Asylum Grounds/Merchant Gargoyle/Items",
+						"name": "Items"
+					},
+					{
 						"ref": "Asylum Grounds/Past Entry Tree Lane/Book: Seek Jack - AG",
 						"name": "Book: Seek Jack - AG"
 					},
@@ -1344,6 +1390,10 @@
 					{
 						"ref": "Inside the Asylum/Prison/Gold Coins: Bag on Sewer Prison Bench - IA",
 						"name": "Gold Coins: Bag on Sewer Prison Bench - IA"
+					},
+					{
+						"ref": "Inside the Asylum/Merchant Gargoyle/Items",
+						"name": "Items"
 					},
 					{
 						"ref": "Inside the Asylum/Prison/Chalice",
@@ -1428,6 +1478,10 @@
 					{
 						"ref": "Enchanted Earth/Past Elevator/Gold Coins: Chest Right of Fountain - EE",
 						"name": "Gold Coins: Chest Right of Fountain - EE"
+					},
+					{
+						"ref": "Enchanted Earth/Merchant Gargoyle/Items",
+						"name": "Items"
 					},
 					{
 						"ref": "Enchanted Earth/Witch's Alcove/Book: Coven of Witches - EE",
@@ -1570,6 +1624,10 @@
 						"name": "Gold Coins: Chest at Barrier Fairy - TA"
 					},
 					{
+						"ref": "Ant Caves/Merchant Gargoyle/Items",
+						"name": "Items"
+					},
+					{
 						"ref": "Ant Caves/Caves Entrance/Book: Fairy Portal - TA",
 						"name": "Book: Fairy Portal - TA"
 					},
@@ -1690,6 +1748,10 @@
 						"name": "Gold Coins: Jump Spot 2 - PAD"
 					},
 					{
+						"ref": "Pools of the Ancient Dead/Merchant Gargoyle/Items",
+						"name": "Items"
+					},
+					{
 						"ref": "Pools of the Ancient Dead/Entrance[1]/Book: Enemy Warning - PAD",
 						"name": "Book: Enemy Warning - PAD"
 					},
@@ -1776,6 +1838,10 @@
 					{
 						"ref": "The Lake/Past Tunnel[1]/Gold Coins: Chest in Whirlpool Switch Area - TL",
 						"name": "Gold Coins: Chest in Whirlpool Switch Area - TL"
+					},
+					{
+						"ref": "The Lake/Merchant Gargoyle/Items",
+						"name": "Items"
 					},
 					{
 						"ref": "The Lake/Start/Book: Learn to Stealth - TL",
@@ -1906,6 +1972,10 @@
 						"name": "Gold Coins: Bag on Right of Pool - CC"
 					},
 					{
+						"ref": "The Crystal Caves/Merchant Gargoyle/Items",
+						"name": "Items"
+					},
+					{
 						"ref": "The Crystal Caves/Before Earth Door/Book: Dragon Book - CC",
 						"name": "Book: Dragon Book - CC"
 					},
@@ -1964,6 +2034,10 @@
 					{
 						"ref": "The Gallows Gauntlet/Gate Near Star Gate/Gold Coins: Chest Near Star Entrance - GG",
 						"name": "Gold Coins: Chest Near Star Entrance - GG"
+					},
+					{
+						"ref": "The Gallows Gauntlet/Merchant Gargoyle/Items",
+						"name": "Items"
 					},
 					{
 						"ref": "The Gallows Gauntlet/Entrance/Book: Serpent of Gallowmere - GG",
@@ -2064,6 +2138,10 @@
 					{
 						"ref": "The Haunted Ruins/Catapult/Gold Coins: Chest at Catapult 3 - HR",
 						"name": "Gold Coins: Chest at Catapult 3 - HR"
+					},
+					{
+						"ref": "The Haunted Ruins/Merchant Gargoyle/Items",
+						"name": "Items"
 					},
 					{
 						"ref": "The Haunted Ruins/Chickens/Book: Chickens - HR",
@@ -2182,6 +2260,10 @@
 						"name": "Gold Coins: Rope Bridge - GS"
 					},
 					{
+						"ref": "The Ghost Ship/Merchant Gargoyle/Items",
+						"name": "Items"
+					},
+					{
 						"ref": "The Ghost Ship/Start/Book: Skeleton Warriors - GS",
 						"name": "Book: Skeleton Warriors - GS"
 					},
@@ -2209,6 +2291,10 @@
 					}
 				],
 				"sections": [
+					{
+						"ref": "The Entrance Hall/Merchant Gargoyle/Items",
+						"name": "Items"
+					},
 					{
 						"ref": "The Entrance Hall/Entrance/Book: Imp Magic - EH",
 						"name": "Book: Imp Magic - EH"
@@ -2302,6 +2388,10 @@
 						"name": "Gold Coins: Bag at Earth Station 3 - TD"
 					},
 					{
+						"ref": "The Time Device/Merchant Gargoyle/Items",
+						"name": "Items"
+					},
+					{
 						"ref": "The Time Device/Station/Book: The Train - TD",
 						"name": "Book: The Train - TD"
 					},
@@ -2336,6 +2426,10 @@
 					{
 						"ref": "Zarok's Lair/Zarok's Arena[1]/Equipment: Silver Shield - ZL Arena",
 						"name": "Equipment: Silver Shield - ZL Arena"
+					},
+					{
+						"ref": "Zarok's Lair/Merchant Gargoyle/Items",
+						"name": "Items"
 					},
 					{
 						"ref": "Zarok's Lair/Entrance/Gargoyle: Entrance - ZL",
