@@ -26,6 +26,7 @@ function onClear(slot_data)
     ScriptHost:RemoveWatchForCode("progsword")
     ScriptHost:RemoveWatchForCode("progshield")
     ScriptHost:RemoveWatchForCode("progbow")
+    ScriptHost:RemoveWatchForCode("AllKnights")
     ScriptHost:RemoveWatchForCode("imp weapon")
     ScriptHost:RemoveWatchForCode("Rune")
     ScriptHost:RemoveWatchForCode("Counting")
@@ -135,6 +136,10 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("shopsanity").Active = otable["shopsanity"]
         if otable["shopsanity"] == 1 then
             Tracker:FindObjectForCode("shopsanity").AcquiredCount = otable["shopsanity_items_per_shop"]
+            for index, value in ipairs(SHOP) do
+                Tracker:FindObjectForCode(value).AvailableChestCount = Tracker:FindObjectForCode("shopsanity")
+                    .AcquiredCount
+            end
         end
         Tracker:FindObjectForCode("progression_option").Active = otable["progression_option"]
         Tracker:FindObjectForCode("progressive_sword").Active = otable["progressive_sword"]
@@ -156,6 +161,7 @@ function onClear(slot_data)
     ScriptHost:AddWatchForCode("progsword", "progsword", Progression)
     ScriptHost:AddWatchForCode("progshield", "progshield", Progression)
     ScriptHost:AddWatchForCode("progbow", "progbow", Progression)
+    ScriptHost:AddWatchForCode("Aqcuired Kinghts", "knight", AllKnights)
     Archipelago:Get(NotifyKeys)
     Archipelago:Get(NotifyHints)
     Archipelago:SetNotify(NotifyKeys)
@@ -192,18 +198,20 @@ function onItem(index, item_id, item_name, player_number)
     end
     local obj = Tracker:FindObjectForCode(v[1])
     if obj then
-        if v[2] == "toggle" then
-            obj.Active = true
-        elseif v[2] == "progressive" then
-            if obj.Active then
-                obj.CurrentStage = obj.CurrentStage + 1
-            else
+        if (v[3] and Tracker:FindObjectForCode("keysanity").Active == true) or (not v[3] and Tracker:FindObjectForCode("keysanity").Active == false) or v[3] == nil then
+            if v[2] == "toggle" then
                 obj.Active = true
+            elseif v[2] == "progressive" then
+                if obj.Active then
+                    obj.CurrentStage = obj.CurrentStage + 1
+                else
+                    obj.Active = true
+                end
+            elseif v[2] == "consumable" then
+                obj.AcquiredCount = obj.AcquiredCount + obj.Increment
+            elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print(string.format("onItem: unknown item type %s for code %s", v[2], v[1]))
             end
-        elseif v[2] == "consumable" then
-            obj.AcquiredCount = obj.AcquiredCount + obj.Increment
-        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(string.format("onItem: unknown item type %s for code %s", v[2], v[1]))
         end
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onItem: could not find object for code %s", v[1]))
@@ -247,13 +255,9 @@ function onLocation(location_id, location_name)
     if obj then
         if v[1]:sub(1, 1) == "@" then
             obj.AvailableChestCount = obj.AvailableChestCount - 1
-            obj.Highlight = Highlight.None
+            --obj.Highlight = Highlight.None
         else
             obj.Active = true
-        end
-        if v[2] then
-            Tracker:FindObjectForCode(v[2]).AvailableChestCount = Tracker:FindObjectForCode(v[2]).AvailableChestCount - 1
-            Tracker:FindObjectForCode(v[2]).Highlight = Highlight.None
         end
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find object for code %s", v[1]))
@@ -353,8 +357,13 @@ function onClearGet(key, value, oldValue)
 
             if hint.finding_player == Archipelago.PlayerNumber then
                 local location_code = LOCATION_MAPPING[hint.location][1]
-                if hint.found == false then
-                    if location_code and location_code:sub(1, 1) == "@" then
+
+                if location_code then
+                    if location_code:sub(location_code:len() - 5) == "Items" then
+                        if (Tracker:FindObjectForCode(location_code).Highlight < HIGHLIGHT_STATUS_MAPPING[hint.status]) or Tracker:FindObjectForCode(location_code).Highlight == Highlight.None then
+                            Tracker:FindObjectForCode(location_code).Highlight = HIGHLIGHT_STATUS_MAPPING[hint.status]
+                        end
+                    elseif location_code:sub(1, 1) == "@" then
                         local hinted_item = ""
                         if Archipelago:GetPlayerGame(hint.receiving_player) == "Medievil" then
                             hinted_item = ITEM_MAPPING[hint_item][1]
@@ -366,19 +375,15 @@ function onClearGet(key, value, oldValue)
                         elseif hinted_item == "small" or hinted_item == "medium" or hinted_item == "large" then
                             hint_status = 0
                         end
-
                         Tracker:FindObjectForCode(location_code).Highlight = HIGHLIGHT_STATUS_MAPPING[hint_status]
                     end
-                else
-                    Tracker:FindObjectForCode(location_code).Highlight = Highlight.None
-
-                    -- print("itemflag", hint.item_flags)
-                    --local x = tonumber(hint.location)
-                    -- print("item:", hint.item, ITEM_MAPPING[hint.item][1])
-                    -- print("location: ", hint.location, LOCATION_MAPPING[x][1], hint_status)
-                    -- print("for", hint.receiving_player, Archipelago:GetPlayerAlias(hint.receiving_player))
-                    -- print("----------------------------------------------------------------------------------------")
                 end
+                -- print("itemflag", hint.item_flags)
+                --local x = tonumber(hint.location)
+                -- print("item:", hint.item, ITEM_MAPPING[hint.item][1])
+                -- print("location: ", hint.location, LOCATION_MAPPING[x][1], hint_status)
+                -- print("for", hint.receiving_player, Archipelago:GetPlayerAlias(hint.receiving_player))
+                -- print("----------------------------------------------------------------------------------------")
             end
         end
     end
@@ -429,8 +434,13 @@ function onDataStorageUpdate(key, value, oldValue)
 
             if hint.finding_player == Archipelago.PlayerNumber then
                 local location_code = LOCATION_MAPPING[hint.location][1]
-                if hint.found == false then
-                    if location_code and location_code:sub(1, 1) == "@" then
+
+                if location_code then
+                    if location_code:sub(location_code:len() - 5) == "Items" then
+                        if (Tracker:FindObjectForCode(location_code).Highlight < HIGHLIGHT_STATUS_MAPPING[hint.status]) or Tracker:FindObjectForCode(location_code).Highlight == Highlight.None then
+                            Tracker:FindObjectForCode(location_code).Highlight = HIGHLIGHT_STATUS_MAPPING[hint.status]
+                        end
+                    elseif location_code:sub(1, 1) == "@" then
                         local hinted_item = ""
                         if Archipelago:GetPlayerGame(hint.receiving_player) == "Medievil" then
                             hinted_item = ITEM_MAPPING[hint_item][1]
@@ -442,19 +452,17 @@ function onDataStorageUpdate(key, value, oldValue)
                         elseif hinted_item == "small" or hinted_item == "medium" or hinted_item == "large" then
                             hint_status = 0
                         end
-
                         Tracker:FindObjectForCode(location_code).Highlight = HIGHLIGHT_STATUS_MAPPING[hint_status]
                     end
-                else
-                    Tracker:FindObjectForCode(location_code).Highlight = Highlight.None
-
-                    -- print("itemflag", hint.item_flags)
-                    --local x = tonumber(hint.location)
-                    -- print("item:", hint.item, ITEM_MAPPING[hint.item][1])
-                    -- print("location: ", hint.location, LOCATION_MAPPING[x][1], hint_status)
-                    -- print("for", hint.receiving_player, Archipelago:GetPlayerAlias(hint.receiving_player))
-                    -- print("----------------------------------------------------------------------------------------")
                 end
+
+
+                -- print("itemflag", hint.item_flags)
+                --local x = tonumber(hint.location)
+                -- print("item:", hint.item, ITEM_MAPPING[hint.item][1])
+                -- print("location: ", hint.location, LOCATION_MAPPING[x][1], hint_status)
+                -- print("for", hint.receiving_player, Archipelago:GetPlayerAlias(hint.receiving_player))
+                -- print("----------------------------------------------------------------------------------------")
             end
         end
     end

@@ -5,8 +5,8 @@
         "chest_opened_img": "images/labels/empty.png",
         "visibility_rules":["HUD"],
         "access_rules": [
-            "@Enchanted Earth/Clear/Cleared: Enchanted Earth",
-            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, lakeicon"
+            "@Enchanted Earth/Clear/Cleared: Enchanted Earth, $Keysanity",
+            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, padicon"
         ],
         "children": [
             {
@@ -142,6 +142,7 @@
                     {
                         "name": "Items",
                         "item_count": 11,
+                        "clear_as_group": false,
                         "visibility_rules": [
                             "shopsanity:1"
                         ],

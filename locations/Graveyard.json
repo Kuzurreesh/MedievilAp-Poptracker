@@ -7,7 +7,7 @@
             "HUD"
         ],
         "access_rules": [
-            "@Dan's Crypt/Clear/Cleared: Dan's Crypt",
+            "@Dan's Crypt/Clear/Cleared: Dan's Crypt, $Keysanity",
             "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, graveicon"
         ],
         "children": [
@@ -146,6 +146,7 @@
                     {
                         "name": "Items",
                         "item_count": 11,
+                        "clear_as_group": false,
                         "visibility_rules": [
                             "shopsanity:1"
                         ],

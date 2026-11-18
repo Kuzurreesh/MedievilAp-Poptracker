@@ -5,7 +5,7 @@
         "chest_opened_img": "images/labels/empty.png",
         "visibility_rules":["HUD"],
         "access_rules": [
-            "@Sleeping Village/Clear/Cleared: Sleeping Village",
+            "@Sleeping Village/Clear/Cleared: Sleeping Village, $Keysanity",
             "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, groundsicon"
         ],
         "children": [
@@ -255,6 +255,7 @@
                     {
                         "name": "Items",
                         "item_count": 11,
+                        "clear_as_group": false,
                         "visibility_rules": [
                             "shopsanity:1"
                         ],

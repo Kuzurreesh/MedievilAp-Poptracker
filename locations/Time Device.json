@@ -7,8 +7,8 @@
             "HUD"
         ],
         "access_rules": [
-            "@The Entrance Hall/Clear/Cleared: The Entrance Hall",
-            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+            "@The Entrance Hall/Clear/Cleared: The Entrance Hall, $Keysanity",
+            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, deviceicon"
         ],
         "children": [
             {
@@ -231,6 +231,7 @@
                     {
                         "name": "Items",
                         "item_count": 11,
+                        "clear_as_group": false,
                         "visibility_rules": [
                             "shopsanity:1"
                         ],
@@ -314,7 +315,7 @@
             "HUD"
         ],
         "access_rules": [
-            "@The Time Device/Clear/Cleared: The Time Device",
+            "@The Time Device/Clear/Cleared: The Time Device, $Keysanity",
             "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, zarokicon"
         ],
         "children": [
@@ -361,6 +362,7 @@
                     {
                         "name": "Items",
                         "item_count": 11,
+                        "clear_as_group": false,
                         "visibility_rules": [
                             "shopsanity:1"
                         ],

@@ -5,7 +5,7 @@
         "chest_opened_img": "images/labels/empty.png",
         "visibility_rules":["HUD"],
         "access_rules": [
-            "@Return to the Graveyard/Clear/Cleared: Return to the Graveyard",
+            "@Return to the Graveyard/Clear/Cleared: Return to the Graveyard, $Keysanity",
             "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, enchanticon"
         ],
         "children": [
@@ -384,6 +384,7 @@
                     {
                         "name": "Items",
                         "item_count": 11,
+                        "clear_as_group": false,
                         "visibility_rules": [
                             "shopsanity:1"
                         ],

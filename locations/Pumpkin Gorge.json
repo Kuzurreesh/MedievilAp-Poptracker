@@ -5,7 +5,7 @@
         "chest_opened_img": "images/labels/empty.png",
         "visibility_rules":["HUD"],
         "access_rules": [
-            "@Scarecrow Fields/Clear/Cleared: Scarecrow Fields, bash",
+            "@Scarecrow Fields/Clear/Cleared: Scarecrow Fields, bash, $Keysanity",
             "progression_option, bash, @Dan's Crypt/Clear/Cleared: Dan's Crypt, gorgeicon"
         ],
         "children": [
@@ -125,7 +125,7 @@
                 "name": "Moon Rune Path",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Scarecrow Fields/Clear/Cleared: Scarecrow Fields",
+                    "@Scarecrow Fields/Clear/Cleared: Scarecrow Fields, $Keysanity",
                     "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, gorgeicon"
                 ],
                 "map_locations": [
@@ -153,6 +153,7 @@
                     {
                         "name": "Items",
                         "item_count": 11,
+                        "clear_as_group": false,
                         "visibility_rules": [
                             "shopsanity:1"
                         ],
@@ -166,7 +167,7 @@
                 "name": "Moon Rune Path[1]",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Scarecrow Fields/Clear/Cleared: Scarecrow Fields",
+                    "@Scarecrow Fields/Clear/Cleared: Scarecrow Fields, $Keysanity",
                     "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, gorgeicon"
                 ],
                 "map_locations": [

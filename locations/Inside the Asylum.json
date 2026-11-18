@@ -5,7 +5,7 @@
         "chest_opened_img": "images/labels/empty.png",
         "visibility_rules":["HUD"],
         "access_rules": [
-            "@Asylum Grounds/Clear/Cleared: Asylum Grounds, [imp]",
+            "@Asylum Grounds/Clear/Cleared: Asylum Grounds, [imp], $Keysanity",
             "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, [imp], asylumicon"
         ],
         "children": [
@@ -36,6 +36,7 @@
                     {
                         "name": "Items",
                         "item_count": 11,
+                        "clear_as_group": false,
                         "visibility_rules": [
                             "shopsanity:1"
                         ],

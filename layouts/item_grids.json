@@ -1139,37 +1139,53 @@
 				"height": 75,
 				"width": 300,
 				"content": [
+					
 					{
 						"type": "item",
 						"item": "progressives",
 						"max_width": 45,
 						"max_height": 45,
-						"canvas_top": 22,
-						"canvas_left": 10
+						"canvas_top": 12,
+						"canvas_left": 230
 					},
 					{
 						"type": "item",
 						"item": "progressive_sword",
 						"max_width": 55,
 						"max_height": 55,
-						"canvas_top": 10,
-						"canvas_left": 175
+						"canvas_top": 0,
+						"canvas_left": 395
 					},
 					{
 						"type": "item",
 						"item": "progressive_bow",
 						"max_width": 60,
 						"max_height": 60,
-						"canvas_top": 8,
-						"canvas_left": 220
+						"canvas_top": -2,
+						"canvas_left": 440
 					},
 					{
 						"type": "item",
 						"item": "progressive_shield",
 						"max_width": 45,
 						"max_height": 45,
-						"canvas_top": 40,
-						"canvas_left": 195
+						"canvas_top": 30,
+						"canvas_left": 415
+					},{
+						"type": "item",
+						"item": "bottleslabel",
+						"max_width": 130,
+						"max_height": 130,
+						"canvas_top": 0,
+						"canvas_left": -5
+					},
+					{
+						"type": "item",
+						"item": "life_bottles",
+						"max_width": 53,
+						"max_height": 53,
+						"canvas_top": 15,
+						"canvas_left": 150
 					}
 				]
 			},

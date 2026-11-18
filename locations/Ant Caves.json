@@ -7,8 +7,8 @@
             "include_ant_hill_in_checks, HUD"
         ],
         "access_rules": [
-            "bash, witchtalisman, @Return to the Graveyard/Clear/Cleared: Return to the Graveyard, include_ant_hill_in_checks",
-            "bash, witchtalisman, progression_option, include_ant_hill_in_checks, @Dan's Crypt/Clear/Cleared: Dan's Crypt, enchanticon"
+            "bash, witchtalisman, @Return to the Graveyard/Clear/Cleared: Return to the Graveyard, include_ant_hill_in_checks, $Keysanity",
+            "bash, witchtalisman, progression_option, include_ant_hill_in_checks, @Dan's Crypt/Clear/Cleared: Dan's Crypt, anticon"
         ],
         "children": [
             {
@@ -30,7 +30,7 @@
                 "name": "Entrance",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "witchtalisman, @Return to the Graveyard/Clear/Cleared: Return to the Graveyard, include_ant_hill_in_checks, enchanticon",
+                    "witchtalisman, @Return to the Graveyard/Clear/Cleared: Return to the Graveyard, include_ant_hill_in_checks, $Keysanity",
                     "witchtalisman, progression_option, include_ant_hill_in_checks, @Dan's Crypt/Clear/Cleared: Dan's Crypt, enchanticon"
                 ],
                 "visibility_rules": [
@@ -61,7 +61,7 @@
                 "name": "Caves Entrance",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "witchtalisman, @Return to the Graveyard/Clear/Cleared: Return to the Graveyard, include_ant_hill_in_checks, enchanticon",
+                    "witchtalisman, @Return to the Graveyard/Clear/Cleared: Return to the Graveyard, include_ant_hill_in_checks, $Keysanity",
                     "witchtalisman, progression_option, include_ant_hill_in_checks, @Dan's Crypt/Clear/Cleared: Dan's Crypt, enchanticon"
                 ],
                 "visibility_rules": [
@@ -351,6 +351,7 @@
                     {
                         "name": "Items",
                         "item_count": 11,
+                        "clear_as_group": false,
                         "visibility_rules": [
                             "shopsanity:1"
                         ],

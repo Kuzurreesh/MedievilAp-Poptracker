@@ -510,8 +510,9 @@ RuneH = {
 
 }
 
-Maps2 = {
 
+
+Maps2 = {
     [0]  = { "World Map", "582,469", "40,300" },
     [1]  = { "The Graveyard", "2100,838", "100,1500" },
     [2]  = { "Return to the Graveyard", "1190,1416", "200,1300" },
@@ -594,9 +595,37 @@ KEY_UNLOCKS = {
     [18] = "shipicon",
     [19] = "hallicon",
     [20] = "deviceicon",
+    [21] = "anticon",
 
 }
 
+
+SHOP = {
+    [1] = "@The Graveyard/Merchant Gargoyle/Items",
+    [2] = "@Cemetery Hill/Merchant Gargoyle/Items",
+    [3] = "@Return to the Graveyard/Merchant Gargoyle/Items",
+    [4] = "@Pumpkin Gorge/Merchant Gargoyle/Items",
+    [5] = "@Pumpkin Serpent/Merchant Gargoyle/Items",
+    [6] = "@Enchanted Earth/Merchant Gargoyle/Items",
+    [7] = "@The Time Device/Merchant Gargoyle/Items",
+    [8] = "@The Entrance Hall/Merchant Gargoyle/Items",
+    [9] = "@The Ghost Ship/Merchant Gargoyle/Items",
+    [10] = "@The Haunted Ruins/Merchant Gargoyle/Items",
+    [11] = "@The Gallows Gauntlet/Merchant Gargoyle/Items",
+    [12] = "@The Lake/Merchant Gargoyle/Items",
+    [13] = "@The Crystal Caves/Merchant Gargoyle/Items",
+    [14] = "@Pools of the Ancient Dead/Merchant Gargoyle/Items",
+    [15] = "@Ant Caves/Merchant Gargoyle/Items",
+    [16] = "@Inside the Asylum/Merchant Gargoyle/Items",
+    [17] = "@Asylum Grounds/Merchant Gargoyle/Items",
+    [18] = "@Sleeping Village/Merchant Gargoyle/Items",
+    [19] = "@Hilltop Mausoleum/Merchant Gargoyle/Items",
+    [20] = "@Scarecrow Fields/Merchant Gargoyle/Items",
+    [21] = "@Scarecrow Fields/Merchant Gargoyle Chalice/Items",
+    [22] = "@Return to the Graveyard/Merchant Gargoyle Cliff/Items",
+    [23] = "@Zarok's Lair/Merchant Gargoyle/Items",
+
+}
 
 HIGHLIGHT_STATUS_MAPPING = {
     [0] = 2,   --Unspecified

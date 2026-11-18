@@ -5,7 +5,7 @@
         "chest_opened_img": "images/labels/empty.png",
         "visibility_rules":["HUD"],
         "access_rules": [
-            "@The Crystal Caves/Clear/Cleared: The Crystal Caves",
+            "@The Crystal Caves/Clear/Cleared: The Crystal Caves, $Keysanity",
             "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, gallowsicon"
         ],
         "children": [
@@ -213,6 +213,7 @@
                     {
                         "name": "Items",
                         "item_count": 11,
+                        "clear_as_group": false,
                         "visibility_rules": [
                             "shopsanity:1"
                         ],

@@ -962,7 +962,7 @@
         "img": "images/labels/full.png",
         "codes": "bottle, gocheck",
         "initial_quantity": 0,
-        "max_quantity": 9
+        "max_quantity": 20
     },
     {
         "name": "Life Bottles in Pool",
@@ -972,6 +972,12 @@
         "codes": "life_bottles",
         "initial_quantity": 9,
         "max_quantity": 20
+    },
+    {
+        "name": "Life Bottles",
+        "type": "static",
+        "img": "images/labels/life bottles.png",
+        "codes": "bottleslabel"
     },
     {
         "name": "Items",
@@ -1639,6 +1645,7 @@
         "type": "toggle",
         "img": "images/labels/ac.png",
         "overlay_align": "center",
+        "initial_active_state": true,
         "codes": "anticon"
     },
     {

@@ -26,7 +26,7 @@ function ChaliceCount(section)
         zarokicon = 0,
     }
     local count = 0
-    for _, obj in pairs(LOCATION_MAPPING) do
+    for _, obj in pairs(LOCATION_MAPPING2) do
         if obj[1] == "clearedgallows" then
             if Tracker:FindObjectForCode(obj[1]).Active == false then
                 if Tracker:FindObjectForCode("@The Gallows Gauntlet/Clear[1]").AccessibilityLevel == AccessibilityLevel.Normal then
@@ -36,7 +36,7 @@ function ChaliceCount(section)
         else
             if Tracker:FindObjectForCode(obj[1]).AccessibilityLevel == AccessibilityLevel.Normal then
                 local which = Where2[obj[1]:sub(1, 10)]
-                list[which] = list[which] + 1
+                list[which] = list[which] + Tracker:FindObjectForCode(obj[1]).AvailableChestCount
                 --print(which, list[which])
                 -- if Tracker:FindObjectForCode(obj[1]).AccessibilityLevel == AccessibilityLevel.Normal then
                 --     count = count + 1
@@ -73,6 +73,15 @@ ScriptHost:AddWatchForCode("progsword", "progsword", Progression)
 ScriptHost:AddWatchForCode("progshield", "progshield", Progression)
 ScriptHost:AddWatchForCode("progbow", "progbow", Progression)
 
+
+function AllKnights()
+    if Tracker:FindObjectForCode("knight").AcquiredCount >= Tracker:FindObjectForCode("knights_to_find").AcquiredCount then
+        Tracker:FindObjectForCode("knight").BadgeTextColor = "#00FF00"
+    else
+         Tracker:FindObjectForCode("knight").BadgeTextColor = "#FFFFFF"
+    end
+end
+ScriptHost:AddWatchForCode("Aqcuired Kinghts", "knight", AllKnights)
 
 
 function Lighting(code)

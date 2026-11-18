@@ -7,7 +7,7 @@
             "HUD"
         ],
         "access_rules": [
-            "skullkey, @Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
+            "skullkey, @Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum, $Keysanity",
             "skullkey, progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, rtgicon"
         ],
         "children": [
@@ -68,7 +68,7 @@
                 "name": "Shop",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
+                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum, $Keysanity",
                     "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, rtgicon"
                 ],
                 "map_locations": [
@@ -108,7 +108,7 @@
                 "name": "Shop[1]",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
+                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum, $Keysanity",
                     "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, rtgicon"
                 ],
                 "map_locations": [
@@ -128,7 +128,7 @@
                 "name": "After Bridge",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
+                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum, $Keysanity",
                     "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, rtgicon"
                 ],
                 "map_locations": [
@@ -148,7 +148,7 @@
                 "name": "Secret Area Ledge",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
+                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum, $Keysanity",
                     "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, rtgicon"
                 ],
                 "map_locations": [
@@ -168,7 +168,7 @@
                 "name": "Skull Key Gate",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
+                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum, $Keysanity",
                     "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, rtgicon"
                 ],
                 "map_locations": [
@@ -196,7 +196,7 @@
                 "name": "Fountain",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
+                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum, $Keysanity",
                     "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, rtgicon"
                 ],
                 "map_locations": [
@@ -278,7 +278,7 @@
                 "name": "Shop[2]",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
+                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum, $Keysanity",
                     "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, rtgicon"
                 ],
                 "map_locations": [
@@ -313,7 +313,7 @@
                 "name": "Secret Area",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
+                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum, $Keysanity",
                     "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, rtgicon"
                 ],
                 "map_locations": [
@@ -347,7 +347,7 @@
                 "name": "Secret Area[1]",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
+                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum, $Keysanity",
                     "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, rtgicon"
                 ],
                 "map_locations": [
@@ -406,7 +406,7 @@
                 "name": "Merchant Gargoyle",
                 "parent": "Dan's Crypt",
                 "access_rules": [
-                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
+                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum, $Keysanity",
                     "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, rtgicon"
                 ],
                 "map_locations": [
@@ -420,6 +420,7 @@
                     {
                         "name": "Items",
                         "item_count": 11,
+                        "clear_as_group": false,
                         "visibility_rules": [
                             "shopsanity:1"
                         ],
@@ -446,6 +447,7 @@
                     {
                         "name": "Items",
                         "item_count": 11,
+                        "clear_as_group": false,
                         "visibility_rules": [
                             "shopsanity:1"
                         ],

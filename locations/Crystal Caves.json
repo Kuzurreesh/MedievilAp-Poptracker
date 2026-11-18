@@ -5,7 +5,7 @@
         "chest_opened_img": "images/labels/empty.png",
         "visibility_rules":["HUD"],
         "access_rules": [
-            "@The Lake/Clear/Cleared: The Lake",
+            "@The Lake/Clear/Cleared: The Lake, $Keysanity",
             "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, crystalicon"
         ],
         "children": [
@@ -409,6 +409,7 @@
                     {
                         "name": "Items",
                         "item_count": 11,
+                        "clear_as_group": false,
                         "visibility_rules": [
                             "shopsanity:1"
                         ],

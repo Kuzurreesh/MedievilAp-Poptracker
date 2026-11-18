@@ -68,6 +68,10 @@ function Bottles()
 	end
 end
 
+function Keysanity()
+	return not Tracker:FindObjectForCode("Keysanity").Active
+end
+
 function Chalice_Win(num)
 	num = tonumber(num)
 	if Tracker:FindObjectForCode("chalice_win_count").CurrentStage >= num then
