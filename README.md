@@ -13,12 +13,12 @@ Due to the way the game deals with key items, it's hard to see what exactly you 
 # Notes
 Hint highlights:
 * gold - Priority
-* white - Unspeciefied (likely only MediEvil and 2 energy vials)
-* blue - NoPriority (likely only with sphere 1 option)
-* red - Avoid (traps and medi 1 and 2 shields/ammo)
+* white - Unspeciefied (likely only MediEvil 1 and 2 energy vials)
+* blue - NoPriority
+* red - Avoid (traps and MediEvil 1 and 2 shields/ammo)
 
 Traps: 
-Can individually turn them off with left/right-click Hub/Dark
+Can individually turn them off with left/right-click Hud/Dark
 
 
 # Credit
