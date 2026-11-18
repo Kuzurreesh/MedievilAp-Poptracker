@@ -1,6 +1,22 @@
 {
     "versions": [    
         {
+            "package_version": "0.9.0",
+            "download_url": "https://github.com/Kuzurreesh/MedievilAp-Poptracker/archive/refs/tags/v0.9.0.zip",
+            "sha256": "abf33a0da42dca7c81c9fe80f9a68f6012b7060cdaa7214058e9c14c2739bfab",
+            "changelog": [
+                "Shopping for Knights"
+            ]
+        },
+        {
+            "package_version": "0.8.0",
+            "download_url": "https://github.com/Kuzurreesh/MedievilAp-Poptracker/archive/refs/tags/v0.8.0.zip",
+            "sha256": "b3291569a3cbfbad8203300290c4886c4fdf3433781a0ee0b15179b5b8522b03",
+            "changelog": [
+                "New Logic for Apworld 0.4.0"
+            ]
+        },
+        {
             "package_version": "0.7.0",
             "download_url": "https://github.com/Kuzurreesh/MedievilAp-Poptracker/archive/refs/tags/v0.7.0.zip",
             "sha256": "049ae3bcef296c8d5b11cd3a89c622119a7f812f792b2150c01b262dbdf1a88b",
