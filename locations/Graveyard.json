@@ -3,10 +3,12 @@
         "name": "The Graveyard",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
-        "visibility_rules":["HUD"],
+        "visibility_rules": [
+            "HUD"
+        ],
         "access_rules": [
             "@Dan's Crypt/Clear/Cleared: Dan's Crypt",
-            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, graveicon"
         ],
         "children": [
             {
@@ -131,8 +133,33 @@
                 ]
             },
             {
-                "name": "Past Chaos Gate",
+                "name": "Merchant Gargoyle",
                 "access_rules":["$GraveChaos"],
+                "map_locations": [
+                    {
+                        "map": "The Graveyard",
+                        "x": 2735,
+                        "y": 360
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Items",
+                        "item_count": 11,
+                        "visibility_rules": [
+                            "shopsanity:1"
+                        ],
+                        "access_rules": [
+                            "shopsanity:1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Past Chaos Gate",
+                "access_rules": [
+                    "$GraveChaos"
+                ],
                 "map_locations": [
                     {
                         "map": "The Graveyard",
@@ -169,7 +196,7 @@
                     }
                 ]
             },
-             {
+            {
                 "name": "Spinning Statue[1]",
                 "access_rules": [
                     "$GraveChaos"
@@ -239,7 +266,9 @@
             },
             {
                 "name": "Skeleton Key Gate",
-                "access_rules":["$GraveChaos"],
+                "access_rules": [
+                    "$GraveChaos"
+                ],
                 "map_locations": [
                     {
                         "map": "The Graveyard",

@@ -3,10 +3,12 @@
         "name": "Scarecrow Fields",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
-        "visibility_rules":["HUD"],
+        "visibility_rules": [
+            "HUD"
+        ],
         "access_rules": [
             "@Return to the Graveyard/Clear/Cleared: Return to the Graveyard",
-            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, scareicon"
         ],
         "children": [
             {
@@ -252,7 +254,7 @@
             {
                 "name": "Harvested Path[1]",
                 "access_rules": [
-                    "^$Harvester"
+                    "^$Harvester, weapon"
                 ],
                 "map_locations": [
                     {
@@ -273,6 +275,52 @@
                         ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
+                    }
+                ]
+            },
+            {
+                "name": "Merchant Gargoyle",
+                "map_locations": [
+                    {
+                        "map": "Scarecrow Fields",
+                        "x": 220,
+                        "y": 1900
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Items",
+                        "item_count": 11,
+                        "visibility_rules": [
+                            "shopsanity:1"
+                        ],
+                        "access_rules": [
+                            "shopsanity:1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Merchant Gargoyle Chalice",
+                "access_rules":["^$Harvester"],
+                "map_locations": [
+                    {
+                        "map": "Scarecrow Fields",
+                        "x": 1745,
+                        "y": 800,
+                        "size": 45
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Items",
+                        "item_count": 11,
+                        "visibility_rules": [
+                            "shopsanity:1"
+                        ],
+                        "access_rules": [
+                            "shopsanity:1"
+                        ]
                     }
                 ]
             },

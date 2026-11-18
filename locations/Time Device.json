@@ -3,7 +3,9 @@
         "name": "The Time Device",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
-        "visibility_rules":["HUD"],
+        "visibility_rules": [
+            "HUD"
+        ],
         "access_rules": [
             "@The Entrance Hall/Clear/Cleared: The Entrance Hall",
             "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
@@ -151,7 +153,7 @@
             {
                 "name": "Lasers",
                 "access_rules": [
-                    "$DeviceTime, $DeviceChaos, $DeviceEarth, $DeviceMoon"
+                    "$DeviceTime, $DeviceChaos, $DeviceEarth, $DeviceMoon, weapon"
                 ],
                 "map_locations": [
                     {
@@ -210,6 +212,31 @@
                     },
                     {
                         "name": "Gold Coins: Laser Platform Left - TD"
+                    }
+                ]
+            },
+            {
+                "name": "Merchant Gargoyle",
+                "access_rules": [
+                    "$DeviceTime, $DeviceChaos, $DeviceEarth"
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Time Device and Zarok's Lair",
+                        "x": 2835,
+                        "y": 2000
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Items",
+                        "item_count": 11,
+                        "visibility_rules": [
+                            "shopsanity:1"
+                        ],
+                        "access_rules": [
+                            "shopsanity:1"
+                        ]
                     }
                 ]
             },
@@ -276,14 +303,23 @@
                         "chest_opened_img": "images/labels/Cleared.png"
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "name": "Zarok's Lair",
+        "chest_unopened_img": "images/labels/full.png",
+        "chest_opened_img": "images/labels/empty.png",
+        "visibility_rules": [
+            "HUD"
+        ],
+        "access_rules": [
+            "@The Time Device/Clear/Cleared: The Time Device",
+            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, zarokicon"
+        ],
+        "children": [
             {
                 "name": "Zarok's Arena",
-                "parent": "Dan's Crypt",
-                "access_rules": [
-                    "@The Time Device/Clear/Cleared: The Time Device",
-                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
-                ],
                 "map_locations": [
                     {
                         "map": "The Time Device and Zarok's Lair",
@@ -299,11 +335,6 @@
             },
             {
                 "name": "Zarok's Arena[1]",
-                "parent": "Dan's Crypt",
-                "access_rules": [
-                    "@The Time Device/Clear/Cleared: The Time Device",
-                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
-                ],
                 "map_locations": [
                     {
                         "map": "The Time Device and Zarok's Lair",
@@ -318,12 +349,29 @@
                 ]
             },
             {
-                "name": "Entrance",
-                "parent": "Dan's Crypt",
-                "access_rules": [
-                    "@The Time Device/Clear/Cleared: The Time Device",
-                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+                "name": "Merchant Gargoyle",
+                "map_locations": [
+                    {
+                        "map": "The Time Device and Zarok's Lair",
+                        "x": 2645,
+                        "y": 860
+                    }
                 ],
+                "sections": [
+                    {
+                        "name": "Items",
+                        "item_count": 11,
+                        "visibility_rules": [
+                            "shopsanity:1"
+                        ],
+                        "access_rules": [
+                            "shopsanity:1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Entrance",
                 "map_locations": [
                     {
                         "map": "The Time Device and Zarok's Lair",
@@ -347,11 +395,6 @@
             },
             {
                 "name": "Clear Game",
-                "parent": "Dan's Crypt",
-                "access_rules": [
-                    "@The Time Device/Clear/Cleared: The Time Device, [bottle:5], goodlightning, [weapon]",
-                    "progression_option, [bottle:5], goodlightning, [weapon], @Dan's Crypt/Clear/Cleared: Dan's Crypt"
-                ],
                 "map_locations": [
                     {
                         "map": "The Time Device and Zarok's Lair",
@@ -364,6 +407,9 @@
                 "sections": [
                     {
                         "name": "Beat Zarok",
+                        "access_rules": [
+                            "weapon, ^$Bottles, $Knights"
+                        ],
                         "chest_unopened_img": "images/labels/zarok.png",
                         "chest_opened_img": "images/labels/zarok2disabled.png"
                     }

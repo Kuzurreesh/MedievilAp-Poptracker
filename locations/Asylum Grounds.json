@@ -6,7 +6,7 @@
         "visibility_rules":["HUD"],
         "access_rules": [
             "@Sleeping Village/Clear/Cleared: Sleeping Village",
-            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, groundsicon"
         ],
         "children": [
             {
@@ -242,11 +242,32 @@
                         ]
                     }
                 ]
+            },{
+                "name": "Merchant Gargoyle",
+                "map_locations": [
+                    {
+                        "map": "The Asylum Grounds",
+                        "x": 2020,
+                        "y": 770
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Items",
+                        "item_count": 11,
+                        "visibility_rules": [
+                            "shopsanity:1"
+                        ],
+                        "access_rules": [
+                            "shopsanity:1"
+                        ]
+                    }
+                ]
             },
             {
                 "name": "Elephant",
                 "access_rules": [
-                    "$GroundsChaos"
+                    "$GroundsChaos, weapon"
                 ],
                 "map_locations": [
                     {

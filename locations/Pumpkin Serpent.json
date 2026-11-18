@@ -3,10 +3,12 @@
         "name": "Pumpkin Serpent",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
-        "visibility_rules":["HUD"],
+        "visibility_rules": [
+            "HUD"
+        ],
         "access_rules": [
             "@Pumpkin Gorge/Clear/Cleared: Pumpkin Gorge",
-            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, serpenticon"
         ],
         "children": [
             {
@@ -28,6 +30,31 @@
                         ],
                         "visibility_rules": [
                             "booksanity"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Merchant Gargoyle",
+                "access_rules": [
+                    "[weapon]"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pumpkin Serpent",
+                        "x": 175,
+                        "y": 643
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Items",
+                        "item_count": 11,
+                        "visibility_rules": [
+                            "shopsanity:1"
+                        ],
+                        "access_rules": [
+                            "shopsanity:1"
                         ]
                     }
                 ]
@@ -120,7 +147,9 @@
             },
             {
                 "name": "Down the Well",
-                "access_rules":["[weapon]"],
+                "access_rules": [
+                    "[weapon]"
+                ],
                 "map_locations": [
                     {
                         "map": "Pumpkin Serpent",
@@ -157,7 +186,9 @@
             },
             {
                 "name": "Down the Well[1]",
-                "access_rules":["[weapon]"],
+                "access_rules": [
+                    "[melee]"
+                ],
                 "map_locations": [
                     {
                         "map": "Pumpkin Serpent",
@@ -181,7 +212,9 @@
             },
             {
                 "name": "Clear",
-                "access_rules":["[weapon]"],
+                "access_rules": [
+                    "[weapon]"
+                ],
                 "map_locations": [
                     {
                         "map": "Pumpkin Serpent",

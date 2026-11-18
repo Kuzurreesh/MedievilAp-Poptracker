@@ -14,7 +14,7 @@ Tracker:AddMaps("maps/maps.json")
 
 Tracker:AddLayouts("layouts/item_grids.json")
 Tracker:AddLayouts("layouts/layouts.json")
-
+Tracker:FindObjectForCode("shopsanity"):SetOverlayFontSize(22)
 for index, value in pairs(Where2) do
 	Tracker:FindObjectForCode(value):SetOverlayFontSize(9)	
 	

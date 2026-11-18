@@ -46,6 +46,27 @@ function WeaponRune()
 	end
 end
 
+function AntUnlock()
+	if Tracker:FindObjectForCode("witchtalisman").Active == true and Tracker:FindObjectForCode("enchanticon").Active == true then
+		Tracker:FindObjectForCode("anticon").Active = true
+	end
+end
+
+
+function Knights()
+	return Tracker:FindObjectForCode("knight").AcquiredCount >=
+	Tracker:FindObjectForCode("knights_to_find").AcquiredCount
+end
+
+function Bottles()
+	if Tracker:FindObjectForCode("bottle").AcquiredCount >= math.min(5, Tracker:FindObjectForCode("life_bottles").AcquiredCount) then
+		return AccessibilityLevel.Normal
+	elseif Tracker:FindObjectForCode("bottle").AcquiredCount >= 1 then
+		return AccessibilityLevel.SequenceBreak
+	else
+		return AccessibilityLevel.None
+	end
+end
 
 function Chalice_Win(num)
 	num = tonumber(num)
@@ -79,12 +100,12 @@ function GO()
 	local can = count >= Tracker:FindObjectForCode("chalice_win_count").CurrentStage
 
 	if Goal == 0 then
-		if Can("@The Time Device/Clear Game/Beat Zarok") then
+		if Can("@Zarok's Lair/Clear Game/Beat Zarok") then
 			state = true
 		end
 	elseif Goal == 1 and can then
 		state = true
-	elseif Can("@The Time Device/Clear Game/Beat Zarok") and can then
+	elseif Can("@Zarok's Lair/Clear Game/Beat Zarok") and can then
 		state = true
 	end
 
@@ -119,7 +140,6 @@ function CryptStar()
 		return false
 	end
 end
-
 
 -- Graveyard
 function GraveEarth()

@@ -29,8 +29,8 @@
 			],
 			[
 				"throwingdaggers",
-				"crossbow",
 				"spear",
+				"crossbow",
 				"longbow",
 				"flaminglongbow",
 				"magiclongbow",
@@ -1123,9 +1123,65 @@
 						"booksanity",
 						"gargoylesanitylabel",
 						"gargoylesanity",
-						"spherelabel",
-						"Highlightings"
+						"knightslabel",
+						"knights_to_find"
 					],
+					[
+						"shoplabel",
+						"shopsanity",
+						"keylabel",
+						"keysanity"
+					]
+				]
+			},
+			{
+				"type": "canvas",
+				"height": 75,
+				"width": 300,
+				"content": [
+					{
+						"type": "item",
+						"item": "progressives",
+						"max_width": 45,
+						"max_height": 45,
+						"canvas_top": 22,
+						"canvas_left": 10
+					},
+					{
+						"type": "item",
+						"item": "progressive_sword",
+						"max_width": 55,
+						"max_height": 55,
+						"canvas_top": 10,
+						"canvas_left": 175
+					},
+					{
+						"type": "item",
+						"item": "progressive_bow",
+						"max_width": 60,
+						"max_height": 60,
+						"canvas_top": 8,
+						"canvas_left": 220
+					},
+					{
+						"type": "item",
+						"item": "progressive_shield",
+						"max_width": 45,
+						"max_height": 45,
+						"canvas_top": 40,
+						"canvas_left": 195
+					}
+				]
+			},
+			{
+				"type": "itemgrid",
+				"item_margin": "8, 2",
+				"h_alignment": "left",
+				"item_h_alignment": "center",
+				"item_v_alignment": "center",
+				"item_height": 100,
+				"item_width": 100,
+				"rows": [
 					[
 						"tablabel",
 						"autotab",

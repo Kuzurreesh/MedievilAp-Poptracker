@@ -6,7 +6,7 @@
         "visibility_rules":["HUD"],
         "access_rules": [
             "@Enchanted Earth/Clear/Cleared: Enchanted Earth",
-            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, lakeicon"
         ],
         "children": [
             {
@@ -129,11 +129,32 @@
                         "name": "Key Item: Soul Helmet 4 - PAD"
                     }
                 ]
+            },{
+                "name": "Merchant Gargoyle",
+                "map_locations": [
+                    {
+                        "map": "Pools of the Ancient Dead",
+                        "x": 1170,
+                        "y": 655
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Items",
+                        "item_count": 11,
+                        "visibility_rules": [
+                            "shopsanity:1"
+                        ],
+                        "access_rules": [
+                            "shopsanity:1"
+                        ]
+                    }
+                ]
             },
             {
                 "name": "West Side[3]",
                 "access_rules": [
-                    "$PADChaos"
+                    "$PADChaos, ranged, melee"
                 ],
                 "map_locations": [
                     {

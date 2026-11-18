@@ -3,10 +3,12 @@
         "name": "Return to the Graveyard",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
-        "visibility_rules":["HUD"],
+        "visibility_rules": [
+            "HUD"
+        ],
         "access_rules": [
             "skullkey, @Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
-            "skullkey, progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+            "skullkey, progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, rtgicon"
         ],
         "children": [
             {
@@ -67,7 +69,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
-                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, rtgicon"
                 ],
                 "map_locations": [
                     {
@@ -92,7 +94,8 @@
                     {
                         "map": "Return to the Graveyard",
                         "x": 1035,
-                        "y": 2090
+                        "y": 2090,
+                        "size": 50
                     }
                 ],
                 "sections": [
@@ -106,7 +109,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
-                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, rtgicon"
                 ],
                 "map_locations": [
                     {
@@ -126,7 +129,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
-                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, rtgicon"
                 ],
                 "map_locations": [
                     {
@@ -146,7 +149,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
-                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, rtgicon"
                 ],
                 "map_locations": [
                     {
@@ -166,7 +169,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
-                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, rtgicon"
                 ],
                 "map_locations": [
                     {
@@ -176,7 +179,7 @@
                     }
                 ],
                 "sections": [
-                            {
+                    {
                         "name": "Book: Skull Key - RTG",
                         "chest_unopened_img": "images/labels/Book3.png",
                         "chest_opened_img": "images/labels/bookdisabled.png",
@@ -194,7 +197,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
-                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, rtgicon"
                 ],
                 "map_locations": [
                     {
@@ -276,7 +279,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
-                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, rtgicon"
                 ],
                 "map_locations": [
                     {
@@ -311,7 +314,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
-                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, rtgicon"
                 ],
                 "map_locations": [
                     {
@@ -345,7 +348,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
-                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, rtgicon"
                 ],
                 "map_locations": [
                     {
@@ -375,7 +378,7 @@
             {
                 "name": "Undertakers",
                 "access_rules": [
-                    "$ReturnStar",
+                    "$ReturnStar, weapon",
                     "[]"
                 ],
                 "map_locations": [
@@ -396,6 +399,59 @@
                         ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
+                    }
+                ]
+            },
+            {
+                "name": "Merchant Gargoyle",
+                "parent": "Dan's Crypt",
+                "access_rules": [
+                    "@Hilltop Mausoleum/Clear/Cleared: Hilltop Mausoleum",
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, rtgicon"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Return to the Graveyard",
+                        "x": 860,
+                        "y": 375
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Items",
+                        "item_count": 11,
+                        "visibility_rules": [
+                            "shopsanity:1"
+                        ],
+                        "access_rules": [
+                            "shopsanity:1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Merchant Gargoyle Cliff",
+                "access_rules": [
+                    "$ReturnStar"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Return to the Graveyard",
+                        "x": 1015,
+                        "y": 2045,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Items",
+                        "item_count": 11,
+                        "visibility_rules": [
+                            "shopsanity:1"
+                        ],
+                        "access_rules": [
+                            "shopsanity:1"
+                        ]
                     }
                 ]
             },
@@ -423,7 +479,6 @@
                         "chest_unopened_img": "images/labels/Not Cleared.png",
                         "chest_opened_img": "images/labels/Cleared.png"
                     },
-                    
                     {
                         "name": "Gargoyle: Exit - RTG",
                         "chest_unopened_img": "images/labels/gargoyle2.png",

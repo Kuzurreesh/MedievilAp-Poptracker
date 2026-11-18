@@ -23,6 +23,9 @@ function onClear(slot_data)
     ScriptHost:RemoveWatchForCode("Highlights1")
     ScriptHost:RemoveWatchForCode("Highlights2")
     ScriptHost:RemoveWatchForCode("Go-Mode")
+    ScriptHost:RemoveWatchForCode("progsword")
+    ScriptHost:RemoveWatchForCode("progshield")
+    ScriptHost:RemoveWatchForCode("progbow")
     ScriptHost:RemoveWatchForCode("imp weapon")
     ScriptHost:RemoveWatchForCode("Rune")
     ScriptHost:RemoveWatchForCode("Counting")
@@ -34,8 +37,8 @@ function onClear(slot_data)
     --print("------------------seed------------------", Seed)
     NotifyKeys = {
         "Medievil_GPS_Team" .. TeamNumber .. "_" .. TeamName,
-      --  "Medievil_" .. Slot .. "_" .. Seed .. "_GPS",
-       -- "Medievil_" .. Slot .. "_" .. Seed .. "_ItemIndex"
+        --  "Medievil_" .. Slot .. "_" .. Seed .. "_GPS",
+        -- "Medievil_" .. Slot .. "_" .. Seed .. "_ItemIndex"
     }
     NotifyHints = {
         "_read_hints_" .. TeamNumber .. "_" .. Slot
@@ -114,9 +117,29 @@ function onClear(slot_data)
         tracker.BadgeText = "0/" .. tostring(amount)
         tracker.IgnoreUserInput = true
         tracker:SetOverlayFontSize(14)
+        Tracker:FindObjectForCode("knights_to_find").AcquiredCount = otable["knights_to_find"]
+        Tracker:FindObjectForCode("life_bottles").AcquiredCount = otable["life_bottles"]
+        local keysanity = Tracker:FindObjectForCode("keysanity")
+        keysanity.Active = otable["keysanity"]
+        if keysanity.Active == true then
+            for index, value in ipairs(KEY_UNLOCKS) do
+                Tracker:FindObjectForCode(value).Active = false
+            end
+            ScriptHost:AddWatchForCode("ant1", "witchtalisman", AntUnlock)
+            ScriptHost:AddWatchForCode("ant2", "enchanticon", AntUnlock)
+            keysanity:SetOverlayFontSize(14)
+            keysanity.BadgeText = otable["keysanity_starting_keys"]
+        end
         Tracker:FindObjectForCode("booksanity").Active = otable["booksanity"]
         Tracker:FindObjectForCode("gargoylesanity").Active = otable["gargoylesanity"]
+        Tracker:FindObjectForCode("shopsanity").Active = otable["shopsanity"]
+        if otable["shopsanity"] == 1 then
+            Tracker:FindObjectForCode("shopsanity").AcquiredCount = otable["shopsanity_items_per_shop"]
+        end
         Tracker:FindObjectForCode("progression_option").Active = otable["progression_option"]
+        Tracker:FindObjectForCode("progressive_sword").Active = otable["progressive_sword"]
+        Tracker:FindObjectForCode("progressive_bow").Active = otable["progressive_bow"]
+        Tracker:FindObjectForCode("progressive_shield").Active = otable["progressive_shield"]
     end
 
     LOCAL_ITEMS = {}
@@ -130,6 +153,9 @@ function onClear(slot_data)
     ScriptHost:AddWatchForCode("imp weapon", "imp", GO)
     ScriptHost:AddWatchForCode("Rune", "rune", GO)
     ScriptHost:AddWatchForCode("Counting", "*", ChaliceCount)
+    ScriptHost:AddWatchForCode("progsword", "progsword", Progression)
+    ScriptHost:AddWatchForCode("progshield", "progshield", Progression)
+    ScriptHost:AddWatchForCode("progbow", "progbow", Progression)
     Archipelago:Get(NotifyKeys)
     Archipelago:Get(NotifyHints)
     Archipelago:SetNotify(NotifyKeys)
@@ -298,7 +324,7 @@ function onBounce(json)
 end
 
 function onClearGet(key, value, oldValue)
-   -- print("called datastrorage: ", key, dump_table(value))
+    -- print("called datastrorage: ", key, dump_table(value))
     if key == NotifyKeys[1] and value then
         Tracker:UiHint("ActivateTab", "World Map")
         local count = tonumber(value["Region"])
@@ -359,7 +385,7 @@ function onClearGet(key, value, oldValue)
 end
 
 function onDataStorageUpdate(key, value, oldValue)
-   -- print("called datastrorage: ", key, dump_table(value))
+    -- print("called datastrorage: ", key, dump_table(value))
     if key == NotifyKeys[1] and value then
         if Has("autotab") then
             --print("called datastrorage: ", dump_table(key), "value", dump_table(value), "oldvalue", dump_table(oldValue))

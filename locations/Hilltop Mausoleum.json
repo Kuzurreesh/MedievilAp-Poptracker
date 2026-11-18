@@ -6,7 +6,7 @@
         "visibility_rules":["HUD"],
         "access_rules": [
             "boulder, @Cemetery Hill/Clear/Cleared: Cemetery Hill",
-            "boulder, progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+            "boulder, progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, hillicon"
         ],
         "children": [
             {
@@ -14,7 +14,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Cemetery Hill/Clear/Cleared: Cemetery Hill",
-                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, hillicon"
                 ],
                 "map_locations": [
                     {
@@ -127,7 +127,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Cemetery Hill/Clear/Cleared: Cemetery Hill",
-                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, hillicon"
                 ],
                 "map_locations": [
                     {
@@ -222,7 +222,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Cemetery Hill/Clear/Cleared: Cemetery Hill",
-                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, hillicon"
                 ],
                 "map_locations": [
                     {
@@ -324,6 +324,28 @@
                         ],
                         "visibility_rules": [
                             "booksanity"
+                        ]
+                    }
+                ]
+            },{
+                "name": "Merchant Gargoyle",
+                "access_rules":["$HillEarth"],
+                "map_locations": [
+                    {
+                        "map": "Cemetery Hill and Hilltop Mausoleum",
+                        "x": 2025,
+                        "y": 535
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Items",
+                        "item_count": 11,
+                        "visibility_rules": [
+                            "shopsanity:1"
+                        ],
+                        "access_rules": [
+                            "shopsanity:1"
                         ]
                     }
                 ]

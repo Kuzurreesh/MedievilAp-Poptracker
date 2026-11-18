@@ -2330,19 +2330,19 @@
 				],
 				"sections": [
 					{
-						"ref": "The Time Device/Zarok's Arena/Equipment: Good Lightning - ZL",
+						"ref": "Zarok's Lair/Zarok's Arena/Equipment: Good Lightning - ZL",
 						"name": "Equipment: Good Lightning - ZL"
 					},
 					{
-						"ref": "The Time Device/Zarok's Arena[1]/Equipment: Silver Shield - ZL Arena",
+						"ref": "Zarok's Lair/Zarok's Arena[1]/Equipment: Silver Shield - ZL Arena",
 						"name": "Equipment: Silver Shield - ZL Arena"
 					},
 					{
-						"ref": "The Time Device/Entrance/Gargoyle: Entrance - ZL",
+						"ref": "Zarok's Lair/Entrance/Gargoyle: Entrance - ZL",
 						"name": "Gargoyle: Entrance - ZL"
 					},
 					{
-						"ref": "The Time Device/Clear Game/Beat Zarok",
+						"ref": "Zarok's Lair/Clear Game/Beat Zarok",
 						"name": "Beat Zarok"
 					}
 				]

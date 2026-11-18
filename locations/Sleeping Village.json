@@ -3,10 +3,12 @@
         "name": "Sleeping Village",
         "chest_unopened_img": "images/labels/full.png",
         "chest_opened_img": "images/labels/empty.png",
-        "visibility_rules":["HUD"],
+        "visibility_rules": [
+            "HUD"
+        ],
         "access_rules": [
             "@Scarecrow Fields/Clear/Cleared: Scarecrow Fields",
-            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, sleepicon"
         ],
         "children": [
             {
@@ -371,7 +373,7 @@
             {
                 "name": "Bottom Ledge at Mayor's House",
                 "access_rules": [
-                    "Crucifix, include_chalices_in_checks, @Sleeping Village/Inn B2[1]/Key Item: Landlords Bust - SV"
+                    "Crucifix, include_chalices_in_checks, @Sleeping Village/Inn B2[1]/Key Item: Landlords Bust - SV, weapon"
                 ],
                 "map_locations": [
                     {
@@ -389,6 +391,28 @@
                         ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
+                    }
+                ]
+            },
+            {
+                "name": "Merchant Gargoyle",
+                "map_locations": [
+                    {
+                        "map": "Sleeping Village",
+                        "x": 1470,
+                        "y": 845
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Items",
+                        "item_count": 11,
+                        "visibility_rules": [
+                            "shopsanity:1"
+                        ],
+                        "access_rules": [
+                            "shopsanity:1"
+                        ]
                     }
                 ]
             },

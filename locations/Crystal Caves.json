@@ -6,7 +6,7 @@
         "visibility_rules":["HUD"],
         "access_rules": [
             "@The Lake/Clear/Cleared: The Lake",
-            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, crystalicon"
         ],
         "children": [
             {
@@ -396,11 +396,32 @@
                         ]
                     }
                 ]
+            },{
+                "name": "Merchant Gargoyle",
+                "map_locations": [
+                    {
+                        "map": "The Crystal Caves",
+                        "x": 2640,
+                        "y": 930
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Items",
+                        "item_count": 11,
+                        "visibility_rules": [
+                            "shopsanity:1"
+                        ],
+                        "access_rules": [
+                            "shopsanity:1"
+                        ]
+                    }
+                ]
             },
             {
                 "name": "Start",
                 "access_rules": [
-                    "$CrystalEarth, $CrystalStar"
+                    "$CrystalEarth, $CrystalStar, weapon"
                 ],
                 "map_locations": [
                     {

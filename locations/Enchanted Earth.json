@@ -6,7 +6,7 @@
         "visibility_rules":["HUD"],
         "access_rules": [
             "@Return to the Graveyard/Clear/Cleared: Return to the Graveyard",
-            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, enchanticon"
         ],
         "children": [
             {
@@ -304,7 +304,7 @@
             {
                 "name": "Shadow Cave[1]",
                 "access_rules": [
-                    "shadowtalisman, shadowartefact, $EnchantEarth, ranged"
+                    "shadowtalisman, shadowartefact, $EnchantEarth, $EnchantStar, ranged"
                 ],
                 "map_locations": [
                     {
@@ -367,6 +367,28 @@
                         ],
                         "visibility_rules": [
                             "booksanity"
+                        ]
+                    }
+                ]
+            },{
+                "name": "Merchant Gargoyle",
+                "access_rules":["shadowartefact, shadowtalisman, $EnchantEarth"],
+                "map_locations": [
+                    {
+                        "map": "Enchanted Earth",
+                        "x": 365,
+                        "y": 1675
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Items",
+                        "item_count": 11,
+                        "visibility_rules": [
+                            "shopsanity:1"
+                        ],
+                        "access_rules": [
+                            "shopsanity:1"
                         ]
                     }
                 ]

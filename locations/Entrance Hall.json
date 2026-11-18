@@ -6,7 +6,7 @@
         "visibility_rules":["HUD"],
         "access_rules": [
             "@The Ghost Ship/Clear/Cleared: The Ghost Ship",
-            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, hallicon"
         ],
         "children": [
             {
@@ -28,6 +28,27 @@
                         ],
                         "visibility_rules": [
                             "booksanity"
+                        ]
+                    }
+                ]
+            },{
+                "name": "Merchant Gargoyle",
+                "map_locations": [
+                    {
+                        "map": "The Entrance Hall",
+                        "x": 425,
+                        "y": 360
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Items",
+                        "item_count": 11,
+                        "visibility_rules": [
+                            "shopsanity:1"
+                        ],
+                        "access_rules": [
+                            "shopsanity:1"
                         ]
                     }
                 ]

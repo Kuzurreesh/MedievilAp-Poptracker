@@ -18,58 +18,82 @@
         "codes": "Daring5, bash, dash, golem, gocheck"
     },
     {
+        "name": "Prog Sword",
+        "type": "consumable",
+        "img": "images/labels/shopitems.png",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "progsword"
+    },
+    {
+        "name": "prog bow",
+        "type": "consumable",
+        "img": "images/labels/shopitems.png",
+        "max_quantity": 4,
+        "initial_quantity": 0,
+        "codes": "progbow"
+    },
+    {
+        "name": "prog shield",
+        "type": "consumable",
+        "img": "images/labels/shopitems.png",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "progshield"
+    },
+    {
         "name": "Small Sword",
         "type": "toggle",
         "img": "images/items/SmallSword.png",
-        "codes": "sword, imp, weapon"
+        "codes": "sword, imp, weapon, melee, sword1"
     },
     {
         "name": "Broadsword",
         "type": "toggle",
         "img": "images/items/Broadsword.png",
-        "codes": "broadsword, imp, weapon"
+        "codes": "broadsword, imp, weapon, melee, sword2"
     },
     {
         "name": "Magic Sword",
         "type": "toggle",
         "img": "images/items/MagicSword.png",
-        "codes": "magicsword, imp, weapon"
+        "codes": "magicsword, imp, weapon, melee, sword3"
     },
     {
         "name": "Copper Shield",
         "type": "toggle",
         "img": "images/items/CopperShield.png",
-        "codes": "shieldcopper"
+        "codes": "shieldcopper, shield1"
     },
     {
         "name": "Silver Shield",
         "type": "toggle",
         "img": "images/items/SilverShield.png",
-        "codes": "shieldsilver"
+        "codes": "shieldsilver, shield2"
     },
     {
         "name": "Gold Shield",
         "type": "toggle",
         "img": "images/items/GoldShield.png",
-        "codes": "shieldgold"
+        "codes": "shieldgold, shield3"
     },
     {
         "name": "Club",
         "type": "toggle",
         "img": "images/items/Club.png",
-        "codes": "club, bash, boulder, imp, weapon"
+        "codes": "club, bash, boulder, imp, weapon, melee"
     },
     {
         "name": "Hammer",
         "type": "toggle",
         "img": "images/items/Hammer.png",
-        "codes": "hammer, bash, boulder, imp, weapon"
+        "codes": "hammer, bash, boulder, imp, weapon, melee"
     },
     {
         "name": "Axe",
         "type": "toggle",
         "img": "images/items/Axe.png",
-        "codes": "axe, imp, weapon, ranged"
+        "codes": "axe, imp, weapon, ranged, melee"
     },
     {
         "name": "Lightning",
@@ -93,7 +117,7 @@
         "name": "Crossbow",
         "type": "toggle",
         "img": "images/items/Crossbow.png",
-        "codes": "crossbow, imp, weapon, ranged"
+        "codes": "crossbow, imp, weapon, ranged, bow1"
     },
     {
         "name": "Spear",
@@ -105,19 +129,19 @@
         "name": "Longbow",
         "type": "toggle",
         "img": "images/items/Longbow.png",
-        "codes": "longbow, imp, weapon, ranged"
+        "codes": "longbow, imp, weapon, ranged, bow2"
     },
     {
         "name": "Flaming Longbow",
         "type": "toggle",
         "img": "images/items/FlamingLongbow.png",
-        "codes": "flaminglongbow, imp, weapon, ranged"
+        "codes": "flaminglongbow, imp, weapon, ranged, bow3"
     },
     {
         "name": "Magic Longbow",
         "type": "toggle",
         "img": "images/items/MagicLongbow.png",
-        "codes": "magiclongbow, imp, weapon, ranged"
+        "codes": "magiclongbow, imp, weapon, ranged, bow4"
     },
     {
         "name": "Sheet Music",
@@ -675,11 +699,16 @@
     {
         "name": "Traps",
         "type": "progressive_toggle",
-        "initial_active_state": true,"stages": [{"name": "Traps",
-        "img": "images/labels/Cleared3.png",
-        "disabled_img": "images/labels/Not Cleared3.png",
-        "disabled_img_mods": "@enabled",
-        "codes": "zoom"}]
+        "initial_active_state": true,
+        "stages": [
+            {
+                "name": "Traps",
+                "img": "images/labels/Cleared3.png",
+                "disabled_img": "images/labels/Not Cleared3.png",
+                "disabled_img_mods": "@enabled",
+                "codes": "zoom"
+            }
+        ]
     },
     {
         "name": "Trap: HUDLess",
@@ -936,6 +965,15 @@
         "max_quantity": 9
     },
     {
+        "name": "Life Bottles in Pool",
+        "type": "consumable",
+        "overlay_font_size": 14,
+        "img": "images/labels/full.png",
+        "codes": "life_bottles",
+        "initial_quantity": 9,
+        "max_quantity": 20
+    },
+    {
         "name": "Items",
         "type": "static",
         "img": "images/labels/items.png",
@@ -1089,9 +1127,14 @@
         "name": "Ant Caves",
         "type": "progressive_toggle",
         "loop": true,
-        "initial_active_state": true,"stages": [{"name": "Ant Caves",
-        "img": "images/labels/ant hill3.png",
-        "codes": "include_ant_hill_in_checks"}]
+        "initial_active_state": true,
+        "stages": [
+            {
+                "name": "Ant Caves",
+                "img": "images/labels/ant hill3.png",
+                "codes": "include_ant_hill_in_checks"
+            }
+        ]
     },
     {
         "name": "Ant Caves ",
@@ -1102,15 +1145,100 @@
     {
         "name": "Runesanity",
         "type": "progressive_toggle",
-        "loop": true,"stages": [{"name": "Runesanity",
-        "img": "images/labels/runesanity.png",
-        "codes": "runesanity"}]
+        "loop": true,
+        "stages": [
+            {
+                "name": "Runesanity",
+                "img": "images/labels/runesanity.png",
+                "codes": "runesanity"
+            }
+        ]
     },
     {
         "name": "Runesanity ",
         "type": "static",
         "img": "images/labels/runesanity text.png",
         "codes": "runelabel"
+    },
+    {
+        "name": "Keysanity",
+        "type": "progressive_toggle",
+        "loop": true,
+        "stages": [
+            {
+                "name": "Keysanity",
+                "img": "images/labels/keys.png",
+                "codes": "keysanity"
+            }
+        ]
+    },
+    {
+        "name": "Keysanity",
+        "type": "static",
+        "img": "images/labels/keysanity.png",
+        "codes": "keylabel"
+    },
+    {
+        "name": "Shopsanity",
+        "type": "static",
+        "img": "images/labels/shopsanity.png",
+        "codes": "shoplabel"
+    },
+    {
+        "name": "Shopsanity",
+        "type": "consumable",
+        "img": "images/labels/shopitems.png",
+        "max_quantity": 11,
+        "initial_quantity": 0,
+        "codes": "shopsanity"
+    },
+    {
+        "name": "Shops Items",
+        "type": "static",
+        "img": "images/labels/shopitemslabel.png",
+        "codes": "shopitemlabel"
+    },
+    {
+        "name": "Progressive Items",
+        "type": "static",
+        "img": "images/labels/progressives.png",
+        "codes": "progressives"
+    },
+    {
+        "name": "Progressive Sword",
+        "type": "progressive_toggle",
+        "loop": true,
+        "stages": [
+            {
+                "name": "Progressive Sword",
+                "img": "images/items/smallsword.png",
+                "codes": "progressive_sword"
+            }
+        ]
+    },
+    {
+        "name": "Progressive Bow",
+        "type": "progressive_toggle",
+        "loop": true,
+        "stages": [
+            {
+                "name": "Progressive Bow",
+                "img": "images/items/crossbow.png",
+                "codes": "progressive_bow"
+            }
+        ]
+    },
+    {
+        "name": "Progressive Shield",
+        "type": "progressive_toggle",
+        "loop": true,
+        "stages": [
+            {
+                "name": "Progressive Shields",
+                "img": "images/items/CopperShield.png",
+                "codes": "progressive_shield"
+            }
+        ]
     },
     {
         "name": "Goal ",
@@ -1194,12 +1322,15 @@
     {
         "name": "Gargoyle",
         "type": "progressive_toggle",
-        
         "initial_active_state": false,
         "loop": true,
         "stages": [
-            {"name": "Gargoyle","img": "images/labels/gargoyle.png",
-        "codes": "gargoylesanity"}]
+            {
+                "name": "Gargoyle",
+                "img": "images/labels/gargoyle.png",
+                "codes": "gargoylesanity"
+            }
+        ]
     },
     {
         "name": "Open ",
@@ -1211,9 +1342,13 @@
         "name": "Open",
         "type": "progressive_toggle",
         "loop": true,
-        "stages": [{"name": "Open",
-        "img": "images/maps/world map.png",
-        "codes": "progression_option"}]
+        "stages": [
+            {
+                "name": "Open",
+                "img": "images/maps/world map.png",
+                "codes": "progression_option"
+            }
+        ]
     },
     {
         "name": "Sphere ",
@@ -1224,11 +1359,16 @@
     {
         "name": "Lights",
         "type": "progressive_toggle",
-        
         "loop": true,
-        "stages": [{"name": "Lights","img": "images/labels/Lights.png",
-        "disabled_img": "images/labels/NoLights.png",
-        "disabled_img_mods": "@enabled","codes": "Highlightings"}]
+        "stages": [
+            {
+                "name": "Lights",
+                "img": "images/labels/Lights.png",
+                "disabled_img": "images/labels/NoLights.png",
+                "disabled_img_mods": "@enabled",
+                "codes": "Highlightings"
+            }
+        ]
     },
     {
         "name": "Autotab ",
@@ -1241,10 +1381,15 @@
         "type": "progressive_toggle",
         "initial_active_state": true,
         "loop": true,
-        "stages": [{"name": "Autotab",
-        "img": "images/labels/Cleared3.png",
-        "disabled_img": "images/labels/Not Cleared3.png",
-        "disabled_img_mods": "@enabled","codes": "autotab"}]
+        "stages": [
+            {
+                "name": "Autotab",
+                "img": "images/labels/Cleared3.png",
+                "disabled_img": "images/labels/Not Cleared3.png",
+                "disabled_img_mods": "@enabled",
+                "codes": "autotab"
+            }
+        ]
     },
     {
         "name": "Chalice Amount",
@@ -1406,77 +1551,88 @@
         "type": "toggle",
         "img": "images/labels/tg.png",
         "overlay_align": "center",
-        "codes": "graveicon"
+        "initial_active_state": true,
+        "codes": "graveicon, gocheck"
     },
     {
         "name": "Cemetery Hill ",
         "type": "toggle",
         "img": "images/labels/ch.png",
         "overlay_align": "center",
-        "codes": "hillicon"
+        "initial_active_state": true,
+        "codes": "hillicon, gocheck"
     },
     {
         "name": "Hilltop Mausoleum ",
         "type": "toggle",
         "img": "images/labels/hm.png",
         "overlay_align": "center",
-        "codes": "mausoleumicon"
+        "initial_active_state": true,
+        "codes": "mausoleumicon, gocheck"
     },
     {
         "name": "Return to the Graveyard ",
         "type": "toggle",
         "img": "images/labels/rtg.png",
         "overlay_align": "center",
-        "codes": "rtgicon"
+        "initial_active_state": true,
+        "codes": "rtgicon, gocheck"
     },
     {
         "name": "Scarecrow Fields ",
         "type": "toggle",
         "img": "images/labels/sf.png",
         "overlay_align": "center",
-        "codes": "scareicon"
+        "initial_active_state": true,
+        "codes": "scareicon, gocheck"
     },
     {
         "name": "Pumpkin Gorge ",
         "type": "toggle",
         "img": "images/labels/pg.png",
         "overlay_align": "center",
-        "codes": "gorgeicon"
+        "initial_active_state": true,
+        "codes": "gorgeicon, gocheck"
     },
     {
         "name": "Pumpkin Serpent ",
         "type": "toggle",
         "img": "images/labels/ps.png",
         "overlay_align": "center",
-        "codes": "serpenticon"
+        "initial_active_state": true,
+        "codes": "serpenticon, gocheck"
     },
     {
         "name": "Sleeping Village ",
         "type": "toggle",
         "img": "images/labels/sv.png",
         "overlay_align": "center",
-        "codes": "sleepicon"
+        "initial_active_state": true,
+        "codes": "sleepicon, gocheck"
     },
     {
         "name": "Asylum Grounds ",
         "type": "toggle",
         "img": "images/labels/ag.png",
         "overlay_align": "center",
-        "codes": "groundsicon"
+        "initial_active_state": true,
+        "codes": "groundsicon, gocheck"
     },
     {
         "name": "Inside the Asylum ",
         "type": "toggle",
         "img": "images/labels/ia.png",
         "overlay_align": "center",
-        "codes": "asylumicon"
+        "initial_active_state": true,
+        "codes": "asylumicon, gocheck"
     },
     {
         "name": "Enchanted Earth ",
         "type": "toggle",
         "img": "images/labels/ee.png",
         "overlay_align": "center",
-        "codes": "enchanticon"
+        "initial_active_state": true,
+        "codes": "enchanticon, gocheck"
     },
     {
         "name": "Ant Caves ",
@@ -1490,71 +1646,94 @@
         "type": "toggle",
         "img": "images/labels/pad.png",
         "overlay_align": "center",
-        "codes": "padicon"
+        "initial_active_state": true,
+        "codes": "padicon, gocheck"
     },
     {
         "name": "Lake ",
         "type": "toggle",
         "img": "images/labels/tl.png",
         "overlay_align": "center",
-        "codes": "lakeicon"
+        "initial_active_state": true,
+        "codes": "lakeicon, gocheck"
     },
     {
         "name": "Crystal Caves ",
         "type": "toggle",
         "img": "images/labels/cc.png",
         "overlay_align": "center",
-        "codes": "crystalicon"
+        "initial_active_state": true,
+        "codes": "crystalicon, gocheck"
     },
     {
         "name": "Gallows Gauntlet ",
         "type": "toggle",
         "img": "images/labels/gg.png",
         "overlay_align": "center",
-        "codes": "gallowsicon"
+        "initial_active_state": true,
+        "codes": "gallowsicon, gocheck"
     },
     {
         "name": "Haunted Ruins ",
         "type": "toggle",
         "img": "images/labels/hr.png",
         "overlay_align": "center",
-        "codes": "ruinsicon"
+        "initial_active_state": true,
+        "codes": "ruinsicon, gocheck"
     },
     {
         "name": "The Ghost Ship ",
         "type": "toggle",
         "img": "images/labels/gs.png",
         "overlay_align": "center",
-        "codes": "shipicon"
+        "initial_active_state": true,
+        "codes": "shipicon, gocheck"
     },
     {
         "name": "Entrance Hall ",
         "type": "toggle",
         "img": "images/labels/eh.png",
         "overlay_align": "center",
-        "codes": "hallicon"
+        "initial_active_state": true,
+        "codes": "hallicon, gocheck"
     },
     {
         "name": "The Time Device ",
         "type": "toggle",
         "img": "images/labels/td.png",
         "overlay_align": "center",
-        "codes": "deviceicon"
+        "initial_active_state": true,
+        "codes": "deviceicon, gocheck"
     },
     {
         "name": "Zarok's Lair ",
         "type": "toggle",
         "img": "images/labels/zl.png",
         "overlay_align": "center",
-        "codes": "zarokicon"
+        "initial_active_state": true,
+        "codes": "zarokicon, gocheck"
     },
     {
-        "name": "Kight of Gallowmere",
+        "name": "Kights of Gallowmere",
         "type": "consumable",
         "overlay_font_size": 15,
-        "img": "images/items/Amber.png",
+        "img": "images/items/knight.png",
         "codes": "knight",
         "max_quantity": 250
+    },
+    {
+        "name": "Kights of Gallowmere",
+        "type": "consumable",
+        "overlay_font_size": 22,
+        "img": "images/labels/knights.png",
+        "codes": "knights_to_find",
+        "initial_quantity": 0,
+        "max_quantity": 250
+    },
+    {
+        "name": "Knight to Find",
+        "type": "static",
+        "img": "images/labels/knightstofind.png",
+        "codes": "knightslabel"
     }
-    
 ]

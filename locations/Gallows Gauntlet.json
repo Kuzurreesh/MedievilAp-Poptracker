@@ -6,7 +6,7 @@
         "visibility_rules":["HUD"],
         "access_rules": [
             "@The Crystal Caves/Clear/Cleared: The Crystal Caves",
-            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, gallowsicon"
         ],
         "children": [
             {
@@ -197,6 +197,28 @@
                 "sections": [
                     {
                         "name": "Gold Coins: Chest at Serpent - GG"
+                    }
+                ]
+            },{
+                "name": "Merchant Gargoyle",
+                "access_rules":["dragonarmour"],
+                "map_locations": [
+                    {
+                        "map": "The Gallows Gauntlet",
+                        "x": 195,
+                        "y": 415
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Items",
+                        "item_count": 11,
+                        "visibility_rules": [
+                            "shopsanity:1"
+                        ],
+                        "access_rules": [
+                            "shopsanity:1"
+                        ]
                     }
                 ]
             },

@@ -6,7 +6,7 @@
         "visibility_rules":["HUD"],
         "access_rules": [
             "@The Haunted Ruins/Clear/Cleared: The Haunted Ruins",
-            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, shipicon"
         ],
         "children": [
             {
@@ -236,12 +236,34 @@
                         "name": "Gold Coins: Chest in Cannon Room - GS"
                     }
                 ]
+            },{
+                "name": "Merchant Gargoyle",
+                "access_rules":["$ShipMoon"],
+                "map_locations": [
+                    {
+                        "map": "The Ghost Ship",
+                        "x": 160,
+                        "y": 345
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Items",
+                        "item_count": 11,
+                        "visibility_rules": [
+                            "shopsanity:1"
+                        ],
+                        "access_rules": [
+                            "shopsanity:1"
+                        ]
+                    }
+                ]
             },
             {
                 "name": "Up the Lift",
                 "access_rules": [
                     "$ShipChaos, $ShipStar, include_chalices_in_checks, club",
-                    "$ShipChaos, $ShipStar, include_chalices_in_checks, $ShipMoon"
+                    "$ShipChaos, $ShipStar, include_chalices_in_checks, $ShipMoon, weapon"
                 ],
                 "map_locations": [
                     {

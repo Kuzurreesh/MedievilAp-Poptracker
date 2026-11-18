@@ -6,7 +6,7 @@
         "visibility_rules":["HUD"],
         "access_rules": [
             "@The Gallows Gauntlet/Clear/Cleared: The Gallows Gauntlet",
-            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, ruinsicon"
         ],
         "children": [
             {
@@ -392,11 +392,32 @@
                         "name": "Gold Coins: Bag Near Chalice South - HR"
                     }
                 ]
+            },{
+                "name": "Merchant Gargoyle",
+                "map_locations": [
+                    {
+                        "map": "The Haunted Ruins",
+                        "x": 1370,
+                        "y": 1290
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Items",
+                        "item_count": 11,
+                        "visibility_rules": [
+                            "shopsanity:1"
+                        ],
+                        "access_rules": [
+                            "shopsanity:1"
+                        ]
+                    }
+                ]
             },
             {
                 "name": "Outer Wall West[2]",
                 "access_rules": [
-                    "[boulder], crown, [golem], $RuinsChaos"
+                    "[boulder], crown, [golem], $RuinsChaos, weapon"
                 ],
                 "map_locations": [
                     {

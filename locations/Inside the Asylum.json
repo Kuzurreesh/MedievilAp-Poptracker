@@ -6,7 +6,7 @@
         "visibility_rules":["HUD"],
         "access_rules": [
             "@Asylum Grounds/Clear/Cleared: Asylum Grounds, [imp]",
-            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, [imp]"
+            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, [imp], asylumicon"
         ],
         "children": [
             {
@@ -21,6 +21,27 @@
                 "sections": [
                     {
                         "name": "Gauntlet Cleared: Room 1 - IA"
+                    }
+                ]
+            },{
+                "name": "Merchant Gargoyle",
+                "map_locations": [
+                    {
+                        "map": "Inside the Asylum",
+                        "x": 805,
+                        "y": 790
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Items",
+                        "item_count": 11,
+                        "visibility_rules": [
+                            "shopsanity:1"
+                        ],
+                        "access_rules": [
+                            "shopsanity:1"
+                        ]
                     }
                 ]
             },

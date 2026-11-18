@@ -62,6 +62,18 @@ ScriptHost:AddOnLocationSectionChangedHandler("In Logic", ChaliceCount)
 ScriptHost:AddWatchForCode("Counting", "*", ChaliceCount)
 
 
+function Progression(code)
+    local item = code:sub(5,code:len())
+    local count = Tracker:FindObjectForCode(code).AcquiredCount
+    for i = 1, count, 1 do
+        Tracker:FindObjectForCode(item .. i).Active = true
+    end
+end
+ScriptHost:AddWatchForCode("progsword", "progsword", Progression)
+ScriptHost:AddWatchForCode("progshield", "progshield", Progression)
+ScriptHost:AddWatchForCode("progbow", "progbow", Progression)
+
+
 
 function Lighting(code)
     ScriptHost:RemoveOnLocationSectionHandler("In Logic")

@@ -6,7 +6,7 @@
         "visibility_rules":["HUD"],
         "access_rules": [
             "@Pools of the Ancient Dead/Clear/Cleared: Pools of the Ancient Dead",
-            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt"
+            "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, lakeicon"
         ],
         "children": [
             {
@@ -295,7 +295,7 @@
             {
                 "name": "Past Tunnel[3]",
                 "access_rules": [
-                    "$LakeChaos, $LakeTime, $LakeEarth"
+                    "$LakeChaos, $LakeTime, $LakeEarth, weapon"
                 ],
                 "map_locations": [
                     {
@@ -315,6 +315,28 @@
                         ],
                         "chest_unopened_img": "images/items/chalice.png",
                         "chest_opened_img": "images/items/empty chalice.png"
+                    }
+                ]
+            },{
+                "name": "Merchant Gargoyle",
+                "access_rules":["$LakeTime, $LakeChaos, $LakeEarth"],
+                "map_locations": [
+                    {
+                        "map": "The Lake",
+                        "x": 590,
+                        "y": 500
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Items",
+                        "item_count": 11,
+                        "visibility_rules": [
+                            "shopsanity:1"
+                        ],
+                        "access_rules": [
+                            "shopsanity:1"
+                        ]
                     }
                 ]
             },
