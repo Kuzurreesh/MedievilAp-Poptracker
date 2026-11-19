@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.9.1",
+            "download_url": "https://github.com/Kuzurreesh/MedievilAp-Poptracker/archive/refs/tags/v0.9.1.zip",
+            "sha256": "d8e1ae7efc07fe11382ab74f829f182e8fec544099bf2d45e8d4d17e5be1b3e5",
+            "changelog": [
+                "Shopping for Knights Day 2"
+            ]
+        },
+        {
             "package_version": "0.9.0",
             "download_url": "https://github.com/Kuzurreesh/MedievilAp-Poptracker/archive/refs/tags/v0.9.0.zip",
             "sha256": "abf33a0da42dca7c81c9fe80f9a68f6012b7060cdaa7214058e9c14c2739bfab",
