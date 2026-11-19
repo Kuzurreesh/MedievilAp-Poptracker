@@ -127,7 +127,7 @@ function onClear(slot_data)
             for index, value in ipairs(KEY_UNLOCKS) do
                 Tracker:FindObjectForCode(value).Active = false
             end
-            Tracker:FindObjectForCode("keysanity_naming").CurrentStage = otable["keysanity_naming"] +1
+            Tracker:FindObjectForCode("keysanity_naming").CurrentStage = otable["keysanity_naming"] + 1
             ScriptHost:AddWatchForCode("ant1", "witchtalisman", AntUnlock)
             ScriptHost:AddWatchForCode("ant2", "enchanticon", AntUnlock)
             keysanity:SetOverlayFontSize(14)
@@ -201,20 +201,18 @@ function onItem(index, item_id, item_name, player_number)
     end
     local obj = Tracker:FindObjectForCode(v[1])
     if obj then
-        if (v[3] and Tracker:ProviderCountForCode("unique") > 0) or (not v[3] and Tracker:ProviderCountForCode("vanilla") > 0) or v[3] == nil then
-            if v[2] == "toggle" then
+        if v[2] == "toggle" then
+            obj.Active = true
+        elseif v[2] == "progressive" then
+            if obj.Active then
+                obj.CurrentStage = obj.CurrentStage + 1
+            else
                 obj.Active = true
-            elseif v[2] == "progressive" then
-                if obj.Active then
-                    obj.CurrentStage = obj.CurrentStage + 1
-                else
-                    obj.Active = true
-                end
-            elseif v[2] == "consumable" then
-                obj.AcquiredCount = obj.AcquiredCount + obj.Increment
-            elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                print(string.format("onItem: unknown item type %s for code %s", v[2], v[1]))
             end
+        elseif v[2] == "consumable" then
+            obj.AcquiredCount = obj.AcquiredCount + obj.Increment
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onItem: unknown item type %s for code %s", v[2], v[1]))
         end
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onItem: could not find object for code %s", v[1]))
