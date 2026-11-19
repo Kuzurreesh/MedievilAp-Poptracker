@@ -1357,6 +1357,25 @@
         ]
     },
     {
+        "name": "Keysanity Naming",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": true,
+        "stages": [
+            {
+                "name": "Vanilla Naming",
+                "img": "images/labels/vanilla.png",
+                "codes": "keysanity_naming, vanilla"
+            },
+            {
+                "name": "Unique Names",
+                "img": "images/labels/unique.png",
+                "inherit_codes": false,
+                "codes": "keysanity_naming, unique"
+            }
+        ]
+    },
+    {
         "name": "Sphere ",
         "type": "static",
         "img": "images/labels/sphere 1.png",

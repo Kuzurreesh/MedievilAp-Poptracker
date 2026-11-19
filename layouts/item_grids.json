@@ -1130,7 +1130,8 @@
 						"shoplabel",
 						"shopsanity",
 						"keylabel",
-						"keysanity"
+						"keysanity",
+						"keysanity_naming"
 					]
 				]
 			},

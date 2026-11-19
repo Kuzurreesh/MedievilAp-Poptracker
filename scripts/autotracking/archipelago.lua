@@ -127,6 +127,7 @@ function onClear(slot_data)
             for index, value in ipairs(KEY_UNLOCKS) do
                 Tracker:FindObjectForCode(value).Active = false
             end
+            Tracker:FindObjectForCode("keysanity_naming").CurrentStage = otable["keysanity_naming"] +1
             ScriptHost:AddWatchForCode("ant1", "witchtalisman", AntUnlock)
             ScriptHost:AddWatchForCode("ant2", "enchanticon", AntUnlock)
             keysanity:SetOverlayFontSize(14)
@@ -200,7 +201,7 @@ function onItem(index, item_id, item_name, player_number)
     end
     local obj = Tracker:FindObjectForCode(v[1])
     if obj then
-        if (v[3] and Tracker:FindObjectForCode("keysanity").Active == true) or (not v[3] and Tracker:FindObjectForCode("keysanity").Active == false) or v[3] == nil then
+        if (v[3] and Tracker:ProviderCountForCode("unique") > 0) or (not v[3] and Tracker:ProviderCountForCode("vanilla") > 0) or v[3] == nil then
             if v[2] == "toggle" then
                 obj.Active = true
             elseif v[2] == "progressive" then
