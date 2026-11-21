@@ -1,60 +1,85 @@
+List = {}
 function ChaliceCount(section)
     ScriptHost:RemoveWatchForCode("Counting")
-    local list = {
-        hohicon = 0,
-        crypticon = 0,
-        graveicon = 0,
-        hillicon = 0,
-        mausoleumicon = 0,
-        rtgicon = 0,
-        scareicon = 0,
-        gorgeicon = 0,
-        serpenticon = 0,
-        sleepicon = 0,
-        groundsicon = 0,
-        asylumicon = 0,
-        enchanticon = 0,
-        anticon = 0,
-        padicon = 0,
-        lakeicon = 0,
-        crystalicon = 0,
-        gallowsicon = 0,
-        ruinsicon = 0,
-        shipicon = 0,
-        hallicon = 0,
-        deviceicon = 0,
-        zarokicon = 0,
+    List = {
+        hohicon = { 0, 0 },
+        crypticon = { 0, 0 },
+        graveicon = { 0, 0 },
+        hillicon = { 0, 0 },
+        mausoleumicon = { 0, 0 },
+        rtgicon = { 0, 0 },
+        scareicon = { 0, 0 },
+        gorgeicon = { 0, 0 },
+        serpenticon = { 0, 0 },
+        sleepicon = { 0, 0 },
+        groundsicon = { 0, 0 },
+        asylumicon = { 0, 0 },
+        enchanticon = { 0, 0 },
+        anticon = { 0, 0 },
+        padicon = { 0, 0 },
+        lakeicon = { 0, 0 },
+        crystalicon = { 0, 0 },
+        gallowsicon = { 0, 0 },
+        ruinsicon = { 0, 0 },
+        shipicon = { 0, 0 },
+        hallicon = { 0, 0 },
+        deviceicon = { 0, 0 },
+        zarokicon = { 0, 0 },
     }
     local count = 0
+    local countshop = 0
     for _, obj in pairs(LOCATION_MAPPING2) do
         if obj[1] == "clearedgallows" then
             if Tracker:FindObjectForCode(obj[1]).Active == false then
                 if Tracker:FindObjectForCode("@The Gallows Gauntlet/Clear[1]").AccessibilityLevel == AccessibilityLevel.Normal then
-                    list["gallowsicon"] = list["gallowsicon"] + 1
+                    List["gallowsicon"][1] = List["gallowsicon"][1] + 1
                 end
+            end
+        elseif Tracker:ProviderCountForCode("shopsanity") > 0 and obj[1]:sub(obj[1]:len() - 4) == "Items" then
+           -- print("------------Shop items", obj[1])
+            if Tracker:FindObjectForCode(obj[1]).AccessibilityLevel == AccessibilityLevel.Normal then
+                local which = Where2[obj[1]:sub(1, 10)]
+                List[which][2] = List[which][2] + Tracker:FindObjectForCode(obj[1]).AvailableChestCount
+                --print(which, List[which])
+                -- if Tracker:FindObjectForCode(obj[1]).AccessibilityLevel == AccessibilityLevel.Normal then
+                --     count = count + 1
+                -- end
             end
         else
             if Tracker:FindObjectForCode(obj[1]).AccessibilityLevel == AccessibilityLevel.Normal then
                 local which = Where2[obj[1]:sub(1, 10)]
-                list[which] = list[which] + Tracker:FindObjectForCode(obj[1]).AvailableChestCount
-                --print(which, list[which])
+                List[which][1] = List[which][1] + Tracker:FindObjectForCode(obj[1]).AvailableChestCount
+                --print(which, List[which])
                 -- if Tracker:FindObjectForCode(obj[1]).AccessibilityLevel == AccessibilityLevel.Normal then
                 --     count = count + 1
                 -- end
-            else
             end
         end
     end
-    for key, value in pairs(list) do
-        if value ~= 0 then
-            Tracker:FindObjectForCode(key).BadgeText = tostring(value)
-            -- print(list[key])
-        else
-            Tracker:FindObjectForCode(key).BadgeText = ""
+    local textshop = ""
+    for key, value in pairs(List) do
+        local text = ""
+        textshop = ""
+        if value[1] ~= 0 then
+            
+           text = tostring(value[1])
+            -- print(List[key])
+            -- else
+            --     Tracker:FindObjectForCode(key).BadgeText = ""           
         end
-        count = count + value
+        if Tracker:ProviderCountForCode("shopsanity") > 0 then
+            if value[2] ~= 0 then
+                textshop = "+" .. tostring(value[2])
+            end
+        end
+        Tracker:FindObjectForCode(key).BadgeText = text .. textshop
+        count = count + value[1]
+        countshop = countshop + value[2]
     end
-    Tracker:FindObjectForCode("countering").BadgeText = tostring(count)
+    if Tracker:ProviderCountForCode("shopsanity") > 0 then
+        textshop = "+"..tostring(countshop)
+    end
+    Tracker:FindObjectForCode("countering").BadgeText = tostring(count) .. textshop
     ScriptHost:AddWatchForCode("Counting", "*", ChaliceCount)
 end
 
@@ -83,7 +108,7 @@ function AllKnights()
     end
 end
 
-ScriptHost:AddWatchForCode("Aqcuired Kinghts", "knight", AllKnights)
+ScriptHost:AddWatchForCode("AllKnights", "knight", AllKnights)
 
 
 function Shopping()
@@ -92,6 +117,7 @@ function Shopping()
             .AcquiredCount
     end
 end
+
 ScriptHost:AddWatchForCode("Shops", "shopsanity", Shopping)
 
 

@@ -6,7 +6,7 @@
         "visibility_rules":["HUD"],
         "access_rules": [
             "boulder, @Cemetery Hill/Clear/Cleared: Cemetery Hill, $Keysanity",
-            "boulder, progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, hillicon"
+            "boulder, progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, mausoleumicon"
         ],
         "children": [
             {
@@ -14,7 +14,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Cemetery Hill/Clear/Cleared: Cemetery Hill, $Keysanity",
-                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, hillicon"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, mausoleumicon"
                 ],
                 "map_locations": [
                     {
@@ -127,7 +127,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Cemetery Hill/Clear/Cleared: Cemetery Hill, $Keysanity",
-                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, hillicon"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, mausoleumicon"
                 ],
                 "map_locations": [
                     {
@@ -222,7 +222,7 @@
                 "parent": "Dan's Crypt",
                 "access_rules": [
                     "@Cemetery Hill/Clear/Cleared: Cemetery Hill, $Keysanity",
-                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, hillicon"
+                    "progression_option, @Dan's Crypt/Clear/Cleared: Dan's Crypt, mausoleumicon"
                 ],
                 "map_locations": [
                     {

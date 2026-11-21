@@ -28,7 +28,7 @@ function onClear(slot_data)
     ScriptHost:RemoveWatchForCode("progbow")
     ScriptHost:RemoveWatchForCode("AllKnights")
     ScriptHost:RemoveWatchForCode("imp weapon")
-    ScriptHost:RemoveWatchForCode("shops")
+    ScriptHost:RemoveWatchForCode("Shops")
     ScriptHost:RemoveWatchForCode("Rune")
     ScriptHost:RemoveWatchForCode("Counting")
     Slot = Archipelago.PlayerNumber
@@ -120,6 +120,11 @@ function onClear(slot_data)
         tracker.IgnoreUserInput = true
         tracker:SetOverlayFontSize(14)
         Tracker:FindObjectForCode("knights_to_find").AcquiredCount = otable["knights_to_find"]
+        if Tracker:ProviderCountForCode("knights_to_find") > 0 then
+            Tracker:AddLayouts("layouts/go knight.json")
+        else
+            Tracker:AddLayouts("layouts/go.json")
+        end
         Tracker:FindObjectForCode("life_bottles").AcquiredCount = otable["life_bottles"]
         local keysanity = Tracker:FindObjectForCode("keysanity")
         keysanity.Active = otable["keysanity"]
@@ -163,7 +168,7 @@ function onClear(slot_data)
     ScriptHost:AddWatchForCode("progsword", "progsword", Progression)
     ScriptHost:AddWatchForCode("progshield", "progshield", Progression)
     ScriptHost:AddWatchForCode("progbow", "progbow", Progression)
-    ScriptHost:AddWatchForCode("Aqcuired Kinghts", "knight", AllKnights)
+    ScriptHost:AddWatchForCode("AllKnights", "knight", AllKnights)
     ScriptHost:AddWatchForCode("Shops", "shopsanity", Shopping)
     Archipelago:Get(NotifyKeys)
     Archipelago:Get(NotifyHints)
@@ -360,7 +365,7 @@ function onClearGet(key, value, oldValue)
                 local location_code = LOCATION_MAPPING[hint.location][1]
 
                 if location_code then
-                    if location_code:sub(location_code:len() - 5) == "Items" then
+                    if location_code:sub(location_code:len() - 4) == "Items" then
                         if (Tracker:FindObjectForCode(location_code).Highlight < HIGHLIGHT_STATUS_MAPPING[hint.status]) or Tracker:FindObjectForCode(location_code).Highlight == Highlight.None then
                             Tracker:FindObjectForCode(location_code).Highlight = HIGHLIGHT_STATUS_MAPPING[hint.status]
                         end
@@ -437,7 +442,7 @@ function onDataStorageUpdate(key, value, oldValue)
                 local location_code = LOCATION_MAPPING[hint.location][1]
 
                 if location_code then
-                    if location_code:sub(location_code:len() - 5) == "Items" then
+                    if location_code:sub(location_code:len() - 4) == "Items" then
                         if (Tracker:FindObjectForCode(location_code).Highlight < HIGHLIGHT_STATUS_MAPPING[hint.status]) or Tracker:FindObjectForCode(location_code).Highlight == Highlight.None then
                             Tracker:FindObjectForCode(location_code).Highlight = HIGHLIGHT_STATUS_MAPPING[hint.status]
                         end

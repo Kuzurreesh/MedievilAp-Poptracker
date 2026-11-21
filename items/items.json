@@ -9,6 +9,7 @@
         "name": "Available Locations",
         "type": "static",
         "img": "images/labels/all.png",
+        "overlay_align": "left",
         "codes": "countering"
     },
     {

@@ -1,0 +1,17 @@
+{
+	"go": {
+		"type": "itemgrid",
+		"margin": "5, 0",
+		"item_margin": "0, 0",
+		"h_alignment": "left",
+		"item_h_alignment": "center",
+		"item_v_alignment": "center",
+		"item_height": 65,
+		"item_width": 65,
+		"rows": [
+			[
+				"GO"
+			]
+		]
+	}
+}

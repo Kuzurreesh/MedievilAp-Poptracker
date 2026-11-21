@@ -52,18 +52,20 @@ function AntUnlock()
 	end
 end
 
-
 function Knights()
 	return Tracker:FindObjectForCode("knight").AcquiredCount >=
-	Tracker:FindObjectForCode("knights_to_find").AcquiredCount
+		Tracker:FindObjectForCode("knights_to_find").AcquiredCount
 end
 
 function Bottles()
 	if Tracker:FindObjectForCode("bottle").AcquiredCount >= math.min(5, Tracker:FindObjectForCode("life_bottles").AcquiredCount) then
+		Tracker:FindObjectForCode("bottle").BadgeTextColor = "00ff00"
 		return AccessibilityLevel.Normal
 	elseif Tracker:FindObjectForCode("bottle").AcquiredCount >= 1 then
+		Tracker:FindObjectForCode("bottle").BadgeTextColor = "ffff00"
 		return AccessibilityLevel.SequenceBreak
 	else
+		Tracker:FindObjectForCode("bottle").BadgeTextColor = "ffffff"
 		return AccessibilityLevel.None
 	end
 end
@@ -294,6 +296,14 @@ end
 
 function SleepEarth()
 	if (Has("runesanity") and Has("earthsleep") or not Has("runesanity")) then
+		return true
+	else
+		return false
+	end
+end
+
+function Bust()
+	if (Has("runesanity") and Has("earthsleep")) or (not Has("runesanity") and Has("boulder")) then
 		return true
 	else
 		return false

@@ -1,7 +1,7 @@
 {
     "name": "MediEvil Poptracker Pack",
     "game_name": "MediEvil (1998)",
-    "package_version": "0.9.1",
+    "package_version": "0.9.2",
     "package_uid": "ME_ap",
     "author": "Kuzurreesh",
 	"platform": "psx",
@@ -9,7 +9,7 @@
     "target_poptracker_version": "0.35.4",
     "variants": {
         "Full Tracker": {
-            "display_name": "Tracker 0.9.1",
+            "display_name": "Tracker 0.9.2",
 			"flags": ["ap"]
         }
     },

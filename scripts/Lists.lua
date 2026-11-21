@@ -627,6 +627,34 @@ SHOP = {
 
 }
 
+
+SHOPCOUNT = {
+    ["@Ant Caves"] = "anticon",
+    ["@Asylum Gr"] = "groundsicon",
+    ["@Cemetery "] = "hillicon",
+    ["@The Cryst"] = "crystalicon",
+    ["@Dan's Cry"] = "crypticon",
+    ["@Enchanted"] = "enchanticon",
+    ["@The Entra"] = "hallicon",
+    ["@The Gallo"] = "gallowsicon",
+    ["@The Haunt"] = "ruinsicon",
+    ["@Hilltop M"] = "mausoleumicon",
+    ["@Inside th"] = "asylumicon",
+    ["@Pools of "] = "padicon",
+    ["@Pumpkin G"] = "gorgeicon",
+    ["@Pumpkin S"] = "serpenticon",
+    ["@Return to"] = "rtgicon",
+    ["@Scarecrow"] = "scareicon",
+    ["@Sleeping "] = "sleepicon",
+    ["@The Ghost"] = "shipicon",
+    ["@The Grave"] = "graveicon",
+    ["@The Lake/"] = "lakeicon",
+    ["@The Time "] = "deviceicon",
+    ["@Zarok's L"] = "zarokicon",
+    ["@The World"] = "hohicon",
+
+}
+
 HIGHLIGHT_STATUS_MAPPING = {
     [0] = 2,   --Unspecified
     [10] = 1,  -- NoPriority
